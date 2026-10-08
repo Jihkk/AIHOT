@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-08T07:37:14.557Z",
+  "checkedAt": "2026-10-08T09:52:45.926Z",
   "attribution": "Government of Malaysia / METMalaysia / Department of Environment, data.gov.my — CC BY 4.0",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "datasets": [
@@ -10,9 +10,9 @@
       "url": "https://api.data.gov.my/weather/forecast?contains=Kuala%20Lumpur@location__location_name&limit=14",
       "page": "https://developer.data.gov.my/realtime-api/weather",
       "scope": "仅吉隆坡，最多 14 条返回记录；不是全国预报",
-      "checkedAt": "2026-10-08T07:37:14.557Z",
+      "checkedAt": "2026-10-08T09:52:45.926Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-08T07:37:14.557Z",
+      "dataFetchedAt": "2026-10-08T09:52:45.926Z",
       "records": [
         {
           "location": {
@@ -105,9 +105,9 @@
           },
           "date": "2026-10-08",
           "morning_forecast": "Jerebu",
-          "afternoon_forecast": "Hujan di beberapa tempat",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
           "night_forecast": "Jerebu",
-          "summary_forecast": "Hujan di beberapa tempat",
+          "summary_forecast": "Ribut petir di beberapa tempat",
           "summary_when": "Sepanjang Hari",
           "min_temp": 24,
           "max_temp": 33
@@ -203,9 +203,9 @@
           },
           "date": "2026-10-08",
           "morning_forecast": "Jerebu",
-          "afternoon_forecast": "Hujan di beberapa tempat",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
           "night_forecast": "Jerebu",
-          "summary_forecast": "Hujan di beberapa tempat",
+          "summary_forecast": "Ribut petir di beberapa tempat",
           "summary_when": "Sepanjang Hari",
           "min_temp": 24,
           "max_temp": 33
@@ -218,9 +218,9 @@
       "url": "https://api.data.gov.my/weather/warning?limit=20",
       "page": "https://developer.data.gov.my/realtime-api/weather",
       "scope": "接口最多 20 条返回记录，可能含历史或已过期预警；不能代表完整现行警情",
-      "checkedAt": "2026-10-08T07:37:14.557Z",
+      "checkedAt": "2026-10-08T09:52:45.926Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-08T07:37:14.557Z",
+      "dataFetchedAt": "2026-10-08T09:52:45.926Z",
       "records": [
         {
           "warning_issue": {
@@ -254,22 +254,22 @@
         },
         {
           "warning_issue": {
-            "issued": "2026-10-08T14:30:00",
+            "issued": "2026-10-08T16:10:00",
             "title_bm": "Amaran Ribut Petir",
             "title_en": "Thunderstorms Warning"
           },
-          "valid_from": "2026-10-08T14:00:00",
-          "valid_to": "2026-10-08T17:00:00",
+          "valid_from": "2026-10-08T16:00:00",
+          "valid_to": "2026-10-08T19:00:00",
           "heading_en": "THUNDERSTORMS WARNING",
-          "text_en": "Thunderstorms, heavy rain and strong winds are expected over the states of Perlis • Kedah (Padang Terap, Sik, Baling, Kulim, Bandar Baharu, Langkawi and Kubang Pasu) • Perak (Hulu Perak, Kerian, Selama, Larut Matang, Kuala Kangsar, Kinta, Kampar, Bagan Datuk, Perak Tengah, Manjung and Hilir Perak) • Kelantan • Terengganu (Besut and Setiu) • Pahang (Cameron Highlands) • Selangor (Sabak Bernam) • Sarawak: Limbang, Miri (Marudi and Beluru), Bintulu (Tatau and Sebauh), Mukah (Matu and Dalat), Sibu, Sarikei, Kuching, Serian (Siburan and Tebedu) • Sabah: Tawau (Semporna, Kunak and Lahad Datu), Sandakan (Telupid, Labuk & Sugut and Paitan), West Coast, Kudat (Kota Marudu and Pitas), Interior until 5:00 PM; Thursday, 8 October 2026.",
+          "text_en": "Thunderstorms, heavy rain and strong winds are expected over the states of Perak (Perak Tengah, Hilir Perak, Hulu Perak, Kuala Kangsar and Bagan Datuk) • Kelantan (Gua Musang, Jeli, Tanah Merah, Kuala Krai and Machang) • Terengganu • Pahang (Cameron Highlands and Lipis) • Selangor (Petaling, Hulu Langat, Sepang and Gombak) • W.P. Kuala Lumpur • W.P. Putrajaya • Negeri Sembilan (Seremban and Jelebu) • Sarawak: Limbang, Miri (Marudi, Miri and Beluru), Bintulu (Tatau and Sebauh), Serian, Kuching (Kuching), Samarahan (Gedong, Asajaya and Samarahan), Sri Aman (Pantu) • Sabah: West Coast, Tawau (Kalabakan and Lahad Datu), Sandakan, Interior (Tambunan, Keningau, Sook and Membakut) until 7:00 PM; Thursday, 8 October 2026.",
           "instruction_en": null,
           "heading_bm": "AMARAN RIBUT PETIR",
-          "text_bm": "Ribut petir, hujan lebat dan angin kencang dijangka di negeri Perlis • Kedah (Padang Terap, Sik, Baling, Kulim, Bandar Baharu, Langkawi dan Kubang Pasu) • Perak (Hulu Perak, Kerian, Selama, Larut Matang, Kuala Kangsar, Kinta, Kampar, Bagan Datuk, Perak Tengah, Manjung dan Hilir Perak) • Kelantan • Terengganu (Besut dan Setiu) • Pahang (Cameron Highlands) • Selangor (Sabak Bernam) • Sarawak: Limbang, Miri (Marudi dan Beluru), Bintulu (Tatau dan Sebauh), Mukah (Matu dan Dalat), Sibu, Sarikei, Kuching, Serian (Siburan dan Tebedu) • Sabah: Tawau (Semporna, Kunak dan Lahad Datu), Sandakan (Telupid, Labuk & Sugut dan Paitan), Pantai Barat, Kudat (Kota Marudu dan Pitas), Pedalaman sehingga 5:00 Petang; Khamis, 8 Oktober 2026.",
+          "text_bm": "Ribut petir, hujan lebat dan angin kencang dijangka di negeri Perak (Perak Tengah, Hilir Perak, Hulu Perak, Kuala Kangsar dan Bagan Datuk) • Kelantan (Gua Musang, Jeli, Tanah Merah, Kuala Krai dan Machang) • Terengganu • Pahang (Cameron Highlands dan Lipis) • Selangor (Petaling, Hulu Langat, Sepang dan Gombak) • W.P. Kuala Lumpur • W.P. Putrajaya • Negeri Sembilan (Seremban dan Jelebu) • Sarawak: Limbang, Miri (Marudi, Miri dan Beluru), Bintulu (Tatau dan Sebauh), Serian, Kuching (Kuching), Samarahan (Gedong, Asajaya dan Samarahan), Sri Aman (Pantu) • Sabah: Pantai Barat, Tawau (Kalabakan dan Lahad Datu), Sandakan, Pedalaman (Tambunan, Keningau, Sook dan Membakut) sehingga 7:00 Malam; Khamis, 8 Oktober 2026.",
           "instruction_bm": null
         },
         {
           "warning_issue": {
-            "issued": "2026-10-08T10:30:00",
+            "issued": "2026-10-08T17:30:00",
             "title_bm": "Tiada Nasihat",
             "title_en": "No Advisory"
           },
@@ -290,9 +290,9 @@
       "url": "https://api.data.gov.my/data-catalogue?id=water_pollution_basin&limit=100&sort=-date",
       "page": "https://data.gov.my/data-catalogue/water_pollution_basin",
       "scope": "按年份降序请求最多 100 条年度统计记录；数据年份不等于采集日期",
-      "checkedAt": "2026-10-08T07:37:14.557Z",
+      "checkedAt": "2026-10-08T09:52:45.926Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-08T07:37:14.557Z",
+      "dataFetchedAt": "2026-10-08T09:52:45.926Z",
       "records": [
         {
           "date": "2024-01-01",

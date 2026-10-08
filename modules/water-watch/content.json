@@ -45,7 +45,7 @@
       "hosts": [
         "petra.gov.my"
       ],
-      "description": "能源转型与水转型政策"
+      "description": "水转型政策、防洪与海岸工程；官方声明、新闻和项目资料"
     },
     {
       "id": "span",
@@ -166,6 +166,132 @@
         "data.gov.my"
       ],
       "description": "供水、用水、水质及气象数据；保留原始年份"
+    },
+    {
+      "id": "jps-perlis",
+      "name": "JPS / DID Perlis · 玻璃市",
+      "url": "https://jps.perlis.gov.my/",
+      "hosts": [
+        "jps.perlis.gov.my"
+      ],
+      "description": "州级防洪、排水、河道与海岸工程；新闻、公告及采购资料"
+    },
+    {
+      "id": "jps-negeri-sembilan",
+      "name": "JPS / DID Negeri Sembilan · 森美兰",
+      "url": "https://jpsns.ns.gov.my/",
+      "hosts": [
+        "jpsns.ns.gov.my"
+      ],
+      "description": "州级防洪、排水、河道与海岸工程；新闻、公告及采购资料"
+    },
+    {
+      "id": "jps-terengganu",
+      "name": "JPS / DID Terengganu · 登嘉楼",
+      "url": "https://jpsweb.terengganu.gov.my/",
+      "hosts": [
+        "jpsweb.terengganu.gov.my"
+      ],
+      "description": "州级防洪、排水、河道与海岸工程；新闻、公告及采购资料"
+    },
+    {
+      "id": "jps-kedah",
+      "name": "JPS / DID Kedah · 吉打",
+      "url": "https://jps.kedah.gov.my/",
+      "hosts": [
+        "jps.kedah.gov.my"
+      ],
+      "description": "州级防洪、排水、河道与海岸工程；新闻、公告及采购资料"
+    },
+    {
+      "id": "jps-melaka",
+      "name": "JPS / DID Melaka · 马六甲",
+      "url": "https://jps.melaka.gov.my/",
+      "hosts": [
+        "jps.melaka.gov.my"
+      ],
+      "description": "州级防洪、排水、河道与海岸工程；新闻、公告及采购资料"
+    },
+    {
+      "id": "jps-sabah",
+      "name": "JPS / DID Sabah · 沙巴",
+      "url": "https://did.sabah.gov.my/",
+      "hosts": [
+        "did.sabah.gov.my"
+      ],
+      "description": "州级防洪、排水、河道与海岸工程；新闻、公告及采购资料"
+    },
+    {
+      "id": "jps-penang",
+      "name": "JPS / DID Pulau Pinang · 槟城",
+      "url": "https://jps.penang.gov.my/",
+      "hosts": [
+        "jps.penang.gov.my"
+      ],
+      "description": "州级防洪、排水、河道与海岸工程；新闻、公告及采购资料"
+    },
+    {
+      "id": "jps-johor",
+      "name": "JPS / DID Johor · 柔佛",
+      "url": "https://jps.johor.gov.my/",
+      "hosts": [
+        "jps.johor.gov.my"
+      ],
+      "description": "州级防洪、排水、河道与海岸工程；新闻、公告及采购资料"
+    },
+    {
+      "id": "jps-perak",
+      "name": "JPS / DID Perak · 霹雳",
+      "url": "https://jps.perak.gov.my/",
+      "hosts": [
+        "jps.perak.gov.my"
+      ],
+      "description": "州级防洪、排水、河道与海岸工程；新闻、公告及采购资料"
+    },
+    {
+      "id": "jps-pahang",
+      "name": "JPS / DID Pahang · 彭亨",
+      "url": "https://jps.pahang.gov.my/",
+      "hosts": [
+        "jps.pahang.gov.my"
+      ],
+      "description": "州级防洪、排水、河道与海岸工程；新闻、公告及采购资料"
+    },
+    {
+      "id": "jps-kelantan",
+      "name": "JPS / DID Kelantan · 吉兰丹",
+      "url": "https://did.kelantan.gov.my/",
+      "hosts": [
+        "did.kelantan.gov.my"
+      ],
+      "description": "州级防洪、排水、河道与海岸工程；新闻、公告及采购资料"
+    },
+    {
+      "id": "ukas",
+      "name": "UKAS · 砂拉越政府新闻",
+      "url": "https://ukas.sarawak.gov.my/web/home/index/",
+      "hosts": [
+        "ukas.sarawak.gov.my"
+      ],
+      "description": "州政府发布的防洪、排水、供水工程进展及拨款消息"
+    },
+    {
+      "id": "nres",
+      "name": "NRES · 自然资源与环境永续部",
+      "url": "https://www.nres.gov.my/",
+      "hosts": [
+        "nres.gov.my"
+      ],
+      "description": "气候适应、环境政策、水资源及技术指南"
+    },
+    {
+      "id": "dewan-selangor",
+      "name": "雪兰莪州议会 · 官方问答",
+      "url": "https://dewan.selangor.gov.my/",
+      "hosts": [
+        "dewan.selangor.gov.my"
+      ],
+      "description": "防洪工程名单、预算、支出与进度答复；保留议会会期与资料日期"
     }
   ],
   "articles": [
@@ -616,6 +742,135 @@
       "checkedAt": "2026-10-08",
       "evidence": "采购页 Details 明确 Kerja-Kerja Penggantian Injap Secara Kaedah Tanpa Gangguan Bekalan Air di Kolam Air Bukit Dengkil；随后列 Tender No、Advertisement Date、Closing Date、Status 和 Briefing Date。标题是 Langat 2 总项目名称，摘要按 Details 限定本采购范围。正文详情为马来文、字段为英文。",
       "dateEvidence": "Advertisement Date=01/10/2026 08:30 am；Closing Date=29/10/2026 12:00 pm；Briefing Date=07/10/2026 10:00 am。截止时间按马来西亚官方采购页面报告，资格和会议条件未在网页详情中确认，提示查正式文件。"
+    },
+    {
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "eventDate": null,
+      "id": "ukas-braang-payang-drainage-october-2026",
+      "source": "ukas",
+      "category": "projects",
+      "title": "Braang Payang RM15 万排水升级工程接受检查，预计 12 月完成",
+      "summary": "UKAS 10 月 8 日报道，Kampung Braang Payang Lorong 3 排水系统升级获 RM150,000 拨款，通过 Mambong 的乡村转型计划实施，预计 2026 年 12 月完成。服务中心与 DID Sarawak 到场检查进度、施工范围和技术规格；目前为施工检查阶段。",
+      "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/50262",
+      "publishedAt": "2026-10-08",
+      "region": "Sarawak · Padawan",
+      "stage": "施工检查 · 预计 12 月完成",
+      "tags": [
+        "排水",
+        "乡村基础设施",
+        "工程进度"
+      ],
+      "evidence": "正文第一段列 Lorong 3、RTP DUN N.19 Mambong、RM150,000 与预计 2026 年 12 月完成；第二至第四段说明与 DID 的现场检查和移交前规格核对。",
+      "dateEvidence": "页面日期为 08 Oktober 2026。正文只称检查在星期三进行，eventDate 不推算；12 月是预计完工时间。"
+    },
+    {
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "eventDate": null,
+      "id": "ukas-pa-lungan-water-completed-october-2026",
+      "source": "ukas",
+      "category": "projects",
+      "title": "Pa Lungan 供水工程已完成，惠及 47 户家庭",
+      "summary": "UKAS 10 月 7 日报道，Pa Lungan 清洁供水工程已完成，惠及 Kampung Pa Lungan 47 户家庭。项目属于高地发展机构 HDA 的基础设施建设安排；同篇报道提到的 12 公里道路升级仍在施工，不能混作供水工程的进度。",
+      "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/50215",
+      "publishedAt": "2026-10-07",
+      "region": "Sarawak · Pa Lungan",
+      "stage": "官方报道供水工程已完成",
+      "tags": [
+        "供水",
+        "乡村基础设施",
+        "工程完工"
+      ],
+      "evidence": "正文第一段说明清洁供水已完成，第二段指项目属 HDA；第七段列 47 户受益。道路 4.7% 进度属于另一工程，未套用于供水项目。",
+      "dateEvidence": "页面日期为 07 Oktober 2026；现场访问仅写星期二，未推算具体事件日期。"
+    },
+    {
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "eventDate": null,
+      "id": "petra-flood-coastal-governance-october-2026",
+      "source": "petra",
+      "category": "policy",
+      "title": "PETRA 回应防洪与海岸工程审计，说明 Sungai Golok 设计调整及管理措施",
+      "summary": "PETRA 10 月 6 日声明称，Sungai Golok 综合流域项目涉及的 987 宗土地征用已完成，并就合同金额由 RM198.02 million 增至 RM601.20 million 说明范围及设计调整原因。声明也交代海岸保护工程的 EIA、补沙与合同结算工作，以及 JPS 已实施的建设管理 SOP。这是部委对审计的回应，不代表全部项目已完成或争议已有独立结论。",
+      "url": "https://www.petra.gov.my/uploads/content-downloads/file_20261006153449.pdf",
+      "publishedAt": "2026-10-06",
+      "region": "Kelantan / Terengganu / Kedah",
+      "stage": "部委回应审计 · 工程管理措施",
+      "tags": [
+        "防洪",
+        "海岸保护",
+        "合同管理",
+        "官方声明"
+      ],
+      "evidence": "声明第 1–2 页列 987 宗征地、合同金额变化和设计调整；第 3 页列海岸 EIA、补沙、结算及 JPS Surat Pekeliling Bil. 6/2026。归因 PETRA 声明，区别于站内 NADMA 转载审计报道。",
+      "dateEvidence": "媒体声明列表和 PDF 署名均为 6 Oktober 2026。SOP 生效日 2026-08-14 是正文中的历史日期。"
+    },
+    {
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "eventDate": null,
+      "id": "petra-msma-review-swam-september-2026",
+      "source": "petra",
+      "category": "policy",
+      "title": "PETRA 表示正全面检讨 MSMA，纳入气候风险及城市径流管理需求",
+      "summary": "PETRA 9 月 2 日声明指出，JPS 正全面检讨 Manual Saliran Mesra Alam（MSMA），以适应发展、气候风险、新技术及城市径流管理需求。声明强调自然解决方案、创新、数据与数字技术在城市内涝管理中的作用；这是检讨工作的说明，不能据此声称新版 MSMA 已正式发布。",
+      "url": "https://www.petra.gov.my/uploads/content-downloads/file_20260902152815.pdf",
+      "publishedAt": "2026-09-02",
+      "region": "Malaysia",
+      "stage": "9 月政策参考 · MSMA 检讨中",
+      "tags": [
+        "MSMA",
+        "城市径流",
+        "自然解决方案",
+        "气候适应"
+      ],
+      "evidence": "PDF 第 2 页第三段明确 sedang melaksanakan semakan menyeluruh terhadap MSMA；此前段落说明 NbS、数据及数字技术。没有新版手册发布或生效的公告。",
+      "dateEvidence": "列表与 PDF 署名均为 2 September 2026；保留历史日期，不改成十月新发布。"
+    },
+    {
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "eventDate": null,
+      "id": "ukas-flood-drought-assistance-september-2026",
+      "source": "ukas",
+      "category": "policy",
+      "title": "砂拉越公布截至 9 月报道时的洪灾及旱灾援助支出",
+      "summary": "UKAS 9 月 25 日报道，砂拉越政府 2026 年截至报道时向灾民拨付约 RM1.35 million，涵盖风灾、火灾、滑坡、洪水与干旱。其中洪灾援助 RM331,710，涉及 446 户家庭负责人及 1,714 人；旱灾援助 RM143,173.40，涉及 1,402 户家庭负责人及 5,149 人。这是阶段性援助统计，并非全年最终灾损。",
+      "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/49300",
+      "publishedAt": "2026-09-25",
+      "region": "Sarawak",
+      "stage": "9 月援助支出记录",
+      "tags": [
+        "洪灾",
+        "干旱",
+        "灾害援助"
+      ],
+      "evidence": "UKAS 正文第一段列约 RM1.35 million 总额，随后分灾种列受援人数、KIR 和支出；洪水、旱灾数字分别来自第五、六段。未将不同灾种总额算成洪灾拨款。",
+      "dateEvidence": "页面日期为 25 September 2026。正文 sepanjang 2026 为截至当时的年内统计，非全年结算。"
+    },
+    {
+      "id": "nres-mynap-adaptation-finance-october-2026",
+      "source": "nres",
+      "category": "policy",
+      "title": "NRES 推进 MyNAP，鼓励私人资本参与水与海岸等领域的气候适应",
+      "summary": "NRES 10 月 7 日声明称，Malaysia National Adaptation Plan（MyNAP）仍在制定中，覆盖水与海岸资源、农业与粮食安全、森林与生物多样性、城市与基础设施、公共卫生五大领域。政府鼓励通过公私合作、混合融资及适当担保机制动员私人资本，推动适应项目。这是规划与融资方向，并非某项防洪工程已获拨款或 MyNAP 已正式发布。",
+      "url": "https://www.nres.gov.my/ms-my/pustakamedia/KenyataanMedia/KM-KERAJAAN%20GALAKKAN%20PENGLIBATAN%20SEKTOR%20SWASTA%20DALAM%20MEMPERKUKUH%20PELABURAN%20DAN%20PEMBIAYAAN%20ADAPTASI%20IKLIM.pdf",
+      "publishedAt": "2026-10-07",
+      "eventDate": null,
+      "region": "Malaysia",
+      "stage": "MyNAP 制定中 · 适应融资方向",
+      "tags": [
+        "气候适应",
+        "水与海岸资源",
+        "MyNAP",
+        "工程融资"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "evidence": "已读取官方三页 PDF。第 1 页列 MyNAP 五大领域及正在制定；第 2 页说明 PPP、blended finance、担保机制及 IGEM 2026 论坛；第 3 页署名 NRES。没有具体水利项目获批金额。",
+      "dateEvidence": "官方声明列表为 7/10/2026，PDF 署名 7 OKTOBER 2026，两者一致；论坛未另列具体日期，eventDate 保持 null。"
     }
   ]
 }

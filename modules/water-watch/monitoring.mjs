@@ -51,7 +51,7 @@ export function renderMonitoring(content, monitoring) {
   const collection=monitoring?.collection ?? {sources:[],checkedAt:null};
   const data=monitoring?.data ?? {datasets:[]};
   const rows=new Map(collection.sources.map(row=>[row.id,row]));
-  const labels={ok:'发现候选链接',limited:'需核查动态页面',error:'连接失败'};
+  const labels={ok:'发现候选链接',limited:'读取范围有限',error:'读取失败'};
   const sourceCards=content.sources.map(source=>{
     const row=rows.get(source.id);
     const status=row ? labels[row.status] : '尚未检测';

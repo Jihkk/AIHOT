@@ -39,6 +39,12 @@ test('official bold headlines, cloud seeding and wetland tenders are not missed 
   assert.ok(links.some(item=>item.listingOnly && item.title.includes('Setiu Wetlands')));
 });
 
+test('regional drainage, coastal and climate headlines are intake candidates rather than missed updates',()=>{
+  const titles=['Projek Naik Taraf Sistem Perparitan Kampung Braang Payang Bernilai RM150,000 Dipantau','Kemajuan Projek Pengawalan Hakisan Pantai Di Kuala Nerus','Pelan Adaptasi Perubahan Iklim Negara Dibentangkan','Penyelenggaraan Sistem Pengairan Pertanian Negeri'];
+  const listing=titles.map((title,index)=>`<a href="/news/${index}">${title}</a>`).join('')+'<a href="/social">Majlis Sambutan Hari Keluarga Jabatan Tahun 2026</a>';
+  assert.deepEqual(extractCandidates(listing,page,['water.gov.my']).map(item=>item.title),titles);
+});
+
 test('multiple official listings merge and deduplicate candidates while preserving a failed listing baseline',async()=>{
   const second='https://www.water.gov.my/activities';
   const cfg={...config,sources:[{...config.sources[0],additionalUrls:[second]}]};

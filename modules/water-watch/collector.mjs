@@ -5,7 +5,7 @@ import { officialUrl } from './official-url.mjs';
 const digest = value => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 // Official headlines sometimes use mathematical bold Unicode instead of ordinary letters.
 const normalize = value => value.normalize('NFKC').replace(/\s+/g, ' ').trim();
-const topic = /\b(?:water|flood|banjir|hujan|empangan|sungai|river|drainage|saliran|tender|quotation|hydrolog\w*|monsoon|monsun|iwrm|irbm|rtb|eia|pollut\w*|air|myibf|sdcc|wetlands?|tadahan|lembangan)\b|sebut harga|garis panduan|pencemaran|bekalan|pembenihan awan|sponge city/i;
+const topic = /\b(?:water|flood|banjir|hujan|empangan|sungai|river|drainage|saliran|perparitan|pengairan|irrigation|coastal|pantai|hakisan|pembetungan|sewerage|takungan|kemarau|drought|climate|iklim|tender|quotation|hydrolog\w*|monsoon|monsun|iwrm|irbm|rtb|eia|pollut\w*|air|myibf|sdcc|wetlands?|tadahan|lembangan)\b|sebut harga|garis panduan|pencemaran|bekalan|pembenihan awan|sponge city/i;
 const navigation = /^(?:home|utama|read (?:all|more)|view (?:all|more)|download|muat turun|tender|news|berita|kenyataan media|press release|contact us|about us|public infobanjir|privacy policy|water resources|tender notices)$/i;
 
 export function extractCandidates(html, pageUrl, hosts) {

@@ -4,7 +4,10 @@
     {
       "id": "jps",
       "url": "https://www.water.gov.my/",
-      "kind": "html"
+      "kind": "html",
+      "additionalUrls": [
+        "https://www.water.gov.my/index.php/database_stores/store_view/4?mid=286"
+      ]
     },
     {
       "id": "metmalaysia",
@@ -31,8 +34,13 @@
     },
     {
       "id": "petra",
-      "url": "https://www.petra.gov.my/",
-      "kind": "html"
+      "url": "https://www.petra.gov.my/v2/documents/media-statement",
+      "kind": "html",
+      "additionalUrls": [
+        "https://www.petra.gov.my/v2/latest-news",
+        "https://www.petra.gov.my/v2/documents/speech-text",
+        "https://www.petra.gov.my/v2/article?id=dashboard-projek-2026"
+      ]
     },
     {
       "id": "span",
@@ -100,6 +108,101 @@
       "id": "data-gov",
       "url": "https://data.gov.my/data-catalogue",
       "kind": "html"
+    },
+    {
+      "id": "jps-perlis",
+      "url": "https://jps.perlis.gov.my/",
+      "kind": "html",
+      "additionalUrls": [
+        "https://jps.perlis.gov.my/index.php/galeri/arkib-berita"
+      ]
+    },
+    {
+      "id": "jps-negeri-sembilan",
+      "url": "https://jpsns.ns.gov.my/",
+      "kind": "html"
+    },
+    {
+      "id": "jps-terengganu",
+      "url": "https://jpsweb.terengganu.gov.my/",
+      "kind": "html"
+    },
+    {
+      "id": "jps-kedah",
+      "url": "https://jps.kedah.gov.my/",
+      "kind": "html",
+      "additionalUrls": [
+        "https://jps.kedah.gov.my/perkhidmatan/lain-lain/tender-dan-sebut-harga/"
+      ]
+    },
+    {
+      "id": "jps-melaka",
+      "url": "https://jps.melaka.gov.my/",
+      "kind": "html"
+    },
+    {
+      "id": "jps-sabah",
+      "url": "https://did.sabah.gov.my/",
+      "kind": "html",
+      "additionalUrls": [
+        "https://did.sabah.gov.my/buletin/"
+      ]
+    },
+    {
+      "id": "jps-penang",
+      "url": "https://jps.penang.gov.my/",
+      "kind": "html"
+    },
+    {
+      "id": "jps-johor",
+      "url": "https://jps.johor.gov.my/",
+      "kind": "html"
+    },
+    {
+      "id": "jps-perak",
+      "url": "https://jps.perak.gov.my/",
+      "kind": "html"
+    },
+    {
+      "id": "jps-pahang",
+      "url": "https://jps.pahang.gov.my/",
+      "kind": "html"
+    },
+    {
+      "id": "jps-kelantan",
+      "url": "https://did.kelantan.gov.my/",
+      "kind": "html",
+      "additionalUrls": [
+        "https://did.kelantan.gov.my/index.php/pusat-sumber/berita-terkini",
+        "https://did.kelantan.gov.my/index.php/pusat-sumber/sebutharga/iklan"
+      ]
+    },
+    {
+      "id": "ukas",
+      "url": "https://ukas.sarawak.gov.my/web/home/index/",
+      "kind": "html",
+      "additionalUrls": [
+        "https://ukas.sarawak.gov.my/web/subpage/news_list/?category=edisi_utama",
+        "https://ukas.sarawak.gov.my/web/subpage/news_list/?category=edisi_utara",
+        "https://ukas.sarawak.gov.my/web/subpage/news_list/?category=edisi_tengah",
+        "https://ukas.sarawak.gov.my/web/subpage/news_list/?category=edisi_selatan"
+      ]
+    },
+    {
+      "id": "nres",
+      "url": "https://www.nres.gov.my/ms-my/pustakamedia/Pages/KenyataanMedia.aspx",
+      "kind": "html",
+      "additionalUrls": [
+        "https://www.nres.gov.my/en-my/medialibrary/Pages/PolicyBaseLegislationandGuideline.aspx"
+      ]
+    },
+    {
+      "id": "dewan-selangor",
+      "url": "https://dewan.selangor.gov.my/",
+      "kind": "html",
+      "additionalUrls": [
+        "https://dewan.selangor.gov.my/question/tebatan-banjir-negeri-selangor/"
+      ]
     }
   ],
   "datasets": [
