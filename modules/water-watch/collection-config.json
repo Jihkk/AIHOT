@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "jps",
+      "url": "https://www.water.gov.my/",
+      "kind": "html"
+    },
+    {
+      "id": "metmalaysia",
+      "url": "https://www.met.gov.my/",
+      "kind": "html"
+    },
+    {
+      "id": "nadma",
+      "url": "https://www.nadma.gov.my/bm/media-2/kenyataan-media",
+      "kind": "html"
+    },
+    {
+      "id": "nahrim",
+      "url": "https://www.nahrim.gov.my/",
+      "kind": "html"
+    },
+    {
+      "id": "petra",
+      "url": "https://www.petra.gov.my/",
+      "kind": "html"
+    },
+    {
+      "id": "span",
+      "url": "https://www.span.gov.my/",
+      "kind": "html"
+    },
+    {
+      "id": "air-selangor",
+      "url": "https://www.airselangor.com/",
+      "kind": "html"
+    },
+    {
+      "id": "infobanjir",
+      "url": "https://publicinfobanjir.water.gov.my/",
+      "kind": "html"
+    },
+    {
+      "id": "weather",
+      "url": "https://www.met.gov.my/",
+      "kind": "html"
+    },
+    {
+      "id": "spaqs",
+      "url": "https://spaqs.water.gov.my/tunas/senarai-iklan-telah-buka?mid=686",
+      "kind": "html"
+    },
+    {
+      "id": "did-sarawak",
+      "url": "https://did.sarawak.gov.my/web/home/index/",
+      "kind": "html"
+    },
+    {
+      "id": "jps-selangor",
+      "url": "https://water.selangor.gov.my/",
+      "kind": "html"
+    },
+    {
+      "id": "luas",
+      "url": "https://www.luas.gov.my/en/luas/archives/press-release/2026",
+      "kind": "html",
+      "annualPath": "/en/luas/archives/press-release/{year}"
+    },
+    {
+      "id": "planmalaysia",
+      "url": "https://www.planmalaysia.gov.my/main/procurement?type=tender&year=2026",
+      "kind": "html",
+      "annualPath": "/main/procurement?type=tender&year={year}"
+    },
+    {
+      "id": "doe",
+      "url": "https://www.doe.gov.my/en/",
+      "kind": "html"
+    },
+    {
+      "id": "paab",
+      "url": "https://www.paab.my/tender/",
+      "kind": "html"
+    },
+    {
+      "id": "jkr",
+      "url": "https://tender.jkr.gov.my/kenyataan/tender/index?sort=-tarikhtutuptender",
+      "kind": "html"
+    },
+    {
+      "id": "data-gov",
+      "url": "https://data.gov.my/data-catalogue",
+      "kind": "html"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "weather-kl",
+      "name": "吉隆坡天气预报",
+      "url": "https://api.data.gov.my/weather/forecast?contains=Kuala%20Lumpur@location__location_name&limit=14",
+      "page": "https://developer.data.gov.my/realtime-api/weather",
+      "scope": "仅吉隆坡，最多 14 条返回记录；不是全国预报",
+      "required": [
+        "location",
+        "date",
+        "summary_forecast"
+      ]
+    },
+    {
+      "id": "weather-warnings",
+      "name": "气象预警原始记录",
+      "url": "https://api.data.gov.my/weather/warning?limit=20",
+      "page": "https://developer.data.gov.my/realtime-api/weather",
+      "scope": "接口最多 20 条返回记录，可能含历史或已过期预警；不能代表完整现行警情",
+      "required": [
+        "warning_issue",
+        "valid_from",
+        "valid_to"
+      ]
+    },
+    {
+      "id": "water-pollution",
+      "name": "流域污染年度统计",
+      "url": "https://api.data.gov.my/data-catalogue?id=water_pollution_basin&limit=100&sort=-date",
+      "page": "https://data.gov.my/data-catalogue/water_pollution_basin",
+      "scope": "按年份降序请求最多 100 条年度统计记录；数据年份不等于采集日期",
+      "required": [
+        "date",
+        "status",
+        "n_basins"
+      ]
+    }
+  ]
+}

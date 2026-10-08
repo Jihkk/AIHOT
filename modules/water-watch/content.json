@@ -94,6 +94,78 @@
       ],
       "description": "官方采购公告；动态列表请打开官网查看",
       "portal": true
+    },
+    {
+      "id": "did-sarawak",
+      "name": "DID Sarawak · 砂拉越灌溉与排水局",
+      "url": "https://did.sarawak.gov.my/web/home/index/",
+      "hosts": [
+        "did.sarawak.gov.my"
+      ],
+      "description": "砂拉越防洪工程、招标、SUStoM、水文与潮汐资料"
+    },
+    {
+      "id": "jps-selangor",
+      "name": "JPS Selangor · 雪兰莪灌溉与排水局",
+      "url": "https://water.selangor.gov.my/",
+      "hosts": [
+        "water.selangor.gov.my"
+      ],
+      "description": "雪兰莪防洪、排水、工程及采购公告"
+    },
+    {
+      "id": "luas",
+      "name": "LUAS · 雪兰莪水务管理机构",
+      "url": "https://www.luas.gov.my/en/luas/archives/press-release/2026",
+      "hosts": [
+        "luas.gov.my"
+      ],
+      "description": "原水、水坝、污染事件与流域管理声明"
+    },
+    {
+      "id": "planmalaysia",
+      "name": "PLANMalaysia · 城乡规划局",
+      "url": "https://www.planmalaysia.gov.my/main/procurement?type=tender&year=2026",
+      "hosts": [
+        "planmalaysia.gov.my"
+      ],
+      "description": "规划研究、Sponge City、相关指南与招标"
+    },
+    {
+      "id": "doe",
+      "name": "DOE / JAS · 环境局",
+      "url": "https://www.doe.gov.my/en/environmental-impact-assesment-eia/",
+      "hosts": [
+        "doe.gov.my"
+      ],
+      "description": "环境影响评估、技术要求与项目公示"
+    },
+    {
+      "id": "paab",
+      "name": "PAAB · 水务资产管理公司",
+      "url": "https://www.paab.my/tender/",
+      "hosts": [
+        "paab.my"
+      ],
+      "description": "水务基础设施工程与采购机会"
+    },
+    {
+      "id": "jkr",
+      "name": "JKR · 公共工程局招标",
+      "url": "https://tender.jkr.gov.my/site/",
+      "hosts": [
+        "jkr.gov.my"
+      ],
+      "description": "基础设施工程招标、补遗与授标资料"
+    },
+    {
+      "id": "data-gov",
+      "name": "data.gov.my · 政府开放数据",
+      "url": "https://data.gov.my/data-catalogue",
+      "hosts": [
+        "data.gov.my"
+      ],
+      "description": "供水、用水、水质及气象数据；保留原始年份"
     }
   ],
   "articles": [
@@ -239,6 +311,49 @@
       "checkedAt": "2026-10-08",
       "evidence": "官方标题注明 1 April 2026，正文第 2 段说明提交两份考虑文件；没有提供批准结论。",
       "dateEvidence": "日期来自官方标题的 1 April 2026，作为会议日期保留，未当作网页发布日期。"
+    },
+    {
+      "id": "did-sarawak-stampin-kickoff-2026",
+      "source": "did-sarawak",
+      "category": "projects",
+      "title": "Stampin RM8,700 万防洪项目举行启动协调会议",
+      "summary": "DID Sarawak 转载的报道介绍 Stampin Resettlement Scheme 防洪项目，金额为 RM87 million。启动会议及社区对话有 DID、顾问、承包商和居民参加，讨论范围、实施要求、责任及居民意见；报道没有说明工程已完成，也没有给出已验证的防洪效果。",
+      "url": "https://did.sarawak.gov.my/web/subpage/news_view/950",
+      "publishedAt": "2026-10-06",
+      "eventDate": null,
+      "region": "Kuching, Sarawak",
+      "stage": "项目启动协调",
+      "tags": [
+        "防洪",
+        "工程项目",
+        "社区沟通"
+      ],
+      "language": "en",
+      "checkedAt": "2026-10-08",
+      "evidence": "页面正文第 1 段列 RM87 million；后续段落介绍 Kick-Off Meeting and Dialogue Session、DID、顾问、承包商与社区的协调。页面标注 Source of News: The Borneo Post Online；这是官方站转载报道，摘要没有把转载当作原始工程批文。",
+      "dateEvidence": "页面 Posted on 06 Oct 2026。会议描述为 Monday，没有用推算日期填 eventDate；页面发布日期保留为 2026-10-06。"
+    },
+    {
+      "id": "jkr-ft234-bridges-tender-2026",
+      "source": "jkr",
+      "category": "tenders",
+      "title": "JKR 招标：彭亨 FT234 道路抬高及三座河桥升级",
+      "summary": "项目涵盖 Jerantut–Kuala Lipis（FT234）道路抬高，以及 Sungai Sepial、Sungai Kerak、Sungai Teh 桥梁升级，编号 JKR/CKUB/24197/2026。公告列明强制现场参观／说明会为 2026 年 10 月 8 日 11:00，CIDB G7、CE01 与 CE02 等资格及 Bumiputera 条件，文件价格 RM1,500；投标截止列为 2026 年 11 月 12 日 12:00。参与资格、补遗及最新时间须核对原公告。",
+      "url": "https://tender.jkr.gov.my/kenyataan/tender/view?id=2459&ids=JKR%2FCKUB%2F24197%2F2026&ids2=1&ids3=1",
+      "publishedAt": "2026-10-01",
+      "eventDate": null,
+      "region": "Jerantut, Pahang",
+      "stage": "招标公告 · 含强制现场条件",
+      "tags": [
+        "招标采购",
+        "桥梁",
+        "河道",
+        "FT234"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "evidence": "公告 MAKLUMAT PROJEK 列道路抬高与三条河流桥梁；MAKLUMAT KONTRAKTOR 列 Bumiputera、T1、G7 和 CE01/CE02；MAKLUMAT DOKUMEN 列 RM1500，TARIKH TENDER DITUTUP 为 12/11/2026、12:00 PM。没有据项目名推断设计 ARI 或防洪成效。",
+      "dateEvidence": "TARIKH IKLAN 明示 01/10/2026。现场参观／说明会为 08/10/2026 11:00 AM，截止为 12/11/2026 12:00 PM；未来截止不填成已经发生的 eventDate。时间按马来西亚当地公告理解，后续补遗以原站为准。"
     }
   ]
 }

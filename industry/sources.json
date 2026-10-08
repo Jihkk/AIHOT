@@ -84,6 +84,94 @@
       "site_fulltext": false,
       "syndicate_fulltext": false,
       "tags": []
+    },
+    {
+      "id": "did-sarawak",
+      "name": "DID Sarawak · 砂拉越灌溉与排水局",
+      "kind": "external",
+      "tier": "T1",
+      "config": {},
+      "enabled": true,
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "tags": []
+    },
+    {
+      "id": "jps-selangor",
+      "name": "JPS Selangor · 雪兰莪灌溉与排水局",
+      "kind": "external",
+      "tier": "T1",
+      "config": {},
+      "enabled": true,
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "tags": []
+    },
+    {
+      "id": "luas",
+      "name": "LUAS · 雪兰莪水务管理机构",
+      "kind": "external",
+      "tier": "T1",
+      "config": {},
+      "enabled": true,
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "tags": []
+    },
+    {
+      "id": "planmalaysia",
+      "name": "PLANMalaysia · 城乡规划局",
+      "kind": "external",
+      "tier": "T1",
+      "config": {},
+      "enabled": true,
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "tags": []
+    },
+    {
+      "id": "doe",
+      "name": "DOE / JAS · 环境局",
+      "kind": "external",
+      "tier": "T1",
+      "config": {},
+      "enabled": true,
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "tags": []
+    },
+    {
+      "id": "paab",
+      "name": "PAAB · 水务资产管理公司",
+      "kind": "external",
+      "tier": "T1",
+      "config": {},
+      "enabled": true,
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "tags": []
+    },
+    {
+      "id": "jkr",
+      "name": "JKR · 公共工程局招标",
+      "kind": "external",
+      "tier": "T1",
+      "config": {},
+      "enabled": true,
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "tags": []
+    },
+    {
+      "id": "data-gov",
+      "name": "data.gov.my · 政府开放数据",
+      "kind": "external",
+      "tier": "T1",
+      "config": {},
+      "enabled": true,
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "tags": []
     }
   ]
 }

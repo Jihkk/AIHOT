@@ -40,8 +40,14 @@ try {
   await page.locator('#source').selectOption('nahrim');
   assert.equal(await page.locator('.story:visible').count(),content.articles.filter(a=>a.source==='nahrim').length);
   await page.locator('#reset').click();
-  await page.locator('details summary').first().click();
-  assert.ok(await page.locator('details[open]').first().isVisible());
+  await page.locator('.story details summary').first().click();
+  assert.ok(await page.locator('.story details[open]').first().isVisible());
+  await page.locator('.source-details summary').click();
+  assert.equal(await page.locator('.source-card').count(),content.sources.length);
+  assert.equal(await page.locator('.dataset').count(),3);
+  const dataResponse=await page.request.get('http://127.0.0.1:4173/data.json');
+  assert.equal(dataResponse.status(),200);
+  assert.equal((await dataResponse.json()).datasets.length,3);
   await page.setViewportSize({width:390,height:844});
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth <= innerWidth),'mobile layout must not overflow');
   await page.screenshot({path:fileURLToPath(new URL('../../.data/water-watch-mobile.png',import.meta.url)),fullPage:true});

@@ -4,7 +4,7 @@ import { resolve } from 'node:path';
 import { build, outputDirectory } from './publication.mjs';
 
 await build();
-const files = {'/':'index.html','/index.html':'index.html','/style.css':'style.css','/client.js':'client.js','/logo.svg':'logo.svg','/content.json':'content.json'};
+const files = {'/':'index.html','/index.html':'index.html','/style.css':'style.css','/client.js':'client.js','/logo.svg':'logo.svg','/content.json':'content.json','/collection.json':'collection.json','/data.json':'data.json'};
 const types = {html:'text/html',css:'text/css',js:'text/javascript',svg:'image/svg+xml',json:'application/json'};
 const server = createServer(async (request, response) => {
   const file = files[new URL(request.url, 'http://localhost').pathname];

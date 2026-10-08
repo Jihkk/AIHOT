@@ -1,0 +1,1560 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-08T04:08:16.202Z",
+  "sources": [
+    {
+      "id": "jps",
+      "url": "https://www.water.gov.my/",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "links": [
+        {
+          "url": "https://www.water.gov.my/index.php/pages/view/848",
+          "title": "Tender Notices 102492"
+        }
+      ],
+      "observedCount": 1,
+      "fingerprint": "79a3ac69a9ce34d54cac2b4cf0435c27b3e6e3dd06c409f9b62f829cfcb32c8c",
+      "changedCount": 0
+    },
+    {
+      "id": "metmalaysia",
+      "url": "https://www.met.gov.my/",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "links": [
+        {
+          "url": "https://www.met.gov.my/ramalan/hujan-lebat",
+          "title": "Kriteria Amaran Hujan Berterusan"
+        }
+      ],
+      "observedCount": 1,
+      "fingerprint": "d71766807756bd431885f55a799ada6d4d9f3c1ac8242460d30d28a6ed96a822",
+      "changedCount": 0
+    },
+    {
+      "id": "nadma",
+      "url": "https://www.nadma.gov.my/bm/media-2/kenyataan-media",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "limited",
+      "lastSuccessAt": null,
+      "links": [],
+      "observedCount": 0,
+      "fingerprint": null,
+      "changedCount": 0
+    },
+    {
+      "id": "nahrim",
+      "url": "https://www.nahrim.gov.my/",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "links": [
+        {
+          "url": "https://www.nahrim.gov.my/garis-panduan-pemasangan-panel-solar-terapung-di-atas-takungan-air-dan-tasik-di-malaysia-2026/",
+          "title": "GARIS PANDUAN PEMASANGAN PANEL SOLAR TERAPUNG DI ATAS TAKUNGAN AIR DAN TASIK DI MALAYSIA 2026"
+        },
+        {
+          "url": "https://www.nahrim.gov.my/international-world-water-congress-and-exhibition-anjuran-international-water-association-iwa-2026-4-hingga-8-oktober-2026/",
+          "title": "INTERNATIONAL WORLD WATER CONGRESS AND EXHIBITION ANJURAN INTERNATIONAL WATER ASSOCIATION (IWA) 2026 – 4 HINGGA 8 OKTOBER 2026"
+        },
+        {
+          "url": "https://www.nahrim.gov.my/kunjungan-hormat-institut-penyelidikan-air-kebangsaan-malaysia-nahrim-ke-kementerian-pendidikan-malaysia-kpm-30-september-2026/",
+          "title": "KUNJUNGAN HORMAT INSTITUT PENYELIDIKAN AIR KEBANGSAAN MALAYSIA (NAHRIM) KE KEMENTERIAN PENDIDIKAN MALAYSIA (KPM) – 30 SEPTEMBER 2026"
+        },
+        {
+          "url": "https://www.nahrim.gov.my/kursus-praktikal-mikrobiologi-air-anjuran-hach-sdn-bhd-29-september-2026/",
+          "title": "KURSUS PRAKTIKAL MIKROBIOLOGI AIR ANJURAN HACH SDN. BHD. – 29 SEPTEMBER 2026"
+        },
+        {
+          "url": "https://www.nahrim.gov.my/latihan-pengukuran-ketidakpastian-dan-teknik-validasi-bagi-ujian-pencemaran-air-sisa-ternakan-28-hingga-30-september-2026/",
+          "title": "LATIHAN PENGUKURAN KETIDAKPASTIAN DAN TEKNIK VALIDASI BAGI UJIAN PENCEMARAN AIR SISA TERNAKAN – 28 HINGGA 30 SEPTEMBER 2026"
+        },
+        {
+          "url": "https://www.nahrim.gov.my/perkhidmatan-kawalan-keselamatan-pejabat-tanpa-senjata-api-bagi-tempoh-dua-belas-12-bulan-di-institut-penyelidikan-air-kebangsaan-malaysia-nahrim/",
+          "title": "PERKHIDMATAN KAWALAN KESELAMATAN PEJABAT TANPA SENJATA API BAGI TEMPOH DUA BELAS (12) BULAN DI INSTITUT PENYELIDIKAN AIR KEBANGSAAN MALAYSIA (NAHRIM)"
+        },
+        {
+          "url": "https://www.nahrim.gov.my/perkhidmatan-pemprosesan-data-simulasi-semakan-dan-validasi-model-hec-series-bagi-lembangan-sungai-dungun-2/",
+          "title": "PERKHIDMATAN PEMPROSESAN DATA, SIMULASI, SEMAKAN DAN VALIDASI MODEL HEC SERIES BAGI LEMBANGAN SUNGAI DUNGUN"
+        },
+        {
+          "url": "https://www.nahrim.gov.my/perkhidmatan-pemprosesan-data-simulasi-semakan-dan-validasi-model-hec-series-bagi-lembangan-sungai-dungun-3/",
+          "title": "PERKHIDMATAN PEMPROSESAN DATA, SIMULASI, SEMAKAN DAN VALIDASI MODEL HEC SERIES BAGI LEMBANGAN SUNGAI DUNGUN"
+        },
+        {
+          "url": "https://www.nahrim.gov.my/perkhidmatan-pemprosesan-data-simulasi-semakan-dan-validasi-model-hec-series-bagi-lembangan-sungai-dungun/",
+          "title": "PERKHIDMATAN PEMPROSESAN DATA, SIMULASI, SEMAKAN DAN VALIDASI MODEL HEC SERIES BAGI LEMBANGAN SUNGAI DUNGUN"
+        },
+        {
+          "url": "https://www.nahrim.gov.my/persampelan-kualiti-air-di-tadahan-sungai-semenyih-2-oktober-2026/",
+          "title": "PERSAMPELAN KUALITI AIR DI TADAHAN SUNGAI SEMENYIH – 2 OKTOBER 2026"
+        }
+      ],
+      "observedCount": 10,
+      "fingerprint": "8be8783001dcfd12a354445b938c75ce45e38a1b267d72be0ad6e91f1f809743",
+      "changedCount": 0
+    },
+    {
+      "id": "petra",
+      "url": "https://www.petra.gov.my/",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "limited",
+      "lastSuccessAt": null,
+      "links": [],
+      "observedCount": 0,
+      "fingerprint": null,
+      "changedCount": 0
+    },
+    {
+      "id": "span",
+      "url": "https://www.span.gov.my/",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "error",
+      "lastSuccessAt": null,
+      "links": [],
+      "observedCount": null,
+      "fingerprint": null,
+      "changedCount": 0,
+      "error": "fetch failed"
+    },
+    {
+      "id": "air-selangor",
+      "url": "https://www.airselangor.com/",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "limited",
+      "lastSuccessAt": null,
+      "links": [],
+      "observedCount": 0,
+      "fingerprint": null,
+      "changedCount": 0
+    },
+    {
+      "id": "infobanjir",
+      "url": "https://publicinfobanjir.water.gov.my/",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "limited",
+      "lastSuccessAt": null,
+      "links": [],
+      "observedCount": 0,
+      "fingerprint": null,
+      "changedCount": 0
+    },
+    {
+      "id": "weather",
+      "url": "https://www.met.gov.my/",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "links": [
+        {
+          "url": "https://www.met.gov.my/ramalan/hujan-lebat",
+          "title": "Kriteria Amaran Hujan Berterusan"
+        }
+      ],
+      "observedCount": 1,
+      "fingerprint": "d71766807756bd431885f55a799ada6d4d9f3c1ac8242460d30d28a6ed96a822",
+      "changedCount": 0
+    },
+    {
+      "id": "spaqs",
+      "url": "https://spaqs.water.gov.my/tunas/senarai-iklan-telah-buka?mid=686",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "limited",
+      "lastSuccessAt": null,
+      "links": [],
+      "observedCount": 0,
+      "fingerprint": null,
+      "changedCount": 0
+    },
+    {
+      "id": "did-sarawak",
+      "url": "https://did.sarawak.gov.my/web/home/index/",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "links": [
+        {
+          "url": "https://did.sarawak.gov.my/web/subpage/announcement_view/126",
+          "title": "SARAWAK 40 MAJOR RIVER BASINS Posted on 01 Dec 2025"
+        },
+        {
+          "url": "https://did.sarawak.gov.my/web/subpage/announcement_view/128",
+          "title": "DID SARAWAK TENDER AND QUOTATION NOTICE Posted on 01 Dec 2025"
+        },
+        {
+          "url": "https://did.sarawak.gov.my/web/subpage/news_view/942",
+          "title": "Lee calls for RM150 mln Sungai Sarawak Barrage works to proceed without delay Press Release 2026-08-21 READ ALL"
+        },
+        {
+          "url": "https://did.sarawak.gov.my/web/subpage/news_view/945",
+          "title": "Stampin Resettlement Scheme flood mitigation project LoA handed over to appointed contractor Press Release 2026-09-03 READ ALL"
+        },
+        {
+          "url": "https://did.sarawak.gov.my/web/subpage/news_view/950",
+          "title": "RM87 mln project set to boost flood protection measures at Stampin Press Release 2026-10-06 READ ALL"
+        },
+        {
+          "url": "https://did.sarawak.gov.my/web/subpage/webpage_view/315",
+          "title": "Sarawak Major River Basin"
+        }
+      ],
+      "observedCount": 6,
+      "fingerprint": "469c56e4a0e69fe8b0bc534a3514a731d37e5f965f2e2e88a5169cfab436a0b2",
+      "changedCount": 0
+    },
+    {
+      "id": "jps-selangor",
+      "url": "https://water.selangor.gov.my/",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "error",
+      "lastSuccessAt": null,
+      "links": [],
+      "observedCount": null,
+      "fingerprint": null,
+      "changedCount": 0,
+      "error": "fetch failed"
+    },
+    {
+      "id": "luas",
+      "url": "https://www.luas.gov.my/en/luas/archives/press-release/2026",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "links": [
+        {
+          "url": "https://www.luas.gov.my/images/keratan%20akhbar/Kenyataan%20Media/2026/Februari/Kes%20Pencemaran%20Sumber%20Air%20Di%20Selangor%20Turun%2065%20Peratus%20Tiada%20Henti%20Tugas%20Operasi%20LRA%20Utama%20Sejak%20Pelaksanaan%20ZDP.pdf",
+          "title": "Kes Pencemaran Sumber Air Di Selangor Turun 65 Peratus, Tiada Henti Tugas Operasi LRA Utama Sejak Pelaksanaan ZDP",
+          "listingText": "2. | Kes Pencemaran Sumber Air Di Selangor Turun 65 Peratus, Tiada Henti Tugas Operasi LRA Utama Sejak Pelaksanaan ZDP | Download"
+        },
+        {
+          "url": "https://www.luas.gov.my/images/keratan%20akhbar/Kenyataan%20Media/2026/Februari/KESIAPSIAGAAN%20SUMBER%20AIR%20NEGERI%20SELANGOR%20MENGHADAPI%20MONSUN%20BARAT%20DAYA.pdf",
+          "title": "Kesiapsiagaan Sumber Air Negeri Selangor Menghadapi Monsun Barat Daya",
+          "listingText": "1. | Pelepasan Air Empangan Tasik Subang Terkawal | Download"
+        },
+        {
+          "url": "https://www.luas.gov.my/images/keratan%20akhbar/Kenyataan%20Media/2026/Februari/TINDAK1.pdf",
+          "title": "Tindakan Bersepadu Agensi Negeri Selangor Dan Pelaksanaan Skim Jaminan Air Mentah (SJAM) Berjaya Tangani Pencemaran Di Sungai Kabul Dan Jamin Kesinambungan Bekalan Air Rakyat",
+          "listingText": "3. | Tindakan Bersepadu Agensi Negeri Selangor Dan Pelaksanaan Skim Jaminan Air Mentah (SJAM) Berjaya Tangani Pencemaran Di Sungai Kabul Dan Jamin Kesinambungan Bekalan Air Rakyat | Download"
+        },
+        {
+          "url": "https://www.luas.gov.my/images/keratan%20akhbar/Kenyataan%20Media/2026/Mei/Pencemaran%20Bau%20Sungai%20Semenyih%20%20LUAS%20Ambil%20Langkah%20Kawalan%20Premis%20Terlibat%20Dikenakan%20Tindakan.pdf",
+          "title": "Pencemaran Bau Sungai Semenyih : LUAS Ambil Langkah Kawalan, Premis Terlibat Dikenakan Tindakan",
+          "listingText": "1. | Pencemaran Bau Sungai Semenyih : LUAS Ambil Langkah Kawalan, Premis Terlibat Dikenakan Tindakan | Download"
+        }
+      ],
+      "observedCount": 4,
+      "fingerprint": "bee2131709c7cdc804b7bcac3983ce76a8190550b395272b1fceb1ff4f4f6100",
+      "changedCount": 4
+    },
+    {
+      "id": "planmalaysia",
+      "url": "https://www.planmalaysia.gov.my/main/procurement?type=tender&year=2026",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "links": [
+        {
+          "url": "https://www.planmalaysia.gov.my/main/procurement?type=tender&year=2026",
+          "key": "https://www.planmalaysia.gov.my/main/procurement?type=tender&year=2026::row:0b6df8ae13b7e96b",
+          "title": "Kajian Garis Panduan Perancangan Pelaksanaan Bandar Lestari Air (Sponge City)",
+          "listingText": "8 | 13-03-2026 12:00 AM | 13-04-2026 12:00 AM | JPBD(IP)S185/ 646/1-192 | Kajian Garis Panduan Perancangan Pelaksanaan Bandar Lestari Air (Sponge City) |  | Tutup | 2026",
+          "listingOnly": true
+        }
+      ],
+      "observedCount": 1,
+      "fingerprint": "dfcb178596d464de9aa86a69b20468c5dc9331592b22a9ae7b9382a5eb57a438",
+      "changedCount": 1
+    },
+    {
+      "id": "doe",
+      "url": "https://www.doe.gov.my/en/",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "links": [
+        {
+          "url": "https://edl.doe.gov.my/discovery?category=Ringkasan%20Eksekutif%20EIA",
+          "title": "Executive Summary List of EIA Reports",
+          "listingText": "Executive Summary List of EIA Reports | ESC Online Reporting"
+        },
+        {
+          "url": "https://eimas.doe.gov.my/en/kursus-industri/course-for-eia-consultant/",
+          "title": "Induction Course for EIA Consultant",
+          "listingText": "Induction Course for EIA Consultant | Induction Course for Environmental Auditor"
+        },
+        {
+          "url": "https://eqms.doe.gov.my/APIMS/main",
+          "title": "Air Pollutant Index Management System (APIMS)"
+        },
+        {
+          "url": "https://eqms.doe.gov.my/MQIMS/main",
+          "title": "Marine Water Quality Index Management System (MQIMS)"
+        },
+        {
+          "url": "https://eqms.doe.gov.my/RQIMS/conti_river",
+          "title": "River Water Quality Index Management System (RQIMS)"
+        },
+        {
+          "url": "https://mycep.doe.gov.my/",
+          "title": "EIA Consultant Registration Scheme",
+          "listingText": "List of Registered EIA Consultant | List of Registered Environmental Auditor"
+        },
+        {
+          "url": "https://www.doe.gov.my/en/2026/09/14/laporan-penilaian-kesan-kepada-alam-sekeliling-eia-jadual-kedua-bagi-projek-proposed-extension-of-secure-landfill-at-the-kuching-integrated-waste-management-park-kiwmp-mambong-kuching-2/",
+          "title": "Laporan Penilaian Kesan Kepada Alam Sekeliling (EIA) Jadual Kedua Bagi Projek “Proposed Extension of Secure Landfill at The Kuching Integrated Waste Management Park (KIWMP), Mambong, Kuching, Sarawak” Tetuan Sarawak Waste Management Sdn Bhd"
+        },
+        {
+          "url": "https://www.doe.gov.my/en/2026/10/06/laporan-penilaian-kesan-kepada-alam-sekeliling-eia-bagi-cadangan-projek-pembangunan-tapak-pelupusan-sisa-pepejal-sanitari-di-pantai-barat-selatan-sabah-tetuan-jabatan-pengurusan-sisa-pepejal-negara-2/",
+          "title": "Laporan Penilaian Kesan Kepada Alam Sekeliling (EIA) Bagi Cadangan Projek Pembangunan Tapak Pelupusan Sisa Pepejal Sanitari Di Pantai Barat Selatan Sabah Tetuan Jabatan Pengurusan Sisa Pepejal Negara (JPSPN)"
+        },
+        {
+          "url": "https://www.doe.gov.my/en/eia-consultant-cpd-2/",
+          "title": "Guidance on CPD for EIA Consultant",
+          "listingText": "Guidance on CPD for EIA Consultant | Schedule for Registration of Environmental Auditor"
+        },
+        {
+          "url": "https://www.doe.gov.my/en/environmental-impact-assessment-eia-guidelines-in-malaysia-2016-2/",
+          "title": "Environmental Impact Assessment (EIA) Guidelines in Malaysia 2016",
+          "listingText": "Environmental Impact Assessment (EIA) Guidelines in Malaysia 2016 | Sistem Pemantauan EIA (SPEIA)"
+        },
+        {
+          "url": "https://www.doe.gov.my/en/guidance-document-on-eia-registration-scheme-2/",
+          "title": "Guidance Document on EIA Consultant Registration Scheme",
+          "listingText": "Guidance Document On EIA Consultant Registration Scheme | Environmental Audit Guidance Manual"
+        },
+        {
+          "url": "https://www.doe.gov.my/en/notice-to-eia-consultant/",
+          "title": "Latest : Notice to EIA Consultants",
+          "listingText": "Notice for EIA Consultant | Notice to Environmental Auditor"
+        },
+        {
+          "url": "https://www.doe.gov.my/en/supporting-documents-for-environmental-quality-regulations-clean-air/",
+          "title": "Supporting Documents for Environmental Quality (Clean Air) Regulations 2014",
+          "listingText": "Scheduled Waste Guidelines | Supporting Documents for Environmental Quality (Clean Air) Regulations 2014 | OER: Online Environmental Reporting"
+        },
+        {
+          "url": "https://www.doe.gov.my/en/the-committe-meeting-com-asean-agreement-on-transboundary-haze-pollution-2/",
+          "title": "The Committee Meeting (COM) ASEAN Agreement On Transboundary Haze Pollution",
+          "listingText": " | The Committee Meeting (COM) ASEAN Agreement On Transboundary Haze Pollution"
+        },
+        {
+          "url": "https://www.doe.gov.my/en/utama-english/",
+          "key": "https://www.doe.gov.my/en/utama-english/::row:a92e5293f646ea19",
+          "title": "Air Pollution Control Information",
+          "listingText": "Industry Information | Air Pollution Control Information | Industry Reporting",
+          "listingOnly": true
+        },
+        {
+          "url": "https://www.doe.gov.my/wp-content/uploads/2026/03/BORANG-EIA-1-18.pdf",
+          "title": "EIA Project Status Information Form - Forms 1-18",
+          "listingText": "EIA Project Status Information Form - Forms 1-18 | ESC Online Reporting"
+        },
+        {
+          "url": "https://www.doe.gov.my/wp-content/uploads/2026/03/BORANG-EIA-2-18.pdf",
+          "title": "EIA Conditions of Approval Compliance Reporting Form",
+          "listingText": "Executive Summary List of EIA Reports | EIA Conditions of Approval Compliance Reporting Form"
+        }
+      ],
+      "observedCount": 17,
+      "fingerprint": "1f5b2680027bd3042151df55b7fc54d1a936e2d72fafff1d3554724184bf905f",
+      "changedCount": 12
+    },
+    {
+      "id": "paab",
+      "url": "https://www.paab.my/tender/",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "limited",
+      "lastSuccessAt": null,
+      "links": [],
+      "observedCount": 0,
+      "fingerprint": null,
+      "changedCount": 0
+    },
+    {
+      "id": "jkr",
+      "url": "https://tender.jkr.gov.my/kenyataan/tender/index?sort=-tarikhtutuptender",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "links": [
+        {
+          "url": "https://tender.jkr.gov.my/kenyataan/tender/view?id=2459&ids=JKR%2FCKUB%2F24197%2F2026&ids2=1&ids3=1",
+          "title": "MENAIK ARAS JALAN DAN MENAIK TARAF JAMBATAN SUNGAI SEPIAL, SUNGAI KERAK DAN SUNGAI TEH DI LALUAN JERANTUT-KUALA LIPIS (FT234), DAERAH JERANTUT, PAHANG",
+          "listingText": "7 | 01/10/2026 | 15/10/2026 | 21/10/2026 | 12/11/2026 | JKR/CKUB/24197/2026MENAIK ARAS JALAN DAN MENAIK TARAF JAMBATAN SUNGAI SEPIAL, SUNGAI KERAK DAN SUNGAI TEH DI LALUAN JERANTUT-KUALA LIPIS (FT234), DAERAH JERANTUT, PAHANG[Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH SITI NURFAQIHA ADILA BINTI KAMALUDDIN PADA 07-10-2026][TINDAKAN KEMASKINI: DOKUMEN KUANTITI] | BUMIPUTERA / T1 | G7 / KEJURUTERAAN AWAM / CE01 & CE02 G7 / KEJURUTERAAN AWAM / CE01 & CE02 | BERMINAT?"
+        },
+        {
+          "url": "https://tender.jkr.gov.my/kenyataan/tender/view?id=2466&ids=JKR%2FPERS%2FCKC%2F018%2F2026&ids2=1&ids3=1",
+          "title": "KERJA-KERJA PEMBAIKAN CERUN DI PERKAMPUNGAN ORANG ASLI (KOA) SUNGAI JARIK, TERISU, CAMERON HIGHLANDS, PAHANG",
+          "listingText": "11 | 30/09/2026 | 14/10/2026 | 21/10/2026 | 11/11/2026 | JKR/PERS/CKC/018/2026KERJA-KERJA PEMBAIKAN CERUN DI PERKAMPUNGAN ORANG ASLI (KOA) SUNGAI JARIK, TERISU, CAMERON HIGHLANDS, PAHANG [Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH NUR LIYANA BINTI AZAMI PADA 06-10-2026][TINDAKAN KEMASKINI: DOKUMEN LUKISAN] | BUMIPUTERA / T1 | G4 / CE / TIADA G4 / CE / CE08 & CE21 (KEBENARAN KHAS TIDAK DIBENARKAN) | BERMINAT?"
+        },
+        {
+          "url": "https://tender.jkr.gov.my/kenyataan/tender/view?id=2470&ids=JKR%2FIP%2FCKIP%2F2026%2F01&ids2=1&ids3=5",
+          "title": "PEMBINAAN STRUKTUR TITIK PANGKAL MALAYSIA BERSTATUS LOW TIDE ELEVATION (LTE) DI TANJUNG SIRIK, SARAWAK (REKA DAN BINA) (TENDER SEMULA)",
+          "listingText": "6 | 06/10/2026 | 06/10/2026 | 05/11/2026 | 17/11/2026 | JKR/IP/CKIP/2026/01PEMBINAAN STRUKTUR TITIK PANGKAL MALAYSIA BERSTATUS LOW TIDE ELEVATION (LTE) DI TANJUNG SIRIK, SARAWAK (REKA DAN BINA) (TENDER SEMULA)[Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH JESSYNTHA WILLIAMS A/P SOOSAY WILLIAMS PADA 05-10-2026][TINDAKAN KEMASKINI: MAKLUMAT PROJEK] | TERBUKA / T1 | 5 / CE / CE03, CE21 (Kontraktor DIBENARKAN memohon kebenaran khas daripada CIDB dan UPKJ untuk pengkhususan bidang kerja yang ditetapkan) | BERMINAT?"
+        },
+        {
+          "url": "https://tender.jkr.gov.my/kenyataan/tender/viewperunding?id=2438&ids=JKR%2FIP%2FCJ%2FT%2F2026%2F23",
+          "title": "[FTA (CPTPP)] TENDER TERBUKA PERKHIDMATAN PERUNDING AWAM DAN STRUKTUR BAGI PROJEK MENAIK TARAF LEBUH RAYA TIMUR BARAT (FT4), DARI SEKSYEN 83.74 HINGGA SEKSYEN 198.40, PERAK",
+          "listingText": "3 | 21/09/2026 | 08/10/2026 | 21/10/2026 | 18/11/2026 | JKR/IP/CJ/T/2026/23[FTA (CPTPP)] TENDER TERBUKA PERKHIDMATAN PERUNDING AWAM DAN STRUKTUR BAGI PROJEK MENAIK TARAF LEBUH RAYA TIMUR BARAT (FT4), DARI SEKSYEN 83.74 HINGGA SEKSYEN 198.40, PERAK[Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH MOHAMMAD IKHWAN HAKIM BIN JAAFAR PADA 28-09-2026][TINDAKAN KEMASKINI: MAKLUMAT PROJEK] | TERBUKA / TIDAK BERKENAAN | KEJURUTERAAN / Kod 330101 (KEJURUTERAAN AWAM) KEJURUTERAAN / KOD 330102 (KEJURUTERAAN STRUKTUR) | BERMINAT?"
+        }
+      ],
+      "observedCount": 4,
+      "fingerprint": "1040bebcb4e5b328c91bef87b86e72892eb0184faadf75777743c8a28f5eaf81",
+      "changedCount": 4
+    },
+    {
+      "id": "data-gov",
+      "url": "https://data.gov.my/data-catalogue",
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "links": [
+        {
+          "url": "https://data.gov.my/data-catalogue/air_pollution",
+          "title": "Monthly Air PollutionAverage monthly concentration of key air pollutants.JASData as of 31 Dec 2024, 23:59"
+        },
+        {
+          "url": "https://data.gov.my/data-catalogue/hh_access_amenities",
+          "title": "Access to Basic Amenities by State & DistrictProportion of households with access to basic amenities such as electricity, piped water, and sanitary latrines by state and district.DOSMData as of 2024"
+        },
+        {
+          "url": "https://data.gov.my/data-catalogue/water_access",
+          "title": "Access to Treated Water by State & StrataAnnual access of households to treated piped water by state and strata.SPANData as of 2022"
+        },
+        {
+          "url": "https://data.gov.my/data-catalogue/water_consumption",
+          "title": "Water Consumption by State and SectorAnnual water consumption by state, broken down into domestic and non-domestic sectors.SPANData as of 31 Dec 2024, 23:59"
+        },
+        {
+          "url": "https://data.gov.my/data-catalogue/water_pollution_basin",
+          "title": "River Basin Pollution MonitoringProportion of river basins classified as clean, slightly polluted, or polluted based on 3 primary indicators of water pollution.JASData as of 2024"
+        },
+        {
+          "url": "https://data.gov.my/data-catalogue/water_production",
+          "title": "Water Production by StateAnnual water production by state.SPANData as of 31 Dec 2022, 23:59"
+        }
+      ],
+      "observedCount": 6,
+      "fingerprint": "53dbb050a671f4aa46e7a8cb6b16224f4e2529de94805313cc5de4b24f71dbcc",
+      "changedCount": 0
+    }
+  ],
+  "datasets": [
+    {
+      "id": "weather-kl",
+      "name": "吉隆坡天气预报",
+      "url": "https://api.data.gov.my/weather/forecast?contains=Kuala%20Lumpur@location__location_name&limit=14",
+      "page": "https://developer.data.gov.my/realtime-api/weather",
+      "scope": "仅吉隆坡，最多 14 条返回记录；不是全国预报",
+      "required": [
+        "location",
+        "date",
+        "summary_forecast"
+      ],
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "ok",
+      "dataFetchedAt": "2026-10-08T04:08:16.202Z",
+      "records": [
+        {
+          "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+          },
+          "date": "2026-10-14",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Tiada Hujan",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Tiada Hujan",
+          "summary_when": "Sepanjang Hari",
+          "min_temp": 25,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+          },
+          "date": "2026-10-13",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Tiada Hujan",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Tiada Hujan",
+          "summary_when": "Sepanjang Hari",
+          "min_temp": 25,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+          },
+          "date": "2026-10-12",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang",
+          "min_temp": 25,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+          },
+          "date": "2026-10-11",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang",
+          "min_temp": 25,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+          },
+          "date": "2026-10-10",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang",
+          "min_temp": 25,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+          },
+          "date": "2026-10-09",
+          "morning_forecast": "Jerebu",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Jerebu",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Sepanjang Hari",
+          "min_temp": 24,
+          "max_temp": 34
+        },
+        {
+          "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+          },
+          "date": "2026-10-08",
+          "morning_forecast": "Jerebu",
+          "afternoon_forecast": "Hujan di beberapa tempat",
+          "night_forecast": "Jerebu",
+          "summary_forecast": "Hujan di beberapa tempat",
+          "summary_when": "Sepanjang Hari",
+          "min_temp": 24,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+          },
+          "date": "2026-10-14",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Tiada Hujan",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Tiada Hujan",
+          "summary_when": "Sepanjang Hari",
+          "min_temp": 25,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+          },
+          "date": "2026-10-13",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Tiada Hujan",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Tiada Hujan",
+          "summary_when": "Sepanjang Hari",
+          "min_temp": 25,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+          },
+          "date": "2026-10-12",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang",
+          "min_temp": 25,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+          },
+          "date": "2026-10-11",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang",
+          "min_temp": 25,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+          },
+          "date": "2026-10-10",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang",
+          "min_temp": 25,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+          },
+          "date": "2026-10-09",
+          "morning_forecast": "Jerebu",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Jerebu",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Sepanjang Hari",
+          "min_temp": 24,
+          "max_temp": 34
+        },
+        {
+          "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+          },
+          "date": "2026-10-08",
+          "morning_forecast": "Jerebu",
+          "afternoon_forecast": "Hujan di beberapa tempat",
+          "night_forecast": "Jerebu",
+          "summary_forecast": "Hujan di beberapa tempat",
+          "summary_when": "Sepanjang Hari",
+          "min_temp": 24,
+          "max_temp": 33
+        }
+      ],
+      "fingerprint": "7f0b36193059bc8ad5d28ed84b35233d1e81c49c61056dc9f057ff545b22c781",
+      "changed": false
+    },
+    {
+      "id": "weather-warnings",
+      "name": "气象预警原始记录",
+      "url": "https://api.data.gov.my/weather/warning?limit=20",
+      "page": "https://developer.data.gov.my/realtime-api/weather",
+      "scope": "接口最多 20 条返回记录，可能含历史或已过期预警；不能代表完整现行警情",
+      "required": [
+        "warning_issue",
+        "valid_from",
+        "valid_to"
+      ],
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "ok",
+      "dataFetchedAt": "2026-10-08T04:08:16.202Z",
+      "records": [
+        {
+          "warning_issue": {
+            "issued": "2026-10-08T10:10:00",
+            "title_bm": "Amaran Angin Kencang dan Laut Bergelora",
+            "title_en": "Strong Winds and Rough Seas Warning"
+          },
+          "valid_from": "2026-10-08T00:00:00",
+          "valid_to": "2026-10-10T23:59:00",
+          "heading_en": "Warning on Strong Wind and Rough Seas",
+          "text_en": "SECTION A: FOR MALAYSIAN WATERS [WITHIN 24 NAUTICAL MILES] 1) LOW HORIZONTAL VISIBILITY WARNING Low horizontal visibility is expected over the waters of Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang until Saturday, 10 October 2026. 2) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Perlis & Kedah • Penang • Perak • Selangor • N. Sembilan • Melaka • Sarawak • Western Sabah until 2:00 PM; Thursday, 8 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats. SECTION B: FOR SHIPPING 1) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Straits Of Melaka • Sulawesi • Northern part of Condore • Phuket • Samui • Reef North • Reef South • Labuan • Southeastern Bunguran • Sulu • Palawan • Layang-Layang until 2:00 PM; Thursday, 8 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats.",
+          "instruction_en": "This condition of strong winds and rough seas is dangerous.",
+          "heading_bm": "Amaran Angin kencang dan laut bergelora",
+          "text_bm": "SEKSYEN A: UNTUK PERAIRAN MALAYSIA [DALAM LINGKUNGAN 24 BATU NAUTIKA] 1) AMARAN KETAMPAKAN RENDAH Ketampakan rendah dijangka di kawasan perairan Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang sehingga Sabtu, 10 Oktober 2026. 2) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Perlis & Kedah • Pulau Pinang • Perak • Selangor • N. Sembilan • Melaka • Sarawak • Sabah Barat dan Labuan sehingga 2:00 Petang; Khamis, 8 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil. SEKSYEN B: UNTUK PERKAPALAN 1) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Selat Melaka • Sulawesi • Utara Condore • Phuket • Samui • Reef North • Reef South • Labuan • Tenggara Bunguran • Sulu • Palawan • Layang-Layang sehingga 2:00 Petang; Khamis, 8 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil.",
+          "instruction_bm": "Keadaan angin kencang dan laut bergelora ini adalah berbahaya."
+        },
+        {
+          "warning_issue": {
+            "issued": "2026-10-08T10:10:00",
+            "title_bm": "Amaran Angin Kencang dan Laut Bergelora",
+            "title_en": "Strong Winds and Rough Seas Warning"
+          },
+          "valid_from": "2026-10-08T10:00:00",
+          "valid_to": "2026-10-08T14:00:00",
+          "heading_en": "Warning on Strong Wind and Rough Seas",
+          "text_en": "SECTION A: FOR MALAYSIAN WATERS [WITHIN 24 NAUTICAL MILES] 1) LOW HORIZONTAL VISIBILITY WARNING Low horizontal visibility is expected over the waters of Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang until Saturday, 10 October 2026. 2) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Perlis & Kedah • Penang • Perak • Selangor • N. Sembilan • Melaka • Sarawak • Western Sabah until 2:00 PM; Thursday, 8 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats. SECTION B: FOR SHIPPING 1) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Straits Of Melaka • Sulawesi • Northern part of Condore • Phuket • Samui • Reef North • Reef South • Labuan • Southeastern Bunguran • Sulu • Palawan • Layang-Layang until 2:00 PM; Thursday, 8 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats.",
+          "instruction_en": "This condition of strong winds and rough seas is dangerous.",
+          "heading_bm": "Amaran Angin kencang dan laut bergelora",
+          "text_bm": "SEKSYEN A: UNTUK PERAIRAN MALAYSIA [DALAM LINGKUNGAN 24 BATU NAUTIKA] 1) AMARAN KETAMPAKAN RENDAH Ketampakan rendah dijangka di kawasan perairan Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang sehingga Sabtu, 10 Oktober 2026. 2) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Perlis & Kedah • Pulau Pinang • Perak • Selangor • N. Sembilan • Melaka • Sarawak • Sabah Barat dan Labuan sehingga 2:00 Petang; Khamis, 8 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil. SEKSYEN B: UNTUK PERKAPALAN 1) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Selat Melaka • Sulawesi • Utara Condore • Phuket • Samui • Reef North • Reef South • Labuan • Tenggara Bunguran • Sulu • Palawan • Layang-Layang sehingga 2:00 Petang; Khamis, 8 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil.",
+          "instruction_bm": "Keadaan angin kencang dan laut bergelora ini adalah berbahaya."
+        },
+        {
+          "warning_issue": {
+            "issued": "2026-10-08T12:00:00",
+            "title_bm": "Amaran Ribut Petir",
+            "title_en": "Thunderstorms Warning"
+          },
+          "valid_from": "2026-10-08T12:00:00",
+          "valid_to": "2026-10-08T15:00:00",
+          "heading_en": "THUNDERSTORMS WARNING",
+          "text_en": "Thunderstorms, heavy rain and strong winds are expected over the states of Sarawak: Mukah, Bintulu (Tatau and Bintulu), Sarikei (Sarikei and Maradong), Betong (Kabong), Miri (Miri, Subis and Marudi), Limbang, Sibu (Selangau and Sibu) • Sabah: Interior (Membakut, Beaufort, Kuala Penyu, Sipitang, Tenom, Tambunan, Keningau and Sook), Sandakan (Paitan), West Coast, Tawau (Kunak, Lahad Datu, Tawau and Semporna), Kudat (Pitas) • W.P. Labuan until 3:00 PM; Thursday, 8 October 2026.",
+          "instruction_en": null,
+          "heading_bm": "AMARAN RIBUT PETIR",
+          "text_bm": "Ribut petir, hujan lebat dan angin kencang dijangka di negeri Sarawak: Mukah, Bintulu (Tatau dan Bintulu), Sarikei (Sarikei dan Maradong), Betong (Kabong), Miri (Miri, Subis dan Marudi), Limbang, Sibu (Selangau dan Sibu) • Sabah: Pedalaman (Membakut, Beaufort, Kuala Penyu, Sipitang, Tenom, Tambunan, Keningau dan Sook), Sandakan (Paitan), Pantai Barat, Tawau (Kunak, Lahad Datu, Tawau dan Semporna), Kudat (Pitas) • W.P. Labuan sehingga 3:00 Petang; Khamis, 8 Oktober 2026.",
+          "instruction_bm": null
+        },
+        {
+          "warning_issue": {
+            "issued": "2026-10-08T10:30:00",
+            "title_bm": "Tiada Nasihat",
+            "title_en": "No Advisory"
+          },
+          "valid_from": null,
+          "valid_to": null,
+          "heading_en": "No Advisory",
+          "text_en": "No Tropical Cyclone system is observed under MMD monitoring region (Latitude: 0-20 North & Longitude: 95-130 East)",
+          "instruction_en": null,
+          "heading_bm": "Tiada Nasihat",
+          "text_bm": "Tiada sistem Siklon Tropika dicerap di dalam kawasan pemantauan MMD (Latitud: 0-20 Utara & Longitud: 95-130 Timur)",
+          "instruction_bm": null
+        }
+      ],
+      "fingerprint": "c10c75f7eb1b70d566c8cd32144963d6781d01f9dd833f01de64620873ab8ded",
+      "changed": true
+    },
+    {
+      "id": "water-pollution",
+      "name": "流域污染年度统计",
+      "url": "https://api.data.gov.my/data-catalogue?id=water_pollution_basin&limit=100&sort=-date",
+      "page": "https://data.gov.my/data-catalogue/water_pollution_basin",
+      "scope": "按年份降序请求最多 100 条年度统计记录；数据年份不等于采集日期",
+      "required": [
+        "date",
+        "status",
+        "n_basins"
+      ],
+      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "status": "ok",
+      "dataFetchedAt": "2026-10-08T04:08:16.202Z",
+      "records": [
+        {
+          "date": "2024-01-01",
+          "status": "clean",
+          "measure": "nh3n",
+          "n_basins": 61,
+          "proportion": 42.36111111111111,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2024-01-01",
+          "status": "slightly__polluted",
+          "measure": "ss",
+          "n_basins": 10,
+          "proportion": 6.944444444444445,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2024-01-01",
+          "status": "clean",
+          "measure": "ss",
+          "n_basins": 122,
+          "proportion": 84.72222222222221,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2024-01-01",
+          "status": "polluted",
+          "measure": "nh3n",
+          "n_basins": 38,
+          "proportion": 26.38888888888889,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2024-01-01",
+          "status": "polluted",
+          "measure": "ss",
+          "n_basins": 12,
+          "proportion": 8.333333333333332,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2024-01-01",
+          "status": "polluted",
+          "measure": "bod5",
+          "n_basins": 12,
+          "proportion": 8.333333333333332,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2024-01-01",
+          "status": "slightly__polluted",
+          "measure": "bod5",
+          "n_basins": 16,
+          "proportion": 11.11111111111111,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2024-01-01",
+          "status": "slightly__polluted",
+          "measure": "nh3n",
+          "n_basins": 45,
+          "proportion": 31.25,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2024-01-01",
+          "status": "clean",
+          "measure": "bod5",
+          "n_basins": 116,
+          "proportion": 80.55555555555556,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2023-01-01",
+          "status": "slightly__polluted",
+          "measure": "ss",
+          "n_basins": 10,
+          "proportion": 6.944444444444445,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2023-01-01",
+          "status": "slightly__polluted",
+          "measure": "bod5",
+          "n_basins": 12,
+          "proportion": 8.333333333333332,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2023-01-01",
+          "status": "slightly__polluted",
+          "measure": "nh3n",
+          "n_basins": 58,
+          "proportion": 40.27777777777778,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2023-01-01",
+          "status": "clean",
+          "measure": "ss",
+          "n_basins": 117,
+          "proportion": 81.25,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2023-01-01",
+          "status": "clean",
+          "measure": "nh3n",
+          "n_basins": 45,
+          "proportion": 31.25,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2023-01-01",
+          "status": "polluted",
+          "measure": "ss",
+          "n_basins": 17,
+          "proportion": 11.805555555555555,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2023-01-01",
+          "status": "polluted",
+          "measure": "bod5",
+          "n_basins": 11,
+          "proportion": 7.638888888888889,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2023-01-01",
+          "status": "clean",
+          "measure": "bod5",
+          "n_basins": 121,
+          "proportion": 84.02777777777779,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2023-01-01",
+          "status": "polluted",
+          "measure": "nh3n",
+          "n_basins": 41,
+          "proportion": 28.47222222222222,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2022-01-01",
+          "status": "slightly__polluted",
+          "measure": "ss",
+          "n_basins": 12,
+          "proportion": 8.333333333333332,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2022-01-01",
+          "status": "polluted",
+          "measure": "nh3n",
+          "n_basins": 41,
+          "proportion": 28.47222222222222,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2022-01-01",
+          "status": "slightly__polluted",
+          "measure": "nh3n",
+          "n_basins": 51,
+          "proportion": 35.41666666666667,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2022-01-01",
+          "status": "clean",
+          "measure": "ss",
+          "n_basins": 118,
+          "proportion": 81.94444444444444,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2022-01-01",
+          "status": "clean",
+          "measure": "bod5",
+          "n_basins": 120,
+          "proportion": 83.33333333333334,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2022-01-01",
+          "status": "slightly__polluted",
+          "measure": "bod5",
+          "n_basins": 10,
+          "proportion": 6.944444444444445,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2022-01-01",
+          "status": "clean",
+          "measure": "nh3n",
+          "n_basins": 52,
+          "proportion": 36.11111111111111,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2022-01-01",
+          "status": "polluted",
+          "measure": "bod5",
+          "n_basins": 14,
+          "proportion": 9.722222222222223,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2022-01-01",
+          "status": "polluted",
+          "measure": "ss",
+          "n_basins": 14,
+          "proportion": 9.722222222222223,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2021-01-01",
+          "status": "clean",
+          "measure": "bod5",
+          "n_basins": 124,
+          "proportion": 86.11111111111111,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2021-01-01",
+          "status": "slightly__polluted",
+          "measure": "nh3n",
+          "n_basins": 37,
+          "proportion": 25.694444444444443,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2021-01-01",
+          "status": "slightly__polluted",
+          "measure": "bod5",
+          "n_basins": 11,
+          "proportion": 7.638888888888889,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2021-01-01",
+          "status": "slightly__polluted",
+          "measure": "ss",
+          "n_basins": 7,
+          "proportion": 4.861111111111112,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2021-01-01",
+          "status": "clean",
+          "measure": "ss",
+          "n_basins": 127,
+          "proportion": 88.19444444444444,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2021-01-01",
+          "status": "polluted",
+          "measure": "ss",
+          "n_basins": 10,
+          "proportion": 6.944444444444445,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2021-01-01",
+          "status": "clean",
+          "measure": "nh3n",
+          "n_basins": 58,
+          "proportion": 40.27777777777778,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2021-01-01",
+          "status": "polluted",
+          "measure": "bod5",
+          "n_basins": 9,
+          "proportion": 6.25,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2021-01-01",
+          "status": "polluted",
+          "measure": "nh3n",
+          "n_basins": 49,
+          "proportion": 34.02777777777778,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2020-01-01",
+          "status": "polluted",
+          "measure": "ss",
+          "n_basins": 20,
+          "proportion": 13.88888888888889,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2020-01-01",
+          "status": "clean",
+          "measure": "bod5",
+          "n_basins": 83,
+          "proportion": 57.638888888888886,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2020-01-01",
+          "status": "slightly__polluted",
+          "measure": "ss",
+          "n_basins": 14,
+          "proportion": 9.722222222222223,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2020-01-01",
+          "status": "polluted",
+          "measure": "nh3n",
+          "n_basins": 42,
+          "proportion": 29.166666666666668,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2020-01-01",
+          "status": "clean",
+          "measure": "ss",
+          "n_basins": 110,
+          "proportion": 76.38888888888889,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2020-01-01",
+          "status": "slightly__polluted",
+          "measure": "bod5",
+          "n_basins": 46,
+          "proportion": 31.944444444444443,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2020-01-01",
+          "status": "polluted",
+          "measure": "bod5",
+          "n_basins": 15,
+          "proportion": 10.416666666666668,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2020-01-01",
+          "status": "clean",
+          "measure": "nh3n",
+          "n_basins": 28,
+          "proportion": 19.444444444444446,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2020-01-01",
+          "status": "slightly__polluted",
+          "measure": "nh3n",
+          "n_basins": 74,
+          "proportion": 51.388888888888886,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2019-01-01",
+          "status": "slightly__polluted",
+          "measure": "bod5",
+          "n_basins": 39,
+          "proportion": 27.083333333333332,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2019-01-01",
+          "status": "slightly__polluted",
+          "measure": "nh3n",
+          "n_basins": 74,
+          "proportion": 51.388888888888886,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2019-01-01",
+          "status": "polluted",
+          "measure": "ss",
+          "n_basins": 30,
+          "proportion": 20.833333333333336,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2019-01-01",
+          "status": "clean",
+          "measure": "ss",
+          "n_basins": 78,
+          "proportion": 54.166666666666664,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2019-01-01",
+          "status": "slightly__polluted",
+          "measure": "ss",
+          "n_basins": 36,
+          "proportion": 25,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2019-01-01",
+          "status": "polluted",
+          "measure": "bod5",
+          "n_basins": 52,
+          "proportion": 36.11111111111111,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2019-01-01",
+          "status": "clean",
+          "measure": "nh3n",
+          "n_basins": 12,
+          "proportion": 8.333333333333332,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2019-01-01",
+          "status": "clean",
+          "measure": "bod5",
+          "n_basins": 53,
+          "proportion": 36.80555555555556,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2019-01-01",
+          "status": "polluted",
+          "measure": "nh3n",
+          "n_basins": 58,
+          "proportion": 40.27777777777778,
+          "basins_monitored": 144
+        },
+        {
+          "date": "2018-01-01",
+          "status": "polluted",
+          "measure": "bod5",
+          "n_basins": 52,
+          "proportion": 36.36363636363637,
+          "basins_monitored": 143
+        },
+        {
+          "date": "2018-01-01",
+          "status": "clean",
+          "measure": "ss",
+          "n_basins": 71,
+          "proportion": 49.65034965034965,
+          "basins_monitored": 143
+        },
+        {
+          "date": "2018-01-01",
+          "status": "slightly__polluted",
+          "measure": "ss",
+          "n_basins": 31,
+          "proportion": 21.678321678321677,
+          "basins_monitored": 143
+        },
+        {
+          "date": "2018-01-01",
+          "status": "polluted",
+          "measure": "ss",
+          "n_basins": 41,
+          "proportion": 28.671328671328673,
+          "basins_monitored": 143
+        },
+        {
+          "date": "2018-01-01",
+          "status": "clean",
+          "measure": "nh3n",
+          "n_basins": 5,
+          "proportion": 3.4965034965034967,
+          "basins_monitored": 143
+        },
+        {
+          "date": "2018-01-01",
+          "status": "slightly__polluted",
+          "measure": "nh3n",
+          "n_basins": 88,
+          "proportion": 61.53846153846154,
+          "basins_monitored": 143
+        },
+        {
+          "date": "2018-01-01",
+          "status": "slightly__polluted",
+          "measure": "bod5",
+          "n_basins": 37,
+          "proportion": 25.874125874125873,
+          "basins_monitored": 143
+        },
+        {
+          "date": "2018-01-01",
+          "status": "polluted",
+          "measure": "nh3n",
+          "n_basins": 50,
+          "proportion": 34.96503496503497,
+          "basins_monitored": 143
+        },
+        {
+          "date": "2018-01-01",
+          "status": "clean",
+          "measure": "bod5",
+          "n_basins": 54,
+          "proportion": 37.76223776223776,
+          "basins_monitored": 143
+        },
+        {
+          "date": "2017-01-01",
+          "status": "slightly__polluted",
+          "measure": "nh3n",
+          "n_basins": 86,
+          "proportion": 61.42857142857143,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2017-01-01",
+          "status": "polluted",
+          "measure": "nh3n",
+          "n_basins": 43,
+          "proportion": 30.714285714285715,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2017-01-01",
+          "status": "clean",
+          "measure": "ss",
+          "n_basins": 65,
+          "proportion": 46.42857142857143,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2017-01-01",
+          "status": "clean",
+          "measure": "nh3n",
+          "n_basins": 11,
+          "proportion": 7.857142857142857,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2017-01-01",
+          "status": "clean",
+          "measure": "bod5",
+          "n_basins": 0,
+          "proportion": 0,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2017-01-01",
+          "status": "slightly__polluted",
+          "measure": "bod5",
+          "n_basins": 50,
+          "proportion": 35.714285714285715,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2017-01-01",
+          "status": "slightly__polluted",
+          "measure": "ss",
+          "n_basins": 45,
+          "proportion": 32.142857142857146,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2017-01-01",
+          "status": "polluted",
+          "measure": "bod5",
+          "n_basins": 90,
+          "proportion": 64.28571428571429,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2017-01-01",
+          "status": "polluted",
+          "measure": "ss",
+          "n_basins": 30,
+          "proportion": 21.428571428571427,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2016-01-01",
+          "status": "polluted",
+          "measure": "nh3n",
+          "n_basins": 38,
+          "proportion": 27.142857142857142,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2016-01-01",
+          "status": "clean",
+          "measure": "ss",
+          "n_basins": 87,
+          "proportion": 62.142857142857146,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2016-01-01",
+          "status": "slightly__polluted",
+          "measure": "ss",
+          "n_basins": 23,
+          "proportion": 16.428571428571427,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2016-01-01",
+          "status": "slightly__polluted",
+          "measure": "nh3n",
+          "n_basins": 83,
+          "proportion": 59.285714285714285,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2016-01-01",
+          "status": "polluted",
+          "measure": "bod5",
+          "n_basins": 129,
+          "proportion": 92.14285714285714,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2016-01-01",
+          "status": "polluted",
+          "measure": "ss",
+          "n_basins": 30,
+          "proportion": 21.428571428571427,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2016-01-01",
+          "status": "clean",
+          "measure": "nh3n",
+          "n_basins": 19,
+          "proportion": 13.571428571428571,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2016-01-01",
+          "status": "clean",
+          "measure": "bod5",
+          "n_basins": 0,
+          "proportion": 0,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2016-01-01",
+          "status": "slightly__polluted",
+          "measure": "bod5",
+          "n_basins": 11,
+          "proportion": 7.857142857142857,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2015-01-01",
+          "status": "clean",
+          "measure": "ss",
+          "n_basins": 107,
+          "proportion": 76.42857142857142,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2015-01-01",
+          "status": "slightly__polluted",
+          "measure": "ss",
+          "n_basins": 13,
+          "proportion": 9.285714285714286,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2015-01-01",
+          "status": "polluted",
+          "measure": "nh3n",
+          "n_basins": 43,
+          "proportion": 30.714285714285715,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2015-01-01",
+          "status": "polluted",
+          "measure": "ss",
+          "n_basins": 20,
+          "proportion": 14.285714285714285,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2015-01-01",
+          "status": "polluted",
+          "measure": "bod5",
+          "n_basins": 121,
+          "proportion": 86.42857142857143,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2015-01-01",
+          "status": "clean",
+          "measure": "nh3n",
+          "n_basins": 32,
+          "proportion": 22.857142857142858,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2015-01-01",
+          "status": "slightly__polluted",
+          "measure": "nh3n",
+          "n_basins": 65,
+          "proportion": 46.42857142857143,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2015-01-01",
+          "status": "clean",
+          "measure": "bod5",
+          "n_basins": 0,
+          "proportion": 0,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2015-01-01",
+          "status": "slightly__polluted",
+          "measure": "bod5",
+          "n_basins": 19,
+          "proportion": 13.571428571428571,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2014-01-01",
+          "status": "polluted",
+          "measure": "nh3n",
+          "n_basins": 40,
+          "proportion": 28.57142857142857,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2014-01-01",
+          "status": "clean",
+          "measure": "ss",
+          "n_basins": 99,
+          "proportion": 70.71428571428572,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2014-01-01",
+          "status": "slightly__polluted",
+          "measure": "ss",
+          "n_basins": 22,
+          "proportion": 15.714285714285714,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2014-01-01",
+          "status": "polluted",
+          "measure": "ss",
+          "n_basins": 19,
+          "proportion": 13.571428571428571,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2014-01-01",
+          "status": "clean",
+          "measure": "nh3n",
+          "n_basins": 41,
+          "proportion": 29.28571428571429,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2014-01-01",
+          "status": "slightly__polluted",
+          "measure": "nh3n",
+          "n_basins": 59,
+          "proportion": 42.142857142857146,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2014-01-01",
+          "status": "polluted",
+          "measure": "bod5",
+          "n_basins": 125,
+          "proportion": 89.28571428571429,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2014-01-01",
+          "status": "clean",
+          "measure": "bod5",
+          "n_basins": 0,
+          "proportion": 0,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2014-01-01",
+          "status": "slightly__polluted",
+          "measure": "bod5",
+          "n_basins": 15,
+          "proportion": 10.714285714285714,
+          "basins_monitored": 140
+        },
+        {
+          "date": "2013-01-01",
+          "status": "polluted",
+          "measure": "ss",
+          "n_basins": 11,
+          "proportion": 7.857142857142857,
+          "basins_monitored": 140
+        }
+      ],
+      "fingerprint": "5ad97394682db8932dc877a60ffe989ce7975ce0401d572e2c1ad399144d70f1",
+      "changed": false
+    }
+  ]
+}

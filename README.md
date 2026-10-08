@@ -8,12 +8,17 @@
 
 ```sh
 npm ci
+npm run water:collect
 npm run water:check
 npm run water:build
 npm run water:preview
 ```
 
-打开 `http://127.0.0.1:4173`。构建产物在 `.data/water-watch/`，不提交临时文件。没有自动刷新新闻或预警的承诺，也没有启用定时任务或公共托管。
+打开 `http://127.0.0.1:4173`。构建产物在 `.data/water-watch/`，不提交临时文件。每日核查安排为马来西亚时间 08:30，由当前 Codex 对话的自动任务执行；主机、Codex 应用与网络需要保持可用。公共托管尚未启用，网页不是实时预警系统。
+
+采集器登记 18 个官方来源，检测新增链接与公告表格修改，并保存各来源的成功、读取不完整或失败状态。三个免费政府数据接口提供吉隆坡天气预报、气象预警记录与流域水污染年度数据；数据页说明范围、原始日期和最后成功读取时间。采集失败会保留旧快照，候选链接经过 Codex 阅读原文后才进入中文资讯。
+
+采集设置在 `modules/water-watch/collection-config.json`；可复核基线在 `collection-state.json`，公开状态在 `collection.json`，政府数据在 `data.json`。待编辑候选清单写入忽略提交的 `.data/water-watch-intake.json`。无需付费模型 API，不将 Codex 凭据放入 GitHub。
 
 以后直接对 Codex 说：**“更新 Malaysia Water Watch，核查官方最新资讯，整理中文摘要并提交 GitHub。”** 更新步骤见 [编辑流程](modules/water-watch/EDITORIAL.md)，内容在 [content.json](modules/water-watch/content.json)。
 
@@ -23,7 +28,7 @@ npm run water:preview
 
 Fork 自 [KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT)，遵守原仓库许可。保留后端采集、归组、报告、RSS/API/MCP 架构，便于以后升级。`site/` 和 `industry/` 已改为水利行业。可选数据库版的公开出口仍走原 publication 读取层；静态版只读取明确审阅过的独立内容文件，不读取后台资料或管理接口。
 
-`industry/sources.json` 是 external 信源名录，不会自动抓取；采集、模型与推送安全阀保持关闭。未校准的自动评分不用于静态版选稿，原五轴权重及门槛数值保留，启用前应以人工标注样本校准。
+`industry/sources.json` 是可选后端的 external 信源名录，不会自行抓取；原框架采集、模型与推送安全阀保持关闭。静态模块使用独立、明确执行的 `water:collect` 采集器。未校准的自动评分不用于静态版选稿，原五轴权重及门槛数值保留，启用前应以人工标注样本校准。
 
 以下为上游框架说明；其中服务器、API 和定时运行步骤仅适用于以后选择的数据库部署模式。
 
