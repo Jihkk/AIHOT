@@ -2,10 +2,28 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { test } from 'node:test';
 import { validateContent, renderPage, sortedArticles, matches, officialUrl } from '../publication.mjs';
+import {renderNotice,notices} from '../public-notices.mjs';
 
 const fixture = JSON.parse(await readFile(new URL('../content.json', import.meta.url),'utf8'));
 const now = new Date(`${fixture.reviewedAt}T12:00:00+08:00`);
 const edited = edit => { const value = structuredClone(fixture); edit(value); return value; };
+
+test('public notices match the static site and escape content with no visitor scripts',()=>{
+  for(const kind of ['terms','privacy']) {
+    const html=renderNotice(kind);
+    assert.match(html,/href="\.\/"/);
+    assert.match(html,/GitHub 账号 Jihkk/);
+    assert.ok(!html.includes('<script'));
+    assert.ok(!html.includes('请填写'));
+  }
+  notices.terms.sections.push(['<script>alert(1)</script>','<img src=x onerror=alert(1)>']);
+  try {
+    const html=renderNotice('terms');
+    assert.ok(html.includes('&lt;script&gt;'));
+    assert.ok(!html.includes('<img src=x'));
+  } finally {notices.terms.sections.pop();}
+  assert.throws(()=>renderNotice('unknown'));
+});
 
 test('publications require exact official-host links, provenance and honest dates', () => {
   validateContent(fixture, now);

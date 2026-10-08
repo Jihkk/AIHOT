@@ -4,10 +4,12 @@ import { resolve } from 'node:path';
 import { build, outputDirectory } from './publication.mjs';
 
 await build();
-const files = {'/':'index.html','/index.html':'index.html','/style.css':'style.css','/client.js':'client.js','/logo.svg':'logo.svg','/content.json':'content.json','/collection.json':'collection.json','/data.json':'data.json'};
+const files = {'/':'index.html','/index.html':'index.html','/terms.html':'terms.html','/privacy.html':'privacy.html','/style.css':'style.css','/client.js':'client.js','/logo.svg':'logo.svg','/content.json':'content.json','/collection.json':'collection.json','/data.json':'data.json'};
 const types = {html:'text/html',css:'text/css',js:'text/javascript',svg:'image/svg+xml',json:'application/json'};
+const prefix=(process.env.WATER_WATCH_BASE_PATH ?? '').replace(/\/$/,'');
 const server = createServer(async (request, response) => {
-  const file = files[new URL(request.url, 'http://localhost').pathname];
+  const path=new URL(request.url, 'http://localhost').pathname;
+  const file = (!prefix || path===prefix || path.startsWith(prefix+'/')) ? files[path.slice(prefix.length) || '/'] : null;
   if (!file) { response.writeHead(404); response.end('Not found'); return; }
   try {
     const content = await readFile(resolve(outputDirectory,file));

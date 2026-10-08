@@ -13,8 +13,9 @@ const forecastCount=forecastRows(monitoring.data.datasets.find(d=>d.id==='weathe
 const projectCount=content.articles.filter(a=>a.category==='projects').length;
 const pahangCount=content.articles.filter(a=>a.category==='projects' && [a.title,a.summary,a.region,...a.tags].join(' ').toLowerCase().includes('pahang')).length;
 
-const base='http://127.0.0.1:4174';
-const server = spawn(process.execPath,[fileURLToPath(new URL('./preview.mjs',import.meta.url))],{stdio:['ignore','pipe','inherit'],env:{...process.env,WATER_WATCH_PORT:'4174'}});
+// Pages project sites run below the repository name; verify real relative links there.
+const base='http://127.0.0.1:4174/AIHOT/';
+const server = spawn(process.execPath,[fileURLToPath(new URL('./preview.mjs',import.meta.url))],{stdio:['ignore','pipe','inherit'],env:{...process.env,WATER_WATCH_PORT:'4174',WATER_WATCH_BASE_PATH:'/AIHOT'}});
 let buffer='';
 const ready=new Promise((resolve,reject)=>{
   const timeout=setTimeout(()=>reject(new Error('Preview did not start')),30000);
@@ -57,9 +58,15 @@ try {
   await page.locator('.source-details summary').click();
   assert.equal(await page.locator('.source-card').count(),content.sources.length);
   assert.equal(await page.locator('.dataset').count(),3);
-  const dataResponse=await page.request.get(`${base}/data.json`);
+  const dataResponse=await page.request.get(`${base}data.json`);
   assert.equal(dataResponse.status(),200);
   assert.equal((await dataResponse.json()).datasets.length,3);
+  for(const file of ['terms.html','privacy.html']) {
+    const notice=await page.request.get(`${base}${file}`);
+    assert.equal(notice.status(),200);
+    assert.ok((await notice.text()).includes('GitHub 账号 Jihkk'));
+    assert.equal(await page.locator(`footer a[href="${file}"]`).count(),1);
+  }
   await page.locator('.source-details summary').click();
   if(forecastCount) {
     await page.locator('.forecast-details summary').click();
@@ -77,6 +84,15 @@ try {
   await offline.goto(base);
   assert.equal(await offline.locator('.story').count(),content.articles.length);
   assert.equal(await offline.locator('.forecast-row').count(),forecastCount);
+  for(const file of ['style.css','client.js','logo.svg']) assert.equal((await page.request.get(`${base}${file}`)).status(),200);
+  const noticePage=await browser.newPage({viewport:{width:375,height:844}});
+  for(const file of ['terms.html','privacy.html']) {
+    await noticePage.goto(`${base}${file}`);
+    assert.equal(await noticePage.locator('h1').count(),1);
+    assert.ok(await noticePage.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'public notice must fit a mobile screen');
+    await noticePage.locator('a.brand').click();
+    assert.equal(noticePage.url(),base,'notice home link must retain the Pages repository prefix');
+  }
   console.log('Browser checks passed: ordering, combined filters, reset, empty states, provenance, mobile layout, no-JS reading');
 } finally {
   await browser?.close();

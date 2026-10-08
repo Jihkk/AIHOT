@@ -14,7 +14,9 @@ npm run water:build
 npm run water:preview
 ```
 
-打开 `http://127.0.0.1:4173`。构建产物在 `.data/water-watch/`，不提交临时文件。每日核查安排为马来西亚时间 08:30，由当前 Codex 对话的自动任务执行；主机、Codex 应用与网络需要保持可用。公共托管尚未启用，网页不是实时预警系统。
+打开 `http://127.0.0.1:4173`。构建产物在 `.data/water-watch/`，不提交临时文件。每日核查安排为马来西亚时间 08:30，由当前 Codex 对话的自动任务执行；主机、Codex 应用与网络需要保持可用。网页不是实时预警系统。
+
+GitHub Pages 发布流程已经配置，站主确认静态版使用规则和隐私说明后才启用：将仓库 Pages 的 source 设为 GitHub Actions，并把仓库变量 `WATER_WATCH_PAGES_APPROVED` 设为 `true`，再运行 `Malaysia Water Watch` 工作流。此变量未启用时仍只生成预览，不公开部署；PR 不会发布。发布仅上传 `.data/water-watch/` 中的静态网页和公开数据，不上传采集基线、凭据或框架后台。main 后续内容更新通过验证后自动发布。静态版说明由 `modules/water-watch/public-notices.mjs` 生成 `terms.html` 和 `privacy.html`；可选数据库版的 `site/pages/` 模板不是本次发布内容。
 
 采集器登记 18 个官方来源，支持同一机构多个栏目页面，检测新增链接与公告表格修改，并保存各来源的成功、读取不完整或失败状态。NADMA 同时检查声明、新闻、活动及后续列表页；NAHRIM 同时检查新闻归档和首页。三个免费政府数据接口提供吉隆坡天气预报、气象预警记录与流域水污染年度数据；数据页说明范围、原始日期和最后成功读取时间。部分栏目失败时保留旧候选与旧数据，候选链接经过 Codex 阅读原文后才进入中文资讯；登记来源数量不等于全站完整覆盖。
 
