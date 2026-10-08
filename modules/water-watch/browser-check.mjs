@@ -35,6 +35,7 @@ try {
   assert.equal(await page.locator('.forecast-row').count(),forecastCount,'district and territory forecasts must not duplicate days');
   assert.equal(await page.locator('#official').count(),1,'official links have one home');
   assert.ok(!await page.locator('.source-details').evaluate(el=>el.open),'collection diagnostics start collapsed');
+  assert.equal(await page.locator('.directory-source:visible').count(),content.sources.length,'every source is visible without opening collection diagnostics');
   assert.ok(!await page.locator('.data-panel').evaluate(el=>el.open),'raw data starts collapsed');
   if(content.articles.length) assert.ok((await page.locator('.story h3').first().boundingBox()).y<650,'news is visible in the first desktop screen');
   await page.screenshot({path:fileURLToPath(new URL('../../.data/water-watch-desktop-viewport.png',import.meta.url))});
