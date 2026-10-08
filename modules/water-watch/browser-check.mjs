@@ -6,10 +6,12 @@ import { fileURLToPath } from 'node:url';
 import { loadContent, sortedArticles } from './publication.mjs';
 import { loadMonitoring } from './monitoring.mjs';
 import { forecastRows } from './reader-panels.mjs';
+import {loadHydro} from './hydro.mjs';
 
 const content=await loadContent();
 const monitoring=await loadMonitoring(content);
 const forecastCount=forecastRows(monitoring.data.datasets.find(d=>d.id==='weather-kl')).length;
+const hydro=await loadHydro();
 const projectCount=content.articles.filter(a=>a.category==='projects').length;
 const pahangCount=content.articles.filter(a=>a.category==='projects' && [a.title,a.summary,a.region,...a.tags].join(' ').toLowerCase().includes('pahang')).length;
 
@@ -93,7 +95,43 @@ try {
     await noticePage.locator('a.brand').click();
     assert.equal(noticePage.url(),base,'notice home link must retain the Pages repository prefix');
   }
-  console.log('Browser checks passed: ordering, combined filters, reset, empty states, provenance, mobile layout, no-JS reading');
+  await page.goto(`${base}hydro.html`);
+  assert.equal(await page.locator('[data-station]').count(),hydro.stations.length);
+  await page.locator('#hydro-region').selectOption('WLH');
+  await page.locator('#hydro-type').selectOption('level');
+  assert.equal(await page.locator('[data-station]:visible').count(),hydro.stations.filter(s=>s.region==='WLH' && s.type==='level').length);
+  const levelStation=hydro.stations.find(s=>s.region==='WLH' && s.type==='level');
+  await page.locator(`[data-station="${levelStation.key}"] .station-open`).click();
+  await page.waitForFunction(name=>document.querySelector('#hydro-detail h2')?.textContent===name,levelStation.name);
+  assert.match(await page.locator('#hydro-detail').innerText(),/水位不是流量/);
+  assert.equal(await page.locator('#hydro-detail a').getAttribute('href'),levelStation.url);
+  const downloadEvent=page.waitForEvent('download');
+  await page.locator('#hydro-csv').click();
+  const download=await downloadEvent;
+  assert.equal(download.suggestedFilename(),'malaysia-water-watch-observations.csv');
+  const stream=await download.createReadStream();
+  let csv='';for await(const chunk of stream)csv+=chunk.toString('utf8');
+  assert.ok(csv.includes('observed_at_UTC+8'));assert.ok(csv.includes(levelStation.name));
+  assert.equal(csv.split('\r\n').length,hydro.stations.filter(s=>s.region==='WLH' && s.type==='level').length+1);
+  await page.locator('#hydro-query').fill('not-a-real-station-887798');
+  assert.ok(await page.locator('#hydro-empty').isVisible());
+  await page.locator('#hydro-reset').click();
+  assert.equal(await page.locator('[data-station]:visible').count(),hydro.stations.length);
+  await page.setViewportSize({width:1440,height:1000});
+  await page.evaluate(()=>scrollTo({top:0,behavior:'instant'}));
+  await page.screenshot({path:fileURLToPath(new URL('../../.data/water-watch-hydro-desktop.png',import.meta.url))});
+  for(const width of [375,390,768,1024,1440]) {
+    await page.setViewportSize({width,height:844});
+    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`hydrology ${width}px must not overflow`);
+  }
+  await page.setViewportSize({width:390,height:844});
+  await page.evaluate(()=>scrollTo({top:0,behavior:'instant'}));
+  await page.screenshot({path:fileURLToPath(new URL('../../.data/water-watch-hydro-mobile.png',import.meta.url))});
+  await offline.goto(`${base}hydro.html`);
+  assert.equal(await offline.locator('[data-station]').count(),hydro.stations.length);
+  for(const file of ['hydro.json','hydro-client.js','hydro-analysis.js'])assert.equal((await page.request.get(`${base}${file}`)).status(),200);
+  assert.deepEqual(errors,[]);
+  console.log('Browser checks passed: news, hydro filters/charts/CSV, Pages prefix, mobile layout and no-JS reading');
 } finally {
   await browser?.close();
   const exited=once(server,'exit');

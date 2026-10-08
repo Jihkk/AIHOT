@@ -7,6 +7,7 @@ import { officialUrl } from './official-url.mjs';
 import { loadMonitoring } from './monitoring.mjs';
 import { renderLayout } from './page-layout.mjs';
 import { renderNotice } from './public-notices.mjs';
+import {loadHydro,renderHydroPage} from './hydro.mjs';
 export { officialUrl } from './official-url.mjs';
 
 const directory = fileURLToPath(new URL('.', import.meta.url));
@@ -95,6 +96,9 @@ export async function build() {
   await writeFile(resolve(outputDirectory, 'index.html'), renderPage(content, monitoring));
   await writeFile(resolve(outputDirectory, 'terms.html'), renderNotice('terms'));
   await writeFile(resolve(outputDirectory, 'privacy.html'), renderNotice('privacy'));
+  const hydro=await loadHydro();
+  await writeFile(resolve(outputDirectory,'hydro.html'),renderHydroPage(hydro));
+  for(const file of ['hydro.json','hydro-client.js','hydro-analysis.js'])await copyFile(resolve(directory,file),resolve(outputDirectory,file));
   await writeFile(resolve(outputDirectory, '.nojekyll'), '');
   await copyFile(resolve(directory,'style.css'), resolve(outputDirectory,'style.css'));
   await copyFile(resolve(directory,'client.js'), resolve(outputDirectory,'client.js'));

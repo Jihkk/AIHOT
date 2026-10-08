@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "retentionDays": 7,
+  "regions": [
+    { "id": "SEL", "name": "雪兰莪" },
+    { "id": "WLH", "name": "吉隆坡" }
+  ]
+}

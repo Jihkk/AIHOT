@@ -1,0 +1,67 @@
+name: Water observations
+on:
+  schedule:
+    - cron: '13,43 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  # Share the deployment queue with editorial releases so older builds cannot overwrite newer ones.
+  group: water-watch-refs/heads/main
+  cancel-in-progress: false
+jobs:
+  collect:
+    if: github.ref == 'refs/heads/main' && vars.WATER_WATCH_PAGES_APPROVED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - run: npm ci --no-audit --no-fund
+      - name: Collect public station observations
+        id: collection
+        continue-on-error: true
+        run: npm run water:hydro
+      - run: npm run water:check && npm run water:test && npm run water:build
+      - name: Save observation history
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add modules/water-watch/hydro.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update public rainfall and river-level observations'
+            git push origin HEAD:main
+          fi
+      # GITHUB_TOKEN pushes do not trigger another push workflow; publish this verified build directly.
+      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: .data/water-watch/
+      - name: Record acquisition outcome
+        id: outcome
+        run: echo "result=${{ steps.collection.outcome }}" >> "$GITHUB_OUTPUT"
+    outputs:
+      collection: ${{ steps.outcome.outputs.result }}
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+      - uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+        id: deployment
+      - name: Flag complete acquisition failure after publishing retained data and error status
+        if: needs.collect.outputs.collection == 'failure'
+        run: exit 1

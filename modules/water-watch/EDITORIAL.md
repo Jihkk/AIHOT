@@ -18,3 +18,5 @@
 GitHub Pages 发布流程已配置，由仓库变量 `WATER_WATCH_PAGES_APPROVED=true` 控制。首次启用前，须由站主确认 `public-notices.mjs` 生成的静态版使用规则和隐私说明（上游 `AGENTS.md` 的要求），然后配置 Pages 为 GitHub Actions 并运行工作流；后续 main 内容更新通过验证后自动发布，不重复请求同一批准。未确认时只生成预览。当前静态模块与可选数据库版为两个发布模式；静态版只读取本模块的公开编辑稿，不读取数据库私有素材，也不宣称启用了原框架的 RSS/API/MCP。可选数据库版的 `site/pages/` 模板不包含在本次静态发布中。
 
 自动评分保留上游五轴结构和权重，`industry/selection.ts` 数值未调。水利行业人工标注校准完成前，不用自动阈值代替编辑核查。
+
+降雨与水位观测独立于新闻编辑，由 `Water observations` GitHub Actions 每半小时在云端采集并发布。`hydro.json` 是实际观测及近七天历史，不能人工编造、清空或改写观测日期；每日编辑先同步 main，保留自动任务已提交的历史。原新闻采集与中文选稿继续使用 Codex 订阅，不调用付费模型 API。监测页范围和计算方法见 README；每日新闻任务不需要重复触发高频观测采集。

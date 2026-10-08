@@ -4,7 +4,7 @@ import { resolve } from 'node:path';
 import { build, outputDirectory } from './publication.mjs';
 
 await build();
-const files = {'/':'index.html','/index.html':'index.html','/terms.html':'terms.html','/privacy.html':'privacy.html','/style.css':'style.css','/client.js':'client.js','/logo.svg':'logo.svg','/content.json':'content.json','/collection.json':'collection.json','/data.json':'data.json'};
+const files = {'/':'index.html','/index.html':'index.html','/terms.html':'terms.html','/privacy.html':'privacy.html','/style.css':'style.css','/client.js':'client.js','/logo.svg':'logo.svg','/content.json':'content.json','/collection.json':'collection.json','/data.json':'data.json','/hydro.html':'hydro.html','/hydro.json':'hydro.json','/hydro-client.js':'hydro-client.js','/hydro-analysis.js':'hydro-analysis.js'};
 const types = {html:'text/html',css:'text/css',js:'text/javascript',svg:'image/svg+xml',json:'application/json'};
 const prefix=(process.env.WATER_WATCH_BASE_PATH ?? '').replace(/\/$/,'');
 const server = createServer(async (request, response) => {
