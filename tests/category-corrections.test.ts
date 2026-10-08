@@ -20,7 +20,7 @@ test("the water sector has no misleading new-model release counter", () => {
   const rows = [base, { ...base, tags: ["论文/研究"] }, { ...base, tags: ["工程项目"] },
     { ...base, category: "projects" }, { ...base, authority: 3 },
     { ...base, previous: { key: "2026-09-30", title: "已报过的发布" } }, { ...base, tags: [] }];
-  assert.equal(dailyMetrics(rows).modelsReleased, 0);
+  assert.equal(dailyMetrics(rows).modelsReleased, undefined);
   assert.equal(dailyMetrics(rows).totalEvents, 7);
 });
 
