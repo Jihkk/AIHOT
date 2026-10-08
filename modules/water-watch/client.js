@@ -22,3 +22,12 @@ document.querySelector('#reset').addEventListener('click', () => {
   update();
   query.focus();
 });
+
+// A static preview can stay open for days; expose age without claiming a fresh forecast.
+for (const label of document.querySelectorAll('[data-snapshot-at]')) {
+  const fetched = Date.parse(label.dataset.snapshotAt);
+  if (Number.isFinite(fetched) && Date.now() - fetched > 24 * 60 * 60 * 1000) {
+    label.textContent += ' · 快照已超过 24 小时，请核对官网';
+    label.classList.add('data-caution');
+  }
+}

@@ -4,12 +4,17 @@ import { once } from 'node:events';
 import { chromium } from '@playwright/test';
 import { fileURLToPath } from 'node:url';
 import { loadContent, sortedArticles } from './publication.mjs';
+import { loadMonitoring } from './monitoring.mjs';
+import { forecastRows } from './reader-panels.mjs';
 
 const content=await loadContent();
+const monitoring=await loadMonitoring(content);
+const forecastCount=forecastRows(monitoring.data.datasets.find(d=>d.id==='weather-kl')).length;
 const projectCount=content.articles.filter(a=>a.category==='projects').length;
 const pahangCount=content.articles.filter(a=>a.category==='projects' && [a.title,a.summary,a.region,...a.tags].join(' ').toLowerCase().includes('pahang')).length;
 
-const server = spawn(process.execPath,[fileURLToPath(new URL('./preview.mjs',import.meta.url))],{stdio:['ignore','pipe','inherit']});
+const base='http://127.0.0.1:4174';
+const server = spawn(process.execPath,[fileURLToPath(new URL('./preview.mjs',import.meta.url))],{stdio:['ignore','pipe','inherit'],env:{...process.env,WATER_WATCH_PORT:'4174'}});
 let buffer='';
 const ready=new Promise((resolve,reject)=>{
   const timeout=setTimeout(()=>reject(new Error('Preview did not start')),30000);
@@ -24,9 +29,15 @@ try {
   const page=await browser.newPage({viewport:{width:1440,height:1100}});
   const errors=[];
   page.on('pageerror',error=>errors.push(error.message));
-  await page.goto('http://127.0.0.1:4173');
+  await page.goto(base);
   assert.equal(await page.locator('.story:visible').count(),content.articles.length);
   if(content.articles.length) assert.equal(await page.locator('.story h3').first().innerText(),`${sortedArticles(content)[0].title} ↗`);
+  assert.equal(await page.locator('.forecast-row').count(),forecastCount,'district and territory forecasts must not duplicate days');
+  assert.equal(await page.locator('#official').count(),1,'official links have one home');
+  assert.ok(!await page.locator('.source-details').evaluate(el=>el.open),'collection diagnostics start collapsed');
+  assert.ok(!await page.locator('.data-panel').evaluate(el=>el.open),'raw data starts collapsed');
+  if(content.articles.length) assert.ok((await page.locator('.story h3').first().boundingBox()).y<650,'news is visible in the first desktop screen');
+  await page.screenshot({path:fileURLToPath(new URL('../../.data/water-watch-desktop-viewport.png',import.meta.url))});
   await page.screenshot({path:fileURLToPath(new URL('../../.data/water-watch-desktop.png',import.meta.url)),fullPage:true});
   await page.locator('#category').selectOption('projects');
   assert.equal(await page.locator('.story:visible').count(),projectCount);
@@ -45,16 +56,26 @@ try {
   await page.locator('.source-details summary').click();
   assert.equal(await page.locator('.source-card').count(),content.sources.length);
   assert.equal(await page.locator('.dataset').count(),3);
-  const dataResponse=await page.request.get('http://127.0.0.1:4173/data.json');
+  const dataResponse=await page.request.get(`${base}/data.json`);
   assert.equal(dataResponse.status(),200);
   assert.equal((await dataResponse.json()).datasets.length,3);
+  await page.locator('.source-details summary').click();
+  if(forecastCount) {
+    await page.locator('.forecast-details summary').click();
+    assert.equal(await page.locator('.period-day:visible').count(),forecastCount);
+    await page.locator('.forecast-details summary').click();
+  }
+  for(const width of [375,390,768,1024,1440]) {
+    await page.setViewportSize({width,height:844});
+    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth <= innerWidth),`${width}px layout must not overflow`);
+  }
   await page.setViewportSize({width:390,height:844});
-  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth <= innerWidth),'mobile layout must not overflow');
   await page.screenshot({path:fileURLToPath(new URL('../../.data/water-watch-mobile.png',import.meta.url)),fullPage:true});
   assert.deepEqual(errors,[]);
   const offline=await browser.newPage({javaScriptEnabled:false});
-  await offline.goto('http://127.0.0.1:4173');
+  await offline.goto(base);
   assert.equal(await offline.locator('.story').count(),content.articles.length);
+  assert.equal(await offline.locator('.forecast-row').count(),forecastCount);
   console.log('Browser checks passed: ordering, combined filters, reset, empty states, provenance, mobile layout, no-JS reading');
 } finally {
   await browser?.close();

@@ -15,4 +15,5 @@ const server = createServer(async (request, response) => {
     response.end(content);
   } catch { response.writeHead(500); response.end('Preview file unavailable'); }
 });
-server.listen(4173, '127.0.0.1', () => console.log('Preview: http://127.0.0.1:4173'));
+const port=Number(process.env.WATER_WATCH_PORT ?? 4173);
+server.listen(port, '127.0.0.1', () => console.log(`Preview: http://127.0.0.1:${port}`));

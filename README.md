@@ -18,6 +18,8 @@ npm run water:preview
 
 采集器登记 18 个官方来源，检测新增链接与公告表格修改，并保存各来源的成功、读取不完整或失败状态。三个免费政府数据接口提供吉隆坡天气预报、气象预警记录与流域水污染年度数据；数据页说明范围、原始日期和最后成功读取时间。采集失败会保留旧快照，候选链接经过 Codex 阅读原文后才进入中文资讯。
 
+页面采用行业资讯站布局：最新资讯为主栏，吉隆坡七天天气、分时预报、气象公告和年度水质位于侧栏。官方入口统一在页末；采集状态与原始数据默认折叠。天气区按一个地区展示，不混合地区与联邦直辖区的同日记录；水质明确注明年度与单项指标，不能视为实时综合 WQI。
+
 采集设置在 `modules/water-watch/collection-config.json`；可复核基线在 `collection-state.json`，公开状态在 `collection.json`，政府数据在 `data.json`。待编辑候选清单写入忽略提交的 `.data/water-watch-intake.json`。无需付费模型 API，不将 Codex 凭据放入 GitHub。
 
 以后直接对 Codex 说：**“更新 Malaysia Water Watch，核查官方最新资讯，整理中文摘要并提交 GitHub。”** 更新步骤见 [编辑流程](modules/water-watch/EDITORIAL.md)，内容在 [content.json](modules/water-watch/content.json)。
