@@ -39,7 +39,7 @@ async function report(source: string, opts: { selected: boolean; hoursAgo: numbe
   });
   await sql`UPDATE articles SET discovered_at = ${at}, timeline_at = ${at} WHERE id = ${articleId}`;
   await sql`INSERT INTO analyses (article_id, input_revision, origin, relevance, category, title_zh, summary_zh, score, selected, subjects, tags)
-            VALUES (${articleId}, 1, 'rule', 'pass', 'ai-models', ${opts.title ?? `标题${n}-${T}`}, ${`摘要${n}-${T}`}, 80, ${opts.selected}, ${opts.subjects ?? []}, ${[`t-${T}`]})`;
+            VALUES (${articleId}, 1, 'rule', 'pass', 'flood-alerts', ${opts.title ?? `标题${n}-${T}`}, ${`摘要${n}-${T}`}, 80, ${opts.selected}, ${opts.subjects ?? []}, ${[`t-${T}`]})`;
   return articleId;
 }
 
@@ -66,7 +66,7 @@ test("a folded card's other sources are those of the fact its representative rep
 });
 
 test("a query that names a company also finds the articles about it", async () => {
-  const about = await report(MEDIA, { selected: false, hoursAgo: 3, subjects: ["anthropic"], title: `Sonnet 上线 Conductor ${T}` });
+  const about = await report(MEDIA, { selected: false, hoursAgo: 3, subjects: ["metmalaysia"], title: `Sonnet 上线 Conductor ${T}` });
   const mention = await report(MEDIA, { selected: false, hoursAgo: 4, title: `claude 被一篇盘点顺带提到 ${T}` });
   const other = await report(MEDIA, { selected: false, hoursAgo: 5, title: `无关的新闻 ${T}` });
   for (const id of [about, mention, other]) await publishArticle(id);

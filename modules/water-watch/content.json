@@ -1,0 +1,244 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-08",
+  "sources": [
+    {
+      "id": "jps",
+      "name": "JPS · 灌溉与排水局",
+      "url": "https://www.water.gov.my/",
+      "hosts": [
+        "water.gov.my"
+      ],
+      "description": "防洪、河道、排水与官方技术资料"
+    },
+    {
+      "id": "metmalaysia",
+      "name": "METMalaysia · 气象局",
+      "url": "https://www.met.gov.my/",
+      "hosts": [
+        "met.gov.my"
+      ],
+      "description": "季风、天气与气候展望"
+    },
+    {
+      "id": "nadma",
+      "name": "NADMA · 灾难管理机构",
+      "url": "https://www.nadma.gov.my/bm/media-2/kenyataan-media",
+      "hosts": [
+        "nadma.gov.my"
+      ],
+      "description": "灾难准备、协调与官方声明"
+    },
+    {
+      "id": "nahrim",
+      "name": "NAHRIM · 国家水研究院",
+      "url": "https://www.nahrim.gov.my/",
+      "hosts": [
+        "nahrim.gov.my"
+      ],
+      "description": "水研究、技术指南和流域管理"
+    },
+    {
+      "id": "petra",
+      "name": "PETRA",
+      "url": "https://www.petra.gov.my/",
+      "hosts": [
+        "petra.gov.my"
+      ],
+      "description": "能源转型与水转型政策"
+    },
+    {
+      "id": "span",
+      "name": "SPAN",
+      "url": "https://www.span.gov.my/",
+      "hosts": [
+        "span.gov.my"
+      ],
+      "description": "供水与污水服务监管"
+    },
+    {
+      "id": "air-selangor",
+      "name": "Air Selangor",
+      "url": "https://www.airselangor.com/",
+      "hosts": [
+        "airselangor.com"
+      ],
+      "description": "雪兰莪及相关服务区供水信息"
+    },
+    {
+      "id": "infobanjir",
+      "name": "Public Infobanjir",
+      "url": "https://publicinfobanjir.water.gov.my/",
+      "hosts": [
+        "water.gov.my"
+      ],
+      "description": "JPS 实时降雨、水位与洪水信息；请在官网核对时刻",
+      "portal": true
+    },
+    {
+      "id": "weather",
+      "name": "METMalaysia 天气与预警",
+      "url": "https://www.met.gov.my/",
+      "hosts": [
+        "met.gov.my"
+      ],
+      "description": "官方气象预警与天气资料；最新有效期以原文为准",
+      "portal": true
+    },
+    {
+      "id": "spaqs",
+      "name": "JPS SPAQS 招标",
+      "url": "https://spaqs.water.gov.my/tunas/senarai-iklan-telah-buka?mid=686",
+      "hosts": [
+        "water.gov.my"
+      ],
+      "description": "官方采购公告；动态列表请打开官网查看",
+      "portal": true
+    }
+  ],
+  "articles": [
+    {
+      "id": "nahrim-floating-solar-guideline-2026",
+      "source": "nahrim",
+      "category": "policy",
+      "title": "NAHRIM 发布水库与湖泊浮动太阳能安装指南",
+      "summary": "NAHRIM 提供 2026 年浮动太阳能指南，覆盖选址、工程设计、环境与社会、安全、运维及退役，供水务运营者、开发商和顾问参考。",
+      "url": "https://www.nahrim.gov.my/garis-panduan-pemasangan-panel-solar-terapung-di-atas-takungan-air-dan-tasik-di-malaysia-2026/",
+      "publishedAt": "2026-10-02",
+      "eventDate": null,
+      "region": "Malaysia",
+      "stage": "指南发布",
+      "tags": [
+        "水坝",
+        "供水"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "evidence": "官方正文说明指南已编制，并列出适用对象及覆盖范围；下载入口位于正文末尾。没有把指南写成已生效法规。",
+      "dateEvidence": "NAHRIM 官方页面的最新消息列表将此条标为 02/10/2026；正文未另列生效日期。"
+    },
+    {
+      "id": "nadma-water-security-preparedness-2026",
+      "source": "nadma",
+      "category": "water-resources",
+      "title": "NADMA 公布干热天气下的供水与灾难应急准备说明",
+      "summary": "国家灾难管理高层委员会声明要求提前评估地下水和管井作为替代水源，并按天气、数据和风险判断安排准备行动；人工增雨仍取决于大气条件。",
+      "url": "https://www.nadma.gov.my/bm/media-2/kenyataan-media/7188-2026-09-18-03-31-31",
+      "publishedAt": "2026-09-18",
+      "eventDate": "2026-09-16",
+      "region": "Malaysia",
+      "stage": "应急准备要求",
+      "tags": [
+        "干旱",
+        "供水"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "evidence": "官方页面的下载 PDF：第 1 页谈地下水、管井与供水压力；第 3 页署名日期为 16 September 2026。此处是声明要求，不是供水短缺已发生的结论。",
+      "dateEvidence": "网页发布日为 18 September 2026；附件声明署名为 16 September 2026，两个日期分别保留。"
+    },
+    {
+      "id": "metmalaysia-hot-dry-readiness-june-2026",
+      "source": "metmalaysia",
+      "category": "hydrology",
+      "title": "METMalaysia 六月声明说明干热天气和供水风险准备",
+      "summary": "METMalaysia 在 6 月声明中说明监测 El Niño、加强天气预警，并提醒降雨减少可能带来供水、火灾与烟霾风险。此条为历史展望，不能代替当前天气预报。",
+      "url": "https://www.met.gov.my/assets/content/siaran_media/default/14%20Jun%202026%20-%20Kenyataan%20Media%20MET%20Malaysia%20Tingkatkan%20Kesiapsiagaan%20Hadapi%20Risiko%20Cuaca%20Panas%20dan%20Kering.pdf",
+      "publishedAt": "2026-06-14",
+      "eventDate": null,
+      "region": "Malaysia",
+      "stage": "历史气候展望",
+      "tags": [
+        "季风",
+        "干旱"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "evidence": "官方 PDF 第 1 页列明声明日期、El Niño 监测、降雨与供水风险；预报时段为当时展望，未据此声称十月实况。",
+      "dateEvidence": "PDF 首页日期为 14 JUN 2026。"
+    },
+    {
+      "id": "nahrim-iwrm-meeting-june-2026",
+      "source": "nahrim",
+      "category": "water-resources",
+      "title": "PETRA 的 IWRM 会议讨论流域管理、洪旱和城市排水",
+      "summary": "NAHRIM 记录 6 月 11–12 日 IWRM 会议，议题包括 AIR2040、洪旱与气候变化、IRBM 及 PISMA；这是部门交流资料，不是新标准生效公告。",
+      "url": "https://www.nahrim.gov.my/mesyuarat-pemantapan-pengurusan-sumber-air-bersepadu-iwrm-tahun-2026-11-sehingga-12-jun-2026/",
+      "publishedAt": null,
+      "eventDate": "2026-06-11",
+      "region": "Malaysia",
+      "stage": "技术交流",
+      "tags": [
+        "IWRM",
+        "IRBM",
+        "城市排水"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "evidence": "官方标题列出 11–12 June 2026，正文第 3 段列出 AIR2040、洪旱、IRBM 和 PISMA 等议题。",
+      "dateEvidence": "标题明确会议为 11–12 June 2026；eventDate 记录首日，网页发布日期未单独确认。"
+    },
+    {
+      "id": "jps-kl-dam-preparedness-april-2026",
+      "source": "jps",
+      "category": "projects",
+      "title": "JPS 吉隆坡说明水坝防洪准备情况",
+      "summary": "JPS WP Kuala Lumpur 记录 4 月 14 日在 Batu 水坝运营办公室举行的简报，讨论水坝应对洪水的准备情况，涉及多家灾难管理及技术部门。",
+      "url": "https://wpkl.water.gov.my/en/resources/news/taklimat-kepada-menteri-wilayah-persekutuan-mengenai-status-kesiapsiagaan-empangan-bagi-menghadapi-banjir-di-wilayah-persekutuan-kuala-lumpur",
+      "publishedAt": null,
+      "eventDate": "2026-04-14",
+      "region": "Kuala Lumpur",
+      "stage": "准备情况简报",
+      "tags": [
+        "水坝",
+        "洪水"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "evidence": "官方正文开头明确地点、日期及会议讨论水坝防洪准备；未声称工程完成或消除洪水风险。",
+      "dateEvidence": "正文首行是 14 April 2026，与会议地点并列；作为活动日期保留，未当作网页发布日期。"
+    },
+    {
+      "id": "nahrim-pahang-neds-proposal-april-2026",
+      "source": "nahrim",
+      "category": "projects",
+      "title": "NAHRIM 讨论彭亨 NEDS 清淤系统建设建议",
+      "summary": "NAHRIM 在 4 月 9 日协调会议提出 Hulu Jelai 水坝与 Pekan 取水口两处 NEDS 建议选址，讨论基于自然的清淤和水资源方案；资料属于建议阶段。",
+      "url": "https://www.nahrim.gov.my/mesyuarat-penyelarasan-cadangan-sistem-neds-perkukuh-inisiatif-pengurusan-air-lestari-di-pahang/",
+      "publishedAt": null,
+      "eventDate": "2026-04-09",
+      "region": "Pahang",
+      "stage": "建议与研究",
+      "tags": [
+        "河道",
+        "水坝",
+        "供水"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "evidence": "官方正文说明会议日期，并在第 3 段列出两处建议地点；没有将建议写成授标、建成或经独立验证的效益。",
+      "dateEvidence": "官方标题及正文写明会议为 9 April 2026；网页发布日期未单独确认。"
+    },
+    {
+      "id": "nahrim-integrated-storage-jpan-april-2026",
+      "source": "nahrim",
+      "category": "water-resources",
+      "title": "NAHRIM 向 JPAN 提交综合蓄水与浮动太阳能指南议题",
+      "summary": "NAHRIM 在 JPAN 会议提交综合蓄水研究与浮动太阳能指南两份考虑文件，涉及洪水韧性与水资源安全。提交议题并不表示文件已获批准。",
+      "url": "https://www.nahrim.gov.my/nahrim-perkukuh-ketahanan-banjir-dan-keterjaminan-air-melalui-pembentangan-di-jpan-1-april-2026/",
+      "publishedAt": null,
+      "eventDate": "2026-04-01",
+      "region": "Malaysia",
+      "stage": "提交讨论",
+      "tags": [
+        "水坝",
+        "洪水",
+        "供水"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "evidence": "官方标题注明 1 April 2026，正文第 2 段说明提交两份考虑文件；没有提供批准结论。",
+      "dateEvidence": "日期来自官方标题的 1 April 2026，作为会议日期保留，未当作网页发布日期。"
+    }
+  ]
+}

@@ -1,3 +1,34 @@
+# Malaysia Water Watch · 马来西亚水利观察
+
+马来西亚水利、防洪、降雨、工程、政策、水资源与招标资讯站。中文摘要，保留英文／马来文官方原文和查阅日期。
+
+## 当前版本：Codex 订阅编辑 + GitHub
+
+无需模型 API Key 或数据库。由 Codex 查阅官方来源、整理摘要，提交已核实的内容；GitHub Actions 验证并生成可下载的网站预览。代码和内容长期保存在此仓库。
+
+```sh
+npm ci
+npm run water:check
+npm run water:build
+npm run water:preview
+```
+
+打开 `http://127.0.0.1:4173`。构建产物在 `.data/water-watch/`，不提交临时文件。没有自动刷新新闻或预警的承诺，也没有启用定时任务或公共托管。
+
+以后直接对 Codex 说：**“更新 Malaysia Water Watch，核查官方最新资讯，整理中文摘要并提交 GitHub。”** 更新步骤见 [编辑流程](modules/water-watch/EDITORIAL.md)，内容在 [content.json](modules/water-watch/content.json)。
+
+公开部署前需选择托管、确认使用规则与隐私说明。当前静态预览没有广告、追踪代码、注册或付费模型请求。实时预警、观测与招标资格以官方原文为准；无收录不等于无风险或无公告。
+
+## 上游框架
+
+Fork 自 [KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT)，遵守原仓库许可。保留后端采集、归组、报告、RSS/API/MCP 架构，便于以后升级。`site/` 和 `industry/` 已改为水利行业。可选数据库版的公开出口仍走原 publication 读取层；静态版只读取明确审阅过的独立内容文件，不读取后台资料或管理接口。
+
+`industry/sources.json` 是 external 信源名录，不会自动抓取；采集、模型与推送安全阀保持关闭。未校准的自动评分不用于静态版选稿，原五轴权重及门槛数值保留，启用前应以人工标注样本校准。
+
+以下为上游框架说明；其中服务器、API 和定时运行步骤仅适用于以后选择的数据库部署模式。
+
+---
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/assets/banner-dark.png">
