@@ -4,7 +4,7 @@ import { test } from 'node:test';
 import { validateContent, renderPage, sortedArticles, matches, officialUrl } from '../publication.mjs';
 
 const fixture = JSON.parse(await readFile(new URL('../content.json', import.meta.url),'utf8'));
-const now = new Date('2026-10-08T12:00:00+08:00');
+const now = new Date(`${fixture.reviewedAt}T12:00:00+08:00`);
 const edited = edit => { const value = structuredClone(fixture); edit(value); return value; };
 
 test('publications require exact official-host links, provenance and honest dates', () => {
@@ -16,7 +16,7 @@ test('publications require exact official-host links, provenance and honest date
     c=>c.articles[0].evidence='',
     c=>c.articles[0].dateEvidence='',
     c=>c.articles[0].publishedAt='2026-02-30',
-    c=>c.articles[0].publishedAt='2026-10-09',
+    c=>c.articles[0].publishedAt='2099-10-09',
     c=>c.articles[0].category='made-up',
     c=>c.articles.push({...c.articles[0]}),
     c=>c.articles.push({...c.articles[0],id:'different-id'}),
@@ -41,16 +41,20 @@ test('titles and source evidence cannot become executable HTML', () => {
   assert.ok(!html.includes('<img src=x'));
   assert.ok(!html.includes('<script>alert'));
   assert.match(html,/发布日未标明/);
-  assert.match(html,/资料核查 2026-10-08/);
+  assert.ok(html.includes(`资料核查 ${fixture.reviewedAt}`));
   assert.match(html,/这不代表没有事件或官方公告/);
 });
 
 test('sorting uses the original publication/event dates and filters intersect', () => {
-  const articles=sortedArticles(fixture);
-  assert.equal(articles[0].id,'nahrim-floating-solar-guideline-2026');
-  assert.equal(articles.at(-1).eventDate,'2026-04-01');
-  assert.equal(fixture.articles.filter(a=>matches(a,{query:'pahang',source:'nahrim',category:'projects'})).length,1);
-  assert.equal(fixture.articles.filter(a=>matches(a,{query:'pahang',source:'jps'})).length,0);
+  const sample={articles:[
+    {...fixture.articles[0],id:'older',publishedAt:'2026-04-01',eventDate:null},
+    {...fixture.articles[0],id:'event',publishedAt:null,eventDate:'2026-05-01'},
+    {...fixture.articles[0],id:'latest',publishedAt:'2026-06-01',eventDate:null},
+  ]};
+  assert.deepEqual(sortedArticles(sample).map(a=>a.id),['latest','event','older']);
+  const article={...fixture.articles[0],region:'Pahang',source:'nahrim',category:'projects'};
+  assert.ok(matches(article,{query:'pahang',source:'nahrim',category:'projects'}));
+  assert.ok(!matches(article,{query:'pahang',source:'jps'}));
   const html=renderPage({...fixture,articles:[]});
   assert.match(html,/<div id="stories"><\/div>/);
   assert.ok(!html.includes('class="empty" hidden'));
