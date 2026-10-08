@@ -21,7 +21,8 @@ export function validateMonitoring(content, config, collection, data) {
     seen.add(row.id);
     officialUrl(row.url,sourceMap.get(row.id).hosts);
     if(row.lastSuccessAt!==null && !instant(row.lastSuccessAt)) throw new Error('Invalid successful collection date');
-    if(row.observedCount!==null && (!Number.isInteger(row.observedCount) || row.observedCount<0 || row.observedCount>100)) throw new Error('Invalid candidate count');
+    if(row.observedCount!==null && (!Number.isInteger(row.observedCount) || row.observedCount<0 || row.observedCount>1000)) throw new Error('Invalid candidate count');
+    if(row.pages) for(const page of row.pages) officialUrl(page.url,sourceMap.get(row.id).hosts);
   }
   const datasetMap=new Map(config.datasets.map(d=>[d.id,d]));
   const ids=new Set();
@@ -54,7 +55,7 @@ export function renderMonitoring(content, monitoring) {
   const sourceCards=content.sources.map(source=>{
     const row=rows.get(source.id);
     const status=row ? labels[row.status] : '尚未检测';
-    const note=row ? row.status==='ok' ? `本次发现 ${row.observedCount} 个候选链接，待核对原文` : row.status==='limited' ? '未识别到候选链接，不代表没有公告' : '本次读取失败，不代表没有公告' : '等待首次核查';
+    const note=row ? row.status==='ok' ? `本次发现 ${row.observedCount} 个候选链接，待核对原文${row.pages?.length>1 ? `；已查 ${row.pages.length} 个栏目页面` : ''}` : row.status==='limited' ? row.observedCount>0 ? `本次发现 ${row.observedCount} 个候选链接，部分栏目未能完整读取；待核对原文` : '未识别到候选链接，不代表没有公告' : '本次读取失败，不代表没有公告' : '等待首次核查';
     return `<div class="source-card"><a href="${escape(row?.url ?? source.url)}" target="_blank" rel="noopener noreferrer"><strong>${escape(source.name)} ↗</strong></a><span class="source-status ${escape(row?.status ?? '')}">${escape(status)}</span><p>${escape(source.description)}</p><small>${escape(note)}</small>${row ? `<small>本次检测 ${escape(time(row.checkedAt))}</small>${row.status!=='ok' ? `<small>上次成功 ${escape(time(row.lastSuccessAt))}</small>` : ''}` : ''}</div>`;
   }).join('');
   const datasets=data.datasets.map(dataset=>`<div class="dataset"><div><a href="${escape(dataset.page)}" target="_blank" rel="noopener noreferrer"><strong>${escape(dataset.name)} ↗</strong></a><span class="source-status ${escape(dataset.status)}">${dataset.status==='ok' ? '读取成功' : '本次读取失败'}</span></div><p>${escape(dataset.scope)}</p><small>保留 ${dataset.records.length} 条记录 · 最近成功采集 ${escape(time(dataset.dataFetchedAt))}</small>${dataset.status==='error' && dataset.records.length ? '<p>本次失败，保留的是上次成功的旧快照。</p>' : ''}</div>`).join('');

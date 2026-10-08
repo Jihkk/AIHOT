@@ -31,6 +31,33 @@ test('plain procurement rows retain their listing provenance and distinct tender
   assert.equal(linkChanges(links,revised).length,1,'a table amendment with the same title is still detected');
 });
 
+test('official bold headlines, cloud seeding and wetland tenders are not missed by topic matching',()=>{
+  const html='<body class="site off-canvas-menu-init"><main><a href="/myibf">𝐋𝐀𝐓𝐈𝐇𝐀𝐍 𝐌𝐲𝐈𝐁𝐅 𝐑𝐀𝐌𝐀𝐋𝐀𝐍 𝐁𝐀𝐍𝐉𝐈𝐑</a><a href="/cloud">OPERASI PEMBENIHAN AWAN DI SELANGOR</a><table><tr><td>JPBD/201/2026</td><td>Kajian Rangkaian Ekologi Taman Negeri Setiu Wetlands</td></tr></table></main><div class="menu"><a href="/nav">Flood news navigation heading</a></div></body>';
+  const links=extractCandidates(html,page,['water.gov.my']);
+  assert.equal(links.length,3);
+  assert.equal(links.find(item=>item.url.endsWith('/myibf')).title,'LATIHAN MyIBF RAMALAN BANJIR');
+  assert.ok(links.some(item=>item.listingOnly && item.title.includes('Setiu Wetlands')));
+});
+
+test('multiple official listings merge and deduplicate candidates while preserving a failed listing baseline',async()=>{
+  const second='https://www.water.gov.my/activities';
+  const cfg={...config,sources:[{...config.sources[0],additionalUrls:[second]}]};
+  const fetchFn=async url=>new Response(url===page ? html : `${html}<a href="/news/river">River basin monitoring study published</a>`,{headers:{'content-type':'text/html'}});
+  const good=await collect(content,cfg,{}, {now:at,fetchFn});
+  assert.equal(good.sources[0].links.length,2);
+  assert.equal(good.sources[0].pages.length,2);
+  assert.equal(good.changed.length,2);
+  const partial=await collect(content,cfg,good,{now:new Date(+at+60000),fetchFn:async url=>url===second ? new Response('Unavailable',{status:503}) : fetchFn(url)});
+  assert.equal(partial.sources[0].status,'limited');
+  assert.equal(partial.sources[0].observedCount,1);
+  assert.equal(partial.sources[0].links.length,2);
+  assert.equal(partial.sources[0].lastSuccessAt,good.checkedAt);
+  assert.deepEqual(partial.changed,[]);
+  assert.match(renderMonitoring(content,{collection:publicCollection(partial),data:publicData(partial)}),/部分栏目未能完整读取/);
+  const unsafe={...cfg,sources:[{...cfg.sources[0],additionalUrls:['https://evil.example/news']}]};
+  await assert.rejects(collect(content,unsafe,{}, {fetchFn}),/HTTPS link/);
+});
+
 test('fetch validates each redirect before following it and refuses oversized bodies and denied responses',async()=>{
   let calls=0;
   await assert.rejects(readPublic(page,['water.gov.my'],async()=>{calls++;return new Response(null,{status:302,headers:{location:'https://evil.example/'}});}),/HTTPS link/);

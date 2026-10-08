@@ -3,8 +3,9 @@ import { load } from 'cheerio';
 import { officialUrl } from './official-url.mjs';
 
 const digest = value => createHash('sha256').update(JSON.stringify(value)).digest('hex');
-const normalize = value => value.replace(/\s+/g, ' ').trim();
-const topic = /\b(?:water|flood|banjir|hujan|empangan|sungai|river|drainage|saliran|tender|quotation|hydrolog\w*|monsoon|monsun|iwrm|irbm|rtb|eia|pollut\w*|air)\b|sebut harga|garis panduan|pencemaran|bekalan/i;
+// Official headlines sometimes use mathematical bold Unicode instead of ordinary letters.
+const normalize = value => value.normalize('NFKC').replace(/\s+/g, ' ').trim();
+const topic = /\b(?:water|flood|banjir|hujan|empangan|sungai|river|drainage|saliran|tender|quotation|hydrolog\w*|monsoon|monsun|iwrm|irbm|rtb|eia|pollut\w*|air|myibf|sdcc|wetlands?|tadahan|lembangan)\b|sebut harga|garis panduan|pencemaran|bekalan|pembenihan awan|sponge city/i;
 const navigation = /^(?:home|utama|read (?:all|more)|view (?:all|more)|download|muat turun|tender|news|berita|kenyataan media|press release|contact us|about us|public infobanjir|privacy policy|water resources|tender notices)$/i;
 
 export function extractCandidates(html, pageUrl, hosts) {
@@ -13,7 +14,8 @@ export function extractCandidates(html, pageUrl, hosts) {
   const found = new Map();
   $('a[href]').each((_index, element) => {
     const anchor = $(element);
-    if (anchor.closest('th, [class*="menu"], [id*="menu"], [class*="navbar"]').length) return;
+    // A page-wide body class such as off-canvas-menu-init is not a navigation region.
+    if (anchor.closest('th, [class*="menu"], [id*="menu"], [class*="navbar"]').not('body,html').length) return;
     const title = normalize(navigation.test(normalize(anchor.text())) && anchor.attr('title') ? anchor.attr('title') : anchor.text());
     if (title.length < 18 || title.length > 400 || navigation.test(title) || !topic.test(title)) return;
     try {
@@ -105,6 +107,8 @@ export async function collect(content, config, previous = {}, {fetchFn=fetch, no
     if(!source || seen.has(entry.id) || entry.kind!=='html') throw new Error('Invalid collection source');
     seen.add(entry.id);
     officialUrl(entry.url,source.hosts);
+    if(entry.additionalUrls !== undefined && (!Array.isArray(entry.additionalUrls) || entry.additionalUrls.length>9)) throw new Error('Invalid additional listings');
+    for(const url of entry.additionalUrls ?? []) officialUrl(url,source.hosts);
   }
   if(seen.size!==sourceMap.size) throw new Error('Every registered source needs a collection entry');
   const checkedAt=now.toISOString();
@@ -114,15 +118,31 @@ export async function collect(content, config, previous = {}, {fetchFn=fetch, no
     const old=previous.sources?.find(s=>s.id===entry.id);
     const pageUrl=entry.annualPath ? new URL(entry.annualPath.replace('{year}',now.toLocaleDateString('en-CA',{timeZone:'Asia/Kuala_Lumpur'}).slice(0,4)),entry.url).href : entry.url;
     try {
-      const response=await readPublic(pageUrl,source.hosts,fetchFn);
-      if(!/text\/html/i.test(response.type)) throw new Error('Expected an HTML listing');
-      const links=extractCandidates(response.text,response.url,source.hosts);
+      const pages=[];
+      const found=new Map();
+      for(const url of new Set([pageUrl,...entry.additionalUrls ?? []])) {
+        try {
+          const response=await readPublic(url,source.hosts,fetchFn);
+          if(!/text\/html/i.test(response.type)) throw new Error('Expected an HTML listing');
+          const links=extractCandidates(response.text,response.url,source.hosts);
+          for(const item of links) found.set(item.key ?? item.url,item);
+          pages.push({url,status:links.length ? 'ok' : 'limited',observedCount:links.length});
+        } catch(error) {
+          pages.push({url,status:'error',observedCount:null,error:error.message.slice(0,200)});
+        }
+      }
+      if(pages.every(page=>page.status==='error')) throw new Error(pages.map(page=>page.error).join('; '));
+      const complete=pages.every(page=>page.status==='ok');
+      const observedCount=found.size;
+      // A failed secondary listing must not erase candidates discovered on earlier runs.
+      if(!complete) for(const item of old?.links ?? []) if(!found.has(item.key ?? item.url)) found.set(item.key ?? item.url,item);
+      const links=[...found.values()].sort((a,b)=>(a.key ?? a.url).localeCompare(b.key ?? b.url));
       const changes=linkChanges(old?.links,links);
-      const status=links.length ? 'ok' : 'limited';
-      const result={id:entry.id,url:pageUrl,checkedAt,status,lastSuccessAt:links.length ? checkedAt : old?.lastSuccessAt ?? null,links:links.length ? links : old?.links ?? [],observedCount:links.length,fingerprint:links.length ? digest(links) : old?.fingerprint ?? null,changedCount:links.length ? changes.length : 0};
+      const status=complete ? 'ok' : 'limited';
+      const result={id:entry.id,url:pageUrl,checkedAt,status,lastSuccessAt:complete ? checkedAt : old?.lastSuccessAt ?? null,links,pages,observedCount,fingerprint:links.length ? digest(links) : old?.fingerprint ?? null,changedCount:changes.length};
       sources.push(result);
-      if(links.length) changed.push(...changes.map(item=>({...item,source:entry.id})));
-      onProgress(`${entry.id}: ${status}, ${links.length} candidate links`);
+      changed.push(...changes.map(item=>({...item,source:entry.id})));
+      onProgress(`${entry.id}: ${status}, ${observedCount} candidate links from ${pages.length} listing(s)`);
     } catch(error) {
       sources.push({id:entry.id,url:pageUrl,checkedAt,status:'error',lastSuccessAt:old?.lastSuccessAt ?? null,links:old?.links ?? [],observedCount:null,fingerprint:old?.fingerprint ?? null,changedCount:0,error:error.message.slice(0,200)});
       onProgress(`${entry.id}: error (${error.message})`);

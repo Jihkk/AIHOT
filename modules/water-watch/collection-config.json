@@ -14,12 +14,20 @@
     {
       "id": "nadma",
       "url": "https://www.nadma.gov.my/bm/media-2/kenyataan-media",
-      "kind": "html"
+      "kind": "html",
+      "additionalUrls": [
+        "https://www.nadma.gov.my/bm/media-2/program-dan-aktiviti",
+        "https://www.nadma.gov.my/bm/media-2/program-dan-aktiviti?start=5",
+        "https://www.nadma.gov.my/bm/media-2/berita"
+      ]
     },
     {
       "id": "nahrim",
-      "url": "https://www.nahrim.gov.my/",
-      "kind": "html"
+      "url": "https://www.nahrim.gov.my/arkib-berita/",
+      "kind": "html",
+      "additionalUrls": [
+        "https://www.nahrim.gov.my/"
+      ]
     },
     {
       "id": "petra",

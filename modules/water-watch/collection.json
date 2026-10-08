@@ -1,56 +1,111 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-08T04:08:16.202Z",
+  "checkedAt": "2026-10-08T07:37:14.557Z",
   "sources": [
     {
       "id": "jps",
       "url": "https://www.water.gov.my/",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "checkedAt": "2026-10-08T07:37:14.557Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "lastSuccessAt": "2026-10-08T07:37:14.557Z",
+      "pages": [
+        {
+          "url": "https://www.water.gov.my/",
+          "status": "ok",
+          "observedCount": 1
+        }
+      ],
       "observedCount": 1,
       "changedCount": 0
     },
     {
       "id": "metmalaysia",
       "url": "https://www.met.gov.my/",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "checkedAt": "2026-10-08T07:37:14.557Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "lastSuccessAt": "2026-10-08T07:37:14.557Z",
+      "pages": [
+        {
+          "url": "https://www.met.gov.my/",
+          "status": "ok",
+          "observedCount": 1
+        }
+      ],
       "observedCount": 1,
       "changedCount": 0
     },
     {
       "id": "nadma",
       "url": "https://www.nadma.gov.my/bm/media-2/kenyataan-media",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
-      "status": "limited",
-      "lastSuccessAt": null,
-      "observedCount": 0,
+      "checkedAt": "2026-10-08T07:37:14.557Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-08T07:37:14.557Z",
+      "pages": [
+        {
+          "url": "https://www.nadma.gov.my/bm/media-2/kenyataan-media",
+          "status": "ok",
+          "observedCount": 2
+        },
+        {
+          "url": "https://www.nadma.gov.my/bm/media-2/program-dan-aktiviti",
+          "status": "ok",
+          "observedCount": 3
+        },
+        {
+          "url": "https://www.nadma.gov.my/bm/media-2/program-dan-aktiviti?start=5",
+          "status": "ok",
+          "observedCount": 2
+        },
+        {
+          "url": "https://www.nadma.gov.my/bm/media-2/berita",
+          "status": "ok",
+          "observedCount": 1
+        }
+      ],
+      "observedCount": 6,
       "changedCount": 0
     },
     {
       "id": "nahrim",
-      "url": "https://www.nahrim.gov.my/",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "url": "https://www.nahrim.gov.my/arkib-berita/",
+      "checkedAt": "2026-10-08T07:37:14.557Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
-      "observedCount": 10,
+      "lastSuccessAt": "2026-10-08T07:37:14.557Z",
+      "pages": [
+        {
+          "url": "https://www.nahrim.gov.my/arkib-berita/",
+          "status": "ok",
+          "observedCount": 9
+        },
+        {
+          "url": "https://www.nahrim.gov.my/",
+          "status": "ok",
+          "observedCount": 10
+        }
+      ],
+      "observedCount": 12,
       "changedCount": 0
     },
     {
       "id": "petra",
       "url": "https://www.petra.gov.my/",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "checkedAt": "2026-10-08T07:37:14.557Z",
       "status": "limited",
       "lastSuccessAt": null,
+      "pages": [
+        {
+          "url": "https://www.petra.gov.my/",
+          "status": "limited",
+          "observedCount": 0
+        }
+      ],
       "observedCount": 0,
       "changedCount": 0
     },
     {
       "id": "span",
       "url": "https://www.span.gov.my/",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "checkedAt": "2026-10-08T07:37:14.557Z",
       "status": "error",
       "lastSuccessAt": null,
       "observedCount": null,
@@ -60,52 +115,87 @@
     {
       "id": "air-selangor",
       "url": "https://www.airselangor.com/",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "checkedAt": "2026-10-08T07:37:14.557Z",
       "status": "limited",
       "lastSuccessAt": null,
+      "pages": [
+        {
+          "url": "https://www.airselangor.com/",
+          "status": "limited",
+          "observedCount": 0
+        }
+      ],
       "observedCount": 0,
       "changedCount": 0
     },
     {
       "id": "infobanjir",
       "url": "https://publicinfobanjir.water.gov.my/",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "checkedAt": "2026-10-08T07:37:14.557Z",
       "status": "limited",
       "lastSuccessAt": null,
+      "pages": [
+        {
+          "url": "https://publicinfobanjir.water.gov.my/",
+          "status": "limited",
+          "observedCount": 0
+        }
+      ],
       "observedCount": 0,
       "changedCount": 0
     },
     {
       "id": "weather",
       "url": "https://www.met.gov.my/",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "checkedAt": "2026-10-08T07:37:14.557Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "lastSuccessAt": "2026-10-08T07:37:14.557Z",
+      "pages": [
+        {
+          "url": "https://www.met.gov.my/",
+          "status": "ok",
+          "observedCount": 1
+        }
+      ],
       "observedCount": 1,
       "changedCount": 0
     },
     {
       "id": "spaqs",
       "url": "https://spaqs.water.gov.my/tunas/senarai-iklan-telah-buka?mid=686",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "checkedAt": "2026-10-08T07:37:14.557Z",
       "status": "limited",
       "lastSuccessAt": null,
+      "pages": [
+        {
+          "url": "https://spaqs.water.gov.my/tunas/senarai-iklan-telah-buka?mid=686",
+          "status": "limited",
+          "observedCount": 0
+        }
+      ],
       "observedCount": 0,
       "changedCount": 0
     },
     {
       "id": "did-sarawak",
       "url": "https://did.sarawak.gov.my/web/home/index/",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "checkedAt": "2026-10-08T07:37:14.557Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "lastSuccessAt": "2026-10-08T07:37:14.557Z",
+      "pages": [
+        {
+          "url": "https://did.sarawak.gov.my/web/home/index/",
+          "status": "ok",
+          "observedCount": 6
+        }
+      ],
       "observedCount": 6,
       "changedCount": 0
     },
     {
       "id": "jps-selangor",
       "url": "https://water.selangor.gov.my/",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "checkedAt": "2026-10-08T07:37:14.557Z",
       "status": "error",
       "lastSuccessAt": null,
       "observedCount": null,
@@ -115,54 +205,96 @@
     {
       "id": "luas",
       "url": "https://www.luas.gov.my/en/luas/archives/press-release/2026",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "checkedAt": "2026-10-08T07:37:14.557Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "lastSuccessAt": "2026-10-08T07:37:14.557Z",
+      "pages": [
+        {
+          "url": "https://www.luas.gov.my/en/luas/archives/press-release/2026",
+          "status": "ok",
+          "observedCount": 4
+        }
+      ],
       "observedCount": 4,
-      "changedCount": 4
+      "changedCount": 0
     },
     {
       "id": "planmalaysia",
       "url": "https://www.planmalaysia.gov.my/main/procurement?type=tender&year=2026",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "checkedAt": "2026-10-08T07:37:14.557Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
-      "observedCount": 1,
-      "changedCount": 1
+      "lastSuccessAt": "2026-10-08T07:37:14.557Z",
+      "pages": [
+        {
+          "url": "https://www.planmalaysia.gov.my/main/procurement?type=tender&year=2026",
+          "status": "ok",
+          "observedCount": 2
+        }
+      ],
+      "observedCount": 2,
+      "changedCount": 0
     },
     {
       "id": "doe",
       "url": "https://www.doe.gov.my/en/",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "checkedAt": "2026-10-08T07:37:14.557Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "lastSuccessAt": "2026-10-08T07:37:14.557Z",
+      "pages": [
+        {
+          "url": "https://www.doe.gov.my/en/",
+          "status": "ok",
+          "observedCount": 17
+        }
+      ],
       "observedCount": 17,
-      "changedCount": 12
+      "changedCount": 0
     },
     {
       "id": "paab",
       "url": "https://www.paab.my/tender/",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
-      "status": "limited",
-      "lastSuccessAt": null,
-      "observedCount": 0,
+      "checkedAt": "2026-10-08T07:37:14.557Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-08T07:37:14.557Z",
+      "pages": [
+        {
+          "url": "https://www.paab.my/tender/",
+          "status": "ok",
+          "observedCount": 1
+        }
+      ],
+      "observedCount": 1,
       "changedCount": 0
     },
     {
       "id": "jkr",
       "url": "https://tender.jkr.gov.my/kenyataan/tender/index?sort=-tarikhtutuptender",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "checkedAt": "2026-10-08T07:37:14.557Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "lastSuccessAt": "2026-10-08T07:37:14.557Z",
+      "pages": [
+        {
+          "url": "https://tender.jkr.gov.my/kenyataan/tender/index?sort=-tarikhtutuptender",
+          "status": "ok",
+          "observedCount": 4
+        }
+      ],
       "observedCount": 4,
-      "changedCount": 4
+      "changedCount": 0
     },
     {
       "id": "data-gov",
       "url": "https://data.gov.my/data-catalogue",
-      "checkedAt": "2026-10-08T04:08:16.202Z",
+      "checkedAt": "2026-10-08T07:37:14.557Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T04:08:16.202Z",
+      "lastSuccessAt": "2026-10-08T07:37:14.557Z",
+      "pages": [
+        {
+          "url": "https://data.gov.my/data-catalogue",
+          "status": "ok",
+          "observedCount": 6
+        }
+      ],
       "observedCount": 6,
       "changedCount": 0
     }

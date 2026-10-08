@@ -354,6 +354,268 @@
       "checkedAt": "2026-10-08",
       "evidence": "公告 MAKLUMAT PROJEK 列道路抬高与三条河流桥梁；MAKLUMAT KONTRAKTOR 列 Bumiputera、T1、G7 和 CE01/CE02；MAKLUMAT DOKUMEN 列 RM1500，TARIKH TENDER DITUTUP 为 12/11/2026、12:00 PM。没有据项目名推断设计 ARI 或防洪成效。",
       "dateEvidence": "TARIKH IKLAN 明示 01/10/2026。现场参观／说明会为 08/10/2026 11:00 AM，截止为 12/11/2026 12:00 PM；未来截止不填成已经发生的 eventDate。时间按马来西亚当地公告理解，后续补遗以原站为准。"
+    },
+    {
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "id": "nadma-myibf-training-september-2026",
+      "source": "nadma",
+      "category": "hydrology",
+      "title": "MyIBF 推进基于影响的洪水预报，衔接风险信息与提前行动",
+      "summary": "JPS 于 9 月 28 日举办 MyIBF 行政培训，重点是将洪水风险信息转化为提前行动。该系统属于 PPJPRAB 长期洪水预报与预警重构计划；NADMA、NDCC 等单位参与，推进跨机构协调。原文未公布预报精度或全国部署完成情况。",
+      "url": "https://www.nadma.gov.my/bm/media-2/program-dan-aktiviti/7292-2026-10-02-03-12-06",
+      "publishedAt": "2026-10-02",
+      "eventDate": "2026-09-28",
+      "region": "Malaysia · Putrajaya",
+      "stage": "系统发展与能力建设",
+      "tags": [
+        "洪水",
+        "水文模型",
+        "MyIBF",
+        "预警"
+      ],
+      "evidence": "NADMA 正文首段明确 MyIBF、PPJPRAB、JPS 主办及风险信息转为提前行动；第二段说明 NADMA、NDCC 与 STI 参与及跨机构协调。",
+      "dateEvidence": "页面发布栏为 02 Oktober 2026；正文开头为 PUTRAJAYA, 28 September 2026，分别记录发布日期与培训日期。"
+    },
+    {
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "id": "nadma-cloud-seeding-october-2026",
+      "source": "nadma",
+      "category": "hydrology",
+      "title": "Kajang 与 Jelebu 开展人工增雨，成效将按降雨及集水区数据评估",
+      "summary": "NADMA 记录 10 月 1 日在雪兰莪 Kajang 和森美兰 Jelebu 的人工增雨行动，由 METMalaysia、CAAM 和空军协作。行动持续约一小时，携带四罐盐溶液，实施取决于合适的云和天气条件；官方说明将以降雨分布及集水区监测评估成效，目的包括缓解烟霾影响。",
+      "url": "https://www.nadma.gov.my/bm/media-2/program-dan-aktiviti/7296-2026-10-02-03-21-29",
+      "publishedAt": "2026-10-02",
+      "eventDate": "2026-10-01",
+      "region": "Selangor · Negeri Sembilan",
+      "stage": "行动记录",
+      "tags": [
+        "降雨",
+        "人工增雨",
+        "集水区"
+      ],
+      "evidence": "正文第二段列出 Kajang、Jelebu、12:25–13:25、四罐盐溶液及成效评估方法。摘要未把后续降雨归因写成独立验证的因果结论，也未将原文 mm/h 当累计雨量。",
+      "dateEvidence": "页面发布栏 02 Oktober 2026；标题明确行动日期为 1 Oktober 2026。"
+    },
+    {
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "id": "nahrim-semenyih-tmdl-sampling-2026",
+      "source": "nahrim",
+      "category": "water-resources",
+      "title": "Semenyih 集水区同步采集水质与流量，支持 TMDL 污染负荷研究",
+      "summary": "NAHRIM 于 9 月 29–30 日在 Sungai Semenyih 集水区开展采样，为流域 TMDL 行动计划研究提供基础资料。工作同时采集选定点位的水质和流量，用于确定污染负荷；水样送交实验室分析。公告介绍采样工作，尚未发布水质结果或污染负荷数值。",
+      "url": "https://www.nahrim.gov.my/persampelan-kualiti-air-di-tadahan-sungai-semenyih-2-oktober-2026/",
+      "publishedAt": "2026-09-30",
+      "eventDate": "2026-09-29",
+      "region": "Selangor · Sungai Semenyih",
+      "stage": "现场采样与研究",
+      "tags": [
+        "水质",
+        "流量",
+        "流域管理",
+        "TMDL"
+      ],
+      "evidence": "正文说明实际采样为 29–30 September 2026，配合 Pelaksanaan Pelan Tindakan Total Maximum Daily Load (TMDL) Sungai Semenyih；随后说明水质、流量及样本送验。",
+      "dateEvidence": "官方新闻归档和侧栏均标 30/09/2026，作为发布日期；标题却写 2 Oktober 2026，保留此差异。活动日期按正文 29–30 September 2026，eventDate 记首日。"
+    },
+    {
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "id": "nahrim-wastewater-method-validation-2026",
+      "source": "nahrim",
+      "category": "water-resources",
+      "title": "NAHRIM 加强养殖废水检测的方法验证与测量不确定度能力",
+      "summary": "NAHRIM 水质实验室与国家兽医公共卫生实验室于 9 月 28–30 日开展联合培训，涵盖检测方法验证、样本分析及测量不确定度。内容服务于养殖废水排放监测和实验室水质分析；这是检测能力建设，公告没有发布新的排放限值或合规结果。",
+      "url": "https://www.nahrim.gov.my/latihan-pengukuran-ketidakpastian-dan-teknik-validasi-bagi-ujian-pencemaran-air-sisa-ternakan-28-hingga-30-september-2026/",
+      "publishedAt": "2026-09-30",
+      "eventDate": "2026-09-28",
+      "region": "Malaysia",
+      "stage": "实验室技术培训",
+      "tags": [
+        "水质",
+        "废水",
+        "方法验证",
+        "测量不确定度"
+      ],
+      "evidence": "正文首段列出 MKA、MKAVK、JPV 和三日培训；第二段明确 Method Validation、样本分析及 Measurement Uncertainty。未据此声称新标准生效。",
+      "dateEvidence": "官方新闻归档和最新消息栏标 30/09/2026；正文明确 28–30 September 2026，eventDate 记首日。"
+    },
+    {
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "id": "nahrim-karib-penang-september-2026",
+      "source": "nahrim",
+      "category": "hydrology",
+      "title": "槟城 Kampung Selamat 开展 KARIB 洪水预报与预警信息教育",
+      "summary": "NAHRIM 于 9 月 26 日在槟城 Kampung Selamat 开展 KARIB 社区教育与意识活动，获 JPS Pulau Pinang、UiTM 和村委会支持。内容包括洪水信息讲解、部门展示及问卷，重点是社区对洪水预报和预警信息的理解；公告没有公布新预警等级或实时洪水状态。",
+      "url": "https://www.nahrim.gov.my/program-kempen-amaran-dan-ramalan-informasi-banjir-karib-yang-berasaskan-pendidikan-dan-kesedaran-komuniti-cepa-26-september-2026/",
+      "publishedAt": "2026-09-26",
+      "eventDate": "2026-09-26",
+      "region": "Pulau Pinang · Kampung Selamat",
+      "stage": "洪水信息教育",
+      "tags": [
+        "洪水",
+        "预警",
+        "社区准备",
+        "KARIB"
+      ],
+      "evidence": "正文首段明确 Kampung Selamat、26 September 2026 及支持机构；第二段列出洪水信息讲解、展示、问卷等实际内容。此条为公众教育，未归为现行洪水预警。",
+      "dateEvidence": "官方最新消息栏标 26/09/2026；正文和标题也明确活动为 26 September 2026。"
+    },
+    {
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "id": "nahrim-dungun-hec-services-2026",
+      "source": "nahrim",
+      "category": "tenders",
+      "title": "Dungun 流域 HEC 系列模型处理、模拟与验证采购公告（已截止）",
+      "summary": "NAHRIM 公告采购 Sungai Dungun 流域的数据处理、模拟、检查及 HEC 系列模型验证服务，指示金额 RM200,000。公告所列采购期为 9 月 23–30 日，现已超过截止日；保留作技术服务需求和采购历史参考，不能据此认为仍可投标或已完成授标。",
+      "url": "https://www.nahrim.gov.my/perkhidmatan-pemprosesan-data-simulasi-semakan-dan-validasi-model-hec-series-bagi-lembangan-sungai-dungun-3/",
+      "publishedAt": "2026-09-23",
+      "eventDate": null,
+      "region": "Terengganu · Sungai Dungun",
+      "stage": "公告已截止 · 授标未确认",
+      "tags": [
+        "HEC",
+        "水文模型",
+        "模型验证",
+        "历史采购"
+      ],
+      "evidence": "公告标题列出 Sungai Dungun 的 HEC SERIES 服务范围；正文 TARIKH MULA/TUTUP TAWARAN 分别为 23/09 和 30/09/2026，JUMLAH HARGA INDIKATIF 为 RM200,000。",
+      "dateEvidence": "官方 arkib-berita 归档为此链接标 23/09/2026，正文列同日起售、30/09/2026 截止；截至本次核查已截止。未将截止日作为活动日期。"
+    },
+    {
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "id": "planmalaysia-setiu-wetlands-tender-2026",
+      "source": "planmalaysia",
+      "category": "tenders",
+      "title": "PLANMalaysia 列出 Setiu Wetlands 生态网络专项规划研究招标",
+      "summary": "官方 2026 年采购列表将 T-SL2 生态网络专项规划研究列为开放，范围为 HS Hulu Nerus、HS Hulu Setiu 与 Taman Negeri Setiu Wetlands，编号 JPBD(IP)S185/646/1-201。列表起止日期为 10 月 5–22 日；具体截止时刻、资格和文件须到官方核对。此为生态与湿地规划研究，不能当作已批准的防洪工程。",
+      "url": "https://www.planmalaysia.gov.my/main/procurement?type=tender&year=2026",
+      "publishedAt": null,
+      "eventDate": "2026-10-05",
+      "region": "Terengganu · Setiu",
+      "stage": "采购列表显示开放 · 核查 2026-10-08",
+      "tags": [
+        "湿地",
+        "生态规划",
+        "Setiu"
+      ],
+      "evidence": "官方采购表第 4 行为 JPBD(IP)S185/646/1-201，标题列出三处范围，Status=Buka，日期列为 05-10-2026 至 22-10-2026。该行未提供独立文件链接、资格或预算，不补造详情。",
+      "dateEvidence": "列表所列开始日期为 05-10-2026，作为采购开放事件日；未确认独立页面发布日期，publishedAt=null。列表时刻均为 12:00 AM，摘要只报告日期并要求以正式文件核对具体时间。"
+    },
+    {
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "id": "nadma-pahang-sdcc-september-2026",
+      "source": "nadma",
+      "category": "policy",
+      "title": "彭亨 SDCC 投入运作，衔接州级灾情监测与国家指挥中心",
+      "summary": "NADMA 报告彭亨州灾难指挥中心 SDCC 的移交和运作，职责包括灾情监测、信息共享及响应人员和救援物资协调，并向国家 NDCC 汇报。该设施支持国家减灾政策 2030 的相关目标；公告没有公布响应时间缩短幅度或实测减灾成效。",
+      "url": "https://www.nadma.gov.my/bm/media-2/program-dan-aktiviti/7225-2026-09-28-02-32-26",
+      "publishedAt": "2026-09-28",
+      "eventDate": "2026-09-22",
+      "region": "Pahang · Kuantan",
+      "stage": "灾难协调设施运作",
+      "tags": [
+        "灾难准备",
+        "监测",
+        "SDCC",
+        "NDCC"
+      ],
+      "evidence": "正文 KUANTAN 段说明 SDCC 运作，随后列出州政府、NADMA 与响应机构协调；第三段明确监测灾情并向 NDCC 提供信息和报告，第四段连接国家减灾政策 2030。",
+      "dateEvidence": "页面发布栏为 28 September 2026；正文开头为 KUANTAN, 22 September 2026，分别保留。"
+    },
+    {
+      "language": "en",
+      "checkedAt": "2026-10-08",
+      "id": "did-sarawak-stampin-award-september-2026",
+      "source": "did-sarawak",
+      "category": "projects",
+      "title": "Stampin 防洪一期授标，明确排水沟、涵洞和河道出口整治范围",
+      "summary": "DID Sarawak 9 月 3 日转载的报道记录 Stampin 一期承包商授标，施工部分金额 RM87,956,231.16。范围包括 Jalan Stampin Baru 路侧排水沟、涵洞及通往 Sungai Stampin、Stutong 和 Kuap 的排水出口清理、拓宽和加深。RM350 million 是分期总体项目金额；本条是此前授标里程碑，与 10 月启动协调会议分开记录，尚非竣工成效。",
+      "url": "https://did.sarawak.gov.my/web/subpage/news_view/945",
+      "publishedAt": "2026-09-03",
+      "eventDate": null,
+      "region": "Sarawak · Kuching · Stampin",
+      "stage": "一期承包商授标记录",
+      "tags": [
+        "城市排水",
+        "涵洞",
+        "河道",
+        "授标"
+      ],
+      "evidence": "官方转载注明 Source of News: The Borneo Post Online。正文说明 LoA 交予 TMK Construction and Transport Sdn Bhd；Phase 1 段落明确范围及 RM87,956,231.16，RM350 million 为分期总体项目。只作简短中文摘要，不转载全文或图片。",
+      "dateEvidence": "官方标题下 Posted on 03 Sep 2026。授标在正文称 yesterday，但未直接写完整事件日期，因此 eventDate=null。"
+    },
+    {
+      "language": "en",
+      "checkedAt": "2026-10-08",
+      "id": "did-sarawak-barrage-scour-remediation-2026",
+      "source": "did-sarawak",
+      "category": "projects",
+      "title": "Sungai Sarawak Barrage 冲刷修复方案待推进，官方报道列 RM150 million 拨款",
+      "summary": "DID Sarawak 8 月 21 日转载报道指出，Sungai Sarawak Barrage 的河床冲刷修复已宣布 RM150 million 联邦拨款，由 DID 接手实施，最新方案已提交 DID Malaysia 考虑和批准。该闸坝承担古晋周边防洪及水管理功能；报道仍处方案待推进阶段，不能据此声称十月已开工或修复完成。",
+      "url": "https://did.sarawak.gov.my/web/subpage/news_view/942",
+      "publishedAt": "2026-08-21",
+      "eventDate": null,
+      "region": "Sarawak · Kuching",
+      "stage": "8 月方案待审批记录",
+      "tags": [
+        "河床冲刷",
+        "闸坝",
+        "防洪",
+        "工程追踪"
+      ],
+      "evidence": "官方转载注明 The Borneo Post Online。正文说明冲刷修复拨款、DID 实施安排和最新方案已提交考虑批准；末段说明闸坝的防洪及水管理功能。未根据当前查阅日推断建设进度。",
+      "dateEvidence": "页面 Posted on 21 Aug 2026 是文章日期；网页页脚 Last Updated 是网站维护日期，未作为新闻日期。"
+    },
+    {
+      "id": "nadma-sungai-golok-delay-october-2026",
+      "source": "nadma",
+      "category": "projects",
+      "title": "NADMA 转载审计报道：Sungai Golok 一期工期延至 2027 年 7 月",
+      "summary": "NADMA 10 月 6 日转载 Utusan 报道，援引审计总长说明 Sungai Golok 综合流域开发项目一期获延长工期至 2027 年 7 月 21 日，二期也受采购延误影响。报道列出规划、跨机构协调、变更及合同管理等问题；这是一则工程延期与审计信息，不是新的竣工承诺或防洪效果评估。",
+      "url": "https://www.nadma.gov.my/bm/media-2/berita/7318-projek-tebatan-banjir-sungai-golok-tertangguh-hingga-2027",
+      "publishedAt": "2026-10-06",
+      "eventDate": null,
+      "region": "Kelantan · Sungai Golok",
+      "stage": "延期与审计问题报道",
+      "tags": [
+        "防洪",
+        "工程延期",
+        "合同管理",
+        "流域管理"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-08",
+      "evidence": "NADMA 页面转载并注明 UTUSAN；正文第三段列一期 Pelanjutan Masa 至 21 Julai 2027，随后说明二期采购延误及审计识别的规划、变更、合同和设计控制问题。保留转载和审计归因，未独立核实全部工程缺陷。",
+      "dateEvidence": "页面发布栏为 06 Oktober 2026；2027-07-21 为延长工期日期，写在摘要，不作为已经发生的事件日。原文审计报告编号有排字疑点，摘要未据此编造编号。"
+    },
+    {
+      "id": "paab-bukit-dengkil-valve-tender-2026",
+      "source": "paab",
+      "category": "tenders",
+      "title": "PAAB 招标 Bukit Dengkil 水池不停水更换阀门工程",
+      "summary": "PAAB 公告 Bukit Dengkil 水池以不中断供水方式更换阀门，编号 PAAB/B001/PAKEJ 15 (5)/PI/77/26。页面标示 10 月 1 日发布、10 月 29 日中午 12:00 截止，状态为 Open；所列 10 月 7 日说明会已过，投标资格与是否必须出席须核对正式广告。本项具体范围是阀门更换，不是整座 Langat 2 水厂新建工程。",
+      "url": "https://www.paab.my/procurement/proposed-development-of-langat-2-water-treatment-plant-and-water-reticulation-system-in-selangor-darul-ehsan-wilayah-persekutuan-kuala-lumpur-2/",
+      "publishedAt": "2026-10-01",
+      "eventDate": null,
+      "region": "Selangor · Bukit Dengkil",
+      "stage": "网页显示开放 · 说明会日期已过",
+      "tags": [
+        "供水",
+        "阀门",
+        "不停水施工",
+        "Langat 2"
+      ],
+      "language": "en",
+      "checkedAt": "2026-10-08",
+      "evidence": "采购页 Details 明确 Kerja-Kerja Penggantian Injap Secara Kaedah Tanpa Gangguan Bekalan Air di Kolam Air Bukit Dengkil；随后列 Tender No、Advertisement Date、Closing Date、Status 和 Briefing Date。标题是 Langat 2 总项目名称，摘要按 Details 限定本采购范围。正文详情为马来文、字段为英文。",
+      "dateEvidence": "Advertisement Date=01/10/2026 08:30 am；Closing Date=29/10/2026 12:00 pm；Briefing Date=07/10/2026 10:00 am。截止时间按马来西亚官方采购页面报告，资格和会议条件未在网页详情中确认，提示查正式文件。"
     }
   ]
 }
