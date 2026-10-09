@@ -1713,9 +1713,9 @@
     {
       "id": "jps-penang",
       "url": "https://jps.penang.gov.my/index.php/ms/",
-      "checkedAt": "2026-10-09T09:05:25.365Z",
-      "status": "error",
-      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
+      "checkedAt": "2026-10-09T10:23:28.714Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-09T10:23:28.714Z",
       "links": [
         {
           "url": "https://jps.penang.gov.my/index.php/ms/component/content/article/456-majlis-anugerah-perkhidmatan-terpuji-apt-tahun-2024-jabatan-pengairan-dan-saliran-negeri-pulau-pinang?catid=104&Itemid=101",
@@ -1738,18 +1738,18 @@
           "title": "Sebut harga / Tender"
         }
       ],
-      "observedCount": null,
-      "fingerprint": "b41c382ad867af3aebec35afb066a458ff123dfbf2a54d4d3b4043a9835464ee",
-      "changedCount": 0,
-      "error": "Windows HTTPS client 28: curl: (28) Connection timed out after 10014 milliseconds → fetch failed → UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: jps.penang.gov.my:443, timeout: 10000ms)",
       "pages": [
         {
           "url": "https://jps.penang.gov.my/index.php/ms/",
-          "status": "error",
-          "observedCount": null,
-          "error": "Windows HTTPS client 28: curl: (28) Connection timed out after 10014 milliseconds → fetch failed → UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: jps.penang.gov.my:443, timeout: 10000ms)"
+          "status": "ok",
+          "observedCount": 5
         }
-      ]
+      ],
+      "observedCount": 5,
+      "documentCount": 0,
+      "fingerprint": "b41c382ad867af3aebec35afb066a458ff123dfbf2a54d4d3b4043a9835464ee",
+      "changedCount": 0,
+      "reader": "github-actions"
     },
     {
       "id": "jps-johor",
