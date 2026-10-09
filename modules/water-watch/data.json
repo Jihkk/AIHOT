@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-09T02:59:03.993Z",
+  "checkedAt": "2026-10-09T03:12:05.863Z",
   "attribution": "Government of Malaysia / METMalaysia / Department of Environment, data.gov.my — CC BY 4.0",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "datasets": [
@@ -10,9 +10,9 @@
       "url": "https://api.data.gov.my/weather/forecast?contains=Kuala%20Lumpur@location__location_name&limit=14",
       "page": "https://developer.data.gov.my/realtime-api/weather",
       "scope": "仅吉隆坡，最多 14 条返回记录；不是全国预报",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-09T02:59:03.993Z",
+      "dataFetchedAt": "2026-10-09T03:12:05.863Z",
       "records": [
         {
           "location": {
@@ -218,9 +218,9 @@
       "url": "https://api.data.gov.my/weather/warning?limit=20",
       "page": "https://developer.data.gov.my/realtime-api/weather",
       "scope": "接口最多 20 条返回记录，可能含历史或已过期预警；不能代表完整现行警情",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-09T02:59:03.993Z",
+      "dataFetchedAt": "2026-10-09T03:12:05.863Z",
       "records": [
         {
           "warning_issue": {
@@ -290,9 +290,9 @@
       "url": "https://api.data.gov.my/data-catalogue?id=water_pollution_basin&limit=100&sort=-date",
       "page": "https://data.gov.my/data-catalogue/water_pollution_basin",
       "scope": "按年份降序请求最多 100 条年度统计记录；数据年份不等于采集日期",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-09T02:59:03.993Z",
+      "dataFetchedAt": "2026-10-09T03:12:05.863Z",
       "records": [
         {
           "date": "2024-01-01",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "reviewedAt": "2026-10-08",
+  "reviewedAt": "2026-10-09",
   "sources": [
     {
       "id": "jps",
@@ -464,12 +464,12 @@
       "source": "jkr",
       "category": "tenders",
       "title": "JKR 招标：彭亨 FT234 道路抬高及三座河桥升级",
-      "summary": "项目涵盖 Jerantut–Kuala Lipis（FT234）道路抬高，以及 Sungai Sepial、Sungai Kerak、Sungai Teh 桥梁升级，编号 JKR/CKUB/24197/2026。公告列明强制现场参观／说明会为 2026 年 10 月 8 日 11:00，CIDB G7、CE01 与 CE02 等资格及 Bumiputera 条件，文件价格 RM1,500；投标截止列为 2026 年 11 月 12 日 12:00。参与资格、补遗及最新时间须核对原公告。",
+      "summary": "项目涵盖 Jerantut–Kuala Lipis（FT234）道路抬高，以及 Sungai Sepial、Sungai Kerak、Sungai Teh 桥梁升级，编号 JKR/CKUB/24197/2026。公告所列强制现场参观／说明会为 2026 年 10 月 8 日 11:00，日期已过，CIDB G7、CE01 与 CE02 等资格及 Bumiputera 条件，文件价格 RM1,500；投标截止列为 2026 年 11 月 12 日 12:00。参与资格、补遗及最新时间须核对原公告。",
       "url": "https://tender.jkr.gov.my/kenyataan/tender/view?id=2459&ids=JKR%2FCKUB%2F24197%2F2026&ids2=1&ids3=1",
       "publishedAt": "2026-10-01",
       "eventDate": null,
       "region": "Jerantut, Pahang",
-      "stage": "招标公告 · 含强制现场条件",
+      "stage": "所列强制现场说明会已过 · 截止 11 月 12 日",
       "tags": [
         "招标采购",
         "桥梁",
@@ -477,8 +477,8 @@
         "FT234"
       ],
       "language": "ms",
-      "checkedAt": "2026-10-08",
-      "evidence": "公告 MAKLUMAT PROJEK 列道路抬高与三条河流桥梁；MAKLUMAT KONTRAKTOR 列 Bumiputera、T1、G7 和 CE01/CE02；MAKLUMAT DOKUMEN 列 RM1500，TARIKH TENDER DITUTUP 为 12/11/2026、12:00 PM。没有据项目名推断设计 ARI 或防洪成效。",
+      "checkedAt": "2026-10-09",
+      "evidence": "公告 MAKLUMAT PROJEK 列道路抬高与三条河流桥梁；MAKLUMAT KONTRAKTOR 列 Bumiputera、T1、G7 和 CE01/CE02；MAKLUMAT DOKUMEN 列 RM1500，TARIKH TENDER DITUTUP 为 12/11/2026、12:00 PM。没有据项目名推断设计 ARI 或防洪成效。 2026-10-09 复核原网页，现场时间及 11 月 12 日 12:00 截止未变，文件销售日期为 10 月 15–21 日。",
       "dateEvidence": "TARIKH IKLAN 明示 01/10/2026。现场参观／说明会为 08/10/2026 11:00 AM，截止为 12/11/2026 12:00 PM；未来截止不填成已经发生的 eventDate。时间按马来西亚当地公告理解，后续补遗以原站为准。"
     },
     {
@@ -614,7 +614,7 @@
     },
     {
       "language": "ms",
-      "checkedAt": "2026-10-08",
+      "checkedAt": "2026-10-09",
       "id": "planmalaysia-setiu-wetlands-tender-2026",
       "source": "planmalaysia",
       "category": "tenders",
@@ -624,7 +624,7 @@
       "publishedAt": null,
       "eventDate": "2026-10-05",
       "region": "Terengganu · Setiu",
-      "stage": "采购列表显示开放 · 核查 2026-10-08",
+      "stage": "采购列表显示开放 · 核查 2026-10-09",
       "tags": [
         "湿地",
         "生态规划",
@@ -739,7 +739,7 @@
         "Langat 2"
       ],
       "language": "en",
-      "checkedAt": "2026-10-08",
+      "checkedAt": "2026-10-09",
       "evidence": "采购页 Details 明确 Kerja-Kerja Penggantian Injap Secara Kaedah Tanpa Gangguan Bekalan Air di Kolam Air Bukit Dengkil；随后列 Tender No、Advertisement Date、Closing Date、Status 和 Briefing Date。标题是 Langat 2 总项目名称，摘要按 Details 限定本采购范围。正文详情为马来文、字段为英文。",
       "dateEvidence": "Advertisement Date=01/10/2026 08:30 am；Closing Date=29/10/2026 12:00 pm；Briefing Date=07/10/2026 10:00 am。截止时间按马来西亚官方采购页面报告，资格和会议条件未在网页详情中确认，提示查正式文件。"
     },
@@ -871,6 +871,140 @@
       "checkedAt": "2026-10-08",
       "evidence": "已读取官方三页 PDF。第 1 页列 MyNAP 五大领域及正在制定；第 2 页说明 PPP、blended finance、担保机制及 IGEM 2026 论坛；第 3 页署名 NRES。没有具体水利项目获批金额。",
       "dateEvidence": "官方声明列表为 7/10/2026，PDF 署名 7 OKTOBER 2026，两者一致；论坛未另列具体日期，eventDate 保持 null。"
+    },
+    {
+      "id": "nadma-monsoon-transition-october-2026",
+      "source": "nadma",
+      "category": "hydrology",
+      "title": "METMalaysia 预计 10 月 9 日起进入季风过渡期，关注短时强降雨与山洪风险",
+      "summary": "NADMA 转载 METMalaysia 说明：季风过渡期预计从 10 月 9 日持续至 10 月下旬。弱而多变的风向有利于形成雷雨云，半岛西部与内陆、西沙巴及砂拉越尤其需关注下午至傍晚的短时强降雨、雷电和强风，以及突发洪水、山洪和倒树风险。这是季节性风险说明，不是所有地区已发生洪灾或同一时段的预警。",
+      "url": "https://www.nadma.gov.my/bm/media-2/berita/7331-monsoon-transition-begins-oct-9-bringing-thunderstorms-flash-flood-and-fallen-tree-risks-metmalaysia-warns",
+      "publishedAt": "2026-10-07",
+      "eventDate": null,
+      "region": "全国 · 半岛西部及内陆、西沙巴、砂拉越",
+      "stage": "季节性天气风险说明",
+      "tags": [
+        "季风过渡期",
+        "短时强降雨",
+        "突发洪水",
+        "山洪"
+      ],
+      "language": "en",
+      "checkedAt": "2026-10-09",
+      "evidence": "已读取 NADMA 英文正文：首段列 October 9 至 late October，随后说明 weak winds、afternoon and early evening、west and interior of the Peninsula、western Sabah and Sarawak，以及 flash floods / water surges 风险。正文注明转载 Bernama；没有补造具体雨量或发生洪灾的地区。",
+      "dateEvidence": "NADMA 页面 time 明示 07 Oktober 2026；正文电头 PUTRAJAYA, Oct 6 指原报道／声明日期。publishedAt 按本站页面 10 月 7 日，预计过渡期开始日 10 月 9 日仅写在摘要，不当作已观测的 eventDate。"
+    },
+    {
+      "id": "metmalaysia-thunderstorm-selangor-sabah-20261009",
+      "source": "metmalaysia",
+      "category": "flood-alerts",
+      "title": "10 月 9 日上午雷雨预警记录：Klang、Kuala Langat 及沙巴部分地区",
+      "summary": "METMalaysia 于马来西亚时间 10 月 9 日 09:00 发布雷雨、强降雨和强风预警，原有效期至当日 12:00。范围包括雪兰莪 Klang、Kuala Langat，以及沙巴 Kudat、西海岸和内陆的 Membakut、Beaufort、Kuala Penyu、Keningau、Tambunan。本条保留当时公告供参考；原链接会滚动更新，当前是否续发、扩大或取消须查官方。",
+      "url": "https://www.met.gov.my/data/IWR30002.html",
+      "publishedAt": "2026-10-09",
+      "eventDate": null,
+      "validUntil": "2026-10-09T12:00:00+08:00",
+      "region": "Selangor · Klang、Kuala Langat；Sabah 部分地区",
+      "stage": "09:00 发布 · 原有效期至 12:00 · 历史参考",
+      "tags": [
+        "雷雨",
+        "强降雨",
+        "强风",
+        "雪兰莪",
+        "沙巴"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-09",
+      "evidence": "已直接读取 METMalaysia 公告原文，编号 JMM.RML29/701/16 JLD252(018)；马来文和英文段落均列指定地区、09:00 发出及 12:00 到期。只记录气象预警，未推断水位、流量、洪水已发生或设计 ARI。",
+      "dateEvidence": "公告明示 Issued at 9:00 AM, 9 October 2026，until 12:00 PM; Friday, 9 October 2026。按马来西亚 UTC+8 保存 validUntil；滚动页面今后可能展示新公告，本条日期和编号固定为本次读取记录。"
+    },
+    {
+      "id": "ukas-sundar-flood-erosion-planning-october-2026",
+      "source": "ukas",
+      "category": "policy",
+      "title": "Sundar 村落扩建规划要求统筹地形、洪水与河岸侵蚀风险",
+      "summary": "UKAS 报道，砂拉越要求 Sundar 的 Sinampuan、Tanjung Katong、Sebelah、Aru 村落扩建计划考虑地形、洪水和侵蚀风险，并统筹排水与供水等基础设施。报道特别提到强降雨叠加涨潮时的河岸风险，以及居民依赖河流的生活需求。此为规划原则，未公布设计洪水标准、工程预算或已完成的防洪设施。",
+      "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/50263",
+      "publishedAt": "2026-10-08",
+      "eventDate": null,
+      "region": "Sarawak · Sundar, Lawas",
+      "stage": "村落扩建规划原则 · 未公布工程设计指标",
+      "tags": [
+        "土地规划",
+        "河岸侵蚀",
+        "排水",
+        "潮汐"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-09",
+      "evidence": "已打开 UKAS 正文：第二段列四个村落及 muka bumi / hakisan / banjir；下一段说明 hujan lebat bertembung dengan air pasang；后段明确 sistem perparitan 与 bekalan air 等基础设施。未把工作访问当作防洪工程获批或竣工。",
+      "dateEvidence": "官方页面正文后明示 08 Oktober 2026。文中仅称访问在 Rabu，不自行推导精确活动日，eventDate=null。"
+    },
+    {
+      "id": "ukas-awd-smart-irrigation-october-2026",
+      "source": "ukas",
+      "category": "water-resources",
+      "title": "砂拉越稻作发展倡议纳入 AWD 干湿交替灌溉与传感监测",
+      "summary": "UKAS 报道砂拉越稻米发展方向时，提出采用 Alternate Wetting and Drying（AWD）、智慧灌溉和传感器监测，以降低稻作环境影响；同时重视耐旱、耐热、耐淹与耐盐品种，适应当地低洼、易涝及泥炭土条件。报道属于政策与技术方向，未给出节水率、灌溉制度或可直接用于设计的参数。",
+      "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/50230",
+      "publishedAt": "2026-10-07",
+      "eventDate": null,
+      "region": "Sarawak",
+      "stage": "农业用水与气候适应技术倡议",
+      "tags": [
+        "AWD",
+        "智慧灌溉",
+        "传感监测",
+        "气候适应"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-09",
+      "evidence": "已打开 UKAS 稻米自给率报道原文，第 8 段明确 Alternate Wetting and Drying、pengairan pintar、pemantauan berasaskan sensor；后段列 kemarau、haba melampau、banjir 和 kemasinan tanah。摘要限于相关用水及适应内容，不加入试验成效数字。",
+      "dateEvidence": "官方正文后明示 07 Oktober 2026；会议以 pada Rabu 表述，未另设活动日。"
+    },
+    {
+      "id": "ukas-batang-ai-fws-test-october-2026",
+      "source": "ukas",
+      "category": "hydrology",
+      "title": "Batang Ai 洪水警报系统测试公告列明警笛测试安排（计划日期已过）",
+      "summary": "UKAS 10 月 1 日公告，Sarawak Energy 原定于 10 月 2 日 08:30–16:30 对 Batang Ai 水电站洪水警报系统进行测试和维护，警笛每次预计鸣响约一至两分钟，次数和时点视测试进度调整。目的为检查警报设备和应急准备，不能把测试鸣笛当成发生洪水。本条保留原定安排，实际完成情况尚未核实。",
+      "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/49772",
+      "publishedAt": "2026-10-01",
+      "eventDate": null,
+      "region": "Sarawak · Batang Ai",
+      "stage": "原定测试公告 · 日期已过 · 完成情况未确认",
+      "tags": [
+        "水坝安全",
+        "FWS",
+        "警报系统",
+        "应急准备"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-09",
+      "evidence": "已打开 UKAS 原文，首两段列 2 Oktober 2026、8.30 pagi 至 4.30 petang、每次 satu hingga dua minit；后文解释为系统和设备测试及水坝安全准备。原文使用 akan，不作为完成证明。",
+      "dateEvidence": "官方发布日期为 01 Oktober 2026，预定测试日为 2 Oktober 2026。未找到完成报道，因此 eventDate=null，摘要与 stage 明确为原定计划。"
+    },
+    {
+      "id": "jps-perak-bagan-datuk-balai-semani-tender-2026",
+      "source": "jps-perak",
+      "category": "tenders",
+      "title": "Bagan Datuk 防洪招标范围包括 Sungai Balai 与 Sungai Semani 整治（所列截止日已过）",
+      "summary": "霹雳 JPS 公告 Bagan Datuk 防洪计划的河道升级与修复招标，范围涉及 Sungai Balai、Sungai Semani 及相关工程，编号 PETRA/JPS/KT2026/001。页面列广告日期 9 月 7 日，截止为 10 月 7 日中午 12:00；截至本次核查，该所列时间已过。保留工程范围供行业参考，不表示目前仍可投标，也不推断已授标或开工。",
+      "url": "https://jps.perak.gov.my/index.php?view=article&id=1963&catid=173",
+      "publishedAt": "2026-09-07",
+      "eventDate": null,
+      "region": "Perak · Bagan Datuk",
+      "stage": "招标历史参考 · 页面所列截止日已过",
+      "tags": [
+        "防洪工程",
+        "河道整治",
+        "Sungai Balai",
+        "Sungai Semani"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-09",
+      "evidence": "已直接读取 JPS Perak 公告正文，标题明确升级及修复两条河流；Nombor Tender 为 PETRA/JPS/KT2026/001，Tarikh Iklan 7.9.2026，Tarikh Tutup 7.10.2026 12:00 T/hari。未从页面推定预算、授标状态或完成率。",
+      "dateEvidence": "发布日期按正文 Tarikh Iklan=7.9.2026；截止时间按页面明示 7.10.2026 12:00 T/hari（马来西亚时间）。核查日 2026-10-09，仍报告其原列截止日并要求后续补遗以官网为准。"
     }
   ]
 }

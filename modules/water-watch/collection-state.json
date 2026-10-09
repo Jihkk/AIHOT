@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-09T03:02:52.015Z",
+  "checkedAt": "2026-10-09T03:12:05.863Z",
   "sources": [
     {
       "id": "jps",
       "url": "https://www.water.gov.my/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://www.water.gov.my/index.php/database_stores/attach_download/28/11601",
@@ -41,14 +41,14 @@
       "observedCount": 3,
       "documentCount": 0,
       "fingerprint": "37a0d5cd88e254e16e51598958f783c5de8bda5272b49333ec68117b4970c4c0",
-      "changedCount": 1
+      "changedCount": 0
     },
     {
       "id": "metmalaysia",
       "url": "https://www.met.gov.my/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://www.met.gov.my/data/climate/kemarau.pdf",
@@ -74,14 +74,10 @@
     {
       "id": "nadma",
       "url": "https://www.nadma.gov.my/bm/media-2/kenyataan-media",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
-        {
-          "url": "https://www.nadma.gov.my/bm/media-2/berita/7330-all-sarawak-air-monitoring-stations-record-moderate-air-quality",
-          "title": "All Sarawak air monitoring stations record ‘Moderate’ air quality"
-        },
         {
           "url": "https://www.nadma.gov.my/bm/media-2/berita/7331-monsoon-transition-begins-oct-9-bringing-thunderstorms-flash-flood-and-fallen-tree-risks-metmalaysia-warns",
           "title": "Monsoon transition begins Oct 9, bringing thunderstorms, flash flood and fallen tree risks, MetMalaysia warns"
@@ -120,30 +116,30 @@
         {
           "url": "https://www.nadma.gov.my/bm/media-2/program-dan-aktiviti",
           "status": "ok",
-          "observedCount": 5
+          "observedCount": 4
         },
         {
           "url": "https://www.nadma.gov.my/bm/media-2/program-dan-aktiviti?start=5",
           "status": "ok",
-          "observedCount": 4
+          "observedCount": 3
         },
         {
           "url": "https://www.nadma.gov.my/bm/media-2/berita",
           "status": "ok",
-          "observedCount": 3
+          "observedCount": 2
         }
       ],
-      "observedCount": 8,
+      "observedCount": 7,
       "documentCount": 0,
-      "fingerprint": "0b7efdd2fcc7b9a31eaacd7b36ed16252ce439887911e20e7245f5c06c0ddd25",
-      "changedCount": 3
+      "fingerprint": "1769281f023b2deb9b7af2da3eeeac1128d7b52e2face10545f6b4df11ced02d",
+      "changedCount": 0
     },
     {
       "id": "nahrim",
       "url": "https://www.nahrim.gov.my/arkib-berita/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://www.nahrim.gov.my/garis-panduan-pemasangan-panel-solar-terapung-di-atas-takungan-air-dan-tasik-di-malaysia-2026/",
@@ -218,7 +214,7 @@
     {
       "id": "petra",
       "url": "https://www.petra.gov.my/v2/documents/media-statement",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [
@@ -521,9 +517,9 @@
     {
       "id": "span",
       "url": "https://www.span.gov.my/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://www.span.gov.my//document/upload/jIwjECim0iMS30nzUjQq9iFZqNg0FpPf.pdf",
@@ -946,12 +942,12 @@
       "observedCount": 100,
       "documentCount": 0,
       "fingerprint": "1af344f2295d9415b40ce7dbbd2c2d743b3ff598e83a91d31141ff91b080fba0",
-      "changedCount": 100
+      "changedCount": 0
     },
     {
       "id": "air-selangor",
       "url": "https://www.airselangor.com/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [],
@@ -970,7 +966,7 @@
     {
       "id": "infobanjir",
       "url": "https://publicinfobanjir.water.gov.my/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [],
@@ -989,9 +985,9 @@
     {
       "id": "weather",
       "url": "https://www.met.gov.my/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://www.met.gov.my/data/climate/kemarau.pdf",
@@ -1017,7 +1013,7 @@
     {
       "id": "spaqs",
       "url": "https://spaqs.water.gov.my/tunas/senarai-iklan-telah-buka?mid=686",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [],
@@ -1036,9 +1032,9 @@
     {
       "id": "did-sarawak",
       "url": "https://did.sarawak.gov.my/web/home/index/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://did.sarawak.gov.my/web/subpage/announcement_view/126",
@@ -1080,9 +1076,9 @@
     {
       "id": "jps-selangor",
       "url": "https://water.selangor.gov.my/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://water.selangor.gov.my/galeri-foto/lawatan-ke-kolam-takungan-universiti-islam-selangor-oleh-pengarah-jps-selangor-negeri-selangor",
@@ -1131,14 +1127,14 @@
       "observedCount": 9,
       "documentCount": 0,
       "fingerprint": "e4ac02290b2d01588dbec2cd64027c7a9cd602d339c0d06da0dbc463d2df686e",
-      "changedCount": 9
+      "changedCount": 0
     },
     {
       "id": "luas",
       "url": "https://www.luas.gov.my/en/luas/archives/press-release/2026",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://www.luas.gov.my/images/keratan%20akhbar/Kenyataan%20Media/2026/Februari/Kes%20Pencemaran%20Sumber%20Air%20Di%20Selangor%20Turun%2065%20Peratus%20Tiada%20Henti%20Tugas%20Operasi%20LRA%20Utama%20Sejak%20Pelaksanaan%20ZDP.pdf",
@@ -1176,9 +1172,9 @@
     {
       "id": "planmalaysia",
       "url": "https://www.planmalaysia.gov.my/main/procurement?type=tender&year=2026",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://www.planmalaysia.gov.my/main/procurement?type=tender&year=2026",
@@ -1217,9 +1213,9 @@
     {
       "id": "doe",
       "url": "https://www.doe.gov.my/en/",
-      "checkedAt": "2026-10-09T03:02:52.015Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T03:02:52.015Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://edl.doe.gov.my/discovery?category=Ringkasan%20Eksekutif%20EIA",
@@ -1319,9 +1315,9 @@
     {
       "id": "paab",
       "url": "https://www.paab.my/tender/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://www.paab.my/procurement/proposed-development-of-langat-2-water-treatment-plant-and-water-reticulation-system-in-selangor-darul-ehsan-wilayah-persekutuan-kuala-lumpur-2/",
@@ -1343,9 +1339,9 @@
     {
       "id": "jkr",
       "url": "https://tender.jkr.gov.my/kenyataan/tender/index?sort=-tarikhtutuptender",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://tender.jkr.gov.my/kenyataan/tender/view?id=2459&ids=JKR%2FCKUB%2F24197%2F2026&ids2=1&ids3=1",
@@ -1378,14 +1374,14 @@
       "observedCount": 4,
       "documentCount": 0,
       "fingerprint": "9e90a3fb9e7909637bff0e407b636391539d6b3e2f79bd70e3d15a33f57856cf",
-      "changedCount": 4
+      "changedCount": 0
     },
     {
       "id": "data-gov",
       "url": "https://data.gov.my/data-catalogue",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://data.gov.my/data-catalogue/air_pollution",
@@ -1427,9 +1423,9 @@
     {
       "id": "jps-perlis",
       "url": "https://jps.perlis.gov.my/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://jps.perlis.gov.my/index.php/galeri/arkib-berita/297-hari-inovasi-dan-persidangan-pengurus-kanan-jurutera-daerah-jabatan-pengairan-dan-saliran-malaysia",
@@ -1468,9 +1464,9 @@
     {
       "id": "jps-negeri-sembilan",
       "url": "https://jpsns.ns.gov.my/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://jpsns.ns.gov.my/air-pasang-besar-punca-banjir-di-negeri-sembilan-mb/",
@@ -1516,9 +1512,9 @@
     {
       "id": "jps-terengganu",
       "url": "https://jpsweb.terengganu.gov.my/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://jpsweb.terengganu.gov.my/index.php/ms/arkib/berita/385-2026-05-24-02-45-32",
@@ -1564,9 +1560,9 @@
     {
       "id": "jps-kedah",
       "url": "https://jps.kedah.gov.my/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://jps.kedah.gov.my/blog/hotspot-banjir-negeri-kedah-darul-aman/",
@@ -1613,9 +1609,9 @@
     {
       "id": "jps-melaka",
       "url": "https://jps.melaka.gov.my/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://jps.melaka.gov.my/2026/09/14/%f0%9f%92%a7-seminar-pengukuhan-kumpulan-pengguna-air-kpa-negeri-melaka-%f0%9f%8c%be/",
@@ -1641,7 +1637,7 @@
     {
       "id": "jps-sabah",
       "url": "https://did.sabah.gov.my/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [],
@@ -1665,9 +1661,9 @@
     {
       "id": "jps-penang",
       "url": "https://jps.penang.gov.my/index.php/ms/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://jps.penang.gov.my/index.php/ms/component/content/article/456-majlis-anugerah-perkhidmatan-terpuji-apt-tahun-2024-jabatan-pengairan-dan-saliran-negeri-pulau-pinang?catid=104&Itemid=101",
@@ -1700,14 +1696,14 @@
       "observedCount": 5,
       "documentCount": 0,
       "fingerprint": "b41c382ad867af3aebec35afb066a458ff123dfbf2a54d4d3b4043a9835464ee",
-      "changedCount": 5
+      "changedCount": 0
     },
     {
       "id": "jps-johor",
       "url": "https://jps.johor.gov.my/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://jps.johor.gov.my/%f0%9d%90%8b%f0%9d%90%80%f0%9d%90%96%f0%9d%90%80%f0%9d%90%93%f0%9d%90%80%f0%9d%90%8d-%f0%9d%90%93%f0%9d%90%91%f0%9d%90%80%f0%9d%90%8d%f0%9d%90%92%f0%9d%90%85%f0%9d%90%8e%f0%9d%90%91%f0%9d%90%8c/",
@@ -1733,9 +1729,9 @@
     {
       "id": "jps-perak",
       "url": "https://jps.perak.gov.my/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://jps.perak.gov.my/index.php?view=article&id=1924&catid=173",
@@ -1989,12 +1985,12 @@
       "observedCount": 59,
       "documentCount": 0,
       "fingerprint": "7c89d91deacc62346346bf87cfc4342ca113ecc9d2e8c7a4163c666c4f1c8d8d",
-      "changedCount": 59
+      "changedCount": 0
     },
     {
       "id": "jps-pahang",
       "url": "https://jps.pahang.gov.my/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [],
@@ -2013,7 +2009,7 @@
     {
       "id": "jps-kelantan",
       "url": "https://did.kelantan.gov.my/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [
@@ -2051,7 +2047,7 @@
     {
       "id": "ukas",
       "url": "https://ukas.sarawak.gov.my/web/home/index/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [],
@@ -2090,9 +2086,9 @@
     {
       "id": "nres",
       "url": "https://www.nres.gov.my/ms-my/pustakamedia/Pages/KenyataanMedia.aspx",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "lastSuccessAt": "2026-10-09T03:12:05.863Z",
       "links": [
         {
           "url": "https://www.nres.gov.my/ms-my/pustakamedia/KenyataanMedia/KM-KERAJAAN%20GALAKKAN%20PENGLIBATAN%20SEKTOR%20SWASTA%20DALAM%20MEMPERKUKUH%20PELABURAN%20DAN%20PEMBIAYAAN%20ADAPTASI%20IKLIM.pdf",
@@ -2207,7 +2203,7 @@
     {
       "id": "dewan-selangor",
       "url": "https://dewan.selangor.gov.my/",
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [
@@ -2241,7 +2237,7 @@
       "observedCount": 1,
       "documentCount": 1,
       "fingerprint": "122f6cda2327fb2ae69d32ef306992179728981ab499e44efa09ac1bbd997dbb",
-      "changedCount": 1
+      "changedCount": 0
     }
   ],
   "datasets": [
@@ -2256,9 +2252,9 @@
         "date",
         "summary_forecast"
       ],
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-09T02:59:03.993Z",
+      "dataFetchedAt": "2026-10-09T03:12:05.863Z",
       "records": [
         {
           "location": {
@@ -2458,7 +2454,7 @@
         }
       ],
       "fingerprint": "2483a373cfcaf75f8cf1a851e6ab3591a580323659d185d64bd01959bcecdc1d",
-      "changed": true
+      "changed": false
     },
     {
       "id": "weather-warnings",
@@ -2471,9 +2467,9 @@
         "valid_from",
         "valid_to"
       ],
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-09T02:59:03.993Z",
+      "dataFetchedAt": "2026-10-09T03:12:05.863Z",
       "records": [
         {
           "warning_issue": {
@@ -2537,7 +2533,7 @@
         }
       ],
       "fingerprint": "3bce37cdbaac6f784ad90f89bba3f021836e8d80712892e4cb525214ad862601",
-      "changed": true
+      "changed": false
     },
     {
       "id": "water-pollution",
@@ -2550,9 +2546,9 @@
         "status",
         "n_basins"
       ],
-      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "checkedAt": "2026-10-09T03:12:05.863Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-09T02:59:03.993Z",
+      "dataFetchedAt": "2026-10-09T03:12:05.863Z",
       "records": [
         {
           "date": "2024-01-01",
