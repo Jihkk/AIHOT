@@ -24,6 +24,10 @@ GitHub Pages 发布流程已经配置，站主确认静态版使用规则和隐�
 
 采集设置在 `modules/water-watch/collection-config.json`；可复核基线在 `collection-state.json`，公开状态在 `collection.json`，政府数据在 `data.json`。待编辑候选清单写入忽略提交的 `.data/water-watch-intake.json`。无需付费模型 API，不将 Codex 凭据放入 GitHub。
 
+Windows 主机遇到 Node 缺少中间证书链或连接超时时，采集器在同一个 25 秒期限内改用系统 curl/Schannel，仍校验证书、域名、HTTPS、响应大小和每次跳转的官方域名；不会在 HTTP 403 或证书过期、域名不匹配时更换客户端。其他系统保留 Node HTTPS。SPAN 增查声明和招标栏目，霹雳 JPS 增查 2026 新闻栏目，槟城 JPS 使用官网实际跳转后的马来文入口。
+
+雪兰莪州议会网页返回 HTTP 500 时，登记的官方历史 PDF 仍可独立核查（文件类型、PDF 文件头、大小和 SHA-256）。这只证明附件可读取，不能发现新公告或代替新闻列表；页面保持“读取范围有限”，展示失败原因与附件链接，不把旧文件标为新资讯。新增附件入口仍须人工核实官方原文后登记到 `documents`。
+
 以后直接对 Codex 说：**“更新 Malaysia Water Watch，核查官方最新资讯，整理中文摘要并提交 GitHub。”** 更新步骤见 [编辑流程](modules/water-watch/EDITORIAL.md)，内容在 [content.json](modules/water-watch/content.json)。
 
 公开部署前需选择托管、确认使用规则与隐私说明。当前静态预览没有广告、追踪代码、注册或付费模型请求。实时预警、观测与招标资格以官方原文为准；无收录不等于无风险或无公告。

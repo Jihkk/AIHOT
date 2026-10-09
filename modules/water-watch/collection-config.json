@@ -45,7 +45,11 @@
     {
       "id": "span",
       "url": "https://www.span.gov.my/",
-      "kind": "html"
+      "kind": "html",
+      "additionalUrls": [
+        "https://www.span.gov.my/category/view/76",
+        "https://www.span.gov.my/tender"
+      ]
     },
     {
       "id": "air-selangor",
@@ -150,7 +154,7 @@
     },
     {
       "id": "jps-penang",
-      "url": "https://jps.penang.gov.my/",
+      "url": "https://jps.penang.gov.my/index.php/ms/",
       "kind": "html"
     },
     {
@@ -161,7 +165,10 @@
     {
       "id": "jps-perak",
       "url": "https://jps.perak.gov.my/",
-      "kind": "html"
+      "kind": "html",
+      "additionalUrls": [
+        "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026"
+      ]
     },
     {
       "id": "jps-pahang",
@@ -202,6 +209,12 @@
       "kind": "html",
       "additionalUrls": [
         "https://dewan.selangor.gov.my/question/tebatan-banjir-negeri-selangor/"
+      ],
+      "documents": [
+        {
+          "url": "https://dewan.selangor.gov.my/wp-content/uploads/2026/04/21.4.2026-SELASA-DRAF-PENYATA-RASMI.pdf",
+          "title": "Penyata Rasmi 21 April 2026: perbahasan banjir dan sumber air (draf)"
+        }
       ]
     }
   ],

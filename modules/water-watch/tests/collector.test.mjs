@@ -120,3 +120,25 @@ test('every registered official source is included in the collector configuratio
   const configured=JSON.parse(await readFile(new URL('../collection-config.json',import.meta.url),'utf8'));
   assert.deepEqual(new Set(configured.sources.map(s=>s.id)),new Set(registered.sources.map(s=>s.id)));
 });
+
+test('available official PDFs do not conceal a failed news listing or claim full coverage',async()=>{
+  const document={url:'https://www.water.gov.my/hansard.pdf',title:'Official flood mitigation parliamentary record'};
+  const cfg={...config,sources:[{...config.sources[0],documents:[document]}]};
+  const fetched=await collect(content,cfg,{}, {now:at,fetchFn:async target=>target===page ? new Response('Server error',{status:500}) : new Response('%PDF-1.7\nOfficial document',{headers:{'content-type':'application/pdf'}})});
+  const row=fetched.sources[0];
+  assert.equal(row.status,'limited');
+  assert.equal(row.lastSuccessAt,null);
+  assert.equal(row.documentCount,1);
+  assert.equal(row.pages[0].error,'HTTP 500');
+  assert.equal(row.links[0].documentOnly,true);
+  assert.match(row.links[0].listingText,/SHA-256: [a-f0-9]{64}/);
+  const rendered=renderMonitoring(content,{collection:publicCollection(fetched),data:publicData(fetched)});
+  assert.match(rendered,/新闻列表仍不可用/);
+  assert.match(rendered,/HTTP 500/);
+  assert.match(rendered,/hansard\.pdf/);
+  const bad=await collect(content,cfg,fetched, {now:at,fetchFn:async()=>new Response('Not a PDF',{headers:{'content-type':'application/pdf'}})});
+  assert.equal(bad.sources[0].status,'error');
+  assert.deepEqual(bad.sources[0].links,row.links);
+  assert.equal(bad.sources[0].pages.length,2);
+  await assert.rejects(collect(content,{...cfg,sources:[{...cfg.sources[0],documents:[{...document,url:'https://evil.example/hansard.pdf'}]}]}),/HTTPS link/);
+});

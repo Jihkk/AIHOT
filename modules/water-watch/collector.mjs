@@ -1,6 +1,7 @@
 import { createHash } from 'node:crypto';
 import { load } from 'cheerio';
 import { officialUrl } from './official-url.mjs';
+import {publicFetch,errorDetail} from './public-fetch.mjs';
 
 const digest = value => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 // Official headlines sometimes use mathematical bold Unicode instead of ordinary letters.
@@ -55,7 +56,7 @@ export function linkChanges(previous, current) {
   return current.filter(item=>old.get(item.key ?? item.url)!==signature(item));
 }
 
-export async function readPublic(url, hosts, fetchFn = fetch) {
+export async function readPublic(url, hosts, fetchFn = publicFetch) {
   officialUrl(url, hosts);
   const signal = AbortSignal.timeout(25000);
   for (let redirects=0;redirects<5;redirects++) {
@@ -79,7 +80,8 @@ export async function readPublic(url, hosts, fetchFn = fetch) {
       if(bytes>2_000_000) {await reader.cancel();throw new Error('Response exceeds 2 MB');}
       chunks.push(value);
     }
-    return {url,type:response.headers.get('content-type') ?? '',text:Buffer.concat(chunks).toString('utf8')};
+    const body=Buffer.concat(chunks);
+    return {url,type:response.headers.get('content-type') ?? '',text:body.toString('utf8'),bytes:body};
   }
   throw new Error('Too many redirects');
 }
@@ -98,7 +100,7 @@ export function validateRecords(dataset, value) {
   return value;
 }
 
-export async function collect(content, config, previous = {}, {fetchFn=fetch, now=new Date(), onProgress=()=>{}} = {}) {
+export async function collect(content, config, previous = {}, {fetchFn=publicFetch, now=new Date(), onProgress=()=>{}} = {}) {
   if(config.version!==1 || !Array.isArray(config.sources) || !Array.isArray(config.datasets)) throw new Error('Invalid collection config');
   const sourceMap=new Map(content.sources.map(s=>[s.id,s]));
   const seen=new Set();
@@ -109,6 +111,11 @@ export async function collect(content, config, previous = {}, {fetchFn=fetch, no
     officialUrl(entry.url,source.hosts);
     if(entry.additionalUrls !== undefined && (!Array.isArray(entry.additionalUrls) || entry.additionalUrls.length>9)) throw new Error('Invalid additional listings');
     for(const url of entry.additionalUrls ?? []) officialUrl(url,source.hosts);
+    if(entry.documents !== undefined && (!Array.isArray(entry.documents) || entry.documents.length>9)) throw new Error('Invalid reference documents');
+    for(const document of entry.documents ?? []) {
+      officialUrl(document.url,source.hosts);
+      if(typeof document.title!=='string' || document.title.length<18 || document.title.length>400) throw new Error('Invalid document title');
+    }
   }
   if(seen.size!==sourceMap.size) throw new Error('Every registered source needs a collection entry');
   const checkedAt=now.toISOString();
@@ -117,8 +124,8 @@ export async function collect(content, config, previous = {}, {fetchFn=fetch, no
     const source=sourceMap.get(entry.id);
     const old=previous.sources?.find(s=>s.id===entry.id);
     const pageUrl=entry.annualPath ? new URL(entry.annualPath.replace('{year}',now.toLocaleDateString('en-CA',{timeZone:'Asia/Kuala_Lumpur'}).slice(0,4)),entry.url).href : entry.url;
+    const pages=[];
     try {
-      const pages=[];
       const found=new Map();
       for(const url of new Set([pageUrl,...entry.additionalUrls ?? []])) {
         try {
@@ -128,23 +135,38 @@ export async function collect(content, config, previous = {}, {fetchFn=fetch, no
           for(const item of links) found.set(item.key ?? item.url,item);
           pages.push({url,status:links.length ? 'ok' : 'limited',observedCount:links.length});
         } catch(error) {
-          pages.push({url,status:'error',observedCount:null,error:error.message.slice(0,200)});
+          pages.push({url,status:'error',observedCount:null,error:errorDetail(error)});
+        }
+      }
+      // Registered attachments can remain available when the official HTML application is down.
+      // A known document is historical reference material, never proof of current news coverage.
+      for(const document of entry.documents ?? []) {
+        try {
+          const response=await readPublic(document.url,source.hosts,fetchFn);
+          if(!/application\/pdf/i.test(response.type) || response.bytes.subarray(0,5).toString('ascii')!=='%PDF-') throw new Error('Expected a PDF attachment');
+          const fingerprint=createHash('sha256').update(response.bytes).digest('hex');
+          const item={url:response.url,title:document.title,documentOnly:true,listingText:`PDF SHA-256: ${fingerprint}`};
+          found.set(item.url,item);
+          pages.push({url:document.url,status:'ok',kind:'pdf',observedCount:1});
+        } catch(error) {
+          pages.push({url:document.url,status:'error',kind:'pdf',observedCount:null,error:errorDetail(error)});
         }
       }
       if(pages.every(page=>page.status==='error')) throw new Error(pages.map(page=>page.error).join('; '));
       const complete=pages.every(page=>page.status==='ok');
+      const documentCount=pages.filter(page=>page.kind==='pdf' && page.status==='ok').length;
       const observedCount=found.size;
       // A failed secondary listing must not erase candidates discovered on earlier runs.
       if(!complete) for(const item of old?.links ?? []) if(!found.has(item.key ?? item.url)) found.set(item.key ?? item.url,item);
       const links=[...found.values()].sort((a,b)=>(a.key ?? a.url).localeCompare(b.key ?? b.url));
       const changes=linkChanges(old?.links,links);
       const status=complete ? 'ok' : 'limited';
-      const result={id:entry.id,url:pageUrl,checkedAt,status,lastSuccessAt:complete ? checkedAt : old?.lastSuccessAt ?? null,links,pages,observedCount,fingerprint:links.length ? digest(links) : old?.fingerprint ?? null,changedCount:changes.length};
+      const result={id:entry.id,url:pageUrl,checkedAt,status,lastSuccessAt:complete ? checkedAt : old?.lastSuccessAt ?? null,links,pages,observedCount,documentCount,fingerprint:links.length ? digest(links) : old?.fingerprint ?? null,changedCount:changes.length};
       sources.push(result);
       changed.push(...changes.map(item=>({...item,source:entry.id})));
       onProgress(`${entry.id}: ${status}, ${observedCount} candidate links from ${pages.length} listing(s)`);
     } catch(error) {
-      sources.push({id:entry.id,url:pageUrl,checkedAt,status:'error',lastSuccessAt:old?.lastSuccessAt ?? null,links:old?.links ?? [],observedCount:null,fingerprint:old?.fingerprint ?? null,changedCount:0,error:error.message.slice(0,200)});
+      sources.push({id:entry.id,url:pageUrl,checkedAt,status:'error',lastSuccessAt:old?.lastSuccessAt ?? null,links:old?.links ?? [],observedCount:null,fingerprint:old?.fingerprint ?? null,changedCount:0,error:errorDetail(error),pages});
       onProgress(`${entry.id}: error (${error.message})`);
     }
   }

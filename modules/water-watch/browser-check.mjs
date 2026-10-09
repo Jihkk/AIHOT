@@ -57,8 +57,14 @@ try {
   await page.locator('#reset').click();
   await page.locator('.story details summary').first().click();
   assert.ok(await page.locator('.story details[open]').first().isVisible());
-  await page.locator('.source-details summary').click();
+  await page.locator('.source-details > summary').click();
   assert.equal(await page.locator('.source-card').count(),content.sources.length);
+  for(const source of monitoring.collection.sources.filter(source=>source.documentCount>0 && source.pages?.filter(item=>item.kind!=='pdf').every(item=>item.status==='error'))) {
+    const card=page.locator('.source-card').filter({has:page.locator(`a[href="${source.url}"]`)});
+    assert.match(await card.innerText(),/新闻列表仍不可用/);
+    await card.locator('details > summary').click();
+    assert.equal(await card.locator('li a').filter({hasText:'官方历史 PDF'}).count(),source.documentCount);
+  }
   assert.equal(await page.locator('.dataset').count(),3);
   const dataResponse=await page.request.get(`${base}data.json`);
   assert.equal(dataResponse.status(),200);
@@ -69,7 +75,7 @@ try {
     assert.ok((await notice.text()).includes('GitHub 账号 Jihkk'));
     assert.equal(await page.locator(`footer a[href="${file}"]`).count(),1);
   }
-  await page.locator('.source-details summary').click();
+  await page.locator('.source-details > summary').click();
   if(forecastCount) {
     await page.locator('.forecast-details summary').click();
     assert.equal(await page.locator('.period-day:visible').count(),forecastCount);
@@ -78,6 +84,10 @@ try {
   for(const width of [375,390,768,1024,1440]) {
     await page.setViewportSize({width,height:844});
     assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth <= innerWidth),`${width}px layout must not overflow`);
+    await page.locator('.source-details > summary').click();
+    await page.locator('.source-card details').evaluateAll(elements=>elements.forEach(element=>{element.open=true;}));
+    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth <= innerWidth),`${width}px collection diagnostics must not overflow`);
+    await page.locator('.source-details > summary').click();
   }
   await page.setViewportSize({width:390,height:844});
   await page.screenshot({path:fileURLToPath(new URL('../../.data/water-watch-mobile.png',import.meta.url)),fullPage:true});

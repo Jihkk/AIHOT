@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-08T09:59:56.592Z",
+  "checkedAt": "2026-10-09T03:02:52.015Z",
   "sources": [
     {
       "id": "jps",
       "url": "https://www.water.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
           "url": "https://www.water.gov.my/index.php/database_stores/attach_download/28/11601",
@@ -23,7 +23,7 @@
         },
         {
           "url": "https://www.water.gov.my/index.php/pages/view/848",
-          "title": "Tender Notices 102495"
+          "title": "Tender Notices 102503"
         }
       ],
       "pages": [
@@ -39,15 +39,16 @@
         }
       ],
       "observedCount": 3,
-      "fingerprint": "94cd08ab864f6b3c66529a78282f6fb620d97cef47698d5750bc153a162595a5",
-      "changedCount": 3
+      "documentCount": 0,
+      "fingerprint": "37a0d5cd88e254e16e51598958f783c5de8bda5272b49333ec68117b4970c4c0",
+      "changedCount": 1
     },
     {
       "id": "metmalaysia",
       "url": "https://www.met.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
           "url": "https://www.met.gov.my/data/climate/kemarau.pdf",
@@ -66,23 +67,28 @@
         }
       ],
       "observedCount": 2,
+      "documentCount": 0,
       "fingerprint": "6270c95ed173c2485c9aaa25857ae927fdd2a6ba1b164dad965169d48dbffcbd",
-      "changedCount": 1
+      "changedCount": 0
     },
     {
       "id": "nadma",
       "url": "https://www.nadma.gov.my/bm/media-2/kenyataan-media",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
-          "url": "https://www.nadma.gov.my/bm/media-2/berita/7317-projek-hakisan-pantai-kuala-nerus-lewat-144-hari-lkan",
-          "title": "Projek hakisan pantai Kuala Nerus lewat 144 hari – LKAN"
+          "url": "https://www.nadma.gov.my/bm/media-2/berita/7330-all-sarawak-air-monitoring-stations-record-moderate-air-quality",
+          "title": "All Sarawak air monitoring stations record ‘Moderate’ air quality"
         },
         {
-          "url": "https://www.nadma.gov.my/bm/media-2/berita/7318-projek-tebatan-banjir-sungai-golok-tertangguh-hingga-2027",
-          "title": "Projek tebatan banjir Sungai Golok tertangguh hingga 2027"
+          "url": "https://www.nadma.gov.my/bm/media-2/berita/7331-monsoon-transition-begins-oct-9-bringing-thunderstorms-flash-flood-and-fallen-tree-risks-metmalaysia-warns",
+          "title": "Monsoon transition begins Oct 9, bringing thunderstorms, flash flood and fallen tree risks, MetMalaysia warns"
+        },
+        {
+          "url": "https://www.nadma.gov.my/bm/media-2/berita/7332-jerebu-dijangka-beransur-pulih-susulan-peralihan-monsun-namun-waspada-hujan-lebat-ribut-petir-metmalaysia",
+          "title": "Jerebu dijangka beransur pulih susulan peralihan monsun, namun waspada hujan lebat, ribut petir - MetMalaysia"
         },
         {
           "url": "https://www.nadma.gov.my/bm/media-2/kenyataan-media/7125-kenyataan-media-penyelarasan-maklumat-berhubung-kejadian-banjir-di-nepal",
@@ -114,29 +120,30 @@
         {
           "url": "https://www.nadma.gov.my/bm/media-2/program-dan-aktiviti",
           "status": "ok",
-          "observedCount": 4
+          "observedCount": 5
         },
         {
           "url": "https://www.nadma.gov.my/bm/media-2/program-dan-aktiviti?start=5",
           "status": "ok",
-          "observedCount": 3
+          "observedCount": 4
         },
         {
           "url": "https://www.nadma.gov.my/bm/media-2/berita",
           "status": "ok",
-          "observedCount": 2
+          "observedCount": 3
         }
       ],
-      "observedCount": 7,
-      "fingerprint": "aacc0930f533933c2320e66e2a65b6c2bd374787e27f8a4709b0db277cd6738d",
-      "changedCount": 1
+      "observedCount": 8,
+      "documentCount": 0,
+      "fingerprint": "0b7efdd2fcc7b9a31eaacd7b36ed16252ce439887911e20e7245f5c06c0ddd25",
+      "changedCount": 3
     },
     {
       "id": "nahrim",
       "url": "https://www.nahrim.gov.my/arkib-berita/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
           "url": "https://www.nahrim.gov.my/garis-panduan-pemasangan-panel-solar-terapung-di-atas-takungan-air-dan-tasik-di-malaysia-2026/",
@@ -204,13 +211,14 @@
         }
       ],
       "observedCount": 13,
+      "documentCount": 0,
       "fingerprint": "027b0a54ca8bdc48be3b04a33927dc4f71b85ff00228ea90ac06e70664e07efb",
-      "changedCount": 1
+      "changedCount": 0
     },
     {
       "id": "petra",
       "url": "https://www.petra.gov.my/v2/documents/media-statement",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [
@@ -506,25 +514,444 @@
         }
       ],
       "observedCount": 67,
+      "documentCount": 0,
       "fingerprint": "00d99cec2e3a6d4b5a24edcbf0d98c01b9fb47aa7f4652d5900699b2ea54300b",
-      "changedCount": 67
+      "changedCount": 0
     },
     {
       "id": "span",
       "url": "https://www.span.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
-      "status": "error",
-      "lastSuccessAt": null,
-      "links": [],
-      "observedCount": null,
-      "fingerprint": null,
-      "changedCount": 0,
-      "error": "fetch failed"
+      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "links": [
+        {
+          "url": "https://www.span.gov.my//document/upload/jIwjECim0iMS30nzUjQq9iFZqNg0FpPf.pdf",
+          "title": "WATER & SEWERAGE FACT BOOK 2023"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/bell-issey-gaduh-pasal-air",
+          "title": "BELL & ISSEY 'GADUH' PASAL AIR?"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/gangguan-bekalan-air-jom-dengar-apa-kata-bell-wafarina",
+          "title": "GANGGUAN BEKALAN AIR? JOM DENGAR APA KATA BELL & WAFARINA!"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataab-media-ecoknights-dan-span-bekerjasama-membina-komuniti-prihatin-dan-cakna-tentang-perkhidmatan-air",
+          "title": "KENYATAAN MEDIA - ECOKNIGHTS DAN SPAN BEKERJASAMA MEMBINA KOMUNITI PRIHATIN DAN CAKNA TENTANG PERKHIDMATAN AIR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-hasil-siasatan-jawatankuasa-khas-berhubung-insiden-gangguan-bekalan-air-berpunca-pencemaran-air-di-negeri-selangor",
+          "title": "KENYATAAN MEDIA - HASIL SIASATAN JAWATANKUASA KHAS BERHUBUNG INSIDEN GANGGUAN BEKALAN AIR BERPUNCA PENCEMARAN AIR DI NEGERI SELANGOR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-isu-bekalan-air-di-hospital-raja-perempuan-zainab-ii-kota-baharu",
+          "title": "Kenyataan Media - ISU BEKALAN AIR DI HOSPITAL RAJA PEREMPUAN ZAINAB II, KOTA BAHARU"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-isu-bekalan-air-di-pekan-awah-daerah-maran-pahang",
+          "title": "Kenyataan Media - ISU BEKALAN AIR DI PEKAN AWAH, DAERAH MARAN, PAHANG"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-isu-gangguan-bekalan-air-di-unimap-bukan-berpunca-daripada-masalah-bekalan-oleh-operator",
+          "title": "KENYATAAN MEDIA - ISU GANGGUAN BEKALAN AIR DI UNIMAP BUKAN BERPUNCA DARIPADA MASALAH BEKALAN OLEH OPERATOR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-jawatankuasa-teknikal-khas-jktk-span-adakan-dialog-bersama-agensi-berkepentingan-tentang-insiden-gangguan-bekalan-air-mentah-di-negeri-kedah-dan-pulau-pinang",
+          "title": "KENYATAAN MEDIA - JAWATANKUASA TEKNIKAL KHAS (JKTK) SPAN ADAKAN DIALOG BERSAMA AGENSI BERKEPENTINGAN TENTANG INSIDEN GANGGUAN BEKALAN AIR MENTAH DI NEGERI KEDAH DAN PULAU PINANG"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-kedudukan-sumber-air-negeri-negeri-di-semenanjung-malaysia-dan-wilayah-persekutuan-labuan-semasa-cuaca-kering-berpanjangan",
+          "title": "KENYATAAN MEDIA - KEDUDUKAN SUMBER AIR NEGERI-NEGERI DI SEMENANJUNG MALAYSIA DAN WILAYAH PERSEKUTUAN LABUAN SEMASA CUACA KERING BERPANJANGAN"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-kenyataan-media-span-serbu-premis-premis-yang-disyaki-melakukan-sambungan-bekalan-air-secara-tidak-sah-dan-menggunakan-pam-selepas-meter-di-pantai-remis-perak",
+          "title": "KENYATAAN MEDIA - KENYATAAN MEDIA - SPAN SERBU PREMIS-PREMIS YANG DISYAKI MELAKUKAN SAMBUNGAN BEKALAN AIR SECARA TIDAK SAH DAN MENGGUNAKAN PAM SELEPAS METER DI PANTAI REMIS, PERAK"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-kontraktor-didapati-bersalah-curi-air",
+          "title": "Kenyataan Media - KONTRAKTOR DIDAPATI BERSALAH CURI AIR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-majlis-menandatangani-memorandum-persefahaman-mou-di-antara-suruhanjaya-perkhidmatan-air-negara-span-dengan-operator-operator-air-di-semenanjung-malaysia-dan-wilayah-persekutuan-labuan",
+          "title": "Kenyataan Media - MAJLIS MENANDATANGANI MEMORANDUM PERSEFAHAMAN (MOU) DI ANTARA SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) DENGAN OPERATOR-OPERATOR AIR DI SEMENANJUNG MALAYSIA DAN WILAYAH PERSEKUTUAN LABUAN"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-pelaksanaan-pelarasan-tarif-air-domestik-di-semenanjung-malaysia-dan-wilayah-persekutuan-labuan-ke-arah-peningkatan-perkhidmatan-bekalan-air-yang-berkualiti",
+          "title": "KENYATAAN MEDIA - PELAKSANAAN PELARASAN TARIF AIR DOMESTIK DI SEMENANJUNG MALAYSIA DAN WILAYAH PERSEKUTUAN LABUAN KE ARAH PENINGKATAN PERKHIDMATAN BEKALAN AIR YANG BERKUALITI"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-pelancaran-dokumen-uniform-technical-guidelines-garis-panduan-untuk-rujukan-penggiat-industri-perkhidmatan-air",
+          "title": "Kenyataan Media - PELANCARAN DOKUMEN UNIFORM TECHNICAL GUIDELINES – GARIS PANDUAN UNTUK RUJUKAN PENGGIAT INDUSTRI PERKHIDMATAN AIR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-pemantapan-integriti-dan-anti-rasuah-industri-perkhidmatan-air-negara",
+          "title": "KENYATAAN MEDIA - PEMANTAPAN INTEGRITI DAN ANTI RASUAH INDUSTRI PERKHIDMATAN AIR NEGARA"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-pembangunan-pusat-data-langkah-langkah-untuk-menjamin-bekalan-air-yang-berterusan-dan-lestari",
+          "title": "KENYATAAN MEDIA - PEMBANGUNAN PUSAT DATA: LANGKAH-LANGKAH UNTUK MENJAMIN BEKALAN AIR YANG BERTERUSAN DAN LESTARI"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-pembekal-produk-sejuk-beku-dan-barang-runcit-mengaku-bersalah-curi-air",
+          "title": "Kenyataan Media - PEMBEKAL PRODUK SEJUK BEKU DAN BARANG RUNCIT MENGAKU BERSALAH CURI AIR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-pembekalan-air-di-bawah-northern-perak-water-supply-scheme-npwss",
+          "title": "KENYATAAN MEDIA - PEMBEKALAN AIR DI BAWAH NORTHERN PERAK WATER SUPPLY SCHEME (NPWSS)"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-pencemaran-pati-pewangi-sebabkan-henti-tugas-lra-sungai-semenyih-dan-lra-bukit-tampoi",
+          "title": "Kenyataan Media - PENCEMARAN PATI PEWANGI SEBABKAN HENTI TUGAS LRA SUNGAI SEMENYIH DAN LRA BUKIT TAMPOI"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-penggunaan-produk-cekap-air-akan-diperluaskan-demi-menjayakan-misi-malaysia-lestari-2030",
+          "title": "Kenyataan Media - PENGGUNAAN PRODUK CEKAP AIR AKAN DIPERLUASKAN DEMI MENJAYAKAN MISI MALAYSIA LESTARI 2030"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-perbuatan-jenayah-mencuri-meter-air-boleh-dikenakan-hukum-di-bawah-akta-industri-perkhidmatan-air-2006-akta-655",
+          "title": "Kenyataan Media - PERBUATAN JENAYAH MENCURI METER AIR BOLEH DIKENAKAN HUKUM DI BAWAH AKTA INDUSTRI PERKHIDMATAN AIR 2006 (AKTA 655)"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-perubahan-iklim-kerajaan-perkukuh-kesiapsiagaan-war-room-jadi-nadi-pemantauan-strategik",
+          "title": "KENYATAAN MEDIA - PERUBAHAN IKLIM: KERAJAAN PERKUKUH KESIAPSIAGAAN, WAR ROOM JADI NADI PEMANTAUAN STRATEGIK"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-perundangan-subsidiari-baharu-pendaftaran-pembekal-produk-bantu-tingkatkan-kualiti-industri-perkhidmatan-air",
+          "title": "KENYATAAN MEDIA - PERUNDANGAN SUBSIDIARI BAHARU PENDAFTARAN PEMBEKAL PRODUK BANTU TINGKATKAN KUALITI INDUSTRI PERKHIDMATAN AIR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-politeknik-sultan-salahuddin-abdul-aziz-shah-dinobat-juara-pertandingan-rekacipta-dan-inovasi-penjimatan-air-reka-2025",
+          "title": "KENYATAAN MEDIA - POLITEKNIK SULTAN SALAHUDDIN ABDUL AZIZ SHAH DINOBAT JUARA PERTANDINGAN REKACIPTA DAN INOVASI PENJIMATAN AIR (REKA+) 2025"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-amal-toleransi-sifar-terhadap-amalan-rasuah-serta-salah-guna-kuasa-dalam-industri-perkhidmatan-air",
+          "title": "KENYATAAN MEDIA - SPAN AMAL “TOLERANSI SIFAR” TERHADAP AMALAN RASUAH SERTA SALAH GUNA KUASA DALAM INDUSTRI PERKHIDMATAN AIR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-anjur-bengkel-pelan-tindakan-kesan-el-nino-terhadap-industri-perkhidmatan-air",
+          "title": "KENYATAAN MEDIA - SPAN ANJUR BENGKEL PELAN TINDAKAN KESAN EL-NINO TERHADAP INDUSTRI PERKHIDMATAN AIR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-bahagian-penguatkuasaan-span-pantau-sebarang-risiko-pencemaran-sumber-air-bagi-memastikan-kelestarian-bekalan-di-sepanjang-tempoh-perintah-kawalan-pergerakan-pkp",
+          "title": "Kenyataan Media SPAN - BAHAGIAN PENGUATKUASAAN SPAN PANTAU SEBARANG RISIKO PENCEMARAN SUMBER AIR BAGI MEMASTIKAN KELESTARIAN BEKALAN DI SEPANJANG TEMPOH PERINTAH KAWALAN PERGERAKAN (PKP)"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-bakal-lengkapkan-kertas-siasatan-kes-pencemaran-sg-gong-dalam-waktu-terdekat",
+          "title": "Kenyataan Media - SPAN BAKAL LENGKAPKAN KERTAS SIASATAN KES PENCEMARAN SG GONG DALAM WAKTU TERDEKAT"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-buat-lawatan-kerja-ke-kedah-dan-pulau-pinang-tinjau-keadaan-empangan-dan-persediaan-menghadapi-fenomena-el-nino",
+          "title": "KENYATAAN MEDIA - SPAN BUAT LAWATAN KERJA KE KEDAH DAN PULAU PINANG TINJAU KEADAAN EMPANGAN DAN PERSEDIAAN MENGHADAPI FENOMENA EL-NINO"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-hargai-bantuan-anggota-60-rejiman-pakar-air-rajd-aw-yang-membantu-meminimumkan-impak-masalah-bekalan-air-di-negeri-kedah-melalui-latihan-kerahan-untuk-berkhidmat-lkub",
+          "title": "Kenyataan Media - SPAN HARGAI BANTUAN ANGGOTA 60 REJIMAN PAKAR AIR RAJD (AW) YANG MEMBANTU MEMINIMUMKAN IMPAK MASALAH BEKALAN AIR DI NEGERI KEDAH MELALUI LATIHAN KERAHAN UNTUK BERKHIDMAT (LKUB)"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-jas-dan-iwk-kesan-pelepasan-sisa-terlarang-ke-dalam-lurang-pembetungan",
+          "title": "Kenyataan Media - SPAN, JAS DAN IWK KESAN PELEPASAN SISA TERLARANG KE DALAM LURANG PEMBETUNGAN"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-kementerian-alam-sekitar-span-pandang-serius-situasi-pencemaran-minyak-di-sungai-selangor",
+          "title": "Kenyataan Media SPAN - KEMENTERIAN ALAM SEKITAR & SPAN PANDANG SERIUS SITUASI PENCEMARAN MINYAK DI SUNGAI SELANGOR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-komited-dalam-pelaksanaan-amalan-terbaik-di-kalangan-industri-perkhidmatan-air",
+          "title": "KENYATAAN MEDIA - SPAN KOMITED DALAM PELAKSANAAN AMALAN TERBAIK DI KALANGAN INDUSTRI PERKHIDMATAN AIR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-laksanakan-kajian-penggunaan-air-domestik-tertinggi-di-tiga-negeri",
+          "title": "KENYATAAN MEDIA - SPAN LAKSANAKAN KAJIAN PENGGUNAAN AIR DOMESTIK TERTINGGI DI TIGA NEGERI"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-lancar-pertandingan-reka-bertujuan-menyemarak-kreativiti-dan-inovasi-di-kalangan-belia-bersempena-kempen-bijak-air-madani",
+          "title": "KENYATAAN MEDIA - SPAN LANCAR PERTANDINGAN REKA+ BERTUJUAN MENYEMARAK KREATIVITI DAN INOVASI DI KALANGAN BELIA BERSEMPENA KEMPEN BIJAK AIR MADANI"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-lancar-pertandingan-video-pendek-melalui-kempen-bijakair-sebagai-inspirasi-keterjaminan-dan-pemuliharaan-air",
+          "title": "KENYATAAN MEDIA - SPAN LANCAR PERTANDINGAN VIDEO PENDEK MELALUI KEMPEN ‘BIJAKAIR’ SEBAGAI INSPIRASI KETERJAMINAN DAN PEMULIHARAAN AIR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-lancarkan-war-room-pantau-kelestarian-perkhidmatan-bekalan-air-di-sepanjang-tempoh-el-nino",
+          "title": "KENYATAAN MEDIA - SPAN LANCARKAN WAR ROOM PANTAU KELESTARIAN PERKHIDMATAN BEKALAN AIR DI SEPANJANG TEMPOH EL-NINO"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-meterai-pelan-tindakan-dengan-syarikat-air-perlis-sdn-bhd-sap-sebagai-usaha-mentransformasi-perkhidmatan-bekalan-air-di-negeri-perlis",
+          "title": "KENYATAAN MEDIA - SPAN METERAI PELAN TINDAKAN DENGAN SYARIKAT AIR PERLIS SDN BHD (SAP) SEBAGAI USAHA MENTRANSFORMASI PERKHIDMATAN BEKALAN AIR DI NEGERI PERLIS"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-nafi-lambat-bertindak-terhadap-situasi-pencemaran-efluen-di-loji-rawatan-kumbahan-lrk-taman-velox-rawang-selangor",
+          "title": "Kenyataan Media - SPAN NAFI LAMBAT BERTINDAK TERHADAP SITUASI PENCEMARAN EFLUEN DI LOJI RAWATAN KUMBAHAN (LRK) TAMAN VELOX, RAWANG, SELANGOR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-ops-air-raya-pantau-kemaslahatan-sumber-air-di-sepanjang-sambutan-aidilfitri-dan-perintah-kawalan-pergerakan-bersyarat-pkpb",
+          "title": "Kenyataan Media SPAN - “OPS AIR RAYA” PANTAU KEMASLAHATAN SUMBER AIR DI SEPANJANG SAMBUTAN AIDILFITRI DAN PERINTAH KAWALAN PERGERAKAN BERSYARAT (PKPB)"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-pantau-impak-krisis-di-selat-hormuz-terhadap-industri-perkhidmatan-air",
+          "title": "KENYATAAN MEDIA - SPAN PANTAU IMPAK KRISIS DI SELAT HORMUZ TERHADAP INDUSTRI PERKHIDMATAN AIR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-pantau-secara-dekat-pemulihan-bekalan-air-akibat-masalah-paip-rosak-di-lra-bukit-remah-rentetan-situasi-tanah-gelongsor-dan-runtuhan-cerun-yang-serius",
+          "title": "KENYATAAN MEDIA - SPAN PANTAU SECARA DEKAT PEMULIHAN BEKALAN AIR AKIBAT MASALAH PAIP ROSAK DI LRA BUKIT REMAH RENTETAN SITUASI TANAH GELONGSOR DAN RUNTUHAN CERUN YANG SERIUS"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-penjelasan-kenaikan-caj-air",
+          "title": "Kenyataan Media SPAN - PENJELASAN KENAIKAN CAJ AIR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-peruntukan-rm10-juta-bagi-usaha-membaik-pulih-sistem-pembetungan-yang-rosak-akibat-banjir",
+          "title": "Kenyataan Media - SPAN PERUNTUKAN RM10 JUTA BAGI USAHA MEMBAIK PULIH SISTEM PEMBETUNGAN YANG ROSAK AKIBAT BANJIR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-serbu-gudang-penyimpan-barang-dan-alat-ganti-kenderaan-yang-disyaki-melakukan-sambungan-bekalan-air-yang-tidak-sah",
+          "title": "Kenyataan Media - SPAN SERBU GUDANG PENYIMPAN BARANG DAN ALAT GANTI KENDERAAN YANG DISYAKI MELAKUKAN SAMBUNGAN BEKALAN AIR YANG TIDAK SAH"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-serbu-kebun-sayur-yang-disyaki-melakukan-sambungan-bekalan-air-yang-tidak-sah",
+          "title": "Kenyataan Media - SPAN SERBU KEBUN SAYUR YANG DISYAKI MELAKUKAN SAMBUNGAN BEKALAN AIR YANG TIDAK SAH"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-serbu-sebuah-asrama-penginapan-pekerja-projek-mass-rapid-transit-mrt-yang-disyaki-melakukan-sambungan-bekalan-air-secara-tidak-sah",
+          "title": "Kenyataan Media - SPAN SERBU SEBUAH ASRAMA PENGINAPAN PEKERJA PROJEK MASS RAPID TRANSIT (MRT) YANG DISYAKI MELAKUKAN SAMBUNGAN BEKALAN AIR SECARA TIDAK SAH"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-serbu-sebuah-kilang-pembersihan-tangki-kimia-yang-disyaki-melakukan-sambungan-bekalan-air-secara-tidak-sah",
+          "title": "Kenyataan Media - SPAN SERBU SEBUAH KILANG PEMBERSIHAN TANGKI KIMIA YANG DISYAKI MELAKUKAN SAMBUNGAN BEKALAN AIR SECARA TIDAK SAH"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-serbu-tapak-pembinaan-projek-lebuh-raya-persisiran-pantai-barat-west-coast-expressway-wce-yang-disyaki-melakukan-sambungan-bekalan-air-secara-tidak-sah",
+          "title": "Kenyataan Media - SPAN SERBU TAPAK PEMBINAAN PROJEK LEBUH RAYA PERSISIRAN PANTAI BARAT (WEST COAST EXPRESSWAY – WCE) YANG DISYAKI MELAKUKAN SAMBUNGAN BEKALAN AIR SECARA TIDAK SAH"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-siasat-penemuan-tong-berisi-bahan-sisa-berjadual-yang-berpotensi-mencemar-sumber-air-dan-mengganggu-bekalan-air-bersih-kepada-pengguna",
+          "title": "Kenyataan Media - SPAN SIASAT PENEMUAN TONG BERISI BAHAN SISA BERJADUAL YANG BERPOTENSI MENCEMAR SUMBER AIR DAN MENGGANGGU BEKALAN AIR BERSIH KEPADA PENGGUNA"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-span-perbaiki-sistem-pengepaman-bekalan-air-bawah-tanah-di-kampung-orang-asli-bukit-kechil",
+          "title": "Kenyataan Media SPAN - SPAN PERBAIKI SISTEM PENGEPAMAN BEKALAN AIR BAWAH TANAH DI KAMPUNG ORANG ASLI, BUKIT KECHIL"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-span-perluaskan-kempen-penggunaan-produk-cekap-air-di-negeri-selangor",
+          "title": "Kenyataan Media SPAN - SPAN PERLUASKAN KEMPEN PENGGUNAAN PRODUK CEKAP AIR DI NEGERI SELANGOR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-span-serbu-depoh-lori-kontena-yang-disyaki-melakukan-sambungan-bekalan-air-yang-tidak-sah",
+          "title": "Kenyataan Media SPAN - SPAN SERBU DEPOH LORI KONTENA YANG DISYAKI MELAKUKAN SAMBUNGAN BEKALAN AIR YANG TIDAK SAH"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-span-serbu-depoh-lori-yang-disyaki-melakukan-sambungan-bekalan-air-yang-tidak-sah",
+          "title": "KENYATAAN Media SPAN - SPAN SERBU DEPOH LORI YANG DISYAKI MELAKUKAN SAMBUNGAN BEKALAN AIR YANG TIDAK SAH"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-span-serbu-kebun-sayur-yang-disyaki-melakukan-sambungan-bekalan-air-yang-tidak-sah",
+          "title": "Kenyataan Media SPAN - SPAN SERBU KEBUN SAYUR YANG DISYAKI MELAKUKAN SAMBUNGAN BEKALAN AIR YANG TIDAK SAH"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-terima-permohonan-pelarasan-tarif-air-daripada-10-operator-negeri-termasuk-pulau-pinang",
+          "title": "KENYATAAN MEDIA - SPAN TERIMA PERMOHONAN PELARASAN TARIF AIR DARIPADA 10 OPERATOR NEGERI TERMASUK PULAU PINANG."
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-tubuh-jawatankuasa-teknikal-khas-jktk-teliti-insiden-gangguan-bekalan-air-mentah-di-negeri-kedah-dan-pulau-pinang-akibat-penurunan-mendadak-paras-air-sungai-muda",
+          "title": "KENYATAAN MEDIA - SPAN TUBUH JAWATANKUASA TEKNIKAL KHAS (JKTK) TELITI INSIDEN GANGGUAN BEKALAN AIR MENTAH DI NEGERI KEDAH DAN PULAU PINANG AKIBAT PENURUNAN MENDADAK PARAS AIR SUNGAI MUDA"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-tubuhkan-jawatankuasa-khas-bekalan-air-negeri-perlis-demi-menjamin-kelangsungan-dan-keselamatan-bekalan-air",
+          "title": "KENYATAAN MEDIA - SPAN TUBUHKAN JAWATANKUASA KHAS BEKALAN AIR NEGERI PERLIS DEMI MENJAMIN KELANGSUNGAN DAN KESELAMATAN BEKALAN AIR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-span-tubuhkan-jawatankuasa-khas-teliti-insiden-gangguan-bekalan-air-berpunca-pencemaran-khususnya-di-negeri-selangor",
+          "title": "KENYATAAN MEDIA - SPAN TUBUHKAN JAWATANKUASA KHAS TELITI INSIDEN GANGGUAN BEKALAN AIR BERPUNCA PENCEMARAN KHUSUSNYA DI NEGERI SELANGOR"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-warga-kerja-di-bahagian-operasi-bagi-syarikat-bekalan-air-dan-pembetungan-bertugas-sepenuhnya-bagi-memastikan-kelangsungan-perkhidmatan-di-sepanjang-tempoh-pelaksanaan-perintah-kawalan-pergerakan",
+          "title": "Kenyataan Media - WARGA KERJA DI BAHAGIAN OPERASI BAGI SYARIKAT BEKALAN AIR DAN PEMBETUNGAN BERTUGAS SEPENUHNYA BAGI MEMASTIKAN KELANGSUNGAN PERKHIDMATAN DI SEPANJANG TEMPOH PELAKSANAAN PERINTAH KAWALAN PERGERAKAN"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/kenyatan-media-span-siasat-pencemaran-bau-yang-mengakibatkan-penutupan-sementara-loji-rawatan-air-sungai-semenyih",
+          "title": "Kenyatan Media - SPAN SIASAT PENCEMARAN BAU YANG MENGAKIBATKAN PENUTUPAN SEMENTARA LOJI RAWATAN AIR SUNGAI SEMENYIH"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/span-serbu-kilang-membancuh-simen-yang-disyaki-melakukan-sambungan-bekalan-air-yang-tidak-sah",
+          "title": "Kenyataan Media - SPAN SERBU KILANG MEMBANCUH SIMEN YANG DISYAKI MELAKUKAN SAMBUNGAN BEKALAN AIR YANG TIDAK SAH"
+        },
+        {
+          "url": "https://www.span.gov.my/article/view/tabiat-pengguna-air",
+          "title": "Tabiat Pengguna Air"
+        },
+        {
+          "url": "https://www.span.gov.my/category/view/4",
+          "title": "Skim Pelabelan Produk Cekap Air"
+        },
+        {
+          "url": "https://www.span.gov.my/category/view/73",
+          "title": "AKTA INDUSTRI PERKHIDMATAN AIR"
+        },
+        {
+          "url": "https://www.span.gov.my/category/view/74",
+          "title": "Garis Panduan Di Bawah Akta IPA 2006"
+        },
+        {
+          "url": "https://www.span.gov.my/category/view/75",
+          "title": "Penerbitan Berkaitan Industri Perkhidmatan Air"
+        },
+        {
+          "url": "https://www.span.gov.my/document/upload/KASixe2qy0sqnqNLWvBFVxgffGbQBDyR.pdf",
+          "title": "WATER & SEWERAGE FACT BOOK 2024"
+        },
+        {
+          "url": "https://www.span.gov.my/document/upload/Q3O4LCEjI8HFumOTO2OMxO64o9tNAnOw.pdf",
+          "title": "WATER & SEWERAGE FACT BOOK 2022"
+        },
+        {
+          "url": "https://www.span.gov.my/document/upload/sPF1aUUdC4IYfngEe3JdJdQbqDjRTX7Y.pdf",
+          "title": "WATER & SEWERAGE FACT BOOK 2025"
+        },
+        {
+          "url": "https://www.span.gov.my/document/upload/wDC4eELu3ufaP3RCXb026ShRqJs4zjHO.pdf",
+          "title": "WATER & SEWERAGE FACT BOOK 2021"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/169",
+          "title": "SPAN/BKP/PROC/STM/26(1) CADANGAN MELANTIK PEMBEKAL BAGI KERJA-KERJA PENAMBAHBAIKAN SISTEM KUMPULAN WANG SUMBANGAN MODAL PEMBETUNGAN (eKWSMP) DI SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-01-23 Tarikh Tutup 2026-02-09 12:00PM Maklumat Sebutharga: Selesai"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/170",
+          "title": "SPAN/BKP/PROC/STM/26(2) CADANGAN MELANTIK PEMBEKAL BAGI MENYEDIAKAN KHIDMAT SOKONGAN DAN PENYELENGGARAAN SISTEM ELECTRONIC CENTRALISED LICENCE AND PERMIT SYSTEMS (ECLAPS) DI SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) UNTUK TEMPOH SATU (1) TAHUN SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-01-23 Tarikh Tutup 2026-02-19 12:00PM Maklumat Sebutharga: Dibatalkan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/174",
+          "title": "SPAN/BKP/PROC/BKS-SP/26(1) CADANGAN UNTUK MELANTIK KONTRAKTOR BAGI PERKHIDMATAN PEMBERSIHAN MESRA ALAM DI IBU PEJABAT SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-02-26 Tarikh Tutup 2026-03-10 12:00PM Maklumat Sebutharga: Selesai"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/175",
+          "title": "SPAN/BKP/PROC/BKS-SP/26(2) CADANGAN UNTUK MELANTIK KONTRAKTOR BAGI KERJA-KERJA UBAHSUAI BILIK FAIL, PENGGANTIAN DAN PENAMBAHAN KUBIKAL DI RUANG KERJA IBU PEJABAT SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-04-02 Tarikh Tutup 2026-04-15 12:00PM Maklumat Sebutharga: Selesai"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/176",
+          "title": "SPAN/BKP/PROC/SPM/26(1) CADANGAN UNTUK MELANTIK PEMBEKAL BAGI PENYEDIAAN LAPORAN PRESTASI INDUSTRI AIR (LPIA) 2025 / WATER SERVICES INDUSTRY PERFORMANCE REPORT (WSIPR) 2025 UNTUK SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-04-02 Tarikh Tutup 2026-04-15 12:00PM Maklumat Sebutharga: Selesai"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/177",
+          "title": "SPAN/BKP/PROC/STM/26(3) CADANGAN UNTUK MELANTIK PEMBEKAL BAGI MENYEDIAKAN PERKHIDMATAN PELAN PEMULIHAN BENCANA (DISASTER RECOVERY PLAN) DI SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-04-02 Tarikh Tutup 2026-04-15 12:00PM Maklumat Sebutharga: Dibatalkan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/179",
+          "title": "SPAN/BKP/PROC/BSM/26(1) CADANGAN MELANTIK PEMBEKAL BAGI PEMBAHARUAN LANGGANAN SISTEM PENGURUSAN MAKLUMAT SUMBER MANUSIA (HRIS) TERMASUK KHIDMAT SOKONGAN DAN PENYELENGARAAN DI SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) UNTUK TEMPOH (2) DUA TAHUN SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-04-06 Tarikh Tutup 2026-04-16 12:00PM Maklumat Sebutharga: Selesai"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/180",
+          "title": "SPAN/BKP/PROC/STM/26(4) CADANGAN UNTUK MELANTIK PEMBEKAL BAGI MENYEDIAKAN PERKHIDMATAN LANGGANAN TALIAN INTERNET (METRO-E) DI SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-04-27 Tarikh Tutup 2026-05-11 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/181",
+          "title": "SPAN/BKP/PROC/BKS-SP/26(3) CADANGAN UNTUK MELANTIK KONTRAKTOR BAGI KERJA-KERJA PENGUBAHSUAIAN PUSAT INOVASI DI IBU PEJABAT SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-04-27 Tarikh Tutup 2026-05-11 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/182",
+          "title": "SPAN/BKP/PROC/STM/26(5) CADANGAN UNTUK MELANTIK PEMBEKAL BAGI MENYEDIAKAN PERKHIDMATAN PELAN PEMULIHAN BENCANA (DISASTER RECOVERY PLAN) DI SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) BAGI TEMPOH 3 TAHUN SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-05-07 Tarikh Tutup 2026-05-18 12:00PM Maklumat Sebutharga: Selesai"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/183",
+          "title": "SPAN/BKP/PROC/STM/26(6) CADANGAN UNTUK MELANTIK PEMBEKAL BAGI PERKHIDMATAN PEMBAHARUAN KHIDMAT SOKONGAN DAN PENYELENGGARAAN SISTEM ELECTRONIC CENTRALISED LICENCE AND PERMIT SYSTEM (ECLAPS) UNTUK TEMPOH TIGA (3) TAHUN DI SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA TENDER TERBUKA Tarikh Iklan 2026-06-10 Tarikh Tutup 2026-07-01 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/184",
+          "title": "SPAN/BKP/PROC/BE/26(1) CADANGAN UNTUK MELANTIK JURUPERUNDING BAGI MELAKSANAKAN SEMAKAN SEMULA PERAKAUNAN KAWAL SELIA AIR (REGULATORY WATER ACCOUNTING [RWA]) UNTUK SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA TENDER TERBUKA Tarikh Iklan 2026-06-10 Tarikh Tutup 2026-07-06 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/185",
+          "title": "SPAN/BKP/PROC/STM/26(7) CADANGAN UNTUK MELANTIK PEMBEKAL BAGI PERKHIDMATAN MEMBEKAL, MENGHANTAR, MEMASANG, MENGUJI TERIMA, MENGKONFIGURASI DAN MENYELENGGARA 22 UNIT PERKAKASAN KOMPUTER RIBA TAHUN 2026 UNTUK SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-06-09 Tarikh Tutup 2026-06-22 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/186",
+          "title": "SPAN/BKP/PROC/BKS-SP/26(4) CADANGAN UNTUK MELANTIK PEMBEKAL BAGI PEMBELIAN SEBUAH KENDERAAN JABATAN JENIS PACUAN EMPAT RODA (4WD) BAHARU UNTUK KEGUNAAN PEJABAT WILAYAH TENGAH SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-06-09 Tarikh Tutup 2026-06-22 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/187",
+          "title": "SPAN/BKP/PROC/BKS-SP/26(5) CADANGAN UNTUK MELANTIK PEMBEKAL BAGI PEMBELIAN TIGA (3) BUAH KENDERAAN JABATAN JENIS PACUAN DUA RODA (2WD) BAHARU UNTUK KEGUNAAN SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-06-09 Tarikh Tutup 2026-06-22 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/188",
+          "title": "SPAN/BKP/PROC/STM/26(8) CADANGAN UNTUK MELANTIK PERUNDING BAGI PELAKSANAAN KAJIAN HALA TUJU PELAN STRATEGIK ICT (GAP ANALYSIS) SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) 2026-2030 SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-06-22 Tarikh Tutup 2026-07-06 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/189",
+          "title": "SPAN/BKP/PROC/BO/26(1) CADANGAN UNTUK MELANTIK MAKMAL-MAKMAL BERTAULIAH SEBAGAI PANEL BAGI KERJA-KERJA PERSAMPELAN DAN ANALISIS AIR UNTUK SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) BAGI TAHUN 2026-2028 SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-08-10 Tarikh Tutup 2026-09-24 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/190",
+          "title": "SPAN/BKP/PROC/STM/26(9) CADANGAN UNTUK MELANTIK PEMBEKAL BAGI PENYEWAAN MESIN PENYALIN PELBAGAI FUNGSI BAGI TEMPOH TIGA (3) TAHUN DI IBU PEJABAT SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-08-10 Tarikh Tutup 2026-08-24 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/191",
+          "title": "SPAN/BKP/PROC/STM/26(10) CADANGAN UNTUK MELANTIK PEMBEKAL BAGI PEMBAHARUAN LESEN DAN KHIDMAT SOKONGAN PERKAKASAN FIREWALL SECARA SEWAAN DI IBU PEJABAT, PEJABAT WILAYAH DAN PEJABAT CAWANGAN SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-08-10 Tarikh Tutup 2026-08-24 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/192",
+          "title": "SPAN/BKP/PROC/STM/26(11) CADANGAN UNTUK MELANTIK PEMBEKAL BAGI PENAMBAHBAIKAN SISTEM MAKLUMAT ADUAN SPAN (SISMAS) BAGI PEMBANGUNAN BAHARU MODUL SIASATAN DAN PENDAKWAAN DI SURUHANJAYA PERKHIDMATAN AIR NEGARA SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-08-13 Tarikh Tutup 2026-08-27 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/193",
+          "title": "SPAN/BKP/PROC/SKS/26(1) CADANGAN UNTUK MELANTIK PEMBEKAL BAGI KERJA-KERJA PENYEDIAAN DAN PENERBITAN COFFEE TABLE BOOK UNTUK SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-08-13 Tarikh Tutup 2026-08-27 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/194",
+          "title": "SPAN/BKP/PROC/BSM/26(2) CADANGAN UNTUK MELANTIK SYARIKAT PERUNDING BAGI MELAKSANAKAN KAJIAN PENILAIAN KERJA (JOB EVALUATION) BAGI JAWATAN PENGARAH NEGERI/TIMBALAN PENGARAH DAN KUMPULAN PENGURUSAN DI SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-08-27 Tarikh Tutup 2026-09-10 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/195",
+          "title": "SPAN/BKP/PROC/SKS/26(2) CADANGAN UNTUK MELANTIK AGENSI PENERBITAN DAN PRODUKSI KREATIF BAGI MENERBITKAN VIDEO KORPORAT SPAN SEMPENA SAMBUTAN ULANG TAHUN KE-20 SPAN SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-09-15 Tarikh Tutup 2026-09-28 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/196",
+          "title": "SPAN/BKP/PROC/BSM/26(3) CADANGAN UNTUK MELANTIK PEMBEKAL BAGI MENYEDIAKAN PERKHIDMATAN KEMUDAHAN INSURANS PERUBATAN, INSURANS HAYAT & KEMALANGAN BERKELOMPOK, INSURANS PENYAKIT KRITIKAL SERTA PENTADBIR PERUBATAN KEPADA PEKERJA DAN TANGGUNGAN SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA TENDER TERBUKA Tarikh Iklan 2026-09-15 Tarikh Tutup 2026-10-06 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/197",
+          "title": "SPAN/BKP/PROC/STM/26(12) CADANGAN UNTUK MELANTIK PEMBEKAL BAGI PEMBAHARUAN LANGGANAN PERKHIDMATAN PRIVATE CLOUD SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-09-15 Tarikh Tutup 2026-09-28 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/198",
+          "title": "SPAN/BKP/PROC/BKS-SP/26(4) CADANGAN UNTUK MELANTIK KONTRAKTOR BAGI KERJA-KERJA UBAHSUAI PEJABAT CAWANGAN KEDAH SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) DI SOUQ ALBUKHARY, ALOR SETAR SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-09-24 Tarikh Tutup 2026-10-07 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/199",
+          "title": "SPAN/BKP/PROC/STM/26(13) CADANGAN UNTUK MELANTIK PEMBEKAL BAGI LANGGANAN PERKHIDMATAN SECURITY OPERATION CENTER (SOC) BERSERTA VULNERABILITY ASSESSMENT AND PENETRATION TESTING (VAPT) DI SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) Tarikh Iklan 2026-10-08 Tarikh Tutup 2026-10-22 12:00PM Maklumat Sebutharga: Diiklankan"
+        },
+        {
+          "url": "https://www.span.gov.my/tender/view/200",
+          "title": "SPAN/BKP/PROC/STM/26(14) CADANGAN UNTUK MELANTIK PEMBEKAL BAGI PEMBAHARUAN KHIDMAT SOKONGAN BAGI WATER INDUSTRY BUSINESS INTELLIGENCE SYSTEM (WIBIS) DI SURUHANJAYA PERKHIDMATAN AIR NEGARA (SPAN) UNTUK TEMPOH DUA (2) TAHUN SECARA SEBUT HARGA TERBUKA Tarikh Iklan 2026-10-08 Tarikh Tutup 2026-10-22 12:00PM Maklumat Sebutharga: Diiklankan"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://www.span.gov.my/",
+          "status": "ok",
+          "observedCount": 12
+        },
+        {
+          "url": "https://www.span.gov.my/category/view/76",
+          "status": "ok",
+          "observedCount": 60
+        },
+        {
+          "url": "https://www.span.gov.my/tender",
+          "status": "ok",
+          "observedCount": 28
+        }
+      ],
+      "observedCount": 100,
+      "documentCount": 0,
+      "fingerprint": "1af344f2295d9415b40ce7dbbd2c2d743b3ff598e83a91d31141ff91b080fba0",
+      "changedCount": 100
     },
     {
       "id": "air-selangor",
       "url": "https://www.airselangor.com/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [],
@@ -536,13 +963,14 @@
         }
       ],
       "observedCount": 0,
+      "documentCount": 0,
       "fingerprint": null,
       "changedCount": 0
     },
     {
       "id": "infobanjir",
       "url": "https://publicinfobanjir.water.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [],
@@ -554,15 +982,16 @@
         }
       ],
       "observedCount": 0,
+      "documentCount": 0,
       "fingerprint": null,
       "changedCount": 0
     },
     {
       "id": "weather",
       "url": "https://www.met.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
           "url": "https://www.met.gov.my/data/climate/kemarau.pdf",
@@ -581,13 +1010,14 @@
         }
       ],
       "observedCount": 2,
+      "documentCount": 0,
       "fingerprint": "6270c95ed173c2485c9aaa25857ae927fdd2a6ba1b164dad965169d48dbffcbd",
-      "changedCount": 1
+      "changedCount": 0
     },
     {
       "id": "spaqs",
       "url": "https://spaqs.water.gov.my/tunas/senarai-iklan-telah-buka?mid=686",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [],
@@ -599,15 +1029,16 @@
         }
       ],
       "observedCount": 0,
+      "documentCount": 0,
       "fingerprint": null,
       "changedCount": 0
     },
     {
       "id": "did-sarawak",
       "url": "https://did.sarawak.gov.my/web/home/index/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
           "url": "https://did.sarawak.gov.my/web/subpage/announcement_view/126",
@@ -642,27 +1073,72 @@
         }
       ],
       "observedCount": 6,
+      "documentCount": 0,
       "fingerprint": "469c56e4a0e69fe8b0bc534a3514a731d37e5f965f2e2e88a5169cfab436a0b2",
       "changedCount": 0
     },
     {
       "id": "jps-selangor",
       "url": "https://water.selangor.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
-      "status": "error",
-      "lastSuccessAt": null,
-      "links": [],
-      "observedCount": null,
-      "fingerprint": null,
-      "changedCount": 0,
-      "error": "fetch failed"
+      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "links": [
+        {
+          "url": "https://water.selangor.gov.my/galeri-foto/lawatan-ke-kolam-takungan-universiti-islam-selangor-oleh-pengarah-jps-selangor-negeri-selangor",
+          "title": "04 April 2026 Lawatan ke Kolam Takungan Universiti Islam Selangor oleh Pengarah JPS Selangor Negeri Selangor"
+        },
+        {
+          "url": "https://water.selangor.gov.my/galeri-foto/majlis-sambutan-hari-inovasi-jabatan-pengairan-dan-saliran-malaysia-tahun-2026",
+          "title": "10 September 2026 MAJLIS SAMBUTAN HARI INOVASI JABATAN PENGAIRAN DAN SALIRAN MALAYSIA TAHUN 2026"
+        },
+        {
+          "url": "https://water.selangor.gov.my/galeri-foto/mesyuarat-jawatankuasa-task-force-banjir-bil-1-2026",
+          "title": "12 Februari 2026 Mesyuarat Jawatankuasa Task Force Banjir Bil.1/2026"
+        },
+        {
+          "url": "https://water.selangor.gov.my/images/dashboardprojek/dashboardjps.html",
+          "title": "Dashboard Mitigasi Banjir JPS"
+        },
+        {
+          "url": "https://water.selangor.gov.my/info/fungsi/pengurusan-banjir",
+          "title": "Pengurusan Banjir dan Reka Bentuk"
+        },
+        {
+          "url": "https://water.selangor.gov.my/info/fungsi/pengurusan-pantai",
+          "title": "Pengurusan Pantai dan Saliran Pertanian"
+        },
+        {
+          "url": "https://water.selangor.gov.my/info/fungsi/pengurusan-sungai",
+          "title": "Pengurusan Sungai, Sumber Air & Hidrologi"
+        },
+        {
+          "url": "https://water.selangor.gov.my/info/fungsi/saliran-mesra-alam",
+          "title": "Saliran Mesra Alam"
+        },
+        {
+          "url": "https://water.selangor.gov.my/pengumuman",
+          "title": "Bilik Gerakan Banjir JPS Negeri Selangor boleh dihubungi di talian seperti berikut 03 5544 7376 sambungan 7378 / 7010 (..."
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://water.selangor.gov.my/",
+          "status": "ok",
+          "observedCount": 9
+        }
+      ],
+      "observedCount": 9,
+      "documentCount": 0,
+      "fingerprint": "e4ac02290b2d01588dbec2cd64027c7a9cd602d339c0d06da0dbc463d2df686e",
+      "changedCount": 9
     },
     {
       "id": "luas",
       "url": "https://www.luas.gov.my/en/luas/archives/press-release/2026",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
           "url": "https://www.luas.gov.my/images/keratan%20akhbar/Kenyataan%20Media/2026/Februari/Kes%20Pencemaran%20Sumber%20Air%20Di%20Selangor%20Turun%2065%20Peratus%20Tiada%20Henti%20Tugas%20Operasi%20LRA%20Utama%20Sejak%20Pelaksanaan%20ZDP.pdf",
@@ -693,15 +1169,16 @@
         }
       ],
       "observedCount": 4,
+      "documentCount": 0,
       "fingerprint": "bee2131709c7cdc804b7bcac3983ce76a8190550b395272b1fceb1ff4f4f6100",
       "changedCount": 0
     },
     {
       "id": "planmalaysia",
       "url": "https://www.planmalaysia.gov.my/main/procurement?type=tender&year=2026",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
           "url": "https://www.planmalaysia.gov.my/main/procurement?type=tender&year=2026",
@@ -733,15 +1210,16 @@
         }
       ],
       "observedCount": 3,
+      "documentCount": 0,
       "fingerprint": "d3c6d092a2b92e63bb60bec769e11cd89a1031157022e57aed5c234a412601d1",
-      "changedCount": 1
+      "changedCount": 0
     },
     {
       "id": "doe",
       "url": "https://www.doe.gov.my/en/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T03:02:52.015Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T03:02:52.015Z",
       "links": [
         {
           "url": "https://edl.doe.gov.my/discovery?category=Ringkasan%20Eksekutif%20EIA",
@@ -834,15 +1312,16 @@
         }
       ],
       "observedCount": 17,
+      "documentCount": 0,
       "fingerprint": "1f5b2680027bd3042151df55b7fc54d1a936e2d72fafff1d3554724184bf905f",
       "changedCount": 0
     },
     {
       "id": "paab",
       "url": "https://www.paab.my/tender/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
           "url": "https://www.paab.my/procurement/proposed-development-of-langat-2-water-treatment-plant-and-water-reticulation-system-in-selangor-darul-ehsan-wilayah-persekutuan-kuala-lumpur-2/",
@@ -857,35 +1336,36 @@
         }
       ],
       "observedCount": 1,
+      "documentCount": 0,
       "fingerprint": "25737dd82855ca53974fa046d261da18e5c8dc6ee8cdd5cb6c7645b0613c4cc6",
       "changedCount": 0
     },
     {
       "id": "jkr",
       "url": "https://tender.jkr.gov.my/kenyataan/tender/index?sort=-tarikhtutuptender",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
           "url": "https://tender.jkr.gov.my/kenyataan/tender/view?id=2459&ids=JKR%2FCKUB%2F24197%2F2026&ids2=1&ids3=1",
           "title": "MENAIK ARAS JALAN DAN MENAIK TARAF JAMBATAN SUNGAI SEPIAL, SUNGAI KERAK DAN SUNGAI TEH DI LALUAN JERANTUT-KUALA LIPIS (FT234), DAERAH JERANTUT, PAHANG",
-          "listingText": "8 | 01/10/2026 | 15/10/2026 | 21/10/2026 | 12/11/2026 | JKR/CKUB/24197/2026MENAIK ARAS JALAN DAN MENAIK TARAF JAMBATAN SUNGAI SEPIAL, SUNGAI KERAK DAN SUNGAI TEH DI LALUAN JERANTUT-KUALA LIPIS (FT234), DAERAH JERANTUT, PAHANG[Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH SITI NURFAQIHA ADILA BINTI KAMALUDDIN PADA 08-10-2026][TINDAKAN KEMASKINI: DOKUMEN KUANTITI] | BUMIPUTERA / T1 | G7 / KEJURUTERAAN AWAM / CE01 & CE02 G7 / KEJURUTERAAN AWAM / CE01 & CE02 | BERMINAT?"
+          "listingText": "9 | 01/10/2026 | 15/10/2026 | 21/10/2026 | 12/11/2026 | JKR/CKUB/24197/2026MENAIK ARAS JALAN DAN MENAIK TARAF JAMBATAN SUNGAI SEPIAL, SUNGAI KERAK DAN SUNGAI TEH DI LALUAN JERANTUT-KUALA LIPIS (FT234), DAERAH JERANTUT, PAHANG[Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH SITI NURFAQIHA ADILA BINTI KAMALUDDIN PADA 08-10-2026][TINDAKAN KEMASKINI: DOKUMEN KUANTITI] | BUMIPUTERA / T1 | G7 / KEJURUTERAAN AWAM / CE01 & CE02 G7 / KEJURUTERAAN AWAM / CE01 & CE02 | BERMINAT?"
         },
         {
           "url": "https://tender.jkr.gov.my/kenyataan/tender/view?id=2466&ids=JKR%2FPERS%2FCKC%2F018%2F2026&ids2=1&ids3=1",
           "title": "KERJA-KERJA PEMBAIKAN CERUN DI PERKAMPUNGAN ORANG ASLI (KOA) SUNGAI JARIK, TERISU, CAMERON HIGHLANDS, PAHANG",
-          "listingText": "12 | 30/09/2026 | 14/10/2026 | 21/10/2026 | 11/11/2026 | JKR/PERS/CKC/018/2026KERJA-KERJA PEMBAIKAN CERUN DI PERKAMPUNGAN ORANG ASLI (KOA) SUNGAI JARIK, TERISU, CAMERON HIGHLANDS, PAHANG [Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH NUR LIYANA BINTI AZAMI PADA 06-10-2026][TINDAKAN KEMASKINI: DOKUMEN LUKISAN] | BUMIPUTERA / T1 | G4 / CE / TIADA G4 / CE / CE08 & CE21 (KEBENARAN KHAS TIDAK DIBENARKAN) | BERMINAT?"
+          "listingText": "13 | 30/09/2026 | 14/10/2026 | 21/10/2026 | 11/11/2026 | JKR/PERS/CKC/018/2026KERJA-KERJA PEMBAIKAN CERUN DI PERKAMPUNGAN ORANG ASLI (KOA) SUNGAI JARIK, TERISU, CAMERON HIGHLANDS, PAHANG [Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH NUR LIYANA BINTI AZAMI PADA 06-10-2026][TINDAKAN KEMASKINI: DOKUMEN LUKISAN] | BUMIPUTERA / T1 | G4 / CE / TIADA G4 / CE / CE08 & CE21 (KEBENARAN KHAS TIDAK DIBENARKAN) | BERMINAT?"
         },
         {
           "url": "https://tender.jkr.gov.my/kenyataan/tender/view?id=2470&ids=JKR%2FIP%2FCKIP%2F2026%2F01&ids2=1&ids3=5",
           "title": "PEMBINAAN STRUKTUR TITIK PANGKAL MALAYSIA BERSTATUS LOW TIDE ELEVATION (LTE) DI TANJUNG SIRIK, SARAWAK (REKA DAN BINA) (TENDER SEMULA)",
-          "listingText": "6 | 06/10/2026 | 06/10/2026 | 05/11/2026 | 17/11/2026 | JKR/IP/CKIP/2026/01PEMBINAAN STRUKTUR TITIK PANGKAL MALAYSIA BERSTATUS LOW TIDE ELEVATION (LTE) DI TANJUNG SIRIK, SARAWAK (REKA DAN BINA) (TENDER SEMULA)[Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH JESSYNTHA WILLIAMS A/P SOOSAY WILLIAMS PADA 05-10-2026][TINDAKAN KEMASKINI: MAKLUMAT PROJEK] | TERBUKA / T1 | 5 / CE / CE03, CE21 (Kontraktor DIBENARKAN memohon kebenaran khas daripada CIDB dan UPKJ untuk pengkhususan bidang kerja yang ditetapkan) | BERMINAT?"
+          "listingText": "7 | 06/10/2026 | 06/10/2026 | 05/11/2026 | 17/11/2026 | JKR/IP/CKIP/2026/01PEMBINAAN STRUKTUR TITIK PANGKAL MALAYSIA BERSTATUS LOW TIDE ELEVATION (LTE) DI TANJUNG SIRIK, SARAWAK (REKA DAN BINA) (TENDER SEMULA)[Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH JESSYNTHA WILLIAMS A/P SOOSAY WILLIAMS PADA 05-10-2026][TINDAKAN KEMASKINI: MAKLUMAT PROJEK] | TERBUKA / T1 | 5 / CE / CE03, CE21 (Kontraktor DIBENARKAN memohon kebenaran khas daripada CIDB dan UPKJ untuk pengkhususan bidang kerja yang ditetapkan) | BERMINAT?"
         },
         {
           "url": "https://tender.jkr.gov.my/kenyataan/tender/viewperunding?id=2438&ids=JKR%2FIP%2FCJ%2FT%2F2026%2F23",
           "title": "[FTA (CPTPP)] TENDER TERBUKA PERKHIDMATAN PERUNDING AWAM DAN STRUKTUR BAGI PROJEK MENAIK TARAF LEBUH RAYA TIMUR BARAT (FT4), DARI SEKSYEN 83.74 HINGGA SEKSYEN 198.40, PERAK",
-          "listingText": "3 | 21/09/2026 | 08/10/2026 | 21/10/2026 | 18/11/2026 | JKR/IP/CJ/T/2026/23[FTA (CPTPP)] TENDER TERBUKA PERKHIDMATAN PERUNDING AWAM DAN STRUKTUR BAGI PROJEK MENAIK TARAF LEBUH RAYA TIMUR BARAT (FT4), DARI SEKSYEN 83.74 HINGGA SEKSYEN 198.40, PERAK[Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH MOHAMMAD IKHWAN HAKIM BIN JAAFAR PADA 28-09-2026][TINDAKAN KEMASKINI: MAKLUMAT PROJEK] | TERBUKA / TIDAK BERKENAAN | KEJURUTERAAN / Kod 330101 (KEJURUTERAAN AWAM) KEJURUTERAAN / KOD 330102 (KEJURUTERAAN STRUKTUR) | BERMINAT?"
+          "listingText": "4 | 21/09/2026 | 08/10/2026 | 21/10/2026 | 18/11/2026 | JKR/IP/CJ/T/2026/23[FTA (CPTPP)] TENDER TERBUKA PERKHIDMATAN PERUNDING AWAM DAN STRUKTUR BAGI PROJEK MENAIK TARAF LEBUH RAYA TIMUR BARAT (FT4), DARI SEKSYEN 83.74 HINGGA SEKSYEN 198.40, PERAK[Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH MOHAMMAD IKHWAN HAKIM BIN JAAFAR PADA 28-09-2026][TINDAKAN KEMASKINI: MAKLUMAT PROJEK] | TERBUKA / TIDAK BERKENAAN | KEJURUTERAAN / Kod 330101 (KEJURUTERAAN AWAM) KEJURUTERAAN / KOD 330102 (KEJURUTERAAN STRUKTUR) | BERMINAT?"
         }
       ],
       "pages": [
@@ -896,15 +1376,16 @@
         }
       ],
       "observedCount": 4,
-      "fingerprint": "bdfd9bcc074ea7ccccf6a4a7ac61e78b2e04f440223d43ec97f7cc138e1b4396",
-      "changedCount": 0
+      "documentCount": 0,
+      "fingerprint": "9e90a3fb9e7909637bff0e407b636391539d6b3e2f79bd70e3d15a33f57856cf",
+      "changedCount": 4
     },
     {
       "id": "data-gov",
       "url": "https://data.gov.my/data-catalogue",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
           "url": "https://data.gov.my/data-catalogue/air_pollution",
@@ -939,15 +1420,16 @@
         }
       ],
       "observedCount": 6,
+      "documentCount": 0,
       "fingerprint": "53dbb050a671f4aa46e7a8cb6b16224f4e2529de94805313cc5de4b24f71dbcc",
       "changedCount": 0
     },
     {
       "id": "jps-perlis",
       "url": "https://jps.perlis.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
           "url": "https://jps.perlis.gov.my/index.php/galeri/arkib-berita/297-hari-inovasi-dan-persidangan-pengurus-kanan-jurutera-daerah-jabatan-pengairan-dan-saliran-malaysia",
@@ -979,15 +1461,16 @@
         }
       ],
       "observedCount": 4,
+      "documentCount": 0,
       "fingerprint": "86b531b09413cbae9bf1f2e40ace81d94f230671a7d5277788a0dd2e95f1e082",
-      "changedCount": 4
+      "changedCount": 0
     },
     {
       "id": "jps-negeri-sembilan",
       "url": "https://jpsns.ns.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
           "url": "https://jpsns.ns.gov.my/air-pasang-besar-punca-banjir-di-negeri-sembilan-mb/",
@@ -1026,15 +1509,16 @@
         }
       ],
       "observedCount": 7,
+      "documentCount": 0,
       "fingerprint": "25b050318cedf5a730bb70360dd0c04f368b3485bda391eea096172530ce0b6c",
-      "changedCount": 7
+      "changedCount": 0
     },
     {
       "id": "jps-terengganu",
       "url": "https://jpsweb.terengganu.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
           "url": "https://jpsweb.terengganu.gov.my/index.php/ms/arkib/berita/385-2026-05-24-02-45-32",
@@ -1073,15 +1557,16 @@
         }
       ],
       "observedCount": 7,
+      "documentCount": 0,
       "fingerprint": "b208efcd6e625f8302f672337fe73e3c589a6cf1c7017eaccd2e26fef06163c6",
-      "changedCount": 7
+      "changedCount": 0
     },
     {
       "id": "jps-kedah",
       "url": "https://jps.kedah.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
           "url": "https://jps.kedah.gov.my/blog/hotspot-banjir-negeri-kedah-darul-aman/",
@@ -1121,15 +1606,16 @@
         }
       ],
       "observedCount": 6,
+      "documentCount": 0,
       "fingerprint": "a7b5a074c6aa74f677bf6411203d52834c5cba2b01502bc79ab6c1a802b14097",
-      "changedCount": 6
+      "changedCount": 0
     },
     {
       "id": "jps-melaka",
       "url": "https://jps.melaka.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
           "url": "https://jps.melaka.gov.my/2026/09/14/%f0%9f%92%a7-seminar-pengukuhan-kumpulan-pengguna-air-kpa-negeri-melaka-%f0%9f%8c%be/",
@@ -1148,13 +1634,14 @@
         }
       ],
       "observedCount": 2,
+      "documentCount": 0,
       "fingerprint": "d39ef11493ffb0f63351e1b1585b1511382871a6fb9e6164d711d2c82035a9ca",
-      "changedCount": 2
+      "changedCount": 0
     },
     {
       "id": "jps-sabah",
       "url": "https://did.sabah.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [],
@@ -1171,27 +1658,56 @@
         }
       ],
       "observedCount": 0,
+      "documentCount": 0,
       "fingerprint": null,
       "changedCount": 0
     },
     {
       "id": "jps-penang",
-      "url": "https://jps.penang.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
-      "status": "error",
-      "lastSuccessAt": null,
-      "links": [],
-      "observedCount": null,
-      "fingerprint": null,
-      "changedCount": 0,
-      "error": "fetch failed"
+      "url": "https://jps.penang.gov.my/index.php/ms/",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "links": [
+        {
+          "url": "https://jps.penang.gov.my/index.php/ms/component/content/article/456-majlis-anugerah-perkhidmatan-terpuji-apt-tahun-2024-jabatan-pengairan-dan-saliran-negeri-pulau-pinang?catid=104&Itemid=101",
+          "title": "MAJLIS ANUGERAH PERKHIDMATAN TERPUJI (APT) TAHUN 2024 - JABATAN PENGAIRAN DAN SALIRAN NEGERI PULAU PINANG"
+        },
+        {
+          "url": "https://jps.penang.gov.my/index.php/ms/component/content/article/457-bengkel-program-komunikasi-pendidikan-dan-kesedaran-awam-cepa-bagi-program-ramalan-dan-amaran-banjir-prab-untuk-lembangan-sungai-pinang-sungai-perai-sungai-juru-dan-sungai-jawai-negeri-pulau-pinang-tahun-2025?catid=104&Itemid=101",
+          "title": "Bengkel Program Komunikasi, Pendidikan dan Kesedaran Awam (CEPA) Bagi Program Ramalan dan Amaran Banjir (PRAB) Untuk Lembangan Sungai Pinang, Sungai Perai, Sungai Juru dan Sungai Jawai Negeri Pulau Pinang Tahun 2025"
+        },
+        {
+          "url": "https://jps.penang.gov.my/index.php/ms/component/content/article/459-majlis-perasmian-denai-sungai-kebangsaan-dsk-sungai-rambai-program-komunikasi-pendidikan-dan-kesedaran-awam-cepa?catid=104&Itemid=101",
+          "title": "MAJLIS PERASMIAN DENAI SUNGAI KEBANGSAAN (DSK) SUNGAI RAMBAI & PROGRAM KOMUNIKASI, PENDIDIKAN DAN KESEDARAN AWAM (CEPA)"
+        },
+        {
+          "url": "https://jps.penang.gov.my/index.php/ms/component/content/article/460-bengkel-kerja-kerja-ukur-halus-dan-perizaban-sungai-projek-tebatan-banjir-jps-negeri-pulau-pinang?catid=104&Itemid=101",
+          "title": "BENGKEL KERJA-KERJA UKUR HALUS DAN PERIZABAN SUNGAI PROJEK TEBATAN BANJIR JPS NEGERI PULAU PINANG"
+        },
+        {
+          "url": "https://jps.penang.gov.my/index.php/ms/tender-sebutharga",
+          "title": "Sebut harga / Tender"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://jps.penang.gov.my/index.php/ms/",
+          "status": "ok",
+          "observedCount": 5
+        }
+      ],
+      "observedCount": 5,
+      "documentCount": 0,
+      "fingerprint": "b41c382ad867af3aebec35afb066a458ff123dfbf2a54d4d3b4043a9835464ee",
+      "changedCount": 5
     },
     {
       "id": "jps-johor",
       "url": "https://jps.johor.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
           "url": "https://jps.johor.gov.my/%f0%9d%90%8b%f0%9d%90%80%f0%9d%90%96%f0%9d%90%80%f0%9d%90%93%f0%9d%90%80%f0%9d%90%8d-%f0%9d%90%93%f0%9d%90%91%f0%9d%90%80%f0%9d%90%8d%f0%9d%90%92%f0%9d%90%85%f0%9d%90%8e%f0%9d%90%91%f0%9d%90%8c/",
@@ -1200,39 +1716,285 @@
         {
           "url": "https://jps.johor.gov.my/%f0%9d%90%8c%f0%9d%90%84%f0%9d%90%8c%f0%9d%90%8f%f0%9d%90%84%f0%9d%90%91%f0%9d%90%8a%f0%9d%90%94%f0%9d%90%8a%f0%9d%90%94%f0%9d%90%87-%f0%9d%90%8a%f0%9d%90%84%f0%9d%90%92%f0%9d%90%88%f0%9d%90%80/",
           "title": "MEMPERKUKUH KESIAPSIAGAAN MENGHADAPI BANJIR: YB EXCO TINJAU SISTEM PENGEPAMAN DI KAMPUNG PASIR"
-        },
-        {
-          "url": "https://jps.johor.gov.my/%f0%9d%90%8c%f0%9d%90%84%f0%9d%90%8d%f0%9d%90%98%f0%9d%90%94%f0%9d%90%92%f0%9d%90%94%f0%9d%90%91%f0%9d%90%88-%f0%9d%90%8b%f0%9d%90%84%f0%9d%90%8c%f0%9d%90%81%f0%9d%90%80%f0%9d%90%8d%f0%9d%90%86/",
-          "title": "MENYUSURI LEMBANGAN SUNGAI TEBRAU, SUNGAI MASAI DAN SUNGAI JOHOR"
         }
       ],
       "pages": [
         {
           "url": "https://jps.johor.gov.my/",
           "status": "ok",
-          "observedCount": 3
+          "observedCount": 2
         }
       ],
-      "observedCount": 3,
-      "fingerprint": "bc2835fad513146855d53c187817a34371fa802825a51e33cd8decb4244b0849",
-      "changedCount": 3
+      "observedCount": 2,
+      "documentCount": 0,
+      "fingerprint": "4af357cc25b5ea7aab683ee8f40c067745a2ecd39cd29aa420f2452798f07401",
+      "changedCount": 0
     },
     {
       "id": "jps-perak",
       "url": "https://jps.perak.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
-      "status": "error",
-      "lastSuccessAt": null,
-      "links": [],
-      "observedCount": null,
-      "fingerprint": null,
-      "changedCount": 0,
-      "error": "fetch failed"
+      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
+      "links": [
+        {
+          "url": "https://jps.perak.gov.my/index.php?view=article&id=1924&catid=173",
+          "title": "KENYATAAN SEBUT HARGA : PROJEK MENAIKTARAF SISTEM PENGAIRAN LUAR JELAPANG DI RANCANGAN PENGAIRAN SENIN SERTA KERJA-KERJA BERKAITAN, DAERAH PERAK TENGAH, PERAK DARUL RIDZUAN (TAWARAN SEMULA)"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php?view=article&id=1933&catid=173",
+          "title": "SENARAI KONTRAKTOR BERJAYA DAN KONTRAKTOR SIMPANAN BAGI KERJA-KERJA UNDI SESI 01/2026 JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php?view=article&id=1937&catid=173",
+          "title": "KENYATAAN SEBUT HARGA : KERJA-KERJA UBAHSUAI IBU PEJABAT JPS NEGERI PERAK DI ARAS 7B SERTA KERJA-KERJA BERKAITAN DI BANGUNAN SURUHANJAYA SYARIKAT MALAYSIA (SSM) PERAK"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php?view=article&id=1944&catid=173",
+          "title": "KENYATAAN SEBUT HARGA : MEMBEKAL, MEMASANG DAN MENTAULIAH PERISIAN AUTODESK AUTOCAD 2026 SEBANYAK ENAM (6) UNIT DI ENAM (6) PEJABAT JPS DAERAH JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php?view=article&id=1953&catid=173",
+          "title": "KENYATAAN SEBUT HARGA : PERKHIDMATAN PENYELENGGARAAN PERALATAN SERTA KAWASAN STESEN AUTOLOGGER HUJAN DAN ARAS AIR UNTUK TAHUN 2026/2027 MILIK JPS NEGERI PERAK"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php?view=article&id=1963&catid=173",
+          "title": "KENYATAAN TENDER - RANCANGAN TEBATAN BANJIR BAGAN DATUK : KERJA-KERJA MENAIK TARAF DAN MEMBAIK PULIH SUNGAI BALAI DAN SUNGAI SEMANI SERTA KERJA-KERJA LAIN YANG BERKAITAN"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php?view=article&id=1970&catid=176",
+          "title": "23 September 2026 HEBAHAN : SAMBUTAN HARI SUNGAI SEDUNIA PERINGKAT NEGERI PERAK TAHUN 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php?view=article&id=1973&catid=176",
+          "title": "27 September 2026 SAMBUTAN HARI SUNGAI SEDUNIA PERINGKAT NEGERI PERAK TAHUN 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php?view=article&id=1977&catid=173",
+          "title": "KENYATAAN SEBUT HARGA : MEMBEKAL PERKHIDMATAN KAWALAN KESELAMATAN DI PEJABAT JABATAN PENGAIRAN DAN SALIRAN DAERAH MANJUNG, SITIAWAN, DAERAH MANJUNG, PERAK DARUL RIDZUAN."
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php?view=article&id=1978&catid=173",
+          "title": "KENYATAAN SEBUT HARGA : PEROLEHAN SEBUT HARGA MEMBEKAL, MENGHANTAR DAN MEMASANG PERABOT SERTA KELENGKAPAN JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK TAHUN 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php?view=article&id=1979&catid=173",
+          "title": "KENYATAAN SEBUT HARGA : PEROLEHAN SEBUT HARGA MEMBEKAL, MENGHANTAR, MEMASANG, MENGUJI DAN MENTAULIAH SISTEM KAMERA LITAR TERTUTUP (CCTV) SERTA SISTEM KAWALAN AKSES PINTU DI JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK TAHUN 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php?view=article&id=1980&catid=173",
+          "title": "KENYATAAN SEBUT HARGA : PEROLEHAN SEBUT HARGA MEMBEKAL, MENGHANTAR, MEMASANG, MENGUJI DAN MENTAULIAH PAPARAN PANEL LED (LED DISPLAY PANEL) DAN SMART TV LED DI JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK TAHUN 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1782&catid=176",
+          "title": "LAWATAN KERJA BERKAITAN KEPERLUAN ANJAKAN PEMBANGUNAN KOLAM TERNAKAN UDANG / IKAN DI PESISIR PANTAI 06 Januari 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1783&catid=176",
+          "title": "MESYUARAT PRA-PEMBINAAN PROJEK RTB SUNGAI KINTA FASA 2 07 Januari 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1794&catid=176",
+          "title": "SESI TESTING & COMMISIONING PROJEK MENAIKTARAF INFRASTRUKTUR MEKANIKAL DAN ELEKTRIKAL UNTUK KAWALAN BANJIR PINTU AIR BAGAN LIPAS DALAM DAN BAGAN LIPAS LUAR, DAERAH BAGAN DATUK 13 Januari 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1798&catid=176",
+          "title": "MESYUARAT PENYELARASAN PARAS AIR LEMBANGAN SUNGAI PERAK TAHUN 2026 15 Januari 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1800&catid=176",
+          "title": "MESYUARAT PRA-PEMBINAAN PROJEK MEMBINA JAMBATAN SUNGAI RUI DAN JAMBATAN SUNGAI BERUK DI KAMPUNG PADANG STANG, HULU PERAK, PERAK 20 Januari 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1806&catid=176",
+          "title": "MAJLIS AMANAT PENGARAH SERTA MAJLIS APRESIASI BARISAN ATLET KARNIVAL SUKAN JPS DAN KONTINJEN KAWAD JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK TAHUN 2025 03 Februari 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1812&catid=176",
+          "title": "KURSUS PENGOPERASIAN PAM BERGERAK DAN PINTU AIR 11 Februari 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1814&catid=176",
+          "title": "LAWATAN TEKNIKAL SISTEM SERTA KOMPONEN MEKANIKAL DAN ELEKTRIKAL EMPANGAN GOPENG 12 Februari 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1817&catid=176",
+          "title": "SESI LIBAT URUS MELIBATKAN JAJARAN BAHARU PROJEK RANCANGAN TEBATAN BANJIR BAGAN DATUK 02 Mac 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1818&catid=176",
+          "title": "LAWATAN KERJA OLEH PEGAWAI KHAS KEPADA TIMBALAN PERDANA MENTERI II KE PANTAI REMIS, PERAK 27 Februari 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1823&catid=176",
+          "title": "MAJLIS IFTAR PENGARAH BERSAMA WARGA JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK DAN PERTUBUHAN BAITUL AINI, IPOH 13 Mac 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1830&catid=176",
+          "title": "SELAMAT MENYAMBUT HARI RAYA AIDILFTRI DARI JABATAN PENGAIRAN DAN SALIRAN (JPS) NEGERI PERAK 20 Mac 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1836&catid=176",
+          "title": "SEKALUNG TAHNIAH YBRS. IR. AZREN BIN KHALIL DI ATAS PENEMPATAN KE JAWATAN JURUTERA (AWAM) GRED UTAMA B, TIMBALAN KETUA PENGARAH (SEKTOR PAKAR), JABATAN PENGAIRAN DAN SALIRAN MALAYSIA 31 Mac 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1837&catid=176",
+          "title": "SEKALUNG TAHNIAH YBRS. IR. HAJAH ANITA BINTI AINAN DI ATAS PENEMPATAN KE JAWATAN JURUTERA (AWAM) GRED UTAMA B, PENGARAH PENGURUSAN SUMBER AIR DAN HIDROLOGI, JABATAN PENGAIRAN DAN SALIRAN MALAYSIA 31 Mac 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1840&catid=176",
+          "title": "SELAMAT DATANG DAN SELAMAT BERTUGAS KE JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK 01 April 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1841&catid=176",
+          "title": "TAKLIMAT PERANAN JAWATANKUASA PENGURUSAN LEMBANGAN SUNGAI BERSEPADU (IRBM) PERINGKAT NEGERI DAN PERSEKUTUAN 02 April 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1842&catid=176",
+          "title": "SESI PERBINCANGAN ISU NAVIGASI MUARA SUNGAI BERUAS 02 April 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1854&catid=176",
+          "title": "LAWATAN DAN PEMAKLUMAN CADANGAN KERJA JANGKA PENDEK MUARA SUNGAI BERUAS, PANTAI REMIS, DAERAH MANJUNG, PERAK DARUL RIDZUAN 13 April 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1858&catid=176",
+          "title": "SELAMAT DATANG DAN SELAMAT BERTUGAS KE JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK 15 April 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1866&catid=176",
+          "title": "TAKLIMAT DAN LAWATAN PEGAWAI KHAS MENTERI BESAR, DUN BOTA KE PROJEK MENAIKTARAF INFRASTRUKTUR PENGAIRAN SERTA KERJA-KERJA LAIN BERKAITAN DI SKIM PENGAIRAN NEGERI PERAK (PAM BOTA KIRI DAN RUMAH PAM PENDIAT – FASA 1) 22 April 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1870&catid=176",
+          "title": "SETINGGI TAHNIAH YBRS. IR. HANIZAN BIN DERAMAN DI ATAS PELANTIKAN KE JAWATAN TIMBALAN KETUA PENGARAH (SEKTOR BISNES), JABATAN PENGAIRAN DAN SALIRAN MALAYSIA 27 April 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1875&catid=176",
+          "title": "PROGRAM SESI LIBAT URUS DAN TAKLIMAT KESELAMATAN EMPANGAN BUKIT MERAH 04 Mei 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1880&catid=176",
+          "title": "PEMBENTANGAN ANUGERAH KHAS SUMBER AIR (AKSA) TAHUN 2026 08 Mei 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1882&catid=176",
+          "title": "SELAMAT DATANG DAN SELAMAT BERTUGAS KE JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK 11 Mei 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1883&catid=176",
+          "title": "MESYUARAT PENGERUSI JAWATANKUASA INFRASTRUKTUR, TENAGA, AIR DAN PENGANGKUTAN AWAM (INTAP) TAHUN 2026 11 Mei 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1899&catid=176",
+          "title": "MESYUARAT PENGURUSAN JABATAN PENGAIRAN & SALIRAN (JPS) NEGERI PERAK BILANGAN 2/2026 08 Jun 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1900&catid=176",
+          "title": "SAMBUTAN HARI AIR SEDUNIA TAHUN 2026 PERINGKAT NEGERI PERAK DAN PROGRAM KESEDARAN ALAM SEKITAR 11 Jun 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1908&catid=176",
+          "title": "NOTIS PEMBERITAHUAN KERJA-KERJA UNDI SESI 01/2026 - JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK 26 Jun 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1913&catid=176",
+          "title": "PENDAFTARAN KONTRAKTOR BAGI KERJA-KERJA UNDI SECARA ATAS TALIAN SESI 01/2026 JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK 03 Julai 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1917&catid=176",
+          "title": "MAJLIS PEMBERIAN INSENTIF DAN CENDERAHATI KEPADA PESARA TAHUN 2025 JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK 02 Julai 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1919&catid=176",
+          "title": "NOTIS PEMBERITAHUAN PINDAAN TARIKH PROSES CABUTAN KERJA-KERJA UNDI SESI 01/2026 JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK 06 Julai 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1921&catid=176",
+          "title": "SENARAI KONTRAKTOR YANG LULUS TAPISAN BAGI KERJA-KERJA UNDI SESI 01/2026 JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK 09 Julai 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1925&catid=176",
+          "title": "TAHNIAH DAN SELAMAT BERTUGAS DI JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK 07 Julai 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1927&catid=176",
+          "title": "MAJLIS CABUTAN UNDI SECARA DALAM TALIAN BAGI JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK BIL 1/2026 14 Julai 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1934&catid=176",
+          "title": "SENARAI KONTRAKTOR BERJAYA DAN KONTRAKTOR SIMPANAN BAGI KERJA-KERJA UNDI SESI 01/2026 JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK 17 Julai 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1938&catid=176",
+          "title": "LAWATAN DAN TAKLIMAT KERJA KE RUMAH PAM TELUK BAKONG DAN SKIM PENGAIRAN KAWASAN KUBANG AJI, BOTA 24 Julai 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1939&catid=176",
+          "title": "LAWATAN KERJA PENGERUSI JAWATANKUASA INFRASTRUKTUR, TENAGA, AIR DAN PENGANGKUTAN AWAM (INTAP) NEGERI PERAK KE LEMBAH KLANG 28 Julai 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1942&catid=176",
+          "title": "TERIMA KASIH DAN SELAMAT MAJU JAYA KEPADA ENCIK ZAHID BIN ZAINAL ABIDIN, JURUTERA DAERAH JABATAN PENGAIRAN DAN SALIRAN DAERAH PERAK TENGAH 31 Julai 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1945&catid=176",
+          "title": "TERIMA KASIH DAN SELAMAT MAJU JAYA KEPADA ENCIK MUHAMMAD ARIFF BIN ABDUL KHALID, PENOLONG JURUTERA DAERAH JABATAN PENGAIRAN DAN SALIRAN DAERAH KUALA KANGSAR 03 Ogos 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1947&catid=176",
+          "title": "LAWATAN TEKNIKAL BERSAMA PENGERUSI JAWATANKUASA INFRASTRUKTUR, TENAGA, AIR DAN PENGANGKUTAN AWAM (INTAP) KERAJAAN NEGERI PERAK KE RUMAH PAM PENGAIRAN KUBANG HAJI 05 Ogos 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1948&catid=176",
+          "title": "MESYUARAT BERSAMA PENTADBIRAN DAERAH PERAK TENGAH BAGI PELAKSANAAN PROJEK RANCANGAN TEBATAN BANJIR KAMPONG GAJAH FASA 2, DAERAH PERAK TENGAH, PERAK DARUL RIDZUAN. 05 Ogos 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1951&catid=176",
+          "title": "PERSIDANGAN TEKNIKAL DAN HARI INOVASI JABATAN PENGAIRAN DAN SALIRAN NEGERI PERAK TAHUN 2026 13 Ogos 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1954&catid=176",
+          "title": "KURSUS PENGENDALIAN DAN OPERASI BOT JABATAN PENGAIRAN DAN SALIRAN (JPS) NEGERI PERAK 19 Ogos 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1959&catid=176",
+          "title": "PERTANDINGAN HORIZON BAHARU KUMPULAN INOVATIF & KREATIF (HBKIK) JABATAN PENGAIRAN DAN SALIRAN MALAYSIA TAHUN 2026 27 Ogos 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1970&catid=176",
+          "title": "HEBAHAN : SAMBUTAN HARI SUNGAI SEDUNIA PERINGKAT NEGERI PERAK TAHUN 2026 23 September 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026?view=article&id=1973&catid=176",
+          "title": "SAMBUTAN HARI SUNGAI SEDUNIA PERINGKAT NEGERI PERAK TAHUN 2026 27 September 2026"
+        },
+        {
+          "url": "https://jps.perak.gov.my/perkhidmatan/tender-sebutharga/tender-dan-sebut-harga-terkini",
+          "title": "Lihat Semua Tender / Sebut Harga"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://jps.perak.gov.my/",
+          "status": "ok",
+          "observedCount": 13
+        },
+        {
+          "url": "https://jps.perak.gov.my/index.php/perkhidmatan/berita/tahun-2026",
+          "status": "ok",
+          "observedCount": 46
+        }
+      ],
+      "observedCount": 59,
+      "documentCount": 0,
+      "fingerprint": "7c89d91deacc62346346bf87cfc4342ca113ecc9d2e8c7a4163c666c4f1c8d8d",
+      "changedCount": 59
     },
     {
       "id": "jps-pahang",
       "url": "https://jps.pahang.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [],
@@ -1244,13 +2006,14 @@
         }
       ],
       "observedCount": 0,
+      "documentCount": 0,
       "fingerprint": null,
       "changedCount": 0
     },
     {
       "id": "jps-kelantan",
       "url": "https://did.kelantan.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [
@@ -1281,13 +2044,14 @@
         }
       ],
       "observedCount": 2,
+      "documentCount": 0,
       "fingerprint": "b23044571f4de4404d8edf132f4c5e563f338ec3a212a46c8ef9a58d1d3e06dd",
-      "changedCount": 2
+      "changedCount": 0
     },
     {
       "id": "ukas",
       "url": "https://ukas.sarawak.gov.my/web/home/index/",
-      "checkedAt": "2026-10-08T09:59:56.592Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [],
@@ -1319,15 +2083,16 @@
         }
       ],
       "observedCount": 0,
+      "documentCount": 0,
       "fingerprint": null,
       "changedCount": 0
     },
     {
       "id": "nres",
       "url": "https://www.nres.gov.my/ms-my/pustakamedia/Pages/KenyataanMedia.aspx",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-08T09:52:45.926Z",
+      "lastSuccessAt": "2026-10-09T02:59:03.993Z",
       "links": [
         {
           "url": "https://www.nres.gov.my/ms-my/pustakamedia/KenyataanMedia/KM-KERAJAAN%20GALAKKAN%20PENGLIBATAN%20SEKTOR%20SWASTA%20DALAM%20MEMPERKUKUH%20PELABURAN%20DAN%20PEMBIAYAAN%20ADAPTASI%20IKLIM.pdf",
@@ -1435,20 +2200,48 @@
         }
       ],
       "observedCount": 22,
+      "documentCount": 0,
       "fingerprint": "8711a30ad717bed56ec1279c03c43b81033cb6e458fcfeb09fda04402d2e2033",
-      "changedCount": 22
+      "changedCount": 0
     },
     {
       "id": "dewan-selangor",
       "url": "https://dewan.selangor.gov.my/",
-      "checkedAt": "2026-10-08T09:52:45.926Z",
-      "status": "error",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
+      "status": "limited",
       "lastSuccessAt": null,
-      "links": [],
-      "observedCount": null,
-      "fingerprint": null,
-      "changedCount": 0,
-      "error": "fetch failed; fetch failed"
+      "links": [
+        {
+          "url": "https://dewan.selangor.gov.my/wp-content/uploads/2026/04/21.4.2026-SELASA-DRAF-PENYATA-RASMI.pdf",
+          "title": "Penyata Rasmi 21 April 2026: perbahasan banjir dan sumber air (draf)",
+          "documentOnly": true,
+          "listingText": "PDF SHA-256: e8f4c42ddf79bdb18e36246028afae684991be90fd654a0db6c97f688c3078fa"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://dewan.selangor.gov.my/",
+          "status": "error",
+          "observedCount": null,
+          "error": "HTTP 500"
+        },
+        {
+          "url": "https://dewan.selangor.gov.my/question/tebatan-banjir-negeri-selangor/",
+          "status": "error",
+          "observedCount": null,
+          "error": "HTTP 500"
+        },
+        {
+          "url": "https://dewan.selangor.gov.my/wp-content/uploads/2026/04/21.4.2026-SELASA-DRAF-PENYATA-RASMI.pdf",
+          "status": "ok",
+          "kind": "pdf",
+          "observedCount": 1
+        }
+      ],
+      "observedCount": 1,
+      "documentCount": 1,
+      "fingerprint": "122f6cda2327fb2ae69d32ef306992179728981ab499e44efa09ac1bbd997dbb",
+      "changedCount": 1
     }
   ],
   "datasets": [
@@ -1463,15 +2256,29 @@
         "date",
         "summary_forecast"
       ],
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-08T09:52:45.926Z",
+      "dataFetchedAt": "2026-10-09T02:59:03.993Z",
       "records": [
         {
           "location": {
             "location_id": "Ds058",
             "location_name": "Kuala Lumpur"
           },
+          "date": "2026-10-15",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Tiada Hujan",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Tiada Hujan",
+          "summary_when": "Sepanjang Hari",
+          "min_temp": 25,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+          },
           "date": "2026-10-14",
           "morning_forecast": "Tiada Hujan",
           "afternoon_forecast": "Tiada Hujan",
@@ -1529,11 +2336,11 @@
             "location_name": "Kuala Lumpur"
           },
           "date": "2026-10-10",
-          "morning_forecast": "Tiada Hujan",
+          "morning_forecast": "Jerebu",
           "afternoon_forecast": "Ribut petir di beberapa tempat",
           "night_forecast": "Tiada Hujan",
           "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Petang",
+          "summary_when": "Pagi dan Petang",
           "min_temp": 25,
           "max_temp": 33
         },
@@ -1553,16 +2360,16 @@
         },
         {
           "location": {
-            "location_id": "Ds058",
-            "location_name": "Kuala Lumpur"
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
           },
-          "date": "2026-10-08",
-          "morning_forecast": "Jerebu",
-          "afternoon_forecast": "Ribut petir di beberapa tempat",
-          "night_forecast": "Jerebu",
-          "summary_forecast": "Ribut petir di beberapa tempat",
+          "date": "2026-10-15",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Tiada Hujan",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Tiada Hujan",
           "summary_when": "Sepanjang Hari",
-          "min_temp": 24,
+          "min_temp": 25,
           "max_temp": 33
         },
         {
@@ -1627,11 +2434,11 @@
             "location_name": "WP Kuala Lumpur"
           },
           "date": "2026-10-10",
-          "morning_forecast": "Tiada Hujan",
+          "morning_forecast": "Jerebu",
           "afternoon_forecast": "Ribut petir di beberapa tempat",
           "night_forecast": "Tiada Hujan",
           "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Petang",
+          "summary_when": "Pagi dan Petang",
           "min_temp": 25,
           "max_temp": 33
         },
@@ -1648,23 +2455,9 @@
           "summary_when": "Sepanjang Hari",
           "min_temp": 24,
           "max_temp": 34
-        },
-        {
-          "location": {
-            "location_id": "St009",
-            "location_name": "WP Kuala Lumpur"
-          },
-          "date": "2026-10-08",
-          "morning_forecast": "Jerebu",
-          "afternoon_forecast": "Ribut petir di beberapa tempat",
-          "night_forecast": "Jerebu",
-          "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Sepanjang Hari",
-          "min_temp": 24,
-          "max_temp": 33
         }
       ],
-      "fingerprint": "0b1145db0dcafb4e9bbe53aa40e80f275a6282040fbedd27fc0be9b8253ddde1",
+      "fingerprint": "2483a373cfcaf75f8cf1a851e6ab3591a580323659d185d64bd01959bcecdc1d",
       "changed": true
     },
     {
@@ -1678,58 +2471,58 @@
         "valid_from",
         "valid_to"
       ],
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-08T09:52:45.926Z",
+      "dataFetchedAt": "2026-10-09T02:59:03.993Z",
       "records": [
         {
           "warning_issue": {
-            "issued": "2026-10-08T14:00:00",
+            "issued": "2026-10-09T09:50:00",
             "title_bm": "Amaran Angin Kencang dan Laut Bergelora",
             "title_en": "Strong Winds and Rough Seas Warning"
           },
           "valid_from": "2026-10-08T00:00:00",
           "valid_to": "2026-10-10T23:59:00",
           "heading_en": "Warning on Strong Wind and Rough Seas",
-          "text_en": "SECTION A: FOR MALAYSIAN WATERS [WITHIN 24 NAUTICAL MILES] 1) LOW HORIZONTAL VISIBILITY WARNING Low horizontal visibility is expected over the waters of Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang until Saturday, 10 October 2026. 2) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Perlis & Kedah • Penang • N. Sembilan • Melaka • West Johor • Kelantan • Sarawak • Sabah until 6:00 PM; Thursday, 8 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats. SECTION B: FOR SHIPPING 1) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Sulawesi • Condore • Southeastern Phuket • Samui • Straits Of Melaka • Reef North • Labuan • Sulu • Palawan • Layang-Layang • Northeastern Bunguran • Northern Reef South • Northern Tioman until 6:00 PM; Thursday, 8 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats.",
+          "text_en": "SECTION A: FOR MALAYSIAN WATERS [WITHIN 24 NAUTICAL MILES] 1) LOW HORIZONTAL VISIBILITY WARNING Low horizontal visibility is expected over the waters of Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang until Saturday, 10 October 2026. 2) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Perlis & Kedah • Selangor • N. Sembilan • Sarawak • Western Sabah until 2:00 PM; Friday, 9 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats. SECTION B: FOR SHIPPING 1) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Tioman • Western part of Samui • Reef South • Labuan • Sulu • Sulawesi • Northern part of Reef North • Palawan • Southern Straits Of Melaka until 2:00 PM; Friday, 9 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats.",
           "instruction_en": "This condition of strong winds and rough seas is dangerous.",
           "heading_bm": "Amaran Angin kencang dan laut bergelora",
-          "text_bm": "SEKSYEN A: UNTUK PERAIRAN MALAYSIA [DALAM LINGKUNGAN 24 BATU NAUTIKA] 1) AMARAN KETAMPAKAN RENDAH Ketampakan rendah dijangka di kawasan perairan Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang sehingga Sabtu, 10 Oktober 2026. 2) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Perlis & Kedah • Pulau Pinang • N. Sembilan • Melaka • Johor Barat • Kelantan • Sarawak • Sabah sehingga 6:00 Petang; Khamis, 8 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil. SEKSYEN B: UNTUK PERKAPALAN 1) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Sulawesi • Condore • Tenggara Phuket • Samui • Selat Melaka • Reef North • Labuan • Sulu • Palawan • Layang-Layang • Timur Laut Bunguran • Utara Reef South • Utara Tioman sehingga 6:00 Petang; Khamis, 8 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil.",
+          "text_bm": "SEKSYEN A: UNTUK PERAIRAN MALAYSIA [DALAM LINGKUNGAN 24 BATU NAUTIKA] 1) AMARAN KETAMPAKAN RENDAH Ketampakan rendah dijangka di kawasan perairan Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang sehingga Sabtu, 10 Oktober 2026. 2) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Perlis & Kedah • Selangor • N. Sembilan • Sarawak • Sabah Barat dan Labuan sehingga 2:00 Petang; Jumaat, 9 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil. SEKSYEN B: UNTUK PERKAPALAN 1) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Tioman • Barat Samui • Reef South • Labuan • Sulu • Sulawesi • Utara Reef North • Palawan • Selat Melaka Selatan sehingga 2:00 Petang; Jumaat, 9 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil.",
           "instruction_bm": "Keadaan angin kencang dan laut bergelora ini adalah berbahaya."
         },
         {
           "warning_issue": {
-            "issued": "2026-10-08T14:00:00",
+            "issued": "2026-10-09T09:50:00",
             "title_bm": "Amaran Angin Kencang dan Laut Bergelora",
             "title_en": "Strong Winds and Rough Seas Warning"
           },
-          "valid_from": "2026-10-08T14:00:00",
-          "valid_to": "2026-10-08T18:00:00",
+          "valid_from": "2026-10-09T09:00:00",
+          "valid_to": "2026-10-09T14:00:00",
           "heading_en": "Warning on Strong Wind and Rough Seas",
-          "text_en": "SECTION A: FOR MALAYSIAN WATERS [WITHIN 24 NAUTICAL MILES] 1) LOW HORIZONTAL VISIBILITY WARNING Low horizontal visibility is expected over the waters of Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang until Saturday, 10 October 2026. 2) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Perlis & Kedah • Penang • N. Sembilan • Melaka • West Johor • Kelantan • Sarawak • Sabah until 6:00 PM; Thursday, 8 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats. SECTION B: FOR SHIPPING 1) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Sulawesi • Condore • Southeastern Phuket • Samui • Straits Of Melaka • Reef North • Labuan • Sulu • Palawan • Layang-Layang • Northeastern Bunguran • Northern Reef South • Northern Tioman until 6:00 PM; Thursday, 8 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats.",
+          "text_en": "SECTION A: FOR MALAYSIAN WATERS [WITHIN 24 NAUTICAL MILES] 1) LOW HORIZONTAL VISIBILITY WARNING Low horizontal visibility is expected over the waters of Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang until Saturday, 10 October 2026. 2) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Perlis & Kedah • Selangor • N. Sembilan • Sarawak • Western Sabah until 2:00 PM; Friday, 9 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats. SECTION B: FOR SHIPPING 1) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Tioman • Western part of Samui • Reef South • Labuan • Sulu • Sulawesi • Northern part of Reef North • Palawan • Southern Straits Of Melaka until 2:00 PM; Friday, 9 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats.",
           "instruction_en": "This condition of strong winds and rough seas is dangerous.",
           "heading_bm": "Amaran Angin kencang dan laut bergelora",
-          "text_bm": "SEKSYEN A: UNTUK PERAIRAN MALAYSIA [DALAM LINGKUNGAN 24 BATU NAUTIKA] 1) AMARAN KETAMPAKAN RENDAH Ketampakan rendah dijangka di kawasan perairan Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang sehingga Sabtu, 10 Oktober 2026. 2) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Perlis & Kedah • Pulau Pinang • N. Sembilan • Melaka • Johor Barat • Kelantan • Sarawak • Sabah sehingga 6:00 Petang; Khamis, 8 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil. SEKSYEN B: UNTUK PERKAPALAN 1) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Sulawesi • Condore • Tenggara Phuket • Samui • Selat Melaka • Reef North • Labuan • Sulu • Palawan • Layang-Layang • Timur Laut Bunguran • Utara Reef South • Utara Tioman sehingga 6:00 Petang; Khamis, 8 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil.",
+          "text_bm": "SEKSYEN A: UNTUK PERAIRAN MALAYSIA [DALAM LINGKUNGAN 24 BATU NAUTIKA] 1) AMARAN KETAMPAKAN RENDAH Ketampakan rendah dijangka di kawasan perairan Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang sehingga Sabtu, 10 Oktober 2026. 2) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Perlis & Kedah • Selangor • N. Sembilan • Sarawak • Sabah Barat dan Labuan sehingga 2:00 Petang; Jumaat, 9 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil. SEKSYEN B: UNTUK PERKAPALAN 1) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Tioman • Barat Samui • Reef South • Labuan • Sulu • Sulawesi • Utara Reef North • Palawan • Selat Melaka Selatan sehingga 2:00 Petang; Jumaat, 9 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil.",
           "instruction_bm": "Keadaan angin kencang dan laut bergelora ini adalah berbahaya."
         },
         {
           "warning_issue": {
-            "issued": "2026-10-08T16:10:00",
+            "issued": "2026-10-09T09:00:00",
             "title_bm": "Amaran Ribut Petir",
             "title_en": "Thunderstorms Warning"
           },
-          "valid_from": "2026-10-08T16:00:00",
-          "valid_to": "2026-10-08T19:00:00",
+          "valid_from": "2026-10-09T08:00:00",
+          "valid_to": "2026-10-09T12:00:00",
           "heading_en": "THUNDERSTORMS WARNING",
-          "text_en": "Thunderstorms, heavy rain and strong winds are expected over the states of Perak (Perak Tengah, Hilir Perak, Hulu Perak, Kuala Kangsar and Bagan Datuk) • Kelantan (Gua Musang, Jeli, Tanah Merah, Kuala Krai and Machang) • Terengganu • Pahang (Cameron Highlands and Lipis) • Selangor (Petaling, Hulu Langat, Sepang and Gombak) • W.P. Kuala Lumpur • W.P. Putrajaya • Negeri Sembilan (Seremban and Jelebu) • Sarawak: Limbang, Miri (Marudi, Miri and Beluru), Bintulu (Tatau and Sebauh), Serian, Kuching (Kuching), Samarahan (Gedong, Asajaya and Samarahan), Sri Aman (Pantu) • Sabah: West Coast, Tawau (Kalabakan and Lahad Datu), Sandakan, Interior (Tambunan, Keningau, Sook and Membakut) until 7:00 PM; Thursday, 8 October 2026.",
+          "text_en": "Thunderstorms, heavy rain and strong winds are expected over the states of Selangor (Klang and Kuala Langat) • Sabah: Kudat, West Coast, Interior (Membakut, Beaufort, Kuala Penyu, Keningau and Tambunan) until 12:00 PM; Friday, 9 October 2026.",
           "instruction_en": null,
           "heading_bm": "AMARAN RIBUT PETIR",
-          "text_bm": "Ribut petir, hujan lebat dan angin kencang dijangka di negeri Perak (Perak Tengah, Hilir Perak, Hulu Perak, Kuala Kangsar dan Bagan Datuk) • Kelantan (Gua Musang, Jeli, Tanah Merah, Kuala Krai dan Machang) • Terengganu • Pahang (Cameron Highlands dan Lipis) • Selangor (Petaling, Hulu Langat, Sepang dan Gombak) • W.P. Kuala Lumpur • W.P. Putrajaya • Negeri Sembilan (Seremban dan Jelebu) • Sarawak: Limbang, Miri (Marudi, Miri dan Beluru), Bintulu (Tatau dan Sebauh), Serian, Kuching (Kuching), Samarahan (Gedong, Asajaya dan Samarahan), Sri Aman (Pantu) • Sabah: Pantai Barat, Tawau (Kalabakan dan Lahad Datu), Sandakan, Pedalaman (Tambunan, Keningau, Sook dan Membakut) sehingga 7:00 Malam; Khamis, 8 Oktober 2026.",
+          "text_bm": "Ribut petir, hujan lebat dan angin kencang dijangka di negeri Selangor (Klang dan Kuala Langat) • Sabah: Kudat, Pantai Barat, Pedalaman (Membakut, Beaufort, Kuala Penyu, Keningau dan Tambunan) sehingga 12:00 Tengah Hari; Jumaat, 9 Oktober 2026.",
           "instruction_bm": null
         },
         {
           "warning_issue": {
-            "issued": "2026-10-08T17:30:00",
+            "issued": "2026-10-09T10:30:00",
             "title_bm": "Tiada Nasihat",
             "title_en": "No Advisory"
           },
@@ -1743,7 +2536,7 @@
           "instruction_bm": null
         }
       ],
-      "fingerprint": "90b7caf0b389d27521ac2e204d985717a2681dfa138e8cf691cddce764c11e5f",
+      "fingerprint": "3bce37cdbaac6f784ad90f89bba3f021836e8d80712892e4cb525214ad862601",
       "changed": true
     },
     {
@@ -1757,9 +2550,9 @@
         "status",
         "n_basins"
       ],
-      "checkedAt": "2026-10-08T09:52:45.926Z",
+      "checkedAt": "2026-10-09T02:59:03.993Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-08T09:52:45.926Z",
+      "dataFetchedAt": "2026-10-09T02:59:03.993Z",
       "records": [
         {
           "date": "2024-01-01",
