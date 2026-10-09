@@ -479,7 +479,15 @@
       "language": "ms",
       "checkedAt": "2026-10-09",
       "evidence": "公告 MAKLUMAT PROJEK 列道路抬高与三条河流桥梁；MAKLUMAT KONTRAKTOR 列 Bumiputera、T1、G7 和 CE01/CE02；MAKLUMAT DOKUMEN 列 RM1500，TARIKH TENDER DITUTUP 为 12/11/2026、12:00 PM。没有据项目名推断设计 ARI 或防洪成效。 2026-10-09 复核原网页，现场时间及 11 月 12 日 12:00 截止未变，文件销售日期为 10 月 15–21 日。",
-      "dateEvidence": "TARIKH IKLAN 明示 01/10/2026。现场参观／说明会为 08/10/2026 11:00 AM，截止为 12/11/2026 12:00 PM；未来截止不填成已经发生的 eventDate。时间按马来西亚当地公告理解，后续补遗以原站为准。"
+      "dateEvidence": "TARIKH IKLAN 明示 01/10/2026。现场参观／说明会为 08/10/2026 11:00 AM，截止为 12/11/2026 12:00 PM；未来截止不填成已经发生的 eventDate。时间按马来西亚当地公告理解，后续补遗以原站为准。",
+      "tender": {
+        "reference": "JKR/CKUB/24197/2026",
+        "deadlineDate": "2026-11-12",
+        "deadline": "2026-11-12T12:00:00+08:00",
+        "briefing": "2026-10-08T11:00:00+08:00",
+        "briefingRequirement": "mandatory",
+        "evidence": "公告 MAKLUMAT PROJEK 列道路抬高与三条河流桥梁；MAKLUMAT KONTRAKTOR 列 Bumiputera、T1、G7 和 CE01/CE02；MAKLUMAT DOKUMEN 列 RM1500，TARIKH TENDER DITUTUP 为 12/11/2026、12:00 PM。没有据项目名推断设计 ARI 或防洪成效。 2026-10-09 复核原网页，现场时间及 11 月 12 日 12:00 截止未变，文件销售日期为 10 月 15–21 日。"
+      }
     },
     {
       "language": "ms",
@@ -610,7 +618,15 @@
         "历史采购"
       ],
       "evidence": "公告标题列出 Sungai Dungun 的 HEC SERIES 服务范围；正文 TARIKH MULA/TUTUP TAWARAN 分别为 23/09 和 30/09/2026，JUMLAH HARGA INDIKATIF 为 RM200,000。",
-      "dateEvidence": "官方 arkib-berita 归档为此链接标 23/09/2026，正文列同日起售、30/09/2026 截止；截至本次核查已截止。未将截止日作为活动日期。"
+      "dateEvidence": "官方 arkib-berita 归档为此链接标 23/09/2026，正文列同日起售、30/09/2026 截止；截至本次核查已截止。未将截止日作为活动日期。",
+      "tender": {
+        "reference": null,
+        "deadlineDate": "2026-09-30",
+        "deadline": null,
+        "briefing": null,
+        "briefingRequirement": "unconfirmed",
+        "evidence": "公告标题列出 Sungai Dungun 的 HEC SERIES 服务范围；正文 TARIKH MULA/TUTUP TAWARAN 分别为 23/09 和 30/09/2026，JUMLAH HARGA INDIKATIF 为 RM200,000。"
+      }
     },
     {
       "language": "ms",
@@ -631,7 +647,15 @@
         "Setiu"
       ],
       "evidence": "官方采购表第 4 行为 JPBD(IP)S185/646/1-201，标题列出三处范围，Status=Buka，日期列为 05-10-2026 至 22-10-2026。该行未提供独立文件链接、资格或预算，不补造详情。",
-      "dateEvidence": "列表所列开始日期为 05-10-2026，作为采购开放事件日；未确认独立页面发布日期，publishedAt=null。列表时刻均为 12:00 AM，摘要只报告日期并要求以正式文件核对具体时间。"
+      "dateEvidence": "列表所列开始日期为 05-10-2026，作为采购开放事件日；未确认独立页面发布日期，publishedAt=null。列表时刻均为 12:00 AM，摘要只报告日期并要求以正式文件核对具体时间。",
+      "tender": {
+        "reference": "JPBD(IP)S185/646/1-201",
+        "deadlineDate": "2026-10-22",
+        "deadline": null,
+        "briefing": null,
+        "briefingRequirement": "unconfirmed",
+        "evidence": "官方采购表第 4 行为 JPBD(IP)S185/646/1-201，标题列出三处范围，Status=Buka，日期列为 05-10-2026 至 22-10-2026。该行未提供独立文件链接、资格或预算，不补造详情。"
+      }
     },
     {
       "language": "ms",
@@ -741,7 +765,15 @@
       "language": "en",
       "checkedAt": "2026-10-09",
       "evidence": "采购页 Details 明确 Kerja-Kerja Penggantian Injap Secara Kaedah Tanpa Gangguan Bekalan Air di Kolam Air Bukit Dengkil；随后列 Tender No、Advertisement Date、Closing Date、Status 和 Briefing Date。标题是 Langat 2 总项目名称，摘要按 Details 限定本采购范围。正文详情为马来文、字段为英文。",
-      "dateEvidence": "Advertisement Date=01/10/2026 08:30 am；Closing Date=29/10/2026 12:00 pm；Briefing Date=07/10/2026 10:00 am。截止时间按马来西亚官方采购页面报告，资格和会议条件未在网页详情中确认，提示查正式文件。"
+      "dateEvidence": "Advertisement Date=01/10/2026 08:30 am；Closing Date=29/10/2026 12:00 pm；Briefing Date=07/10/2026 10:00 am。截止时间按马来西亚官方采购页面报告，资格和会议条件未在网页详情中确认，提示查正式文件。",
+      "tender": {
+        "reference": "PAAB/B001/PAKEJ 15 (5)/PI/77/26",
+        "deadlineDate": "2026-10-29",
+        "deadline": "2026-10-29T12:00:00+08:00",
+        "briefing": "2026-10-07T10:00:00+08:00",
+        "briefingRequirement": "unconfirmed",
+        "evidence": "采购页 Details 明确 Kerja-Kerja Penggantian Injap Secara Kaedah Tanpa Gangguan Bekalan Air di Kolam Air Bukit Dengkil；随后列 Tender No、Advertisement Date、Closing Date、Status 和 Briefing Date。标题是 Langat 2 总项目名称，摘要按 Details 限定本采购范围。正文详情为马来文、字段为英文。"
+      }
     },
     {
       "language": "ms",
@@ -1004,7 +1036,60 @@
       "language": "ms",
       "checkedAt": "2026-10-09",
       "evidence": "已直接读取 JPS Perak 公告正文，标题明确升级及修复两条河流；Nombor Tender 为 PETRA/JPS/KT2026/001，Tarikh Iklan 7.9.2026，Tarikh Tutup 7.10.2026 12:00 T/hari。未从页面推定预算、授标状态或完成率。",
-      "dateEvidence": "发布日期按正文 Tarikh Iklan=7.9.2026；截止时间按页面明示 7.10.2026 12:00 T/hari（马来西亚时间）。核查日 2026-10-09，仍报告其原列截止日并要求后续补遗以官网为准。"
+      "dateEvidence": "发布日期按正文 Tarikh Iklan=7.9.2026；截止时间按页面明示 7.10.2026 12:00 T/hari（马来西亚时间）。核查日 2026-10-09，仍报告其原列截止日并要求后续补遗以官网为准。",
+      "tender": {
+        "reference": "PETRA/JPS/KT2026/001",
+        "deadlineDate": "2026-10-07",
+        "deadline": "2026-10-07T12:00:00+08:00",
+        "briefing": null,
+        "briefingRequirement": "unconfirmed",
+        "evidence": "已直接读取 JPS Perak 公告正文，标题明确升级及修复两条河流；Nombor Tender 为 PETRA/JPS/KT2026/001，Tarikh Iklan 7.9.2026，Tarikh Tutup 7.10.2026 12:00 T/hari。未从页面推定预算、授标状态或完成率。"
+      }
+    },
+    {
+      "id": "petra-irrigation-drainage-acts-review-september-2026",
+      "source": "petra",
+      "category": "policy",
+      "title": "PETRA 检视灌溉与排水两项法令的适用范围及实施安排",
+      "summary": "PETRA 于 9 月 29 日召开会议，检视《1953 年灌溉区法令》（Act 386）与《1954 年排水工程法令》（Act 354）是否适应当前灌溉和排水管理需求。讨论涉及适用范围、职责、实施方法及改进空间。官方将其描述为加强相关法律框架的初步行动，未宣布法令已修订、替代或新规定已经生效。",
+      "url": "https://www.petra.gov.my/v2/latest-news-details?id=Mesyuarat%20Hala%20Tuju%20Pemakaian%20Akta%20Kawasan%20Pengairan%201953%20[Akta%20386]%20dan%20Akta%20Kerja%20Saliran%201954%20[Akta%20354]",
+      "publishedAt": "2026-09-29",
+      "eventDate": "2026-09-29",
+      "region": "Malaysia · Kuala Lumpur",
+      "stage": "法律适用检视 · 初步讨论",
+      "tags": [
+        "灌溉",
+        "排水",
+        "政策法规",
+        "Act 386",
+        "Act 354"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-09",
+      "evidence": "已直接读取 PETRA 正文：首段明确会议日期及地点；第二段列 menilai kesesuaian pemakaian、skop、peranan、kaedah pelaksanaan 及 ruang penambahbaikan；末段称 langkah awal。摘要只报告检视工作，不据会议推定法律已修改。",
+      "dateEvidence": "本次实际读取的 PETRA latest-news 列表在本链接前列 29 September 2026；正文标题及首段均明示会议于 29 September 2026 举行。publishedAt 保留列表日期，eventDate 使用正文明确会议日期。"
+    }
+  ],
+  "projects": [
+    {
+      "id": "stampin-flood-mitigation",
+      "name": "Stampin 防洪项目",
+      "region": "Sarawak · Kuching",
+      "scope": "一期授标与启动协调。不同报道的金额口径分别保留，不把总体金额与施工合同金额合并。",
+      "articleIds": [
+        "did-sarawak-stampin-award-september-2026",
+        "did-sarawak-stampin-kickoff-2026"
+      ]
+    },
+    {
+      "id": "sungai-golok-irbd",
+      "name": "Sungai Golok 综合流域开发",
+      "region": "Kelantan · Sungai Golok",
+      "scope": "审计延期报道与部委回应并列查阅；部委声明中的海岸工程内容也涉及其他项目，不全部归入 Sungai Golok。",
+      "articleIds": [
+        "nadma-sungai-golok-delay-october-2026",
+        "petra-flood-coastal-governance-october-2026"
+      ]
     }
   ]
 }

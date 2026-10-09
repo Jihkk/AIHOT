@@ -7,6 +7,7 @@ import { loadContent, sortedArticles } from './publication.mjs';
 import { loadMonitoring } from './monitoring.mjs';
 import { forecastRows } from './reader-panels.mjs';
 import {loadHydro} from './hydro.mjs';
+import {tenderStatus} from './industry-desks.mjs';
 
 const content=await loadContent();
 const monitoring=await loadMonitoring(content);
@@ -93,10 +94,39 @@ try {
   await page.screenshot({path:fileURLToPath(new URL('../../.data/water-watch-mobile.png',import.meta.url)),fullPage:true});
   assert.deepEqual(errors,[]);
   const offline=await browser.newPage({javaScriptEnabled:false});
+  await page.goto(`${base}projects.html`);
+  assert.equal(await page.locator('.project-card').count(),content.projects.length);
+  assert.equal(await page.locator('.project-timeline li').count(),content.projects.reduce((sum,p)=>sum+p.articleIds.length,0));
+  await page.locator('a[href="tenders.html"]').first().click();
+  assert.equal(page.url(),`${base}tenders.html`);
+  const tenders=content.articles.filter(article=>article.category==='tenders');
+  assert.equal(await page.locator('[data-tender]:visible').count(),tenders.filter(a=>a.tender && tenderStatus(a.tender)!=='closed').length);
+  await page.locator('#tender-status').selectOption('all');
+  assert.equal(await page.locator('[data-tender]:visible').count(),tenders.length);
+  await page.locator('#tender-query').fill('FT234');
+  assert.equal(await page.locator('[data-tender]:visible').count(),1);
+  assert.match(await page.locator('[data-tender]:visible').innerText(),/强制说明会日期已过/);
+  await page.locator('#tender-query').fill('not-a-real-tender-1234');
+  assert.ok(await page.locator('#tender-empty').isVisible());
+  await page.locator('#tender-reset').click();
+  await page.locator('#tender-status').selectOption('closed');
+  assert.equal(await page.locator('[data-tender]:visible').count(),tenders.filter(a=>a.tender && tenderStatus(a.tender)==='closed').length);
+  for(const file of ['projects.html','tenders.html']) {
+    await page.goto(`${base}${file}`);
+    for(const width of [375,768,1024,1440]) {
+      await page.setViewportSize({width,height:844});
+      assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`${file} ${width}px must not overflow`);
+    }
+    await page.setViewportSize({width:1440,height:1000});
+    await page.screenshot({path:fileURLToPath(new URL(`../../.data/water-watch-${file.split('.')[0]}.png`,import.meta.url))});
+    await offline.goto(`${base}${file}`);
+    assert.equal(await offline.locator(file==='projects.html'?'.project-card':'[data-tender]').count(),file==='projects.html'?content.projects.length:tenders.length);
+  }
+  assert.deepEqual(errors,[]);
   await offline.goto(base);
   assert.equal(await offline.locator('.story').count(),content.articles.length);
   assert.equal(await offline.locator('.forecast-row').count(),forecastCount);
-  for(const file of ['style.css','client.js','logo.svg']) assert.equal((await page.request.get(`${base}${file}`)).status(),200);
+  for(const file of ['style.css','client.js','logo.svg','desk-client.js','industry-desks.mjs']) assert.equal((await page.request.get(`${base}${file}`)).status(),200);
   const noticePage=await browser.newPage({viewport:{width:375,height:844}});
   for(const file of ['terms.html','privacy.html']) {
     await noticePage.goto(`${base}${file}`);

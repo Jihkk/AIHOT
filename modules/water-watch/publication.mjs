@@ -8,6 +8,7 @@ import { loadMonitoring } from './monitoring.mjs';
 import { renderLayout } from './page-layout.mjs';
 import { renderNotice } from './public-notices.mjs';
 import {loadHydro,renderHydroPage} from './hydro.mjs';
+import {validateDesks,renderProjects,renderTenders} from './industry-desks.mjs';
 export { officialUrl } from './official-url.mjs';
 
 const directory = fileURLToPath(new URL('.', import.meta.url));
@@ -61,6 +62,7 @@ export function validateContent(content, now = new Date()) {
       if (!/T.*(?:Z|[+-]\d{2}:\d{2})$/.test(article.validUntil) || Number.isNaN(Date.parse(article.validUntil))) throw new Error('Alert expiry must include timezone');
     }
   }
+  validateDesks(content);
   return content;
 }
 
@@ -94,6 +96,9 @@ export async function build() {
   const monitoring = await loadMonitoring(content);
   await mkdir(outputDirectory, {recursive:true});
   await writeFile(resolve(outputDirectory, 'index.html'), renderPage(content, monitoring));
+  await writeFile(resolve(outputDirectory,'projects.html'),renderLayout({content,monitoring,site:SITE,categories:CATEGORIES,feature:renderProjects(content),title:'工程项目跟踪',description:'串联官方报道，查看项目阶段与变化。'}));
+  await writeFile(resolve(outputDirectory,'tenders.html'),renderLayout({content,monitoring,site:SITE,categories:CATEGORIES,feature:renderTenders(content),title:'招标与采购',description:'查看公告截止日期、说明会条件及历史记录。'}));
+  for(const file of ['desk-client.js','industry-desks.mjs'])await copyFile(resolve(directory,file),resolve(outputDirectory,file));
   await writeFile(resolve(outputDirectory, 'terms.html'), renderNotice('terms'));
   await writeFile(resolve(outputDirectory, 'privacy.html'), renderNotice('privacy'));
   const hydro=await loadHydro();

@@ -56,6 +56,48 @@ export function linkChanges(previous, current) {
   return current.filter(item=>old.get(item.key ?? item.url)!==signature(item));
 }
 
+export function discoverListings(html, pageUrl, hosts) {
+  const $=load(html), found=new Map();
+  $('a[rel~="next"],link[rel~="next"],.pagination a,.pager a,link[rel="alternate"]').each((_index,element)=>{
+    const node=$(element), href=node.attr('href');
+    const feed=/rss|atom/i.test(node.attr('type') ?? '');
+    const next=(node.attr('rel') ?? '').split(/\s+/).includes('next') || /^(?:next|next page|seterusnya|berikut|›|»|下一页)$/i.test(normalize(node.text()));
+    if(!href || (!feed && !next))return;
+    try {
+      const url=new URL(href,pageUrl);url.hash='';
+      officialUrl(url.href,hosts);
+      if(url.href!==pageUrl && !/\/(?:login|sign-?in)(?:\/|$)/i.test(url.pathname) && !(feed && /comments?|komentar/i.test(`${url.pathname} ${node.attr('title') ?? ''}`)))found.set(url.href,{url:url.href,kind:feed?'feed':'html'});
+    } catch { /* Discovery remains inside the registered official hosts. */ }
+  });
+  // RSS and Atom usually duplicate the same publication stream; skip comment feeds entirely.
+  const links=[...found.values()];
+  return [...links.filter(link=>link.kind==='html'),...links.filter(link=>link.kind==='feed').slice(0,1)];
+}
+
+export function extractFeed(xml, pageUrl, hosts) {
+  const $=load(xml,{xml:true}), found=new Map();
+  $('item,entry').each((_index,element)=>{
+    const row=$(element), title=normalize(row.children('title').text());
+    if(title.length<18 || title.length>400 || !topic.test(title))return;
+    const link=row.children('link').filter((_i,node)=>!$(node).attr('rel') || $(node).attr('rel')==='alternate').first();
+    const href=link.attr('href') || link.text();
+    if(!href.trim())return;
+    try { const url=new URL(href,pageUrl);url.hash='';officialUrl(url.href,hosts);found.set(url.href,{url:url.href,title}); }
+    catch { /* Feed entries are candidates only when their original is on an official host. */ }
+  });
+  return [...found.values()].slice(0,100);
+}
+
+export function buildIntake(content, result) {
+  const published=new Set((content.articles ?? []).map(article=>article.url));
+  const changed=new Set(result.changed.map(item=>`${item.source}::${item.key ?? item.url}`));
+  // Rebuild from the retained baseline so a second run cannot erase an unreviewed link.
+  return result.sources.flatMap(source=>source.links.filter(item=>item.listingOnly || !published.has(item.url)).map(item=>({
+    ...item,source:source.id,changed:changed.has(`${source.id}::${item.key ?? item.url}`),
+    sourceStatus:source.status,sourceCheckedAt:source.checkedAt,lastSuccessAt:source.lastSuccessAt
+  })));
+}
+
 export async function readPublic(url, hosts, fetchFn = publicFetch) {
   officialUrl(url, hosts);
   const signal = AbortSignal.timeout(25000);
@@ -111,6 +153,7 @@ export async function collect(content, config, previous = {}, {fetchFn=publicFet
     officialUrl(entry.url,source.hosts);
     if(entry.additionalUrls !== undefined && (!Array.isArray(entry.additionalUrls) || entry.additionalUrls.length>9)) throw new Error('Invalid additional listings');
     for(const url of entry.additionalUrls ?? []) officialUrl(url,source.hosts);
+    if(entry.discovery!==undefined && (!Number.isInteger(entry.discovery.maxPages) || entry.discovery.maxPages<1 || entry.discovery.maxPages>3))throw new Error('Invalid discovery page limit');
     if(entry.documents !== undefined && (!Array.isArray(entry.documents) || entry.documents.length>9)) throw new Error('Invalid reference documents');
     for(const document of entry.documents ?? []) {
       officialUrl(document.url,source.hosts);
@@ -127,13 +170,20 @@ export async function collect(content, config, previous = {}, {fetchFn=publicFet
     const pages=[];
     try {
       const found=new Map();
-      for(const url of new Set([pageUrl,...entry.additionalUrls ?? []])) {
+      const queue=[...new Set([pageUrl,...entry.additionalUrls ?? []])].map(url=>({url,kind:'html'}));
+      const visited=new Set(queue.map(page=>page.url));let discovered=0;
+      for(const request of queue) {
+        const {url,kind}=request;
         try {
           const response=await readPublic(url,source.hosts,fetchFn);
-          if(!/text\/html/i.test(response.type)) throw new Error('Expected an HTML listing');
-          const links=extractCandidates(response.text,response.url,source.hosts);
+          if(kind==='feed' ? !/(?:xml|rss|atom)/i.test(response.type) : !/text\/html/i.test(response.type)) throw new Error(`Expected ${kind==='feed'?'an XML feed':'an HTML listing'}`);
+          const links=kind==='feed'?extractFeed(response.text,response.url,source.hosts):extractCandidates(response.text,response.url,source.hosts);
           for(const item of links) found.set(item.key ?? item.url,item);
           pages.push({url,status:links.length ? 'ok' : 'limited',observedCount:links.length});
+          if(kind==='html' && entry.discovery)for(const next of discoverListings(response.text,response.url,source.hosts)) {
+            if(discovered>=entry.discovery.maxPages)break;
+            if(!visited.has(next.url)) {visited.add(next.url);queue.push(next);discovered++;}
+          }
         } catch(error) {
           pages.push({url,status:'error',observedCount:null,error:errorDetail(error)});
         }

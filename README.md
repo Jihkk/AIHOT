@@ -32,6 +32,14 @@ Windows 主机遇到 Node 缺少中间证书链或连接超时时，采集器在
 
 公开部署前需选择托管、确认使用规则与隐私说明。当前静态预览没有广告、追踪代码、注册或付费模型请求。实时预警、观测与招标资格以官方原文为准；无收录不等于无风险或无公告。
 
+## 工程与招标专区
+
+[项目跟踪](https://jihkk.github.io/AIHOT/projects.html) 将同一项目的已核实报道按日期串联；首批为 Stampin 和 Sungai Golok。`content.json` 的 `projects` 仅保存标题、范围及已有文章 ID，不复制原文。优先使用原文明示的事件日，否则明确显示报道日期；不同金额、阶段和部委归因分别保留。
+
+[招标专区](https://jihkk.github.io/AIHOT/tenders.html) 默认筛选尚未到所列截止日的记录，可切换历史、搜索项目和编号。`article.tender` 的日期、时刻、说明会及证据从已核实原文录入；时刻不明时保存 `deadline=null`，不推定午夜或中午。浏览器按 UTC+8 更新倒计时，日期当天时刻不明则显示待确认；时间未到不等于仍能参与。未启用 JavaScript 时保留全部记录。原文查阅日期不随页面时钟更新。
+
+NADMA、NAHRIM、SPAN 与 Perak JPS 启用 `discovery.maxPages=2`：每个来源最多额外读取两条官网提供的下一页或 RSS/Atom 链接，不猜分页 URL，不遍历全站，仍执行 HTTPS、官方域名、大小与时限验证。候选清单从保留基线重建，包含尚未发布的链接与来源读取状态；`changed` 区分本次变化，读取失败时保留旧候选，不把候选变成新闻。编辑需先检查变化，再审阅此前积压内容。
+
 ## 降雨与水位监测
 
 [公开监测页](https://jihkk.github.io/AIHOT/hydro.html) 首期覆盖雪兰莪与吉隆坡，读取 Public Infobanjir 对公众展示的站点雨量、水位及阈值，不需要登录或付费 AI API。`npm run water:hydro` 每次只发出四个来源请求，不逐站轮询。配置在 `hydro-config.json`；公开观测和按原始观测时间去重的近七天历史保存在 `hydro.json`，不使用采集时间代替观测时间。

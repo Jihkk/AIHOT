@@ -22,3 +22,12 @@ GitHub Pages 发布流程已配置，由仓库变量 `WATER_WATCH_PAGES_APPROVED
 自动评分保留上游五轴结构和权重，`industry/selection.ts` 数值未调。水利行业人工标注校准完成前，不用自动阈值代替编辑核查。
 
 降雨与水位观测独立于新闻编辑，保留 `Water observations` GitHub Actions 半小时采集能力，但该工作流按用户要求处于暂停状态，不得由每日新闻任务恢复或触发。`hydro.json` 是实际观测及近七天历史，不能人工编造、清空或改写观测日期；每日编辑先同步 main，保留自动任务已提交的历史。原新闻采集与中文选稿继续使用 Codex 订阅，不调用付费模型 API。监测页范围和计算方法见 README；每日新闻任务不需要重复触发高频观测采集。
+
+
+## 项目时间线、招标与待审候选
+
+先检查 `.data/water-watch-intake.json` 中 `changed=true` 的候选，再处理未发布的基线积压；`changed=false` 不代表已审阅。候选可带失败来源的旧链接，`sourceStatus` 和 `lastSuccessAt` 必须一起看。对 NAV、无关或历史候选可在本轮筛选中排除，但不因重复采集而自动删除基线。
+
+同一工程的核实文章可加入 `content.json.projects[].articleIds`，不要凭关键词自动归组。时间线不推断未报道阶段、完成率或效果；报道用不同金额口径时注明，不合并为一个工程造价。报道涉及多个工程时在项目 scope 说明相关部分。
+
+招标文章在 `tender` 录入 `reference`（未知为 null）、`deadlineDate`、`deadline`（时刻未知为 null）、`briefing`（未录入为 null）、`briefingRequirement`（mandatory/unconfirmed）及 `evidence`。具体时刻须使用 `+08:00`；日期缺乏依据时不添加 tender 字段，专区显示待确认。仅重新阅读原文后更新文章 checkedAt；倒计时与显示的历史状态自动改变不算重新核查。延期或补遗须更新原公告证据和元数据，并复核原摘要。

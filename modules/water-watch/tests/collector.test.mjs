@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {test} from 'node:test';
 import {readFile} from 'node:fs/promises';
-import {extractCandidates,linkChanges,readPublic,validateRecords,collect,publicCollection,publicData} from '../collector.mjs';
+import {extractCandidates,linkChanges,readPublic,validateRecords,collect,publicCollection,publicData,discoverListings,extractFeed,buildIntake} from '../collector.mjs';
 import {validateMonitoring,renderMonitoring} from '../monitoring.mjs';
 
 const page='https://www.water.gov.my/news';
@@ -9,6 +9,33 @@ const content={sources:[{id:'jps',name:'JPS',url:page,hosts:['water.gov.my'],des
 const config={version:1,sources:[{id:'jps',url:page,kind:'html'}],datasets:[]};
 const at=new Date('2026-10-08T03:30:00Z');
 const html='<article><header><a href="/news/flood">Flood mitigation works announced in Pahang</a></header></article>';
+
+test('discovery follows published next/feed links inside official hosts with a source-wide bound',async()=>{
+  const listing=html+'<a rel="next" href="?page=2">Next</a><link rel="alternate" type="application/rss+xml" href="/feed"><link rel="alternate" type="application/atom+xml" href="/atom"><link rel="alternate" type="application/rss+xml" href="/comments/feed"><a rel="next" href="https://evil.test/next">Next</a>';
+  assert.equal(discoverListings(listing,page,['water.gov.my']).length,2);
+  const requests=[];
+  const cfg={...config,sources:[{...config.sources[0],discovery:{maxPages:2}}]};
+  const result=await collect(content,cfg,{}, {now:at,fetchFn:async url=>{
+    requests.push(url);
+    if(url.endsWith('/feed'))return new Response('<rss><channel><item><title>River basin water quality monitoring update</title><link>https://www.water.gov.my/news/river</link></item></channel></rss>',{headers:{'content-type':'application/rss+xml'}});
+    return new Response(url===page?listing:html+'<a rel="next" href="?page=3">Next</a>',{headers:{'content-type':'text/html'}});
+  }});
+  assert.equal(requests.length,3);
+  assert.equal(result.sources[0].links.length,2);
+  assert.ok(!requests.some(url=>url.includes('evil.test') || url.includes('page=3')));
+  const atom='<feed><entry><title>Flood mitigation construction update</title><link rel="alternate" href="https://www.water.gov.my/flood"/></entry><entry><title>Flood mitigation foreign source update</title><link href="https://evil.test/flood"/></entry></feed>';
+  assert.equal(extractFeed(atom,page,['water.gov.my']).length,1);
+});
+
+test('unpublished intake survives unchanged and failed runs without relabelling stale candidates as new',async()=>{
+  const good=await collect(content,config,{}, {now:at,fetchFn:async()=>new Response(html,{headers:{'content-type':'text/html'}})});
+  const again=await collect(content,config,good,{now:at,fetchFn:async()=>new Response(html,{headers:{'content-type':'text/html'}})});
+  assert.equal(buildIntake(content,again).length,1);
+  assert.equal(buildIntake(content,again)[0].changed,false);
+  const failed=await collect(content,config,again,{now:at,fetchFn:async()=>new Response('Unavailable',{status:503})});
+  assert.equal(buildIntake(content,failed)[0].sourceStatus,'error');
+  assert.equal(buildIntake({...content,articles:[{url:good.sources[0].links[0].url}]},again).length,0);
+});
 
 test('listing extraction preserves article headings and titled PDF downloads but excludes unsafe and navigation links',()=>{
   const links=extractCandidates(`${html}<nav><a href="/nav">Flood mitigation navigation link</a></nav><a href="https://water.gov.my.evil.test/flood">Flood news on an unregistered host</a><a href="javascript:alert(1)">Flood news in a script link</a><a href="/guide.pdf" title="Water resources planning guideline 2026">Download</a>`,page,['water.gov.my']);
