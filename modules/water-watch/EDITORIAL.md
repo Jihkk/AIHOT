@@ -1,6 +1,6 @@
 # 编辑更新流程
 
-本模块使用已登录的 Codex 订阅协助编辑，不调用模型 API。GitHub Actions 只运行验证和构建，不需要模型 Key，也不保存 Codex 登录凭据。每日核查安排为马来西亚时间 08:30，由当前 Codex 对话的自动任务执行；本地主机、Codex 应用和网络必须可用。没有实质新增或需处理的问题时保持安静，不发送例行状态消息。
+本模块使用已登录的 Codex 订阅协助编辑，不调用模型 API。GitHub Actions 运行验证和构建，并可手动复核单一来源，不需要模型 Key，也不保存 Codex 登录凭据。每日核查安排为马来西亚时间 08:30，由当前 Codex 对话的自动任务执行；本地主机、Codex 应用和网络必须可用。没有实质新增或需处理的问题时保持安静，不发送例行状态消息。
 
 用户可以说：**更新 Malaysia Water Watch，核查官方最新资讯，整理中文摘要并提交 GitHub。**
 
@@ -31,3 +31,12 @@ GitHub Pages 发布流程已配置，由仓库变量 `WATER_WATCH_PAGES_APPROVED
 同一工程的核实文章可加入 `content.json.projects[].articleIds`，不要凭关键词自动归组。时间线不推断未报道阶段、完成率或效果；报道用不同金额口径时注明，不合并为一个工程造价。报道涉及多个工程时在项目 scope 说明相关部分。
 
 招标文章在 `tender` 录入 `reference`（未知为 null）、`deadlineDate`、`deadline`（时刻未知为 null）、`briefing`（未录入为 null）、`briefingRequirement`（mandatory/unconfirmed）及 `evidence`。具体时刻须使用 `+08:00`；日期缺乏依据时不添加 tender 字段，专区显示待确认。仅重新阅读原文后更新文章 checkedAt；倒计时与显示的历史状态自动改变不算重新核查。延期或补遗须更新原公告证据和元数据，并复核原摘要。
+
+
+## 本机连接故障的单来源云端复核
+
+已证实槟城 JPS 本机 TCP 连接会持续超时（连续三次，延长连接等待至 35 秒仍未建立连接）。`Water source recovery` 是无定时安排的手动 GitHub Actions 任务，只读取已登记的 `jps-penang` 入口，仍保持 HTTPS、官方域名、响应大小及时限校验。不得用于登录、HTTP 403/429、站点挑战或无效证书的规避；连接超时的复核不证明原站已修复。
+
+需要时运行 `gh workflow run water-source-recovery.yml --ref main`，等待 workflow 成功，然后同步远端 main 并读取真实来源状态、候选。未读原文的候选仍不可发布。云端核查记录 `reader=github-actions`；只更新该来源的检测及成功日期，保留其他来源、整轮 checkedAt、政府数据、新闻编辑日期及 hydro.json。失败会发布旧基线和真实失败状态，任务最后标记失败。写入前检查远端未推进，正常 push 不强推。
+
+云端提交由 GITHUB_TOKEN 完成，不会自动触发 push 工作流；复核任务自身通过模块测试、构建、浏览器检查后发布 Pages。代码修改须另检查框架 Check CI；若数据提交没有触发它，可手动 `gh workflow run check.yml --ref main`。不启动 Water observations，不恢复雨量水位采集，不保存 Codex 凭据，不使用模型 API。

@@ -1,0 +1,71 @@
+name: Water source recovery
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: water-watch-refs/heads/main
+  cancel-in-progress: false
+jobs:
+  recover:
+    if: github.ref == 'refs/heads/main' && vars.WATER_WATCH_PAGES_APPROVED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - run: npm ci --no-audit --no-fund
+      # Only the repeatedly timing-out public JPS listing is retried from this network.
+      - name: Read Penang JPS with verified HTTPS
+        id: collection
+        continue-on-error: true
+        run: node modules/water-watch/recover-source.mjs jps-penang
+      - run: npm run water:check && npm run water:test && npm run water:build
+      - run: npx playwright install --with-deps chromium
+      - run: node modules/water-watch/browser-check.mjs
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: official-source-candidates
+          path: .data/water-watch-intake.json
+          retention-days: 7
+      - name: Save verified collection status
+        run: |
+          git fetch origin main
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add modules/water-watch/collection-state.json modules/water-watch/collection.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Recheck Penang JPS from the cloud runner'
+            git push origin HEAD:main
+          fi
+      # Bot pushes do not trigger push workflows; publish only after module/browser checks.
+      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: .data/water-watch/
+    outputs:
+      collection: ${{ steps.collection.outcome }}
+  deploy:
+    needs: recover
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+      - uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+        id: deployment
+      - name: Report acquisition failure after publishing the retained baseline
+        if: needs.recover.outputs.collection == 'failure'
+        run: exit 1
