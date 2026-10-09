@@ -313,7 +313,10 @@
       "language": "ms",
       "checkedAt": "2026-10-08",
       "evidence": "官方正文说明指南已编制，并列出适用对象及覆盖范围；下载入口位于正文末尾。没有把指南写成已生效法规。",
-      "dateEvidence": "NAHRIM 官方页面的最新消息列表将此条标为 02/10/2026；正文未另列生效日期。"
+      "dateEvidence": "NAHRIM 官方页面的最新消息列表将此条标为 02/10/2026；正文未另列生效日期。",
+      "states": [
+        "national"
+      ]
     },
     {
       "id": "nadma-water-security-preparedness-2026",
@@ -333,7 +336,10 @@
       "language": "ms",
       "checkedAt": "2026-10-08",
       "evidence": "官方页面的下载 PDF：第 1 页谈地下水、管井与供水压力；第 3 页署名日期为 16 September 2026。此处是声明要求，不是供水短缺已发生的结论。",
-      "dateEvidence": "网页发布日为 18 September 2026；附件声明署名为 16 September 2026，两个日期分别保留。"
+      "dateEvidence": "网页发布日为 18 September 2026；附件声明署名为 16 September 2026，两个日期分别保留。",
+      "states": [
+        "national"
+      ]
     },
     {
       "id": "metmalaysia-hot-dry-readiness-june-2026",
@@ -353,7 +359,10 @@
       "language": "ms",
       "checkedAt": "2026-10-08",
       "evidence": "官方 PDF 第 1 页列明声明日期、El Niño 监测、降雨与供水风险；预报时段为当时展望，未据此声称十月实况。",
-      "dateEvidence": "PDF 首页日期为 14 JUN 2026。"
+      "dateEvidence": "PDF 首页日期为 14 JUN 2026。",
+      "states": [
+        "national"
+      ]
     },
     {
       "id": "nahrim-iwrm-meeting-june-2026",
@@ -374,7 +383,10 @@
       "language": "ms",
       "checkedAt": "2026-10-08",
       "evidence": "官方标题列出 11–12 June 2026，正文第 3 段列出 AIR2040、洪旱、IRBM 和 PISMA 等议题。",
-      "dateEvidence": "标题明确会议为 11–12 June 2026；eventDate 记录首日，网页发布日期未单独确认。"
+      "dateEvidence": "标题明确会议为 11–12 June 2026；eventDate 记录首日，网页发布日期未单独确认。",
+      "states": [
+        "national"
+      ]
     },
     {
       "id": "jps-kl-dam-preparedness-april-2026",
@@ -394,7 +406,10 @@
       "language": "ms",
       "checkedAt": "2026-10-08",
       "evidence": "官方正文开头明确地点、日期及会议讨论水坝防洪准备；未声称工程完成或消除洪水风险。",
-      "dateEvidence": "正文首行是 14 April 2026，与会议地点并列；作为活动日期保留，未当作网页发布日期。"
+      "dateEvidence": "正文首行是 14 April 2026，与会议地点并列；作为活动日期保留，未当作网页发布日期。",
+      "states": [
+        "kuala-lumpur"
+      ]
     },
     {
       "id": "nahrim-pahang-neds-proposal-april-2026",
@@ -415,7 +430,10 @@
       "language": "ms",
       "checkedAt": "2026-10-08",
       "evidence": "官方正文说明会议日期，并在第 3 段列出两处建议地点；没有将建议写成授标、建成或经独立验证的效益。",
-      "dateEvidence": "官方标题及正文写明会议为 9 April 2026；网页发布日期未单独确认。"
+      "dateEvidence": "官方标题及正文写明会议为 9 April 2026；网页发布日期未单独确认。",
+      "states": [
+        "pahang"
+      ]
     },
     {
       "id": "nahrim-integrated-storage-jpan-april-2026",
@@ -436,7 +454,10 @@
       "language": "ms",
       "checkedAt": "2026-10-08",
       "evidence": "官方标题注明 1 April 2026，正文第 2 段说明提交两份考虑文件；没有提供批准结论。",
-      "dateEvidence": "日期来自官方标题的 1 April 2026，作为会议日期保留，未当作网页发布日期。"
+      "dateEvidence": "日期来自官方标题的 1 April 2026，作为会议日期保留，未当作网页发布日期。",
+      "states": [
+        "national"
+      ]
     },
     {
       "id": "did-sarawak-stampin-kickoff-2026",
@@ -457,7 +478,10 @@
       "language": "en",
       "checkedAt": "2026-10-08",
       "evidence": "页面正文第 1 段列 RM87 million；后续段落介绍 Kick-Off Meeting and Dialogue Session、DID、顾问、承包商与社区的协调。页面标注 Source of News: The Borneo Post Online；这是官方站转载报道，摘要没有把转载当作原始工程批文。",
-      "dateEvidence": "页面 Posted on 06 Oct 2026。会议描述为 Monday，没有用推算日期填 eventDate；页面发布日期保留为 2026-10-06。"
+      "dateEvidence": "页面 Posted on 06 Oct 2026。会议描述为 Monday，没有用推算日期填 eventDate；页面发布日期保留为 2026-10-06。",
+      "states": [
+        "sarawak"
+      ]
     },
     {
       "id": "jkr-ft234-bridges-tender-2026",
@@ -487,7 +511,10 @@
         "briefing": "2026-10-08T11:00:00+08:00",
         "briefingRequirement": "mandatory",
         "evidence": "公告 MAKLUMAT PROJEK 列道路抬高与三条河流桥梁；MAKLUMAT KONTRAKTOR 列 Bumiputera、T1、G7 和 CE01/CE02；MAKLUMAT DOKUMEN 列 RM1500，TARIKH TENDER DITUTUP 为 12/11/2026、12:00 PM。没有据项目名推断设计 ARI 或防洪成效。 2026-10-09 复核原网页，现场时间及 11 月 12 日 12:00 截止未变，文件销售日期为 10 月 15–21 日。"
-      }
+      },
+      "states": [
+        "pahang"
+      ]
     },
     {
       "language": "ms",
@@ -509,7 +536,11 @@
         "预警"
       ],
       "evidence": "NADMA 正文首段明确 MyIBF、PPJPRAB、JPS 主办及风险信息转为提前行动；第二段说明 NADMA、NDCC 与 STI 参与及跨机构协调。",
-      "dateEvidence": "页面发布栏为 02 Oktober 2026；正文开头为 PUTRAJAYA, 28 September 2026，分别记录发布日期与培训日期。"
+      "dateEvidence": "页面发布栏为 02 Oktober 2026；正文开头为 PUTRAJAYA, 28 September 2026，分别记录发布日期与培训日期。",
+      "states": [
+        "national",
+        "putrajaya"
+      ]
     },
     {
       "language": "ms",
@@ -530,7 +561,11 @@
         "集水区"
       ],
       "evidence": "正文第二段列出 Kajang、Jelebu、12:25–13:25、四罐盐溶液及成效评估方法。摘要未把后续降雨归因写成独立验证的因果结论，也未将原文 mm/h 当累计雨量。",
-      "dateEvidence": "页面发布栏 02 Oktober 2026；标题明确行动日期为 1 Oktober 2026。"
+      "dateEvidence": "页面发布栏 02 Oktober 2026；标题明确行动日期为 1 Oktober 2026。",
+      "states": [
+        "negeri-sembilan",
+        "selangor"
+      ]
     },
     {
       "language": "ms",
@@ -552,7 +587,10 @@
         "TMDL"
       ],
       "evidence": "正文说明实际采样为 29–30 September 2026，配合 Pelaksanaan Pelan Tindakan Total Maximum Daily Load (TMDL) Sungai Semenyih；随后说明水质、流量及样本送验。",
-      "dateEvidence": "官方新闻归档和侧栏均标 30/09/2026，作为发布日期；标题却写 2 Oktober 2026，保留此差异。活动日期按正文 29–30 September 2026，eventDate 记首日。"
+      "dateEvidence": "官方新闻归档和侧栏均标 30/09/2026，作为发布日期；标题却写 2 Oktober 2026，保留此差异。活动日期按正文 29–30 September 2026，eventDate 记首日。",
+      "states": [
+        "selangor"
+      ]
     },
     {
       "language": "ms",
@@ -574,7 +612,10 @@
         "测量不确定度"
       ],
       "evidence": "正文首段列出 MKA、MKAVK、JPV 和三日培训；第二段明确 Method Validation、样本分析及 Measurement Uncertainty。未据此声称新标准生效。",
-      "dateEvidence": "官方新闻归档和最新消息栏标 30/09/2026；正文明确 28–30 September 2026，eventDate 记首日。"
+      "dateEvidence": "官方新闻归档和最新消息栏标 30/09/2026；正文明确 28–30 September 2026，eventDate 记首日。",
+      "states": [
+        "national"
+      ]
     },
     {
       "language": "ms",
@@ -596,7 +637,10 @@
         "KARIB"
       ],
       "evidence": "正文首段明确 Kampung Selamat、26 September 2026 及支持机构；第二段列出洪水信息讲解、展示、问卷等实际内容。此条为公众教育，未归为现行洪水预警。",
-      "dateEvidence": "官方最新消息栏标 26/09/2026；正文和标题也明确活动为 26 September 2026。"
+      "dateEvidence": "官方最新消息栏标 26/09/2026；正文和标题也明确活动为 26 September 2026。",
+      "states": [
+        "pulau-pinang"
+      ]
     },
     {
       "language": "ms",
@@ -626,7 +670,10 @@
         "briefing": null,
         "briefingRequirement": "unconfirmed",
         "evidence": "公告标题列出 Sungai Dungun 的 HEC SERIES 服务范围；正文 TARIKH MULA/TUTUP TAWARAN 分别为 23/09 和 30/09/2026，JUMLAH HARGA INDIKATIF 为 RM200,000。"
-      }
+      },
+      "states": [
+        "terengganu"
+      ]
     },
     {
       "language": "ms",
@@ -655,7 +702,10 @@
         "briefing": null,
         "briefingRequirement": "unconfirmed",
         "evidence": "官方采购表第 4 行为 JPBD(IP)S185/646/1-201，标题列出三处范围，Status=Buka，日期列为 05-10-2026 至 22-10-2026。该行未提供独立文件链接、资格或预算，不补造详情。"
-      }
+      },
+      "states": [
+        "terengganu"
+      ]
     },
     {
       "language": "ms",
@@ -677,7 +727,10 @@
         "NDCC"
       ],
       "evidence": "正文 KUANTAN 段说明 SDCC 运作，随后列出州政府、NADMA 与响应机构协调；第三段明确监测灾情并向 NDCC 提供信息和报告，第四段连接国家减灾政策 2030。",
-      "dateEvidence": "页面发布栏为 28 September 2026；正文开头为 KUANTAN, 22 September 2026，分别保留。"
+      "dateEvidence": "页面发布栏为 28 September 2026；正文开头为 KUANTAN, 22 September 2026，分别保留。",
+      "states": [
+        "pahang"
+      ]
     },
     {
       "language": "en",
@@ -699,7 +752,10 @@
         "授标"
       ],
       "evidence": "官方转载注明 Source of News: The Borneo Post Online。正文说明 LoA 交予 TMK Construction and Transport Sdn Bhd；Phase 1 段落明确范围及 RM87,956,231.16，RM350 million 为分期总体项目。只作简短中文摘要，不转载全文或图片。",
-      "dateEvidence": "官方标题下 Posted on 03 Sep 2026。授标在正文称 yesterday，但未直接写完整事件日期，因此 eventDate=null。"
+      "dateEvidence": "官方标题下 Posted on 03 Sep 2026。授标在正文称 yesterday，但未直接写完整事件日期，因此 eventDate=null。",
+      "states": [
+        "sarawak"
+      ]
     },
     {
       "language": "en",
@@ -721,7 +777,10 @@
         "工程追踪"
       ],
       "evidence": "官方转载注明 The Borneo Post Online。正文说明冲刷修复拨款、DID 实施安排和最新方案已提交考虑批准；末段说明闸坝的防洪及水管理功能。未根据当前查阅日推断建设进度。",
-      "dateEvidence": "页面 Posted on 21 Aug 2026 是文章日期；网页页脚 Last Updated 是网站维护日期，未作为新闻日期。"
+      "dateEvidence": "页面 Posted on 21 Aug 2026 是文章日期；网页页脚 Last Updated 是网站维护日期，未作为新闻日期。",
+      "states": [
+        "sarawak"
+      ]
     },
     {
       "id": "nadma-sungai-golok-delay-october-2026",
@@ -743,7 +802,10 @@
       "language": "ms",
       "checkedAt": "2026-10-08",
       "evidence": "NADMA 页面转载并注明 UTUSAN；正文第三段列一期 Pelanjutan Masa 至 21 Julai 2027，随后说明二期采购延误及审计识别的规划、变更、合同和设计控制问题。保留转载和审计归因，未独立核实全部工程缺陷。",
-      "dateEvidence": "页面发布栏为 06 Oktober 2026；2027-07-21 为延长工期日期，写在摘要，不作为已经发生的事件日。原文审计报告编号有排字疑点，摘要未据此编造编号。"
+      "dateEvidence": "页面发布栏为 06 Oktober 2026；2027-07-21 为延长工期日期，写在摘要，不作为已经发生的事件日。原文审计报告编号有排字疑点，摘要未据此编造编号。",
+      "states": [
+        "kelantan"
+      ]
     },
     {
       "id": "paab-bukit-dengkil-valve-tender-2026",
@@ -773,7 +835,10 @@
         "briefing": "2026-10-07T10:00:00+08:00",
         "briefingRequirement": "unconfirmed",
         "evidence": "采购页 Details 明确 Kerja-Kerja Penggantian Injap Secara Kaedah Tanpa Gangguan Bekalan Air di Kolam Air Bukit Dengkil；随后列 Tender No、Advertisement Date、Closing Date、Status 和 Briefing Date。标题是 Langat 2 总项目名称，摘要按 Details 限定本采购范围。正文详情为马来文、字段为英文。"
-      }
+      },
+      "states": [
+        "selangor"
+      ]
     },
     {
       "language": "ms",
@@ -794,7 +859,10 @@
         "工程进度"
       ],
       "evidence": "正文第一段列 Lorong 3、RTP DUN N.19 Mambong、RM150,000 与预计 2026 年 12 月完成；第二至第四段说明与 DID 的现场检查和移交前规格核对。",
-      "dateEvidence": "页面日期为 08 Oktober 2026。正文只称检查在星期三进行，eventDate 不推算；12 月是预计完工时间。"
+      "dateEvidence": "页面日期为 08 Oktober 2026。正文只称检查在星期三进行，eventDate 不推算；12 月是预计完工时间。",
+      "states": [
+        "sarawak"
+      ]
     },
     {
       "language": "ms",
@@ -815,7 +883,10 @@
         "工程完工"
       ],
       "evidence": "正文第一段说明清洁供水已完成，第二段指项目属 HDA；第七段列 47 户受益。道路 4.7% 进度属于另一工程，未套用于供水项目。",
-      "dateEvidence": "页面日期为 07 Oktober 2026；现场访问仅写星期二，未推算具体事件日期。"
+      "dateEvidence": "页面日期为 07 Oktober 2026；现场访问仅写星期二，未推算具体事件日期。",
+      "states": [
+        "sarawak"
+      ]
     },
     {
       "language": "ms",
@@ -837,7 +908,12 @@
         "官方声明"
       ],
       "evidence": "声明第 1–2 页列 987 宗征地、合同金额变化和设计调整；第 3 页列海岸 EIA、补沙、结算及 JPS Surat Pekeliling Bil. 6/2026。归因 PETRA 声明，区别于站内 NADMA 转载审计报道。",
-      "dateEvidence": "媒体声明列表和 PDF 署名均为 6 Oktober 2026。SOP 生效日 2026-08-14 是正文中的历史日期。"
+      "dateEvidence": "媒体声明列表和 PDF 署名均为 6 Oktober 2026。SOP 生效日 2026-08-14 是正文中的历史日期。",
+      "states": [
+        "kedah",
+        "kelantan",
+        "terengganu"
+      ]
     },
     {
       "language": "ms",
@@ -859,7 +935,10 @@
         "气候适应"
       ],
       "evidence": "PDF 第 2 页第三段明确 sedang melaksanakan semakan menyeluruh terhadap MSMA；此前段落说明 NbS、数据及数字技术。没有新版手册发布或生效的公告。",
-      "dateEvidence": "列表与 PDF 署名均为 2 September 2026；保留历史日期，不改成十月新发布。"
+      "dateEvidence": "列表与 PDF 署名均为 2 September 2026；保留历史日期，不改成十月新发布。",
+      "states": [
+        "national"
+      ]
     },
     {
       "language": "ms",
@@ -880,7 +959,10 @@
         "灾害援助"
       ],
       "evidence": "UKAS 正文第一段列约 RM1.35 million 总额，随后分灾种列受援人数、KIR 和支出；洪水、旱灾数字分别来自第五、六段。未将不同灾种总额算成洪灾拨款。",
-      "dateEvidence": "页面日期为 25 September 2026。正文 sepanjang 2026 为截至当时的年内统计，非全年结算。"
+      "dateEvidence": "页面日期为 25 September 2026。正文 sepanjang 2026 为截至当时的年内统计，非全年结算。",
+      "states": [
+        "sarawak"
+      ]
     },
     {
       "id": "nres-mynap-adaptation-finance-october-2026",
@@ -902,7 +984,10 @@
       "language": "ms",
       "checkedAt": "2026-10-08",
       "evidence": "已读取官方三页 PDF。第 1 页列 MyNAP 五大领域及正在制定；第 2 页说明 PPP、blended finance、担保机制及 IGEM 2026 论坛；第 3 页署名 NRES。没有具体水利项目获批金额。",
-      "dateEvidence": "官方声明列表为 7/10/2026，PDF 署名 7 OKTOBER 2026，两者一致；论坛未另列具体日期，eventDate 保持 null。"
+      "dateEvidence": "官方声明列表为 7/10/2026，PDF 署名 7 OKTOBER 2026，两者一致；论坛未另列具体日期，eventDate 保持 null。",
+      "states": [
+        "national"
+      ]
     },
     {
       "id": "nadma-monsoon-transition-october-2026",
@@ -924,7 +1009,12 @@
       "language": "en",
       "checkedAt": "2026-10-09",
       "evidence": "已读取 NADMA 英文正文：首段列 October 9 至 late October，随后说明 weak winds、afternoon and early evening、west and interior of the Peninsula、western Sabah and Sarawak，以及 flash floods / water surges 风险。正文注明转载 Bernama；没有补造具体雨量或发生洪灾的地区。",
-      "dateEvidence": "NADMA 页面 time 明示 07 Oktober 2026；正文电头 PUTRAJAYA, Oct 6 指原报道／声明日期。publishedAt 按本站页面 10 月 7 日，预计过渡期开始日 10 月 9 日仅写在摘要，不当作已观测的 eventDate。"
+      "dateEvidence": "NADMA 页面 time 明示 07 Oktober 2026；正文电头 PUTRAJAYA, Oct 6 指原报道／声明日期。publishedAt 按本站页面 10 月 7 日，预计过渡期开始日 10 月 9 日仅写在摘要，不当作已观测的 eventDate。",
+      "states": [
+        "national",
+        "sabah",
+        "sarawak"
+      ]
     },
     {
       "id": "metmalaysia-thunderstorm-selangor-sabah-20261009",
@@ -948,7 +1038,11 @@
       "language": "ms",
       "checkedAt": "2026-10-09",
       "evidence": "已直接读取 METMalaysia 公告原文，编号 JMM.RML29/701/16 JLD252(018)；马来文和英文段落均列指定地区、09:00 发出及 12:00 到期。只记录气象预警，未推断水位、流量、洪水已发生或设计 ARI。",
-      "dateEvidence": "公告明示 Issued at 9:00 AM, 9 October 2026，until 12:00 PM; Friday, 9 October 2026。按马来西亚 UTC+8 保存 validUntil；滚动页面今后可能展示新公告，本条日期和编号固定为本次读取记录。"
+      "dateEvidence": "公告明示 Issued at 9:00 AM, 9 October 2026，until 12:00 PM; Friday, 9 October 2026。按马来西亚 UTC+8 保存 validUntil；滚动页面今后可能展示新公告，本条日期和编号固定为本次读取记录。",
+      "states": [
+        "sabah",
+        "selangor"
+      ]
     },
     {
       "id": "ukas-sundar-flood-erosion-planning-october-2026",
@@ -970,7 +1064,10 @@
       "language": "ms",
       "checkedAt": "2026-10-09",
       "evidence": "已打开 UKAS 正文：第二段列四个村落及 muka bumi / hakisan / banjir；下一段说明 hujan lebat bertembung dengan air pasang；后段明确 sistem perparitan 与 bekalan air 等基础设施。未把工作访问当作防洪工程获批或竣工。",
-      "dateEvidence": "官方页面正文后明示 08 Oktober 2026。文中仅称访问在 Rabu，不自行推导精确活动日，eventDate=null。"
+      "dateEvidence": "官方页面正文后明示 08 Oktober 2026。文中仅称访问在 Rabu，不自行推导精确活动日，eventDate=null。",
+      "states": [
+        "sarawak"
+      ]
     },
     {
       "id": "ukas-awd-smart-irrigation-october-2026",
@@ -992,7 +1089,10 @@
       "language": "ms",
       "checkedAt": "2026-10-09",
       "evidence": "已打开 UKAS 稻米自给率报道原文，第 8 段明确 Alternate Wetting and Drying、pengairan pintar、pemantauan berasaskan sensor；后段列 kemarau、haba melampau、banjir 和 kemasinan tanah。摘要限于相关用水及适应内容，不加入试验成效数字。",
-      "dateEvidence": "官方正文后明示 07 Oktober 2026；会议以 pada Rabu 表述，未另设活动日。"
+      "dateEvidence": "官方正文后明示 07 Oktober 2026；会议以 pada Rabu 表述，未另设活动日。",
+      "states": [
+        "sarawak"
+      ]
     },
     {
       "id": "ukas-batang-ai-fws-test-october-2026",
@@ -1014,7 +1114,10 @@
       "language": "ms",
       "checkedAt": "2026-10-09",
       "evidence": "已打开 UKAS 原文，首两段列 2 Oktober 2026、8.30 pagi 至 4.30 petang、每次 satu hingga dua minit；后文解释为系统和设备测试及水坝安全准备。原文使用 akan，不作为完成证明。",
-      "dateEvidence": "官方发布日期为 01 Oktober 2026，预定测试日为 2 Oktober 2026。未找到完成报道，因此 eventDate=null，摘要与 stage 明确为原定计划。"
+      "dateEvidence": "官方发布日期为 01 Oktober 2026，预定测试日为 2 Oktober 2026。未找到完成报道，因此 eventDate=null，摘要与 stage 明确为原定计划。",
+      "states": [
+        "sarawak"
+      ]
     },
     {
       "id": "jps-perak-bagan-datuk-balai-semani-tender-2026",
@@ -1044,7 +1147,10 @@
         "briefing": null,
         "briefingRequirement": "unconfirmed",
         "evidence": "已直接读取 JPS Perak 公告正文，标题明确升级及修复两条河流；Nombor Tender 为 PETRA/JPS/KT2026/001，Tarikh Iklan 7.9.2026，Tarikh Tutup 7.10.2026 12:00 T/hari。未从页面推定预算、授标状态或完成率。"
-      }
+      },
+      "states": [
+        "perak"
+      ]
     },
     {
       "id": "petra-irrigation-drainage-acts-review-september-2026",
@@ -1067,7 +1173,11 @@
       "language": "ms",
       "checkedAt": "2026-10-09",
       "evidence": "已直接读取 PETRA 正文：首段明确会议日期及地点；第二段列 menilai kesesuaian pemakaian、skop、peranan、kaedah pelaksanaan 及 ruang penambahbaikan；末段称 langkah awal。摘要只报告检视工作，不据会议推定法律已修改。",
-      "dateEvidence": "本次实际读取的 PETRA latest-news 列表在本链接前列 29 September 2026；正文标题及首段均明示会议于 29 September 2026 举行。publishedAt 保留列表日期，eventDate 使用正文明确会议日期。"
+      "dateEvidence": "本次实际读取的 PETRA latest-news 列表在本链接前列 29 September 2026；正文标题及首段均明示会议于 29 September 2026 举行。publishedAt 保留列表日期，eventDate 使用正文明确会议日期。",
+      "states": [
+        "national",
+        "kuala-lumpur"
+      ]
     }
   ],
   "projects": [

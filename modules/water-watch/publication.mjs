@@ -9,6 +9,7 @@ import { renderLayout } from './page-layout.mjs';
 import { renderNotice } from './public-notices.mjs';
 import {loadHydro,renderHydroPage} from './hydro.mjs';
 import {validateDesks,renderProjects,renderTenders} from './industry-desks.mjs';
+import {validateStates, matchesNews, articleDay} from './news-filters.mjs';
 export { officialUrl } from './official-url.mjs';
 
 const directory = fileURLToPath(new URL('.', import.meta.url));
@@ -49,6 +50,7 @@ export function validateContent(content, now = new Date()) {
     if (!['ms', 'en', 'zh'].includes(article.language)) throw new Error('Unknown source language');
     for (const key of ['title', 'summary', 'region', 'stage', 'dateEvidence', 'evidence']) text(article[key], key);
     if (!Array.isArray(article.tags) || article.tags.some(tag => typeof tag !== 'string')) throw new Error('Invalid article tags');
+    validateStates(article.states);
     day(article.checkedAt, 'checkedAt');
     if (article.checkedAt > content.reviewedAt) throw new Error('Article review is after edition review');
     for (const key of ['publishedAt', 'eventDate']) {
@@ -67,7 +69,7 @@ export function validateContent(content, now = new Date()) {
 }
 
 export const sortedArticles = content => [...content.articles].sort((a,b) => (b.publishedAt ?? b.eventDate ?? '').localeCompare(a.publishedAt ?? a.eventDate ?? '') || a.id.localeCompare(b.id));
-export const matches = (article, filters) => (!filters.category || article.category === filters.category) && (!filters.source || article.source === filters.source) && (!filters.query || [article.title, article.summary, article.region, ...article.tags].join(' ').toLowerCase().includes(filters.query.toLowerCase()));
+export const matches = matchesNews;
 
 export function renderPage(content, monitoring = null) {
   const sources = new Map(content.sources.map(source => [source.id, source]));
@@ -76,7 +78,7 @@ export function renderPage(content, monitoring = null) {
     const date = article.publishedAt ? `发布 ${article.publishedAt}` : article.eventDate ? `活动 ${article.eventDate} · 发布日未标明` : '发布日期未标明';
     // Alerts are always historical references here; current conditions belong to the issuing authority.
     const alert = article.category === 'flood-alerts' ? `<p class="alert-note">历史预警记录 · 原有效期至 ${escape(article.validUntil)} · 当前状态请查官方</p>` : '';
-    return `<article class="story" data-category="${escape(article.category)}" data-source="${escape(article.source)}" data-search="${escape([article.title,article.summary,article.region,...article.tags].join(' ').toLowerCase())}">
+    return `<article class="story" data-date="${escape(articleDay(article))}" data-states="${escape(article.states.join(' '))}" data-category="${escape(article.category)}" data-source="${escape(article.source)}" data-search="${escape([article.title,article.summary,article.region,...article.tags].join(' ').toLowerCase())}">
       <div class="story-meta"><span class="category">${escape(categoryNames.get(article.category))}</span><span>${escape(source.name)}</span><span>${escape(date)}</span></div>
       <h3><a href="${escape(article.url)}" target="_blank" rel="noopener noreferrer">${escape(article.title)} <span aria-hidden="true">↗</span></a></h3>
       ${alert}<p>${escape(article.summary)}</p>
@@ -98,7 +100,7 @@ export async function build() {
   await writeFile(resolve(outputDirectory, 'index.html'), renderPage(content, monitoring));
   await writeFile(resolve(outputDirectory,'projects.html'),renderLayout({content,monitoring,site:SITE,categories:CATEGORIES,feature:renderProjects(content),title:'工程项目跟踪',description:'串联官方报道，查看项目阶段与变化。'}));
   await writeFile(resolve(outputDirectory,'tenders.html'),renderLayout({content,monitoring,site:SITE,categories:CATEGORIES,feature:renderTenders(content),title:'招标与采购',description:'查看公告截止日期、说明会条件及历史记录。'}));
-  for(const file of ['desk-client.js','industry-desks.mjs'])await copyFile(resolve(directory,file),resolve(outputDirectory,file));
+  for(const file of ['desk-client.js','industry-desks.mjs','news-filters.mjs'])await copyFile(resolve(directory,file),resolve(outputDirectory,file));
   await writeFile(resolve(outputDirectory, 'terms.html'), renderNotice('terms'));
   await writeFile(resolve(outputDirectory, 'privacy.html'), renderNotice('privacy'));
   const hydro=await loadHydro();

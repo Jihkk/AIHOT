@@ -40,3 +40,7 @@ GitHub Pages 发布流程已配置，由仓库变量 `WATER_WATCH_PAGES_APPROVED
 需要时运行 `gh workflow run water-source-recovery.yml --ref main`，等待 workflow 成功，然后同步远端 main 并读取真实来源状态、候选。未读原文的候选仍不可发布。云端核查记录 `reader=github-actions`；只更新该来源的检测及成功日期，保留其他来源、整轮 checkedAt、政府数据、新闻编辑日期及 hydro.json。失败会发布旧基线和真实失败状态，任务最后标记失败。写入前检查远端未推进，正常 push 不强推。
 
 云端提交由 GITHUB_TOKEN 完成，不会自动触发 push 工作流；复核任务自身通过模块测试、构建、浏览器检查后发布 Pages。代码修改须另检查框架 Check CI；若数据提交没有触发它，可手动 `gh workflow run check.yml --ref main`。不启动 Water observations，不恢复雨量水位采集，不保存 Codex 凭据，不使用模型 API。
+
+## 地区标签与时间筛选
+
+每篇文章的 `states` 必填，使用 `news-filters.mjs` 中登记的地区 key，可包含多个州／直辖区。依据文章涉及范围填写，不按发布机构的总部地址推断；全国议题使用 `national`，不复制到所有州。现有新闻的地区标签来自既有 `region` 描述，添加标签不代表重新阅读原文，不刷新 `checkedAt` 或 `reviewedAt`。最近 7／30 天包含马来西亚当天，使用 `publishedAt`，缺失时采用已确认 `eventDate`，不使用查阅日。未知日期保留于全部时间及日期未确认选项。

@@ -36,6 +36,8 @@ test('publications require exact official-host links, provenance and honest date
     c=>c.articles[0].publishedAt='2026-02-30',
     c=>c.articles[0].publishedAt='2099-10-09',
     c=>c.articles[0].category='made-up',
+    c=>c.articles[0].states=['unknown-state'],
+    c=>delete c.articles[0].states,
     c=>c.articles.push({...c.articles[0]}),
     c=>c.articles.push({...c.articles[0],id:'different-id'}),
   ]) assert.throws(()=>validateContent(edited(edit), now));
