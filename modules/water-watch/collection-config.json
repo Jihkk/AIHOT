@@ -127,13 +127,17 @@
       "url": "https://jps.perlis.gov.my/",
       "kind": "html",
       "additionalUrls": [
-        "https://jps.perlis.gov.my/index.php/galeri/arkib-berita"
+        "https://jps.perlis.gov.my/index.php/galeri/arkib-berita",
+        "https://jps.perlis.gov.my/index.php/perkhidmatan/tender-sebut-harga/"
       ]
     },
     {
       "id": "jps-negeri-sembilan",
       "url": "https://jpsns.ns.gov.my/",
-      "kind": "html"
+      "kind": "html",
+      "additionalUrls": [
+        "https://jpsns.ns.gov.my/perkhidmatan/tender-sebutharga/"
+      ]
     },
     {
       "id": "jps-terengganu",
@@ -158,13 +162,17 @@
       "url": "https://did.sabah.gov.my/",
       "kind": "html",
       "additionalUrls": [
-        "https://did.sabah.gov.my/buletin/"
+        "https://did.sabah.gov.my/buletin/",
+        "https://did.sabah.gov.my/news1/"
       ]
     },
     {
       "id": "jps-penang",
       "url": "https://jps.penang.gov.my/index.php/ms/",
-      "kind": "html"
+      "kind": "html",
+      "additionalUrls": [
+        "https://jps.penang.gov.my/index.php/ms/artikel-terkini-2"
+      ]
     },
     {
       "id": "jps-johor",

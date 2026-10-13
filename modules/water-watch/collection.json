@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-09T09:02:14.133Z",
+  "checkedAt": "2026-10-13T00:38:12.249Z",
   "sources": [
     {
       "id": "jps",
       "url": "https://www.water.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://www.water.gov.my/",
@@ -27,9 +27,9 @@
     {
       "id": "metmalaysia",
       "url": "https://www.met.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://www.met.gov.my/",
@@ -44,9 +44,9 @@
     {
       "id": "nadma",
       "url": "https://www.nadma.gov.my/bm/media-2/kenyataan-media",
-      "checkedAt": "2026-10-09T09:05:25.365Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:05:25.365Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://www.nadma.gov.my/bm/media-2/kenyataan-media",
@@ -81,14 +81,14 @@
       ],
       "observedCount": 9,
       "documentCount": 0,
-      "changedCount": 2
+      "changedCount": 0
     },
     {
       "id": "nahrim",
       "url": "https://www.nahrim.gov.my/arkib-berita/",
-      "checkedAt": "2026-10-09T09:05:25.365Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:05:25.365Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://www.nahrim.gov.my/arkib-berita/",
@@ -113,19 +113,19 @@
       ],
       "observedCount": 18,
       "documentCount": 0,
-      "changedCount": 5
+      "changedCount": 0
     },
     {
       "id": "petra",
       "url": "https://www.petra.gov.my/v2/documents/media-statement",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "limited",
       "lastSuccessAt": null,
       "pages": [
         {
           "url": "https://www.petra.gov.my/v2/documents/media-statement",
           "status": "ok",
-          "observedCount": 8
+          "observedCount": 9
         },
         {
           "url": "https://www.petra.gov.my/v2/latest-news",
@@ -143,16 +143,16 @@
           "observedCount": 0
         }
       ],
-      "observedCount": 68,
+      "observedCount": 69,
       "documentCount": 0,
-      "changedCount": 1
+      "changedCount": 0
     },
     {
       "id": "span",
       "url": "https://www.span.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://www.span.gov.my/",
@@ -162,7 +162,7 @@
         {
           "url": "https://www.span.gov.my/category/view/76",
           "status": "ok",
-          "observedCount": 60
+          "observedCount": 61
         },
         {
           "url": "https://www.span.gov.my/tender",
@@ -170,14 +170,14 @@
           "observedCount": 28
         }
       ],
-      "observedCount": 100,
+      "observedCount": 101,
       "documentCount": 0,
       "changedCount": 0
     },
     {
       "id": "air-selangor",
       "url": "https://www.airselangor.com/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "limited",
       "lastSuccessAt": null,
       "pages": [
@@ -194,7 +194,7 @@
     {
       "id": "infobanjir",
       "url": "https://publicinfobanjir.water.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "limited",
       "lastSuccessAt": null,
       "pages": [
@@ -211,9 +211,9 @@
     {
       "id": "weather",
       "url": "https://www.met.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://www.met.gov.my/",
@@ -228,7 +228,7 @@
     {
       "id": "spaqs",
       "url": "https://spaqs.water.gov.my/tunas/senarai-iklan-telah-buka?mid=686",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "limited",
       "lastSuccessAt": null,
       "pages": [
@@ -245,9 +245,9 @@
     {
       "id": "did-sarawak",
       "url": "https://did.sarawak.gov.my/web/home/index/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://did.sarawak.gov.my/web/home/index/",
@@ -262,9 +262,9 @@
     {
       "id": "jps-selangor",
       "url": "https://water.selangor.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://water.selangor.gov.my/",
@@ -279,9 +279,9 @@
     {
       "id": "luas",
       "url": "https://www.luas.gov.my/en/luas/archives/press-release/2026",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://www.luas.gov.my/en/luas/archives/press-release/2026",
@@ -296,9 +296,9 @@
     {
       "id": "planmalaysia",
       "url": "https://www.planmalaysia.gov.my/main/procurement?type=tender&year=2026",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://www.planmalaysia.gov.my/main/procurement?type=tender&year=2026",
@@ -313,9 +313,9 @@
     {
       "id": "doe",
       "url": "https://www.doe.gov.my/en/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://www.doe.gov.my/en/",
@@ -330,9 +330,9 @@
     {
       "id": "paab",
       "url": "https://www.paab.my/tender/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://www.paab.my/tender/",
@@ -347,9 +347,9 @@
     {
       "id": "jkr",
       "url": "https://tender.jkr.gov.my/kenyataan/tender/index?sort=-tarikhtutuptender",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://tender.jkr.gov.my/kenyataan/tender/index?sort=-tarikhtutuptender",
@@ -359,14 +359,14 @@
       ],
       "observedCount": 4,
       "documentCount": 0,
-      "changedCount": 4
+      "changedCount": 0
     },
     {
       "id": "data-gov",
       "url": "https://data.gov.my/data-catalogue",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://data.gov.my/data-catalogue",
@@ -381,9 +381,9 @@
     {
       "id": "jps-perlis",
       "url": "https://jps.perlis.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
-      "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
+      "status": "limited",
+      "lastSuccessAt": "2026-10-13T00:26:51.545Z",
       "pages": [
         {
           "url": "https://jps.perlis.gov.my/",
@@ -394,6 +394,11 @@
           "url": "https://jps.perlis.gov.my/index.php/galeri/arkib-berita",
           "status": "ok",
           "observedCount": 3
+        },
+        {
+          "url": "https://jps.perlis.gov.my/index.php/perkhidmatan/tender-sebut-harga/",
+          "status": "limited",
+          "observedCount": 0
         }
       ],
       "observedCount": 4,
@@ -403,14 +408,19 @@
     {
       "id": "jps-negeri-sembilan",
       "url": "https://jpsns.ns.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
-      "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
+      "status": "limited",
+      "lastSuccessAt": "2026-10-13T00:26:51.545Z",
       "pages": [
         {
           "url": "https://jpsns.ns.gov.my/",
           "status": "ok",
           "observedCount": 7
+        },
+        {
+          "url": "https://jpsns.ns.gov.my/perkhidmatan/tender-sebutharga/",
+          "status": "limited",
+          "observedCount": 0
         }
       ],
       "observedCount": 7,
@@ -420,9 +430,9 @@
     {
       "id": "jps-terengganu",
       "url": "https://jpsweb.terengganu.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://jpsweb.terengganu.gov.my/",
@@ -437,9 +447,9 @@
     {
       "id": "jps-kedah",
       "url": "https://jps.kedah.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://jps.kedah.gov.my/",
@@ -459,9 +469,9 @@
     {
       "id": "jps-melaka",
       "url": "https://jps.melaka.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://jps.melaka.gov.my/",
@@ -476,7 +486,7 @@
     {
       "id": "jps-sabah",
       "url": "https://did.sabah.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "limited",
       "lastSuccessAt": null,
       "pages": [
@@ -489,6 +499,52 @@
           "url": "https://did.sabah.gov.my/buletin/",
           "status": "limited",
           "observedCount": 0
+        },
+        {
+          "url": "https://did.sabah.gov.my/news1/",
+          "status": "ok",
+          "observedCount": 8
+        }
+      ],
+      "observedCount": 8,
+      "documentCount": 0,
+      "changedCount": 8
+    },
+    {
+      "id": "jps-penang",
+      "url": "https://jps.penang.gov.my/index.php/ms/",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
+      "status": "error",
+      "lastSuccessAt": "2026-10-09T10:23:28.714Z",
+      "observedCount": null,
+      "changedCount": 0,
+      "error": "Windows HTTPS client 28: curl: (28) Connection timed out after 10012 milliseconds → fetch failed → UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: jps.penang.gov.my:443, timeout: 10000ms); Windows HTTPS client 28: curl: (28) Connection timed out after 10009 milliseconds → fetch failed → UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: jps.penang.gov.my:443, timeout: 10000ms)",
+      "pages": [
+        {
+          "url": "https://jps.penang.gov.my/index.php/ms/",
+          "status": "error",
+          "observedCount": null,
+          "error": "Windows HTTPS client 28: curl: (28) Connection timed out after 10012 milliseconds → fetch failed → UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: jps.penang.gov.my:443, timeout: 10000ms)"
+        },
+        {
+          "url": "https://jps.penang.gov.my/index.php/ms/artikel-terkini-2",
+          "status": "error",
+          "observedCount": null,
+          "error": "Windows HTTPS client 28: curl: (28) Connection timed out after 10009 milliseconds → fetch failed → UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: jps.penang.gov.my:443, timeout: 10000ms)"
+        }
+      ]
+    },
+    {
+      "id": "jps-johor",
+      "url": "https://jps.johor.gov.my/",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
+      "status": "limited",
+      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "pages": [
+        {
+          "url": "https://jps.johor.gov.my/",
+          "status": "limited",
+          "observedCount": 0
         }
       ],
       "observedCount": 0,
@@ -496,46 +552,11 @@
       "changedCount": 0
     },
     {
-      "id": "jps-penang",
-      "url": "https://jps.penang.gov.my/index.php/ms/",
-      "checkedAt": "2026-10-09T10:23:28.714Z",
-      "status": "ok",
-      "lastSuccessAt": "2026-10-09T10:23:28.714Z",
-      "pages": [
-        {
-          "url": "https://jps.penang.gov.my/index.php/ms/",
-          "status": "ok",
-          "observedCount": 5
-        }
-      ],
-      "observedCount": 5,
-      "documentCount": 0,
-      "changedCount": 0,
-      "reader": "github-actions"
-    },
-    {
-      "id": "jps-johor",
-      "url": "https://jps.johor.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
-      "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
-      "pages": [
-        {
-          "url": "https://jps.johor.gov.my/",
-          "status": "ok",
-          "observedCount": 2
-        }
-      ],
-      "observedCount": 2,
-      "documentCount": 0,
-      "changedCount": 0
-    },
-    {
       "id": "jps-perak",
       "url": "https://jps.perak.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://jps.perak.gov.my/",
@@ -555,7 +576,7 @@
     {
       "id": "jps-pahang",
       "url": "https://jps.pahang.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "limited",
       "lastSuccessAt": null,
       "pages": [
@@ -572,7 +593,7 @@
     {
       "id": "jps-kelantan",
       "url": "https://did.kelantan.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "limited",
       "lastSuccessAt": null,
       "pages": [
@@ -599,7 +620,7 @@
     {
       "id": "ukas",
       "url": "https://ukas.sarawak.gov.my/web/home/index/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "limited",
       "lastSuccessAt": null,
       "pages": [
@@ -631,19 +652,19 @@
       ],
       "observedCount": 1,
       "documentCount": 0,
-      "changedCount": 1
+      "changedCount": 0
     },
     {
       "id": "nres",
       "url": "https://www.nres.gov.my/ms-my/pustakamedia/Pages/KenyataanMedia.aspx",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "pages": [
         {
           "url": "https://www.nres.gov.my/ms-my/pustakamedia/Pages/KenyataanMedia.aspx",
           "status": "ok",
-          "observedCount": 5
+          "observedCount": 4
         },
         {
           "url": "https://www.nres.gov.my/en-my/medialibrary/Pages/PolicyBaseLegislationandGuideline.aspx",
@@ -651,37 +672,40 @@
           "observedCount": 17
         }
       ],
-      "observedCount": 22,
+      "observedCount": 21,
       "documentCount": 0,
       "changedCount": 0
     },
     {
       "id": "dewan-selangor",
       "url": "https://dewan.selangor.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
-      "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
+      "status": "error",
+      "lastSuccessAt": "2026-10-11T01:42:24.604Z",
+      "observedCount": null,
+      "changedCount": 0,
+      "error": "fetch failed → CERT_HAS_EXPIRED: certificate has expired; fetch failed → CERT_HAS_EXPIRED: certificate has expired; fetch failed → CERT_HAS_EXPIRED: certificate has expired",
       "pages": [
         {
           "url": "https://dewan.selangor.gov.my/",
-          "status": "ok",
-          "observedCount": 1
+          "status": "error",
+          "observedCount": null,
+          "error": "fetch failed → CERT_HAS_EXPIRED: certificate has expired"
         },
         {
           "url": "https://dewan.selangor.gov.my/question/tebatan-banjir-negeri-selangor/",
-          "status": "ok",
-          "observedCount": 8
+          "status": "error",
+          "observedCount": null,
+          "error": "fetch failed → CERT_HAS_EXPIRED: certificate has expired"
         },
         {
           "url": "https://dewan.selangor.gov.my/wp-content/uploads/2026/04/21.4.2026-SELASA-DRAF-PENYATA-RASMI.pdf",
-          "status": "ok",
+          "status": "error",
           "kind": "pdf",
-          "observedCount": 1
+          "observedCount": null,
+          "error": "fetch failed → CERT_HAS_EXPIRED: certificate has expired"
         }
-      ],
-      "observedCount": 10,
-      "documentCount": 1,
-      "changedCount": 9
+      ]
     }
   ]
 }

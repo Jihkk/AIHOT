@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "reviewedAt": "2026-10-09",
+  "reviewedAt": "2026-10-13",
   "sources": [
     {
       "id": "jps",
@@ -501,8 +501,8 @@
         "FT234"
       ],
       "language": "ms",
-      "checkedAt": "2026-10-09",
-      "evidence": "公告 MAKLUMAT PROJEK 列道路抬高与三条河流桥梁；MAKLUMAT KONTRAKTOR 列 Bumiputera、T1、G7 和 CE01/CE02；MAKLUMAT DOKUMEN 列 RM1500，TARIKH TENDER DITUTUP 为 12/11/2026、12:00 PM。没有据项目名推断设计 ARI 或防洪成效。 2026-10-09 复核原网页，现场时间及 11 月 12 日 12:00 截止未变，文件销售日期为 10 月 15–21 日。",
+      "checkedAt": "2026-10-13",
+      "evidence": "公告 MAKLUMAT PROJEK 列道路抬高与三条河流桥梁；MAKLUMAT KONTRAKTOR 列 Bumiputera、T1、G7 和 CE01/CE02；MAKLUMAT DOKUMEN 列 RM1500，TARIKH TENDER DITUTUP 为 12/11/2026、12:00 PM。没有据项目名推断设计 ARI 或防洪成效。 2026-10-09 复核原网页，现场时间及 11 月 12 日 12:00 截止未变，文件销售日期为 10 月 15–21 日。 2026-10-11 重新读取官方正文／列表，所列截止日期、说明会及范围未见变化；网页核查不代表已读取登录系统内所有补遗。 2026-10-13 重新打开 JKR E-Tender 官方详情：页面仍列 10 月 8 日强制现场说明会、文件销售期 10 月 15–21 日及 11 月 12 日 12:00 截止。下载文件需登录，未据公开页声称已核实账户内补遗。",
       "dateEvidence": "TARIKH IKLAN 明示 01/10/2026。现场参观／说明会为 08/10/2026 11:00 AM，截止为 12/11/2026 12:00 PM；未来截止不填成已经发生的 eventDate。时间按马来西亚当地公告理解，后续补遗以原站为准。",
       "tender": {
         "reference": "JKR/CKUB/24197/2026",
@@ -510,7 +510,7 @@
         "deadline": "2026-11-12T12:00:00+08:00",
         "briefing": "2026-10-08T11:00:00+08:00",
         "briefingRequirement": "mandatory",
-        "evidence": "公告 MAKLUMAT PROJEK 列道路抬高与三条河流桥梁；MAKLUMAT KONTRAKTOR 列 Bumiputera、T1、G7 和 CE01/CE02；MAKLUMAT DOKUMEN 列 RM1500，TARIKH TENDER DITUTUP 为 12/11/2026、12:00 PM。没有据项目名推断设计 ARI 或防洪成效。 2026-10-09 复核原网页，现场时间及 11 月 12 日 12:00 截止未变，文件销售日期为 10 月 15–21 日。"
+        "evidence": "公告 MAKLUMAT PROJEK 列道路抬高与三条河流桥梁；MAKLUMAT KONTRAKTOR 列 Bumiputera、T1、G7 和 CE01/CE02；MAKLUMAT DOKUMEN 列 RM1500，TARIKH TENDER DITUTUP 为 12/11/2026、12:00 PM。没有据项目名推断设计 ARI 或防洪成效。 2026-10-09 复核原网页，现场时间及 11 月 12 日 12:00 截止未变，文件销售日期为 10 月 15–21 日。 2026-10-11 重新读取官方正文／列表，所列截止日期、说明会及范围未见变化；网页核查不代表已读取登录系统内所有补遗。 2026-10-13 重新打开 JKR E-Tender 官方详情：页面仍列 10 月 8 日强制现场说明会、文件销售期 10 月 15–21 日及 11 月 12 日 12:00 截止。下载文件需登录，未据公开页声称已核实账户内补遗。"
       },
       "states": [
         "pahang"
@@ -677,7 +677,7 @@
     },
     {
       "language": "ms",
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-13",
       "id": "planmalaysia-setiu-wetlands-tender-2026",
       "source": "planmalaysia",
       "category": "tenders",
@@ -687,13 +687,13 @@
       "publishedAt": null,
       "eventDate": "2026-10-05",
       "region": "Terengganu · Setiu",
-      "stage": "采购列表显示开放 · 核查 2026-10-09",
+      "stage": "采购列表显示开放 · 截止 10 月 22 日（10 月 13 日复核）",
       "tags": [
         "湿地",
         "生态规划",
         "Setiu"
       ],
-      "evidence": "官方采购表第 4 行为 JPBD(IP)S185/646/1-201，标题列出三处范围，Status=Buka，日期列为 05-10-2026 至 22-10-2026。该行未提供独立文件链接、资格或预算，不补造详情。",
+      "evidence": "官方采购表第 4 行为 JPBD(IP)S185/646/1-201，标题列出三处范围，Status=Buka，日期列为 05-10-2026 至 22-10-2026。该行未提供独立文件链接、资格或预算，不补造详情。 2026-10-11 重新读取官方正文／列表，所列截止日期、说明会及范围未见变化；网页核查不代表已读取登录系统内所有补遗。 2026-10-13 重新读取 PLANMalaysia 采购列表：第 4 行仍为 T-SL2、状态 Buka，日期 10 月 5–22 日；列表更新时间显示 13/10/2026。没有独立公告文件或截止时刻。",
       "dateEvidence": "列表所列开始日期为 05-10-2026，作为采购开放事件日；未确认独立页面发布日期，publishedAt=null。列表时刻均为 12:00 AM，摘要只报告日期并要求以正式文件核对具体时间。",
       "tender": {
         "reference": "JPBD(IP)S185/646/1-201",
@@ -701,7 +701,7 @@
         "deadline": null,
         "briefing": null,
         "briefingRequirement": "unconfirmed",
-        "evidence": "官方采购表第 4 行为 JPBD(IP)S185/646/1-201，标题列出三处范围，Status=Buka，日期列为 05-10-2026 至 22-10-2026。该行未提供独立文件链接、资格或预算，不补造详情。"
+        "evidence": "官方采购表第 4 行为 JPBD(IP)S185/646/1-201，标题列出三处范围，Status=Buka，日期列为 05-10-2026 至 22-10-2026。该行未提供独立文件链接、资格或预算，不补造详情。 2026-10-11 重新读取官方正文／列表，所列截止日期、说明会及范围未见变化；网页核查不代表已读取登录系统内所有补遗。 2026-10-13 重新读取 PLANMalaysia 采购列表：第 4 行仍为 T-SL2、状态 Buka，日期 10 月 5–22 日；列表更新时间显示 13/10/2026。没有独立公告文件或截止时刻。"
       },
       "states": [
         "terengganu"
@@ -825,8 +825,8 @@
         "Langat 2"
       ],
       "language": "en",
-      "checkedAt": "2026-10-09",
-      "evidence": "采购页 Details 明确 Kerja-Kerja Penggantian Injap Secara Kaedah Tanpa Gangguan Bekalan Air di Kolam Air Bukit Dengkil；随后列 Tender No、Advertisement Date、Closing Date、Status 和 Briefing Date。标题是 Langat 2 总项目名称，摘要按 Details 限定本采购范围。正文详情为马来文、字段为英文。",
+      "checkedAt": "2026-10-13",
+      "evidence": "采购页 Details 明确 Kerja-Kerja Penggantian Injap Secara Kaedah Tanpa Gangguan Bekalan Air di Kolam Air Bukit Dengkil；随后列 Tender No、Advertisement Date、Closing Date、Status 和 Briefing Date。标题是 Langat 2 总项目名称，摘要按 Details 限定本采购范围。正文详情为马来文、字段为英文。 2026-10-11 重新读取官方正文／列表，所列截止日期、说明会及范围未见变化；网页核查不代表已读取登录系统内所有补遗。 2026-10-13 重新打开 PAAB 官方采购详情：Status 仍为 Open，截止 29/10/2026 12:00 pm，原列说明会为 7/10/2026 10:00 am；公开页未列新的补遗。",
       "dateEvidence": "Advertisement Date=01/10/2026 08:30 am；Closing Date=29/10/2026 12:00 pm；Briefing Date=07/10/2026 10:00 am。截止时间按马来西亚官方采购页面报告，资格和会议条件未在网页详情中确认，提示查正式文件。",
       "tender": {
         "reference": "PAAB/B001/PAKEJ 15 (5)/PI/77/26",
@@ -834,7 +834,7 @@
         "deadline": "2026-10-29T12:00:00+08:00",
         "briefing": "2026-10-07T10:00:00+08:00",
         "briefingRequirement": "unconfirmed",
-        "evidence": "采购页 Details 明确 Kerja-Kerja Penggantian Injap Secara Kaedah Tanpa Gangguan Bekalan Air di Kolam Air Bukit Dengkil；随后列 Tender No、Advertisement Date、Closing Date、Status 和 Briefing Date。标题是 Langat 2 总项目名称，摘要按 Details 限定本采购范围。正文详情为马来文、字段为英文。"
+        "evidence": "采购页 Details 明确 Kerja-Kerja Penggantian Injap Secara Kaedah Tanpa Gangguan Bekalan Air di Kolam Air Bukit Dengkil；随后列 Tender No、Advertisement Date、Closing Date、Status 和 Briefing Date。标题是 Langat 2 总项目名称，摘要按 Details 限定本采购范围。正文详情为马来文、字段为英文。 2026-10-11 重新读取官方正文／列表，所列截止日期、说明会及范围未见变化；网页核查不代表已读取登录系统内所有补遗。 2026-10-13 重新打开 PAAB 官方采购详情：Status 仍为 Open，截止 29/10/2026 12:00 pm，原列说明会为 7/10/2026 10:00 am；公开页未列新的补遗。"
       },
       "states": [
         "selangor"
@@ -1178,6 +1178,347 @@
         "national",
         "kuala-lumpur"
       ]
+    },
+    {
+      "id": "petra-budget-water-flood-2027",
+      "source": "petra",
+      "category": "policy",
+      "title": "2027 预算：PETRA 列防洪与供水部署，NRW 二期 RM25 亿",
+      "summary": "PETRA 10 月 9 日声明称，6 项合计 RM3.36 亿的 RTB 已完成，另有 82 项在实施，并列 Kuching 二期、Golok 二期及 Kemaman 等项目。NRW 二期 RM25 亿用于更换 1,900 km 老旧管道；Lebir 水坝的 337 MLD 原水供给及防洪效益属于项目潜力，不能当成已实现成效。",
+      "url": "https://www.petra.gov.my/uploads/content-downloads/file_20261009194715.pdf",
+      "publishedAt": "2026-10-09",
+      "eventDate": null,
+      "region": "Malaysia · Sarawak · Kelantan · Terengganu",
+      "stage": "预算部署 · 在建与完成情况分别列示",
+      "tags": [
+        "Belanjawan 2027",
+        "RTB",
+        "NRW",
+        "Lebir"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-11",
+      "evidence": "官方声明第 1 页 AIR TERJAMIN, RISIKO BANJIR DIKURANGKAN 的第 1、2、5 项分别列已完成 6 项 RTB、在建 82 项、Lebir 潜在供水 337 juta liter sehari，以及 NRW 二期 RM2.5 bilion 和 1,900 km。Golok 此处是 Fasa 2；不与既有一期审计合并。PETRA 总拨款 RM5.33 bilion 同时包括能源与水务，未写成防洪专项预算。",
+      "dateEvidence": "PDF 首段及署名明确 9 Oktober 2026；该日是声明日期，未来 2027 年部署不是已经发生的 eventDate。",
+      "states": [
+        "national",
+        "sarawak",
+        "kelantan",
+        "terengganu"
+      ]
+    },
+    {
+      "id": "ukas-luak-four-drainage-progress-october-2026",
+      "source": "ukas",
+      "category": "projects",
+      "title": "Miri Kampung Luak 4 排水升级进度 95%，RTP 拨款 RM10 万",
+      "summary": "UKAS 10 月 10 日报道，Lorong Jalan Kampung Luak 4 排水升级在 RTP 2026 下获 RM100,000，工程进度为 95%。目的是改善排水能力并减轻洪水风险；报道仍要求按规格完成，未确认完工或量化防洪效果。",
+      "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/50446",
+      "publishedAt": "2026-10-10",
+      "eventDate": null,
+      "region": "Sarawak · Miri",
+      "stage": "在建 · 报道进度 95%",
+      "tags": [
+        "RTP",
+        "排水升级",
+        "Miri"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-11",
+      "evidence": "正文首段列地点、RTP 2026、RM100,000 和 95% 进度；第 2 段说明改善排水和降低洪水风险的目标，后文仍要求工程完成。95% 是施工进度，不是风险降低比例。",
+      "dateEvidence": "页面标 10 Oktober 2026；现场访问仅称 baru-baru ini，无法确定具体日，eventDate=null。",
+      "states": [
+        "sarawak"
+      ]
+    },
+    {
+      "id": "ukas-hulu-sebuyau-concrete-drain-completed-2026",
+      "source": "ukas",
+      "category": "projects",
+      "title": "Hulu Sebuyau RM20 万混凝土排水沟提前完工，正式验收仍须确认",
+      "summary": "UKAS 报道，JPS Sarawak 执行的 RTP 混凝土排水沟于 10 月 9 日完成，造价 RM200,000，原定完工日为 12 月 1 日。报道说明设施须完成核实与正式接收后使用，故不将提前完工等同于已验收或防洪效果已验证。",
+      "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/50345",
+      "publishedAt": "2026-10-09",
+      "eventDate": "2026-10-09",
+      "region": "Sarawak · Kampung Hulu Sebuyau",
+      "stage": "已完工报道 · 正式验收未确认",
+      "tags": [
+        "RTP",
+        "混凝土排水沟",
+        "Sebuyau"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-11",
+      "evidence": "正文第 1–3 段列 RM200,000、9 October 完工、JPS Sarawak 执行、原定 1 December，以及 selepas proses pengesahan dan penerimaan rasmi diselesaikan 条件。",
+      "dateEvidence": "页面日期 09 Oktober 2026；正文明确完工日 9 Oktober 2026，发布日期与事件日一致。",
+      "states": [
+        "sarawak"
+      ]
+    },
+    {
+      "id": "ukas-sarawak-cloud-seeding-reservoirs-october-2026",
+      "source": "ukas",
+      "category": "water-resources",
+      "title": "砂拉越人工增雨第二日重点覆盖 Bakun、Murum 与 Batang Ai 水坝",
+      "summary": "UKAS 10 月 9 日报道，8–10 日安排的人工增雨行动第二日集中于三座主要水坝集水区，由 METMalaysia 按分区规划，与 NADMA、TUDM 协作支持蓄水。原文未公布新增降雨量或库容增幅，不能据此判断增雨成效或当前水坝已处于危急状态。",
+      "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/50377",
+      "publishedAt": "2026-10-09",
+      "eventDate": "2026-10-09",
+      "region": "Sarawak · Bakun · Murum · Batang Ai",
+      "stage": "人工增雨行动报道 · 效果未量化",
+      "tags": [
+        "人工增雨",
+        "水坝",
+        "El Niño"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-11",
+      "evidence": "正文首两段说明第二日目标水坝、METMalaysia 分区及避免危急水位的目的；末段列行动安排为 8–10 October。没有发布实测降雨、库容或现时水位，也不推断整个三日行动已经全部完成。",
+      "dateEvidence": "页面日期 09 Oktober 2026，正文 hari kedua hari ini 对应该日；行动时间范围与本次 11 October 查阅日分别保留。",
+      "states": [
+        "sarawak"
+      ]
+    },
+    {
+      "id": "jps-johor-kampung-pasir-pumps-progress-2026",
+      "source": "jps-johor",
+      "category": "projects",
+      "title": "Kampung Pasir RM448 万排水项目进度 98%，新泵待接电",
+      "summary": "JPS Johor 10 月 8 日报道，Kampung Pasir 的 RM4.48 million 排水项目进度为 98%，范围含两台 screw pump，正协调 TNB 接电以投入运行。另将 Sungai Chat 的液压防洪泵调往当地作应急措施；工程进度及接电安排不等同于已投运或防洪效果验证。",
+      "url": "https://jps.johor.gov.my/%F0%9D%90%8C%F0%9D%90%84%F0%9D%90%8C%F0%9D%90%8F%F0%9D%90%84%F0%9D%90%91%F0%9D%90%8A%F0%9D%90%94%F0%9D%90%8A%F0%9D%90%94%F0%9D%90%87-%F0%9D%90%8A%F0%9D%90%84%F0%9D%90%92%F0%9D%90%88%F0%9D%90%80/",
+      "publishedAt": "2026-10-08",
+      "eventDate": "2026-10-07",
+      "region": "Johor · Johor Bahru · Kampung Pasir",
+      "stage": "在建 · 98% · 新泵接电待完成",
+      "tags": [
+        "防洪泵",
+        "排水",
+        "TNB",
+        "Kampung Pasir"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-11",
+      "evidence": "正文第 3–5 段列应急泵调配、RM4.48 juta、两台 screw pump、98% 进度及待 TNB 接电。原文对调配泵使用 meter padu sesaat、对新泵使用 kaki padu sesaat，口径不同且未说明单台或合计关系，摘要不相加或推算设计排水能力。",
+      "dateEvidence": "页面 October 8, 2026；正文 JOHOR BAHRU, 7 OKTOBER 2026 是现场事件日，两个日期分开。",
+      "states": [
+        "johor"
+      ]
+    },
+    {
+      "id": "air-selangor-labohan-dagang-phase-two-rfp-2026",
+      "source": "air-selangor",
+      "category": "tenders",
+      "title": "Labohan Dagang 二期 200 MLD 水厂 RFP：25 年 BOT，所列注册期已过",
+      "summary": "Air Selangor 公告采用 25 年 BOT 模式开发 Labohan Dagang 二期水厂及配套工程，总能力 200 MLD，分两阶段各 100 MLD。公告所列注册截止为 10 月 9 日 15:00，已经过期；强制说明会为 10 月 14 日 15:00，提交截止为 12 月 15 日 15:00。是否可参加及补遗须核对正式系统，不能只因提交期未到就认定仍可报名。",
+      "url": "https://tender.airselangor.com/announcements/download/3",
+      "publishedAt": "2026-10-05",
+      "eventDate": null,
+      "region": "Selangor · Kuala Langat · Labohan Dagang",
+      "stage": "RFP · 所列注册期已过 · 提交截止 12 月 15 日",
+      "tags": [
+        "供水",
+        "200 MLD",
+        "BOT",
+        "Labohan Dagang"
+      ],
+      "language": "en",
+      "checkedAt": "2026-10-13",
+      "evidence": "公开招标 PDF 第 1 页列 200 MLD、分两阶段各 100 MLD、25 年 BOT、RM50,000 文件费；右栏列注册截止 9/10/2026 15:00、强制说明会 14/10/2026 15:00、销售期 15/10–5/11 23:00，提交截止 15/12/2026 15:00。Tender No 标 TBA，不能以页脚 KT21/2026 推定项目招标编号。 2026-10-13 重新读取官方 RFP PDF：注册截止仍为 9/10/2026 15:00（已过），强制现场说明会 14/10/2026 15:00，文件销售 15/10–5/11 23:00，提交截止 15/12/2026 15:00。PDF 未说明注册期过后是否仍可参加，故仍提示联系采购方核实资格。",
+      "dateEvidence": "公共公告列表 Created 为 05 Oct 2026；PDF 注册期从 24/9/2026 开始，两者不是同一日期。PDF 元数据标题 Tarikh Iklan : 15/5/2009 与正文不符，不采用该旧模板标题作发布日期。所有未来说明会与截止时刻使用 +08:00，不填入已发生事件日。",
+      "states": [
+        "selangor"
+      ],
+      "tender": {
+        "reference": null,
+        "deadlineDate": "2026-12-15",
+        "deadline": "2026-12-15T15:00:00+08:00",
+        "briefing": "2026-10-14T15:00:00+08:00",
+        "briefingRequirement": "mandatory",
+        "evidence": "公开招标 PDF 第 1 页列 200 MLD、分两阶段各 100 MLD、25 年 BOT、RM50,000 文件费；右栏列注册截止 9/10/2026 15:00、强制说明会 14/10/2026 15:00、销售期 15/10–5/11 23:00，提交截止 15/12/2026 15:00。Tender No 标 TBA，不能以页脚 KT21/2026 推定项目招标编号。 2026-10-13 重新读取官方 RFP PDF：注册截止仍为 9/10/2026 15:00（已过），强制现场说明会 14/10/2026 15:00，文件销售 15/10–5/11 23:00，提交截止 15/12/2026 15:00。PDF 未说明注册期过后是否仍可参加，故仍提示联系采购方核实资格。"
+      }
+    },
+    {
+      "id": "nadma-kuala-nerus-coastal-audit-delay-2026",
+      "source": "nadma",
+      "category": "projects",
+      "title": "Kuala Nerus 海岸防护审计列延误 144 日，强调季风前推进防波堤",
+      "summary": "NADMA 10 月 6 日转载 LKAN 2/2026 审计报道：Kuala Nerus 海岸侵蚀防护项目延误 15.7%／144 日，涉及设备不足、部分防波堤未施工及补砂范围 EIA 批准延误。审计要求 JKR 与 JPS 加强协调，尽快完成 7、8 号防波堤以应对东北季风；这属于审计发现与整改建议，不是整改已完成。",
+      "url": "https://www.nadma.gov.my/bm/media-2/berita/7317-projek-hakisan-pantai-kuala-nerus-lewat-144-hari-lkan",
+      "publishedAt": "2026-10-06",
+      "eventDate": null,
+      "region": "Terengganu · Kuala Nerus",
+      "stage": "审计发现 · 整改完成未确认",
+      "tags": [
+        "海岸侵蚀",
+        "防波堤",
+        "LKAN",
+        "东北季风"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-11",
+      "evidence": "NADMA 新闻页正文第 3–6 段列 15.7%／144 日、No.1/2/3/9 无施工活动、补砂 EIA 及 JKR/JPS 协调，要求尽快完成 No.7/8。页面链接到 Utusan 原报道，标明官方转载，未声称独立复算施工延误。",
+      "dateEvidence": "NADMA 页面标 06 Oktober 2026；未独立确认审计现场日或延误计量基准日，eventDate=null。",
+      "states": [
+        "terengganu"
+      ]
+    },
+    {
+      "id": "dewan-selangor-flood-projects-first-session-2026",
+      "source": "dewan-selangor",
+      "category": "projects",
+      "title": "雪兰莪 2026 年首会期答复列防洪项目支出与分项进度（历史资料）",
+      "summary": "州议会第 357 号书面答复列出 RS-1 在 2023–2025 年的防洪支出，以及 RS-2 的 112 项项目与 RM100 million 2026 年拨款。分项工程表以 2026 年 3 月 31 日为部分进度基准，涵盖 Taman Melawis、Kampung Perepat 与 Sungai Subang 等；这是首会期历史记录，不能代表 10 月最新工程进度。",
+      "url": "https://dewan.selangor.gov.my/question/tebatan-banjir-negeri-selangor/",
+      "publishedAt": null,
+      "eventDate": null,
+      "region": "Selangor",
+      "stage": "州议会历史答复 · 部分进度截至 2026-03-31",
+      "tags": [
+        "RS-1",
+        "RS-2",
+        "项目支出",
+        "历史进度"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-11",
+      "evidence": "已直接通过 HTTPS GET 读取官方第 357 号书面答复。RS-2 汇总表列 112 项、2026 拨款 RM100,000,000；后续工程表明确 Melawis/Perepat/Subang 进度截至 31 March 2026。联邦项目支出另注明只计算 JPS Selangor、未包括总部支出，不合并口径。",
+      "dateEvidence": "页面仅给 2026 年首会期日期范围 20 April–4 May，没有明确具体回答日或发布日期，因此 publishedAt 与 eventDate 均为 null；摘要明示会期及分项进度基准，不使用查阅日替代。",
+      "states": [
+        "selangor"
+      ]
+    },
+    {
+      "id": "petra-sungai-golok-progress-october-2026",
+      "source": "petra",
+      "category": "projects",
+      "title": "PETRA 报告：双溪戈洛三期工程截至 9 月底分别完成 73.01%、3.16% 和 24.18%",
+      "summary": "PETRA 10 月 11 日说明，Sungai Golok PLSB 截至 2026 年 9 月 30 日，一期完成 73.01%（预计 2027 年 7 月）、二期 3.16%（预计 2028 年 10 月）、三期 24.18%（预计 2029 年 4 月）。声明称，土地征收、路线及排水容量等范围与设计调整会影响工期和成本。声明另称 2027 年预算把“PLSB Sungai Golok Fasa 2”列为拟于 2027 年实施的新项目，但没有说明它与上述三期工程的关系，故不将两者强行对应。",
+      "url": "https://www.petra.gov.my/uploads/content-downloads/file_20261011172401.pdf",
+      "publishedAt": "2026-10-11",
+      "eventDate": null,
+      "region": "Kelantan · Sungai Golok",
+      "stage": "施工中 · 进度数据截至 2026 年 9 月 30 日",
+      "tags": [
+        "防洪",
+        "Sungai Golok",
+        "工程进度",
+        "设计调整"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-13",
+      "evidence": "PETRA 官方声明第 1 页列发布地及 2026-10-11 日期；“KEMAJUAN FIZIKAL DAN JANGKAAN SIAP PROJEK”段列三期进度、预计完工月及范围；后文“PENYESUAIAN SKOP DAN PERUBAHAN REKA BENTUK”说明土地征收、路线与排水容量调整影响时间和成本。声明开头另称 9 Oct 2026 Budget 2027 列出一个拟于 2027 实施的 PLSB Sungai Golok Phase 2，未交代其与文中在建三期的对应关系。",
+      "dateEvidence": "PDF 抬头署名 11 October 2026；工程进度数据明确截至 30 September 2026。两日期分别保留；未把查阅日或预计完工日写为事件日。",
+      "states": [
+        "kelantan"
+      ]
+    },
+    {
+      "id": "petra-jkkas-river-quality-target-october-2026",
+      "source": "petra",
+      "category": "water-resources",
+      "title": "JKKAS 定下改善目标：一年内推动 33 条污染河流的水质指数至少提升 10%",
+      "summary": "PETRA 10 月 12 日发布的 JKKAS 声明援引 JAS《2025 河流水质状况报告》：672 条受监测河流中，467 条（69%）清洁、172 条（26%）中度污染、33 条（5%）污染，主要污染参数为氨氮。委员会提出在一年内，令这 33 条污染河流的水质指数较 2025 年至少改善 10%；同时决定在选定地方政府辖区试行非点源污染综合管理，并成立协调城乡排放标准的技术委员会。这些是目标和安排，不是已实现的改善。",
+      "url": "https://www.petra.gov.my/uploads/content-downloads/file_20261012162402.pdf",
+      "publishedAt": "2026-10-12",
+      "eventDate": "2026-10-12",
+      "region": "Malaysia",
+      "stage": "国家委员会目标与措施 · 成效尚待后续评估",
+      "tags": [
+        "河流水质",
+        "氨氮",
+        "污染治理",
+        "水质指数"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-13",
+      "evidence": "PETRA 官方声明第 1 页说明副首相兼部长于 12 Oct 2026 主持 JKKAS 第 2 次会议，并列 JAS《2025 河流水质状况报告》的 672/467/172/33 条数据、比例及主要污染参数；第 2 页列 33 条河流一年内 IKA 至少提高 10% 的目标、选定地方政府试点及 KPKT/NAHRIM 技术委员会。声明同时提到浮动太阳能指南已发布，该指南已另有 10 月 2 日记录，本条不重复作为新发布。",
+      "dateEvidence": "官方声明抬头及页尾均署 12 October 2026，正文称会议“hari ini”（当天）举行；publishedAt 和 eventDate 均据此填 12 日。统计年度是 2025，不是 2026 实时监测。",
+      "states": [
+        "national"
+      ]
+    },
+    {
+      "id": "ukas-sarawak-rice-irrigation-budget-2027",
+      "source": "ukas",
+      "category": "projects",
+      "title": "砂拉越拟自 2027 年分阶段扩展水稻种植，并配套现代灌溉排水",
+      "summary": "UKAS 10 月 12 日报道砂拉越 2027 年预算：州政府拨出 RM20.47 million 扩大稻米生产，规划采用现代农地开发、机械化和灌溉系统；另称已为稻作识别约 14,000 公顷土地，拟配套现代灌溉与排水。第一阶段计划于 2027 年启动，涵盖 7 个地区、约 2,000 公顷。这些内容是预算与分阶段规划，不表示工程已开工或设施已建成。",
+      "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/50541",
+      "publishedAt": "2026-10-12",
+      "eventDate": null,
+      "region": "Sarawak",
+      "stage": "2027 年预算及规划 · 第一阶段拟于 2027 年开始",
+      "tags": [
+        "灌溉",
+        "排水",
+        "水稻",
+        "砂拉越预算"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-13",
+      "evidence": "UKAS 原文正文称 2027 年拨款 RM20.47 million 用于稻作扩产，列出现代农地开发、机械化及灌溉；另列 14,000 公顷识别土地将配备现代灌溉与排水，并称第一阶段预计 2027 年开始、7 个地区约 2,000 公顷。报道没有列出具体工程合同、施工承包商或已完成进度。",
+      "dateEvidence": "UKAS 官方文章页脚日期为 12 Oktober 2026；正文称预算在周一提交，但没有单独给出数字化活动日期，故 eventDate 留空。",
+      "states": [
+        "sarawak"
+      ]
+    },
+    {
+      "id": "jps-johor-flash-flood-field-visit-october-2026",
+      "source": "jps-johor",
+      "category": "hydrology",
+      "title": "JPS Johor 巡查新山闪洪受影响地点，称将继续监测并协调缓解措施",
+      "summary": "JPS Johor 报道，9 月 30 日连续约两小时强降雨后，州 JPS 主任到 Kampung Sri Jaya、Kampung Seri Serdang 和 Sungai Chat 巡查闪洪受影响地点，查看现场情况、流动状况和排水系统。JPS 表示将继续监测风险区域并与相关单位协调缓解措施。该文记录的是已发生事件及后续巡查，不是当前洪水警报；未提供雨量或积水深度数据。",
+      "url": "https://jps.johor.gov.my/%F0%9D%90%93%F0%9D%90%88%F0%9D%90%8D%F0%9D%90%89%F0%9D%90%80%F0%9D%90%94%F0%9D%90%80%F0%9D%90%8D-%F0%9D%90%8F%F0%9D%90%84%F0%9D%90%8D%F0%9D%90%86%F0%9D%90%80%F0%9D%90%91%F0%9D%90%80%F0%9D%90%87/",
+      "publishedAt": "2026-10-02",
+      "eventDate": "2026-09-30",
+      "region": "Johor · Johor Bahru",
+      "stage": "9 月 30 日闪洪后巡查与持续监测",
+      "tags": [
+        "闪洪",
+        "强降雨",
+        "排水",
+        "新山"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-13",
+      "evidence": "JPS Johor 原文日期为 2 October 2026，标题为州 JPS 主任巡查闪洪受影响区域；正文导语列 30 September 2026 及约两小时持续强降雨，下一段列 Kampung Sri Jaya、Kampung Seri Serdang、Sungai Chat 并说明查看水流和排水系统，末段称将继续监测风险地点并协调缓解行动。正文无雨量、积水深度或当前预警信息。",
+      "dateEvidence": "正文导语明确写 JOHOR BAHRU, 30 SEPTEMBER 2026；页面发布日期显示 October 2, 2026。分别记录事件日和发布日期。",
+      "states": [
+        "johor"
+      ]
+    },
+    {
+      "id": "jps-negeri-sembilan-sungai-serting-tender-2026",
+      "source": "jps-negeri-sembilan",
+      "category": "tenders",
+      "title": "JPS 森美兰招标 Sungai Serting 河保育相关机电工程，截止 10 月 19 日",
+      "summary": "JPS 森美兰在 Sungai Serting 河流保育项目下招标照明系统、电气基础设施及相关工作，编号 JPSNS/SH/N-P54/BPME/07/2026。公告列示文件费 RM50、强制工作说明会为 10 月 12 日 10:00，投标截止为 10 月 19 日 12:00。说明会和公告所列文件领取时段已过，不能据尚未到的截止日断言仍可新报名；承包商资格及投标可行性须向 JPSNS 核实。该包是相关机电／照明工作，不是河道主体工程。",
+      "url": "https://jpsns.ns.gov.my/sebutharga_tender/membekal-memasang-menguji-dan-mentauliahkan-sistem-pencahayaan-kawasan-dan-infrastruktur-elektrikal-dan-kerja-kerja-pemuliharaan-sungai-serting-dan-lain-lain-kerja-berkaitan-daerah-jempol-negeri-se/",
+      "publishedAt": "2026-10-05",
+      "eventDate": null,
+      "region": "Negeri Sembilan · Jempol · Sungai Serting",
+      "stage": "投标截止 10 月 19 日 · 强制说明会已过 · 资格需向 JPSNS 确认",
+      "tags": [
+        "河流保育",
+        "电气基础设施",
+        "机电招标",
+        "Sungai Serting"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-13",
+      "evidence": "JPS Negeri Sembilan 官方招标页内嵌的报价邀请 PDF 第 1 页列通知编号 JPSNS/SH/N-P54/BPME/07/2026、Sungai Serting 河流保育项目相关照明系统及电气基础设施工作、RM50 文件费和资格条件；第 2 页列强制工作说明会 12/10/2026 10:00 及文件领取时段 12/10/2026 09:00–12:00；第 3 页列截止日 19/10/2026、中午 12:00。该包为机电／照明相关工作，不能描述成河道主体工程。说明会及公告所列文件领取时段在本次复核时已过，不据此断言仍可新报名，需向 JPSNS 确认投标资格。",
+      "dateEvidence": "内嵌报价邀请 PDF 首页标示 TARIKH: 5 OKTOBER 2026，作为官方招标通知日；招标截止日及中午时刻依据同一 PDF 第 3 页，不把未来截止写成 eventDate。",
+      "tender": {
+        "reference": "JPSNS/SH/N-P54/BPME/07/2026",
+        "deadlineDate": "2026-10-19",
+        "deadline": "2026-10-19T12:00:00+08:00",
+        "briefing": "2026-10-12T10:00:00+08:00",
+        "briefingRequirement": "mandatory",
+        "evidence": "JPS Negeri Sembilan 官方招标页内嵌的报价邀请 PDF 第 1 页列通知编号 JPSNS/SH/N-P54/BPME/07/2026、Sungai Serting 河流保育项目相关照明系统及电气基础设施工作、RM50 文件费和资格条件；第 2 页列强制工作说明会 12/10/2026 10:00 及文件领取时段 12/10/2026 09:00–12:00；第 3 页列截止日 19/10/2026、中午 12:00。该包为机电／照明相关工作，不能描述成河道主体工程。说明会及公告所列文件领取时段在本次复核时已过，不据此断言仍可新报名，需向 JPSNS 确认投标资格。"
+      },
+      "states": [
+        "negeri-sembilan"
+      ]
     }
   ],
   "projects": [
@@ -1198,7 +1539,8 @@
       "scope": "审计延期报道与部委回应并列查阅；部委声明中的海岸工程内容也涉及其他项目，不全部归入 Sungai Golok。",
       "articleIds": [
         "nadma-sungai-golok-delay-october-2026",
-        "petra-flood-coastal-governance-october-2026"
+        "petra-flood-coastal-governance-october-2026",
+        "petra-sungai-golok-progress-october-2026"
       ]
     }
   ]

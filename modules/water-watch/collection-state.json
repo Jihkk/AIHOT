@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-09T09:02:14.133Z",
+  "checkedAt": "2026-10-13T00:38:12.249Z",
   "sources": [
     {
       "id": "jps",
       "url": "https://www.water.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://www.water.gov.my/index.php/database_stores/attach_download/28/11601",
@@ -23,7 +23,7 @@
         },
         {
           "url": "https://www.water.gov.my/index.php/pages/view/848",
-          "title": "Tender Notices 102506"
+          "title": "Tender Notices 102570"
         }
       ],
       "pages": [
@@ -40,15 +40,15 @@
       ],
       "observedCount": 3,
       "documentCount": 0,
-      "fingerprint": "e875aa36e6bb1e8c28bd130f80480924534fb13b8adfc717bc6c0bdd6fd2953a",
+      "fingerprint": "624a98f92811a0fa4d06100e84f95a82fa056240ba8f6fd56ac27c03dee72218",
       "changedCount": 1
     },
     {
       "id": "metmalaysia",
       "url": "https://www.met.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://www.met.gov.my/data/climate/kemarau.pdf",
@@ -74,9 +74,9 @@
     {
       "id": "nadma",
       "url": "https://www.nadma.gov.my/bm/media-2/kenyataan-media",
-      "checkedAt": "2026-10-09T09:05:25.365Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:05:25.365Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://www.nadma.gov.my/bm/media-2/berita/7331-monsoon-transition-begins-oct-9-bringing-thunderstorms-flash-flood-and-fallen-tree-risks-metmalaysia-warns",
@@ -150,14 +150,14 @@
       "observedCount": 9,
       "documentCount": 0,
       "fingerprint": "833c304239221a132879f5935ae19c704f00ab78d66702edd6f29b4d1836804f",
-      "changedCount": 2
+      "changedCount": 0
     },
     {
       "id": "nahrim",
       "url": "https://www.nahrim.gov.my/arkib-berita/",
-      "checkedAt": "2026-10-09T09:05:25.365Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:05:25.365Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://www.nahrim.gov.my/garis-panduan-pemasangan-panel-solar-terapung-di-atas-takungan-air-dan-tasik-di-malaysia-2026/",
@@ -257,12 +257,12 @@
       "observedCount": 18,
       "documentCount": 0,
       "fingerprint": "fd58a1770a621408a7b03ed6b6db7aa2d7dc70c3150241812d1d79aca1851dec",
-      "changedCount": 5
+      "changedCount": 0
     },
     {
       "id": "petra",
       "url": "https://www.petra.gov.my/v2/documents/media-statement",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [
@@ -309,6 +309,18 @@
         {
           "url": "https://www.petra.gov.my/uploads/content-downloads/file_20261006153449.pdf",
           "title": "6 Oktober 2026 PETRA PERKUKUH TADBIR URUS PROJEK TEBATAN BANJIR DAN PEMULIHARAAN PESISIR PANTAI"
+        },
+        {
+          "url": "https://www.petra.gov.my/uploads/content-downloads/file_20261009194715.pdf",
+          "title": "9 Oktober 2026 BELANJAWAN 2027: MEMPERKUKUH BEKALAN AIR, MENGURANGKAN RISIKO BANJIR DAN MERINGANKAN KOS TENAGA"
+        },
+        {
+          "url": "https://www.petra.gov.my/uploads/content-downloads/file_20261011172401.pdf",
+          "title": "11 Oktober 2026 PELAKSANAAN PROJEK PLSB SUNGAI GOLOK DEMI PERLINDUNGAN BANJIR DAN KESEJAHTERAAN RAKYAT KELANTAN"
+        },
+        {
+          "url": "https://www.petra.gov.my/uploads/content-downloads/file_20261012162402.pdf",
+          "title": "12 Oktober 2026 KERAJAAN PERKUKUH TINDAKAN PEMULIHARAAN SUNGAI MELALUI JAWATANKUASA KHAS MENANGANI KEMEROSOTAN KUALITI AIR SUNGAI KEBANGSAAN (JKKAS)"
         },
         {
           "url": "https://www.petra.gov.my/v2/latest-news-details?id=%20Majlis%20Perasmian%20Projek%20Pemuliharaan%20Sungai%20untuk%20Mengurangkan%20Risiko%20Banjir%20(RMKe-13)",
@@ -543,7 +555,7 @@
         {
           "url": "https://www.petra.gov.my/v2/documents/media-statement",
           "status": "ok",
-          "observedCount": 8
+          "observedCount": 9
         },
         {
           "url": "https://www.petra.gov.my/v2/latest-news",
@@ -561,17 +573,17 @@
           "observedCount": 0
         }
       ],
-      "observedCount": 68,
+      "observedCount": 69,
       "documentCount": 0,
-      "fingerprint": "f06013527621276c65dacd12abf70e0a6bc01235c605832d2d1c661b44a273af",
-      "changedCount": 1
+      "fingerprint": "c71f67610903efbd588c24f73d663b8a6cb428aad67ca7db49f5fce396c44ffa",
+      "changedCount": 0
     },
     {
       "id": "span",
       "url": "https://www.span.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://www.span.gov.my//document/upload/jIwjECim0iMS30nzUjQq9iFZqNg0FpPf.pdf",
@@ -814,6 +826,10 @@
           "title": "KENYATAAN MEDIA - SPAN TUBUHKAN JAWATANKUASA KHAS TELITI INSIDEN GANGGUAN BEKALAN AIR BERPUNCA PENCEMARAN KHUSUSNYA DI NEGERI SELANGOR"
         },
         {
+          "url": "https://www.span.gov.my/article/view/kenyataan-media-status-semasa-sumber-air-mentah-dan-perkhidmatan-bekalan-air-serta-pelan-mitigasi-operator-di-semenanjung-malaysia-dan-wilayah-persekutuan-labuan-berikutan-fenomena-el-nino",
+          "title": "KENYATAAN MEDIA - STATUS SEMASA SUMBER AIR MENTAH DAN PERKHIDMATAN BEKALAN AIR SERTA PELAN MITIGASI OPERATOR DI SEMENANJUNG MALAYSIA DAN WILAYAH PERSEKUTUAN LABUAN BERIKUTAN FENOMENA EL-NINO"
+        },
+        {
           "url": "https://www.span.gov.my/article/view/kenyataan-media-warga-kerja-di-bahagian-operasi-bagi-syarikat-bekalan-air-dan-pembetungan-bertugas-sepenuhnya-bagi-memastikan-kelangsungan-perkhidmatan-di-sepanjang-tempoh-pelaksanaan-perintah-kawalan-pergerakan",
           "title": "Kenyataan Media - WARGA KERJA DI BAHAGIAN OPERASI BAGI SYARIKAT BEKALAN AIR DAN PEMBETUNGAN BERTUGAS SEPENUHNYA BAGI MEMASTIKAN KELANGSUNGAN PERKHIDMATAN DI SEPANJANG TEMPOH PELAKSANAAN PERINTAH KAWALAN PERGERAKAN"
         },
@@ -983,7 +999,7 @@
         {
           "url": "https://www.span.gov.my/category/view/76",
           "status": "ok",
-          "observedCount": 60
+          "observedCount": 61
         },
         {
           "url": "https://www.span.gov.my/tender",
@@ -991,15 +1007,15 @@
           "observedCount": 28
         }
       ],
-      "observedCount": 100,
+      "observedCount": 101,
       "documentCount": 0,
-      "fingerprint": "1af344f2295d9415b40ce7dbbd2c2d743b3ff598e83a91d31141ff91b080fba0",
+      "fingerprint": "06606951a27743352102a1cfc188a7a62c6f16ee4d64e0de06a1851b7d47ef57",
       "changedCount": 0
     },
     {
       "id": "air-selangor",
       "url": "https://www.airselangor.com/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [],
@@ -1018,7 +1034,7 @@
     {
       "id": "infobanjir",
       "url": "https://publicinfobanjir.water.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [],
@@ -1037,9 +1053,9 @@
     {
       "id": "weather",
       "url": "https://www.met.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://www.met.gov.my/data/climate/kemarau.pdf",
@@ -1065,7 +1081,7 @@
     {
       "id": "spaqs",
       "url": "https://spaqs.water.gov.my/tunas/senarai-iklan-telah-buka?mid=686",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [],
@@ -1084,9 +1100,9 @@
     {
       "id": "did-sarawak",
       "url": "https://did.sarawak.gov.my/web/home/index/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://did.sarawak.gov.my/web/subpage/announcement_view/126",
@@ -1128,9 +1144,9 @@
     {
       "id": "jps-selangor",
       "url": "https://water.selangor.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://water.selangor.gov.my/galeri-foto/lawatan-ke-kolam-takungan-universiti-islam-selangor-oleh-pengarah-jps-selangor-negeri-selangor",
@@ -1184,9 +1200,9 @@
     {
       "id": "luas",
       "url": "https://www.luas.gov.my/en/luas/archives/press-release/2026",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://www.luas.gov.my/images/keratan%20akhbar/Kenyataan%20Media/2026/Februari/Kes%20Pencemaran%20Sumber%20Air%20Di%20Selangor%20Turun%2065%20Peratus%20Tiada%20Henti%20Tugas%20Operasi%20LRA%20Utama%20Sejak%20Pelaksanaan%20ZDP.pdf",
@@ -1224,9 +1240,9 @@
     {
       "id": "planmalaysia",
       "url": "https://www.planmalaysia.gov.my/main/procurement?type=tender&year=2026",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://www.planmalaysia.gov.my/main/procurement?type=tender&year=2026",
@@ -1265,9 +1281,9 @@
     {
       "id": "doe",
       "url": "https://www.doe.gov.my/en/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://edl.doe.gov.my/discovery?category=Ringkasan%20Eksekutif%20EIA",
@@ -1367,9 +1383,9 @@
     {
       "id": "paab",
       "url": "https://www.paab.my/tender/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://www.paab.my/procurement/proposed-development-of-langat-2-water-treatment-plant-and-water-reticulation-system-in-selangor-darul-ehsan-wilayah-persekutuan-kuala-lumpur-2/",
@@ -1391,29 +1407,29 @@
     {
       "id": "jkr",
       "url": "https://tender.jkr.gov.my/kenyataan/tender/index?sort=-tarikhtutuptender",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://tender.jkr.gov.my/kenyataan/tender/view?id=2459&ids=JKR%2FCKUB%2F24197%2F2026&ids2=1&ids3=1",
           "title": "MENAIK ARAS JALAN DAN MENAIK TARAF JAMBATAN SUNGAI SEPIAL, SUNGAI KERAK DAN SUNGAI TEH DI LALUAN JERANTUT-KUALA LIPIS (FT234), DAERAH JERANTUT, PAHANG",
-          "listingText": "10 | 01/10/2026 | 15/10/2026 | 21/10/2026 | 12/11/2026 | JKR/CKUB/24197/2026MENAIK ARAS JALAN DAN MENAIK TARAF JAMBATAN SUNGAI SEPIAL, SUNGAI KERAK DAN SUNGAI TEH DI LALUAN JERANTUT-KUALA LIPIS (FT234), DAERAH JERANTUT, PAHANG[Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH SITI NURFAQIHA ADILA BINTI KAMALUDDIN PADA 09-10-2026][TINDAKAN KEMASKINI: DOKUMEN KUANTITI] | BUMIPUTERA / T1 | G7 / KEJURUTERAAN AWAM / CE01 & CE02 G7 / KEJURUTERAAN AWAM / CE01 & CE02 | BERMINAT?"
+          "listingText": "11 | 01/10/2026 | 15/10/2026 | 21/10/2026 | 12/11/2026 | JKR/CKUB/24197/2026MENAIK ARAS JALAN DAN MENAIK TARAF JAMBATAN SUNGAI SEPIAL, SUNGAI KERAK DAN SUNGAI TEH DI LALUAN JERANTUT-KUALA LIPIS (FT234), DAERAH JERANTUT, PAHANG[Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH SITI NURFAQIHA ADILA BINTI KAMALUDDIN PADA 12-10-2026][TINDAKAN KEMASKINI: DOKUMEN KUANTITI] | BUMIPUTERA / T1 | G7 / KEJURUTERAAN AWAM / CE01 & CE02 G7 / KEJURUTERAAN AWAM / CE01 & CE02 | BERMINAT?"
         },
         {
           "url": "https://tender.jkr.gov.my/kenyataan/tender/view?id=2466&ids=JKR%2FPERS%2FCKC%2F018%2F2026&ids2=1&ids3=1",
           "title": "KERJA-KERJA PEMBAIKAN CERUN DI PERKAMPUNGAN ORANG ASLI (KOA) SUNGAI JARIK, TERISU, CAMERON HIGHLANDS, PAHANG",
-          "listingText": "14 | 30/09/2026 | 14/10/2026 | 21/10/2026 | 11/11/2026 | JKR/PERS/CKC/018/2026KERJA-KERJA PEMBAIKAN CERUN DI PERKAMPUNGAN ORANG ASLI (KOA) SUNGAI JARIK, TERISU, CAMERON HIGHLANDS, PAHANG [Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH NUR LIYANA BINTI AZAMI PADA 06-10-2026][TINDAKAN KEMASKINI: DOKUMEN LUKISAN] | BUMIPUTERA / T1 | G4 / CE / TIADA G4 / CE / CE08 & CE21 (KEBENARAN KHAS TIDAK DIBENARKAN) | BERMINAT?"
+          "listingText": "15 | 30/09/2026 | 14/10/2026 | 21/10/2026 | 11/11/2026 | JKR/PERS/CKC/018/2026KERJA-KERJA PEMBAIKAN CERUN DI PERKAMPUNGAN ORANG ASLI (KOA) SUNGAI JARIK, TERISU, CAMERON HIGHLANDS, PAHANG [Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH NUR LIYANA BINTI AZAMI PADA 06-10-2026][TINDAKAN KEMASKINI: DOKUMEN LUKISAN] | BUMIPUTERA / T1 | G4 / CE / TIADA G4 / CE / CE08 & CE21 (KEBENARAN KHAS TIDAK DIBENARKAN) | BERMINAT?"
         },
         {
           "url": "https://tender.jkr.gov.my/kenyataan/tender/view?id=2470&ids=JKR%2FIP%2FCKIP%2F2026%2F01&ids2=1&ids3=5",
           "title": "PEMBINAAN STRUKTUR TITIK PANGKAL MALAYSIA BERSTATUS LOW TIDE ELEVATION (LTE) DI TANJUNG SIRIK, SARAWAK (REKA DAN BINA) (TENDER SEMULA)",
-          "listingText": "8 | 06/10/2026 | 06/10/2026 | 05/11/2026 | 17/11/2026 | JKR/IP/CKIP/2026/01PEMBINAAN STRUKTUR TITIK PANGKAL MALAYSIA BERSTATUS LOW TIDE ELEVATION (LTE) DI TANJUNG SIRIK, SARAWAK (REKA DAN BINA) (TENDER SEMULA)[Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH JESSYNTHA WILLIAMS A/P SOOSAY WILLIAMS PADA 05-10-2026][TINDAKAN KEMASKINI: MAKLUMAT PROJEK] | TERBUKA / T1 | 5 / CE / CE03, CE21 (Kontraktor DIBENARKAN memohon kebenaran khas daripada CIDB dan UPKJ untuk pengkhususan bidang kerja yang ditetapkan) | BERMINAT?"
+          "listingText": "9 | 06/10/2026 | 06/10/2026 | 05/11/2026 | 17/11/2026 | JKR/IP/CKIP/2026/01PEMBINAAN STRUKTUR TITIK PANGKAL MALAYSIA BERSTATUS LOW TIDE ELEVATION (LTE) DI TANJUNG SIRIK, SARAWAK (REKA DAN BINA) (TENDER SEMULA)[Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH JESSYNTHA WILLIAMS A/P SOOSAY WILLIAMS PADA 05-10-2026][TINDAKAN KEMASKINI: MAKLUMAT PROJEK] | TERBUKA / T1 | 5 / CE / CE03, CE21 (Kontraktor DIBENARKAN memohon kebenaran khas daripada CIDB dan UPKJ untuk pengkhususan bidang kerja yang ditetapkan) | BERMINAT?"
         },
         {
           "url": "https://tender.jkr.gov.my/kenyataan/tender/viewperunding?id=2438&ids=JKR%2FIP%2FCJ%2FT%2F2026%2F23",
           "title": "[FTA (CPTPP)] TENDER TERBUKA PERKHIDMATAN PERUNDING AWAM DAN STRUKTUR BAGI PROJEK MENAIK TARAF LEBUH RAYA TIMUR BARAT (FT4), DARI SEKSYEN 83.74 HINGGA SEKSYEN 198.40, PERAK",
-          "listingText": "5 | 21/09/2026 | 08/10/2026 | 21/10/2026 | 18/11/2026 | JKR/IP/CJ/T/2026/23[FTA (CPTPP)] TENDER TERBUKA PERKHIDMATAN PERUNDING AWAM DAN STRUKTUR BAGI PROJEK MENAIK TARAF LEBUH RAYA TIMUR BARAT (FT4), DARI SEKSYEN 83.74 HINGGA SEKSYEN 198.40, PERAK[Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH MOHAMMAD IKHWAN HAKIM BIN JAAFAR PADA 28-09-2026][TINDAKAN KEMASKINI: MAKLUMAT PROJEK] | TERBUKA / TIDAK BERKENAAN | KEJURUTERAAN / Kod 330101 (KEJURUTERAAN AWAM) KEJURUTERAAN / KOD 330102 (KEJURUTERAAN STRUKTUR) | BERMINAT?"
+          "listingText": "6 | 21/09/2026 | 08/10/2026 | 21/10/2026 | 18/11/2026 | JKR/IP/CJ/T/2026/23[FTA (CPTPP)] TENDER TERBUKA PERKHIDMATAN PERUNDING AWAM DAN STRUKTUR BAGI PROJEK MENAIK TARAF LEBUH RAYA TIMUR BARAT (FT4), DARI SEKSYEN 83.74 HINGGA SEKSYEN 198.40, PERAK[Masa Tutup Tender: 12:00 PM] [DIKEMASKINI OLEH MOHAMMAD IKHWAN HAKIM BIN JAAFAR PADA 28-09-2026][TINDAKAN KEMASKINI: MAKLUMAT PROJEK] | TERBUKA / TIDAK BERKENAAN | KEJURUTERAAN / Kod 330101 (KEJURUTERAAN AWAM) KEJURUTERAAN / KOD 330102 (KEJURUTERAAN STRUKTUR) | BERMINAT?"
         }
       ],
       "pages": [
@@ -1425,15 +1441,15 @@
       ],
       "observedCount": 4,
       "documentCount": 0,
-      "fingerprint": "ccb1c74b9769af883017b32fb9aeefa71468504d326634b1ea46ec3d015769b9",
-      "changedCount": 4
+      "fingerprint": "0b290038ae5bd8abfa1db49dbb7c9e45a20565665cc101371cc1a03a54686062",
+      "changedCount": 0
     },
     {
       "id": "data-gov",
       "url": "https://data.gov.my/data-catalogue",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://data.gov.my/data-catalogue/air_pollution",
@@ -1445,7 +1461,7 @@
         },
         {
           "url": "https://data.gov.my/data-catalogue/water_access",
-          "title": "Access to Treated Water by State & StrataAnnual access of households to treated piped water by state and strata.SPANData as of 2022"
+          "title": "Access to Treated Water by State & StrataAnnual access of households to treated piped water by state and strata.SPANData as of 2025"
         },
         {
           "url": "https://data.gov.my/data-catalogue/water_consumption",
@@ -1469,15 +1485,15 @@
       ],
       "observedCount": 6,
       "documentCount": 0,
-      "fingerprint": "53dbb050a671f4aa46e7a8cb6b16224f4e2529de94805313cc5de4b24f71dbcc",
+      "fingerprint": "ca7274251384785f8f1db1cdecd38ac389bb99857f5d846929ac0cff9f2346d0",
       "changedCount": 0
     },
     {
       "id": "jps-perlis",
       "url": "https://jps.perlis.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
-      "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
+      "status": "limited",
+      "lastSuccessAt": "2026-10-13T00:26:51.545Z",
       "links": [
         {
           "url": "https://jps.perlis.gov.my/index.php/galeri/arkib-berita/297-hari-inovasi-dan-persidangan-pengurus-kanan-jurutera-daerah-jabatan-pengairan-dan-saliran-malaysia",
@@ -1506,6 +1522,11 @@
           "url": "https://jps.perlis.gov.my/index.php/galeri/arkib-berita",
           "status": "ok",
           "observedCount": 3
+        },
+        {
+          "url": "https://jps.perlis.gov.my/index.php/perkhidmatan/tender-sebut-harga/",
+          "status": "limited",
+          "observedCount": 0
         }
       ],
       "observedCount": 4,
@@ -1516,9 +1537,9 @@
     {
       "id": "jps-negeri-sembilan",
       "url": "https://jpsns.ns.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
-      "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
+      "status": "limited",
+      "lastSuccessAt": "2026-10-13T00:26:51.545Z",
       "links": [
         {
           "url": "https://jpsns.ns.gov.my/air-pasang-besar-punca-banjir-di-negeri-sembilan-mb/",
@@ -1554,6 +1575,11 @@
           "url": "https://jpsns.ns.gov.my/",
           "status": "ok",
           "observedCount": 7
+        },
+        {
+          "url": "https://jpsns.ns.gov.my/perkhidmatan/tender-sebutharga/",
+          "status": "limited",
+          "observedCount": 0
         }
       ],
       "observedCount": 7,
@@ -1564,9 +1590,9 @@
     {
       "id": "jps-terengganu",
       "url": "https://jpsweb.terengganu.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://jpsweb.terengganu.gov.my/index.php/ms/arkib/berita/385-2026-05-24-02-45-32",
@@ -1612,9 +1638,9 @@
     {
       "id": "jps-kedah",
       "url": "https://jps.kedah.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://jps.kedah.gov.my/blog/hotspot-banjir-negeri-kedah-darul-aman/",
@@ -1661,9 +1687,9 @@
     {
       "id": "jps-melaka",
       "url": "https://jps.melaka.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://jps.melaka.gov.my/2026/09/14/%f0%9f%92%a7-seminar-pengukuhan-kumpulan-pengguna-air-kpa-negeri-melaka-%f0%9f%8c%be/",
@@ -1689,10 +1715,59 @@
     {
       "id": "jps-sabah",
       "url": "https://did.sabah.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "limited",
       "lastSuccessAt": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://did.sabah.gov.my/news1/",
+          "key": "https://did.sabah.gov.my/news1/::row:61ef2fecd5174595",
+          "title": "Cawangan Ukur Bahan dan Kontrak, Jabatan Pengairan dan Saliran Negeri Sabah, Aras 5, Blok B, Wisma Pertanian, Kota Kinabalu, Sabah",
+          "listingText": "TEMPAT PEMBELIAN DOKUMEN | : | Cawangan Ukur Bahan dan Kontrak, Jabatan Pengairan dan Saliran Negeri Sabah, Aras 5, Blok B, Wisma Pertanian, Kota Kinabalu, Sabah",
+          "listingOnly": true
+        },
+        {
+          "url": "https://did.sabah.gov.my/news1/",
+          "key": "https://did.sabah.gov.my/news1/::row:a6fdc09159935477",
+          "title": "Cawangan Ukur Bahan dan Kontrak, Jabatan Pengairan dan Saliran Negeri Sabah,Aras 5, Blok B, Wisma Pertanian, Kota Kinabalu, Sabah",
+          "listingText": "TEMPAT PEMBELIAN DOKUMEN | : | Cawangan Ukur Bahan dan Kontrak, Jabatan Pengairan dan Saliran Negeri Sabah,Aras 5, Blok B, Wisma Pertanian, Kota Kinabalu, Sabah",
+          "listingOnly": true
+        },
+        {
+          "url": "https://did.sabah.gov.my/news1/",
+          "key": "https://did.sabah.gov.my/news1/::row:c77541ba89554598",
+          "title": "TARIKH PEMBELIAN DOKUMEN TENDER",
+          "listingText": "TARIKH PEMBELIAN DOKUMEN TENDER | : | 02.02.2026 HINGGA 23.02.2026",
+          "listingOnly": true
+        },
+        {
+          "url": "https://did.sabah.gov.my/news1/",
+          "key": "https://did.sabah.gov.my/news1/::row:d651645adc4ba95f",
+          "title": "Rancangan Tebatan Banjir Sg. Tawau, Lembangan Sungai Tawau, Tawau, Sabah (Fasa 1A) – Pakej 4: Pembinaan Baru Jambatan Jalan Apas Serta Kerja-Kerja berkaitan.",
+          "listingText": "TAJUK TENDER | : | Rancangan Tebatan Banjir Sg. Tawau, Lembangan Sungai Tawau, Tawau, Sabah (Fasa 1A) – Pakej 4: Pembinaan Baru Jambatan Jalan Apas Serta Kerja-Kerja berkaitan.",
+          "listingOnly": true
+        },
+        {
+          "url": "https://did.sabah.gov.my/wp-content/uploads/2026/01/IKLAN-TENDER-KERJA-KERJA-MEMBINA-DAN-MENYIAPKAN-PEJABAT-LIGS-MEMBAKUT.pdf",
+          "title": "IKLAN TENDER – KERJA-KERJA MEMBINA DAN MENYIAPKAN PEJABAT LIGS MEMBAKUT",
+          "listingText": "DOKUMEN IKLAN | : | IKLAN TENDER – KERJA-KERJA MEMBINA DAN MENYIAPKAN PEJABAT LIGS MEMBAKUT"
+        },
+        {
+          "url": "https://did.sabah.gov.my/wp-content/uploads/2026/01/IKLAN-TENDER-KERJA-KERJA-MEMBINA-DAN-MENYIAPKAN-STOR-BAJA-RACUN-DI-LIGS-BEAUFORT.pdf",
+          "title": "IKLAN TENDER – KERJA-KERJA MEMBINA DAN MENYIAPKAN STOR BAJA & RACUN DI LIGS BEAUFORT",
+          "listingText": "DOKUMEN IKLAN | : | IKLAN TENDER – KERJA-KERJA MEMBINA DAN MENYIAPKAN STOR BAJA & RACUN DI LIGS BEAUFORT"
+        },
+        {
+          "url": "https://did.sabah.gov.my/wp-content/uploads/2026/06/Iklan-Tender-Jambatan-Tawau.pdf",
+          "title": "IKLAN TENDER – JAMBATAN TAWAU",
+          "listingText": "DOKUMEN IKLAN | : | IKLAN TENDER – JAMBATAN TAWAU"
+        },
+        {
+          "url": "https://did.sabah.gov.my/wp-content/uploads/2026/08/IKLAN-TENDER-KERJA-PEMBINAAN-1-UNIT-MAKMAL-BESERTA-PEJABAT-SERTA-KERJA-KERJA-BERKAITAN-DI-KAWASAN-PENTERNAKAN-KHINZIR-TONGOD.pdf",
+          "title": "IKLAN TENDER KERJA PEMBINAAN 1 UNIT MAKMAL BESERTA PEJABAT SERTA KERJA-KERJA BERKAITAN DI KAWASAN PENTERNAKAN KHINZIR TONGOD",
+          "listingText": "DOKUMEN IKLAN | : | IKLAN TENDER KERJA PEMBINAAN 1 UNIT MAKMAL BESERTA PEJABAT SERTA KERJA-KERJA BERKAITAN DI KAWASAN PENTERNAKAN KHINZIR TONGOD"
+        }
+      ],
       "pages": [
         {
           "url": "https://did.sabah.gov.my/",
@@ -1703,18 +1778,23 @@
           "url": "https://did.sabah.gov.my/buletin/",
           "status": "limited",
           "observedCount": 0
+        },
+        {
+          "url": "https://did.sabah.gov.my/news1/",
+          "status": "ok",
+          "observedCount": 8
         }
       ],
-      "observedCount": 0,
+      "observedCount": 8,
       "documentCount": 0,
-      "fingerprint": null,
-      "changedCount": 0
+      "fingerprint": "815e2b140200023932bcd9116c02e0a3402666c44c8672715ddd7de1f1ca4d5c",
+      "changedCount": 8
     },
     {
       "id": "jps-penang",
       "url": "https://jps.penang.gov.my/index.php/ms/",
-      "checkedAt": "2026-10-09T10:23:28.714Z",
-      "status": "ok",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
+      "status": "error",
       "lastSuccessAt": "2026-10-09T10:23:28.714Z",
       "links": [
         {
@@ -1738,24 +1818,30 @@
           "title": "Sebut harga / Tender"
         }
       ],
+      "observedCount": null,
+      "fingerprint": "b41c382ad867af3aebec35afb066a458ff123dfbf2a54d4d3b4043a9835464ee",
+      "changedCount": 0,
+      "error": "Windows HTTPS client 28: curl: (28) Connection timed out after 10012 milliseconds → fetch failed → UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: jps.penang.gov.my:443, timeout: 10000ms); Windows HTTPS client 28: curl: (28) Connection timed out after 10009 milliseconds → fetch failed → UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: jps.penang.gov.my:443, timeout: 10000ms)",
       "pages": [
         {
           "url": "https://jps.penang.gov.my/index.php/ms/",
-          "status": "ok",
-          "observedCount": 5
+          "status": "error",
+          "observedCount": null,
+          "error": "Windows HTTPS client 28: curl: (28) Connection timed out after 10012 milliseconds → fetch failed → UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: jps.penang.gov.my:443, timeout: 10000ms)"
+        },
+        {
+          "url": "https://jps.penang.gov.my/index.php/ms/artikel-terkini-2",
+          "status": "error",
+          "observedCount": null,
+          "error": "Windows HTTPS client 28: curl: (28) Connection timed out after 10009 milliseconds → fetch failed → UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: jps.penang.gov.my:443, timeout: 10000ms)"
         }
-      ],
-      "observedCount": 5,
-      "documentCount": 0,
-      "fingerprint": "b41c382ad867af3aebec35afb066a458ff123dfbf2a54d4d3b4043a9835464ee",
-      "changedCount": 0,
-      "reader": "github-actions"
+      ]
     },
     {
       "id": "jps-johor",
       "url": "https://jps.johor.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
-      "status": "ok",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
+      "status": "limited",
       "lastSuccessAt": "2026-10-09T09:02:14.133Z",
       "links": [
         {
@@ -1770,11 +1856,11 @@
       "pages": [
         {
           "url": "https://jps.johor.gov.my/",
-          "status": "ok",
-          "observedCount": 2
+          "status": "limited",
+          "observedCount": 0
         }
       ],
-      "observedCount": 2,
+      "observedCount": 0,
       "documentCount": 0,
       "fingerprint": "4af357cc25b5ea7aab683ee8f40c067745a2ecd39cd29aa420f2452798f07401",
       "changedCount": 0
@@ -1782,9 +1868,9 @@
     {
       "id": "jps-perak",
       "url": "https://jps.perak.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://jps.perak.gov.my/index.php?view=article&id=1924&catid=173",
@@ -2043,7 +2129,7 @@
     {
       "id": "jps-pahang",
       "url": "https://jps.pahang.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [],
@@ -2062,7 +2148,7 @@
     {
       "id": "jps-kelantan",
       "url": "https://did.kelantan.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [
@@ -2100,13 +2186,21 @@
     {
       "id": "ukas",
       "url": "https://ukas.sarawak.gov.my/web/home/index/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "limited",
       "lastSuccessAt": null,
       "links": [
         {
           "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/50340",
           "title": "Kesesakan Trafik Jadi Keutamaan Naik Taraf ICQS Sungai Tujoh 09 Oktober 2026"
+        },
+        {
+          "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/50446",
+          "title": "Projek Naik Taraf Sistem Perparitan Kampung Luak 4 Capai Kemajuan 95 Peratus"
+        },
+        {
+          "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/50555",
+          "title": "Diskaun Bil Elektrik 25 Peratus, Subsidi Bil Air RM5 Diteruskan Pada 2027 12 Oktober 2026"
         }
       ],
       "pages": [
@@ -2138,15 +2232,15 @@
       ],
       "observedCount": 1,
       "documentCount": 0,
-      "fingerprint": "e192ed9e700cca412eefeeaa58e48b3e708b29025d7d8761a41d11864e76afc5",
-      "changedCount": 1
+      "fingerprint": "ea99d5f33612dfec9d827150e52ab9d236c9e72cbb94ba6f1ef87e1d392266d5",
+      "changedCount": 0
     },
     {
       "id": "nres",
       "url": "https://www.nres.gov.my/ms-my/pustakamedia/Pages/KenyataanMedia.aspx",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "lastSuccessAt": "2026-10-13T00:38:12.249Z",
       "links": [
         {
           "url": "https://www.nres.gov.my/ms-my/pustakamedia/KenyataanMedia/KM-KERAJAAN%20GALAKKAN%20PENGLIBATAN%20SEKTOR%20SWASTA%20DALAM%20MEMPERKUKUH%20PELABURAN%20DAN%20PEMBIAYAAN%20ADAPTASI%20IKLIM.pdf",
@@ -2162,11 +2256,6 @@
           "url": "https://www.nres.gov.my/ms-my/pustakamedia/KenyataanMedia/SM%20-%20MALAYSIA%20STRENGTHENS%20CLIMATE%20ACTION%20AHEAD%20OF%20%20COP31%20WITH%20WHOLE-OF-NATION%20EFFORT%20.pdf",
           "title": "SM - MALAYSIA STRENGTHENS CLIMATE ACTION AHEAD OF COP31 WITH WHOLE-OF-NATION EFFORT",
           "listingText": " |  | 7/10/2026 | SM - MALAYSIA STRENGTHENS CLIMATE ACTION AHEAD OF COP31 WITH WHOLE-OF-NATION EFFORT"
-        },
-        {
-          "url": "https://www.nres.gov.my/ms-my/pustakamedia/KenyataanMedia/SM%20-%20OPERASI%20PEMBENIHAN%20AWAN%20(OPA)%202026.pdf",
-          "title": "SM - OPERASI PEMBENIHAN AWAN (OPA) 2026",
-          "listingText": " |  | 3/09/2026 | SM - OPERASI PEMBENIHAN AWAN (OPA) 2026"
         },
         {
           "url": "https://www.nres.gov.my/ms-my/pustakamedia/Penerbitan/APD%20KSU%20BIL%201%202023%20GARIS%20PANDUAN%20PENGURUSAN%20PEJABAT%20LESTARI%20DAN%20GAYA%20HIDUP%20HIJAU.pdf",
@@ -2245,7 +2334,7 @@
         {
           "url": "https://www.nres.gov.my/ms-my/pustakamedia/Pages/KenyataanMedia.aspx",
           "status": "ok",
-          "observedCount": 5
+          "observedCount": 4
         },
         {
           "url": "https://www.nres.gov.my/en-my/medialibrary/Pages/PolicyBaseLegislationandGuideline.aspx",
@@ -2253,17 +2342,17 @@
           "observedCount": 17
         }
       ],
-      "observedCount": 22,
+      "observedCount": 21,
       "documentCount": 0,
-      "fingerprint": "8711a30ad717bed56ec1279c03c43b81033cb6e458fcfeb09fda04402d2e2033",
+      "fingerprint": "3117c3a666e05702d6ac7d3b5116622a71f1bb2e65c590c2764579fa48724ef5",
       "changedCount": 0
     },
     {
       "id": "dewan-selangor",
       "url": "https://dewan.selangor.gov.my/",
-      "checkedAt": "2026-10-09T09:02:14.133Z",
-      "status": "ok",
-      "lastSuccessAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
+      "status": "error",
+      "lastSuccessAt": "2026-10-11T01:42:24.604Z",
       "links": [
         {
           "url": "https://dewan.selangor.gov.my/lawatan-daripada-smk-sungai-ramal-kajang-melalui-gabungan-pelajar-melayu-semenanjung-gpms/",
@@ -2332,28 +2421,31 @@
           "listingText": "PDF SHA-256: e8f4c42ddf79bdb18e36246028afae684991be90fd654a0db6c97f688c3078fa"
         }
       ],
+      "observedCount": null,
+      "fingerprint": "1af0d014fac41cf1ea4264883856937be1abc7df51e15f1b9be602b7043892e2",
+      "changedCount": 0,
+      "error": "fetch failed → CERT_HAS_EXPIRED: certificate has expired; fetch failed → CERT_HAS_EXPIRED: certificate has expired; fetch failed → CERT_HAS_EXPIRED: certificate has expired",
       "pages": [
         {
           "url": "https://dewan.selangor.gov.my/",
-          "status": "ok",
-          "observedCount": 1
+          "status": "error",
+          "observedCount": null,
+          "error": "fetch failed → CERT_HAS_EXPIRED: certificate has expired"
         },
         {
           "url": "https://dewan.selangor.gov.my/question/tebatan-banjir-negeri-selangor/",
-          "status": "ok",
-          "observedCount": 8
+          "status": "error",
+          "observedCount": null,
+          "error": "fetch failed → CERT_HAS_EXPIRED: certificate has expired"
         },
         {
           "url": "https://dewan.selangor.gov.my/wp-content/uploads/2026/04/21.4.2026-SELASA-DRAF-PENYATA-RASMI.pdf",
-          "status": "ok",
+          "status": "error",
           "kind": "pdf",
-          "observedCount": 1
+          "observedCount": null,
+          "error": "fetch failed → CERT_HAS_EXPIRED: certificate has expired"
         }
-      ],
-      "observedCount": 10,
-      "documentCount": 1,
-      "fingerprint": "1af0d014fac41cf1ea4264883856937be1abc7df51e15f1b9be602b7043892e2",
-      "changedCount": 9
+      ]
     }
   ],
   "datasets": [
@@ -2368,36 +2460,22 @@
         "date",
         "summary_forecast"
       ],
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-09T09:02:14.133Z",
+      "dataFetchedAt": "2026-10-13T00:38:12.249Z",
       "records": [
         {
           "location": {
             "location_id": "Ds058",
             "location_name": "Kuala Lumpur"
           },
-          "date": "2026-10-15",
-          "morning_forecast": "Tiada Hujan",
-          "afternoon_forecast": "Hujan di beberapa tempat",
-          "night_forecast": "Tiada Hujan",
-          "summary_forecast": "Hujan di beberapa tempat",
-          "summary_when": "Petang",
-          "min_temp": 25,
-          "max_temp": 33
-        },
-        {
-          "location": {
-            "location_id": "Ds058",
-            "location_name": "Kuala Lumpur"
-          },
-          "date": "2026-10-14",
+          "date": "2026-10-19",
           "morning_forecast": "Tiada Hujan",
           "afternoon_forecast": "Ribut petir di beberapa tempat",
           "night_forecast": "Tiada Hujan",
           "summary_forecast": "Ribut petir di beberapa tempat",
           "summary_when": "Petang",
-          "min_temp": 25,
+          "min_temp": 24,
           "max_temp": 33
         },
         {
@@ -2405,13 +2483,13 @@
             "location_id": "Ds058",
             "location_name": "Kuala Lumpur"
           },
-          "date": "2026-10-13",
+          "date": "2026-10-18",
           "morning_forecast": "Tiada Hujan",
           "afternoon_forecast": "Ribut petir di beberapa tempat",
           "night_forecast": "Tiada Hujan",
           "summary_forecast": "Ribut petir di beberapa tempat",
           "summary_when": "Petang",
-          "min_temp": 25,
+          "min_temp": 24,
           "max_temp": 33
         },
         {
@@ -2419,27 +2497,13 @@
             "location_id": "Ds058",
             "location_name": "Kuala Lumpur"
           },
-          "date": "2026-10-12",
-          "morning_forecast": "Tiada Hujan",
-          "afternoon_forecast": "Ribut petir di beberapa tempat",
-          "night_forecast": "Hujan di beberapa tempat",
-          "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Petang dan Malam",
-          "min_temp": 25,
-          "max_temp": 33
-        },
-        {
-          "location": {
-            "location_id": "Ds058",
-            "location_name": "Kuala Lumpur"
-          },
-          "date": "2026-10-11",
+          "date": "2026-10-17",
           "morning_forecast": "Tiada Hujan",
           "afternoon_forecast": "Ribut petir di beberapa tempat",
           "night_forecast": "Tiada Hujan",
           "summary_forecast": "Ribut petir di beberapa tempat",
           "summary_when": "Petang",
-          "min_temp": 25,
+          "min_temp": 24,
           "max_temp": 33
         },
         {
@@ -2447,130 +2511,158 @@
             "location_id": "Ds058",
             "location_name": "Kuala Lumpur"
           },
-          "date": "2026-10-10",
-          "morning_forecast": "Jerebu",
+          "date": "2026-10-16",
+          "morning_forecast": "Tiada Hujan",
           "afternoon_forecast": "Ribut petir di beberapa tempat",
-          "night_forecast": "Mendung",
+          "night_forecast": "Tiada Hujan",
           "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Sepanjang Hari",
-          "min_temp": 25,
+          "summary_when": "Petang",
+          "min_temp": 24,
           "max_temp": 33
         },
         {
           "location": {
             "location_id": "Ds058",
             "location_name": "Kuala Lumpur"
-          },
-          "date": "2026-10-09",
-          "morning_forecast": "Jerebu",
-          "afternoon_forecast": "Ribut petir di beberapa tempat",
-          "night_forecast": "Jerebu",
-          "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Sepanjang Hari",
-          "min_temp": 25,
-          "max_temp": 34
-        },
-        {
-          "location": {
-            "location_id": "St009",
-            "location_name": "WP Kuala Lumpur"
           },
           "date": "2026-10-15",
           "morning_forecast": "Tiada Hujan",
-          "afternoon_forecast": "Hujan di beberapa tempat",
+          "afternoon_forecast": "Tiada Hujan",
           "night_forecast": "Tiada Hujan",
-          "summary_forecast": "Hujan di beberapa tempat",
-          "summary_when": "Petang",
-          "min_temp": 25,
-          "max_temp": 33
-        },
-        {
-          "location": {
-            "location_id": "St009",
-            "location_name": "WP Kuala Lumpur"
-          },
-          "date": "2026-10-14",
-          "morning_forecast": "Tiada Hujan",
-          "afternoon_forecast": "Ribut petir di beberapa tempat",
-          "night_forecast": "Tiada Hujan",
-          "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Petang",
-          "min_temp": 25,
-          "max_temp": 33
-        },
-        {
-          "location": {
-            "location_id": "St009",
-            "location_name": "WP Kuala Lumpur"
-          },
-          "date": "2026-10-13",
-          "morning_forecast": "Tiada Hujan",
-          "afternoon_forecast": "Ribut petir di beberapa tempat",
-          "night_forecast": "Tiada Hujan",
-          "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Petang",
-          "min_temp": 25,
-          "max_temp": 33
-        },
-        {
-          "location": {
-            "location_id": "St009",
-            "location_name": "WP Kuala Lumpur"
-          },
-          "date": "2026-10-12",
-          "morning_forecast": "Tiada Hujan",
-          "afternoon_forecast": "Ribut petir di beberapa tempat",
-          "night_forecast": "Hujan di beberapa tempat",
-          "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Petang dan Malam",
-          "min_temp": 25,
-          "max_temp": 33
-        },
-        {
-          "location": {
-            "location_id": "St009",
-            "location_name": "WP Kuala Lumpur"
-          },
-          "date": "2026-10-11",
-          "morning_forecast": "Tiada Hujan",
-          "afternoon_forecast": "Ribut petir di beberapa tempat",
-          "night_forecast": "Tiada Hujan",
-          "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Petang",
-          "min_temp": 25,
-          "max_temp": 33
-        },
-        {
-          "location": {
-            "location_id": "St009",
-            "location_name": "WP Kuala Lumpur"
-          },
-          "date": "2026-10-10",
-          "morning_forecast": "Jerebu",
-          "afternoon_forecast": "Ribut petir di beberapa tempat",
-          "night_forecast": "Mendung",
-          "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Sepanjang Hari",
-          "min_temp": 25,
-          "max_temp": 33
-        },
-        {
-          "location": {
-            "location_id": "St009",
-            "location_name": "WP Kuala Lumpur"
-          },
-          "date": "2026-10-09",
-          "morning_forecast": "Jerebu",
-          "afternoon_forecast": "Ribut petir di beberapa tempat",
-          "night_forecast": "Jerebu",
-          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_forecast": "Tiada Hujan",
           "summary_when": "Sepanjang Hari",
           "min_temp": 24,
-          "max_temp": 34
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+          },
+          "date": "2026-10-14",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang",
+          "min_temp": 24,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+          },
+          "date": "2026-10-13",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang",
+          "min_temp": 24,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+          },
+          "date": "2026-10-19",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang",
+          "min_temp": 24,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+          },
+          "date": "2026-10-18",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang",
+          "min_temp": 24,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+          },
+          "date": "2026-10-17",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang",
+          "min_temp": 24,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+          },
+          "date": "2026-10-16",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang",
+          "min_temp": 24,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+          },
+          "date": "2026-10-15",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Tiada Hujan",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Tiada Hujan",
+          "summary_when": "Sepanjang Hari",
+          "min_temp": 24,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+          },
+          "date": "2026-10-14",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang",
+          "min_temp": 24,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+          },
+          "date": "2026-10-13",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang",
+          "min_temp": 24,
+          "max_temp": 33
         }
       ],
-      "fingerprint": "06f5b1f4afc06dad8763e3d41a027df5c48d532ffd8dbf2a2c6d3bc2f24ed873",
-      "changed": true
+      "fingerprint": "e17d4e3b4d91befcc96e3d381ca48450d5bd2bb9c0bb55505ee7240934b2eebf",
+      "changed": false
     },
     {
       "id": "weather-warnings",
@@ -2583,58 +2675,43 @@
         "valid_from",
         "valid_to"
       ],
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-09T09:02:14.133Z",
+      "dataFetchedAt": "2026-10-13T00:38:12.249Z",
       "records": [
         {
           "warning_issue": {
-            "issued": "2026-10-09T14:00:00",
+            "issued": "2026-10-13T05:00:00",
             "title_bm": "Amaran Angin Kencang dan Laut Bergelora",
             "title_en": "Strong Winds and Rough Seas Warning"
           },
-          "valid_from": "2026-10-08T00:00:00",
-          "valid_to": "2026-10-10T23:59:00",
+          "valid_from": "2026-10-10T00:00:00",
+          "valid_to": "2026-10-14T00:00:00",
           "heading_en": "Warning on Strong Wind and Rough Seas",
-          "text_en": "SECTION A: FOR MALAYSIAN WATERS [WITHIN 24 NAUTICAL MILES] 1) LOW HORIZONTAL VISIBILITY WARNING Low horizontal visibility is expected over the waters of Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang until Saturday, 10 October 2026. 2) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Perak • Selangor • N. Sembilan • Melaka • West Johor • Terengganu • Eastern Sabah until 6:00 PM; Friday, 9 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats. SECTION B: FOR SHIPPING 1) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Southern part of Samui • Straits Of Melaka • Tioman • Reef South • Sulu • Palawan • Southwestern Condore • Southwestern Reef North until 6:00 PM; Friday, 9 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats.",
+          "text_en": "SECTION A: FOR MALAYSIAN WATERS [WITHIN 24 NAUTICAL MILES] 1) LOW HORIZONTAL VISIBILITY WARNING Low horizontal visibility is expected over the waters of Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang • Western Sarawak until Wednesday, 14 October 2026. 2) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Perak • Selangor • Johor • Terengganu • Kelantan • Sarawak • Eastern Sabah until 9:00 AM; Tuesday, 13 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats. SECTION B: FOR SHIPPING 1) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Tioman • Phuket • Labuan • Straits Of Melaka • Reef South • Reef North • Bunguran • Samui • Sulu • Northern part of Condore • Layang-Layang until 9:00 AM; Tuesday, 13 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats.",
           "instruction_en": "This condition of strong winds and rough seas is dangerous.",
           "heading_bm": "Amaran Angin kencang dan laut bergelora",
-          "text_bm": "SEKSYEN A: UNTUK PERAIRAN MALAYSIA [DALAM LINGKUNGAN 24 BATU NAUTIKA] 1) AMARAN KETAMPAKAN RENDAH Ketampakan rendah dijangka di kawasan perairan Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang sehingga Sabtu, 10 Oktober 2026. 2) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Perak • Selangor • N. Sembilan • Melaka • Johor Barat • Terengganu • Sabah Timur sehingga 6:00 Petang; Jumaat, 9 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil. SEKSYEN B: UNTUK PERKAPALAN 1) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Selatan Samui • Selat Melaka • Tioman • Reef South • Sulu • Palawan • Barat Daya Condore • Barat Daya Reef North sehingga 6:00 Petang; Jumaat, 9 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil.",
+          "text_bm": "SEKSYEN A: UNTUK PERAIRAN MALAYSIA [DALAM LINGKUNGAN 24 BATU NAUTIKA] 1) AMARAN KETAMPAKAN RENDAH Ketampakan rendah dijangka di kawasan perairan Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang • Sarawak Barat sehingga Rabu, 14 Oktober 2026. 2) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Perak • Selangor • Johor • Terengganu • Kelantan • Sarawak • Sabah Timur sehingga 9:00 Pagi; Selasa, 13 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil. SEKSYEN B: UNTUK PERKAPALAN 1) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Tioman • Phuket • Labuan • Selat Melaka • Reef South • Reef North • Bunguran • Samui • Sulu • Utara Condore • Layang-Layang sehingga 9:00 Pagi; Selasa, 13 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil.",
           "instruction_bm": "Keadaan angin kencang dan laut bergelora ini adalah berbahaya."
         },
         {
           "warning_issue": {
-            "issued": "2026-10-09T14:00:00",
+            "issued": "2026-10-13T05:00:00",
             "title_bm": "Amaran Angin Kencang dan Laut Bergelora",
             "title_en": "Strong Winds and Rough Seas Warning"
           },
-          "valid_from": "2026-10-09T14:00:00",
-          "valid_to": "2026-10-09T18:00:00",
+          "valid_from": "2026-10-13T04:00:00",
+          "valid_to": "2026-10-13T09:00:00",
           "heading_en": "Warning on Strong Wind and Rough Seas",
-          "text_en": "SECTION A: FOR MALAYSIAN WATERS [WITHIN 24 NAUTICAL MILES] 1) LOW HORIZONTAL VISIBILITY WARNING Low horizontal visibility is expected over the waters of Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang until Saturday, 10 October 2026. 2) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Perak • Selangor • N. Sembilan • Melaka • West Johor • Terengganu • Eastern Sabah until 6:00 PM; Friday, 9 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats. SECTION B: FOR SHIPPING 1) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Southern part of Samui • Straits Of Melaka • Tioman • Reef South • Sulu • Palawan • Southwestern Condore • Southwestern Reef North until 6:00 PM; Friday, 9 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats.",
+          "text_en": "SECTION A: FOR MALAYSIAN WATERS [WITHIN 24 NAUTICAL MILES] 1) LOW HORIZONTAL VISIBILITY WARNING Low horizontal visibility is expected over the waters of Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang • Western Sarawak until Wednesday, 14 October 2026. 2) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Perak • Selangor • Johor • Terengganu • Kelantan • Sarawak • Eastern Sabah until 9:00 AM; Tuesday, 13 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats. SECTION B: FOR SHIPPING 1) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Tioman • Phuket • Labuan • Straits Of Melaka • Reef South • Reef North • Bunguran • Samui • Sulu • Northern part of Condore • Layang-Layang until 9:00 AM; Tuesday, 13 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats.",
           "instruction_en": "This condition of strong winds and rough seas is dangerous.",
           "heading_bm": "Amaran Angin kencang dan laut bergelora",
-          "text_bm": "SEKSYEN A: UNTUK PERAIRAN MALAYSIA [DALAM LINGKUNGAN 24 BATU NAUTIKA] 1) AMARAN KETAMPAKAN RENDAH Ketampakan rendah dijangka di kawasan perairan Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang sehingga Sabtu, 10 Oktober 2026. 2) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Perak • Selangor • N. Sembilan • Melaka • Johor Barat • Terengganu • Sabah Timur sehingga 6:00 Petang; Jumaat, 9 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil. SEKSYEN B: UNTUK PERKAPALAN 1) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Selatan Samui • Selat Melaka • Tioman • Reef South • Sulu • Palawan • Barat Daya Condore • Barat Daya Reef North sehingga 6:00 Petang; Jumaat, 9 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil.",
+          "text_bm": "SEKSYEN A: UNTUK PERAIRAN MALAYSIA [DALAM LINGKUNGAN 24 BATU NAUTIKA] 1) AMARAN KETAMPAKAN RENDAH Ketampakan rendah dijangka di kawasan perairan Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang • Sarawak Barat sehingga Rabu, 14 Oktober 2026. 2) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Perak • Selangor • Johor • Terengganu • Kelantan • Sarawak • Sabah Timur sehingga 9:00 Pagi; Selasa, 13 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil. SEKSYEN B: UNTUK PERKAPALAN 1) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Tioman • Phuket • Labuan • Selat Melaka • Reef South • Reef North • Bunguran • Samui • Sulu • Utara Condore • Layang-Layang sehingga 9:00 Pagi; Selasa, 13 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil.",
           "instruction_bm": "Keadaan angin kencang dan laut bergelora ini adalah berbahaya."
         },
         {
           "warning_issue": {
-            "issued": "2026-10-09T16:25:00",
-            "title_bm": "Amaran Ribut Petir",
-            "title_en": "Thunderstorms Warning"
-          },
-          "valid_from": "2026-10-09T16:00:00",
-          "valid_to": "2026-10-09T19:00:00",
-          "heading_en": "THUNDERSTORMS WARNING",
-          "text_en": "Thunderstorms, heavy rain and strong winds are expected over the states of Kedah (Baling) • Perak (Bagan Datuk, Hilir Perak, Hulu Perak, Kuala Kangsar, Kinta, Kampar, Batang Padang and Muallim) • Terengganu (Marang, Dungun and Kemaman) • Pahang (Cameron Highlands, Lipis, Jerantut, Kuantan, Temerloh, Raub, Bentong and Bera) • Selangor (Sepang, Petaling, Hulu Langat, Gombak and Hulu Selangor) • W.P. Kuala Lumpur • W.P. Putrajaya • Negeri Sembilan (Jelebu and Tampin) • Melaka (Jasin and Alor Gajah) • Sarawak: Sibu, Bintulu, Kapit (Kapit and Song), Miri (Beluru, Marudi and Subis), Sarikei, Betong (Saratok and Betong), Sri Aman (Lubok Antu), Samarahan, Kuching (Kuching), Serian (Siburan), Limbang (Limbang) • Sabah: Interior (Pensiangan), Sandakan (Tongod, Telupid, Labuk & Sugut, Sandakan and Kinabatangan), Tawau until 7:00 PM; Friday, 9 October 2026.",
-          "instruction_en": null,
-          "heading_bm": "AMARAN RIBUT PETIR",
-          "text_bm": "Ribut petir, hujan lebat dan angin kencang dijangka di negeri Kedah (Baling) • Perak (Bagan Datuk, Hilir Perak, Hulu Perak, Kuala Kangsar, Kinta, Kampar, Batang Padang dan Muallim) • Terengganu (Marang, Dungun dan Kemaman) • Pahang (Cameron Highlands, Lipis, Jerantut, Kuantan, Temerloh, Raub, Bentong dan Bera) • Selangor (Sepang, Petaling, Hulu Langat, Gombak dan Hulu Selangor) • W.P. Kuala Lumpur • W.P. Putrajaya • Negeri Sembilan (Jelebu dan Tampin) • Melaka (Jasin dan Alor Gajah) • Sarawak: Sibu, Bintulu, Kapit (Kapit dan Song), Miri (Beluru, Marudi dan Subis), Sarikei, Betong (Saratok dan Betong), Sri Aman (Lubok Antu), Samarahan, Kuching (Kuching), Serian (Siburan), Limbang (Limbang) • Sabah: Pedalaman (Pensiangan), Sandakan (Tongod, Telupid, Labuk & Sugut, Sandakan dan Kinabatangan), Tawau sehingga 7:00 Malam; Jumaat, 9 Oktober 2026.",
-          "instruction_bm": null
-        },
-        {
-          "warning_issue": {
-            "issued": "2026-10-09T10:30:00",
+            "issued": "2026-10-13T05:30:00",
             "title_bm": "Tiada Nasihat",
             "title_en": "No Advisory"
           },
@@ -2646,10 +2723,25 @@
           "heading_bm": "Tiada Nasihat",
           "text_bm": "Tiada sistem Siklon Tropika dicerap di dalam kawasan pemantauan MMD (Latitud: 0-20 Utara & Longitud: 95-130 Timur)",
           "instruction_bm": null
+        },
+        {
+          "warning_issue": {
+            "issued": "2026-09-09T21:00:00",
+            "title_bm": "Amaran Ribut Petir",
+            "title_en": "Thunderstorms Warning"
+          },
+          "valid_from": "2026-09-09T20:00:00",
+          "valid_to": "2026-09-10T00:00:00",
+          "heading_en": "THUNDERSTORMS WARNING",
+          "text_en": "Thunderstorms, heavy rain and strong winds are expected over the states of Kedah (Langkawi) • Terengganu (Dungun and Kemaman) • Pahang (Kuantan) • Sarawak: Kapit (Kapit, Bukit Mabong and Belaga), Bintulu (Sebauh and Bintulu), Betong, Miri (Subis) • Sabah: Sandakan (Paitan), Kudat (Pitas and Kota Marudu) until 12:00 AM; Thursday, 10 September 2026.",
+          "instruction_en": null,
+          "heading_bm": "AMARAN RIBUT PETIR",
+          "text_bm": "Ribut petir, hujan lebat dan angin kencang dijangka di negeri Kedah (Langkawi) • Terengganu (Dungun dan Kemaman) • Pahang (Kuantan) • Sarawak: Kapit (Kapit, Bukit Mabong dan Belaga), Bintulu (Sebauh dan Bintulu), Betong, Miri (Subis) • Sabah: Sandakan (Paitan), Kudat (Pitas dan Kota Marudu) sehingga 12:00 Tengah Malam; Khamis, 10 September 2026.",
+          "instruction_bm": null
         }
       ],
-      "fingerprint": "79f9c86641d31bea514d87c3a1393e4e8c20ec4ec44272cec1fbbd6f63d612f6",
-      "changed": true
+      "fingerprint": "3c0044b301d34d0cb869494a393aa281936d095de61add1d7a45f9038db61075",
+      "changed": false
     },
     {
       "id": "water-pollution",
@@ -2662,9 +2754,9 @@
         "status",
         "n_basins"
       ],
-      "checkedAt": "2026-10-09T09:02:14.133Z",
+      "checkedAt": "2026-10-13T00:38:12.249Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-09T09:02:14.133Z",
+      "dataFetchedAt": "2026-10-13T00:38:12.249Z",
       "records": [
         {
           "date": "2024-01-01",
