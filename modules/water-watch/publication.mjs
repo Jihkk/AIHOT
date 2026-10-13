@@ -63,6 +63,12 @@ export function validateContent(content, now = new Date()) {
       text(article.validUntil, 'validUntil');
       if (!/T.*(?:Z|[+-]\d{2}:\d{2})$/.test(article.validUntil) || Number.isNaN(Date.parse(article.validUntil))) throw new Error('Alert expiry must include timezone');
     }
+    if (article.riverQualitySnapshot !== undefined) {
+      const snapshot=article.riverQualitySnapshot;
+      const classes=[snapshot.clean,snapshot.moderatelyPolluted,snapshot.polluted];
+      if (!Number.isInteger(snapshot.reportYear) || !Number.isInteger(snapshot.riversMonitored) || snapshot.riversMonitored<1 || classes.some(row=>!Number.isInteger(row?.count) || !Number.isInteger(row?.percent) || row.count<0 || row.percent<0 || row.percent>100) || classes.reduce((sum,row)=>sum+row.count,0)!==snapshot.riversMonitored || classes.reduce((sum,row)=>sum+row.percent,0)!==100) throw new Error('Invalid river quality snapshot');
+      text(snapshot.mainPollutant,'riverQualitySnapshot.mainPollutant');
+    }
   }
   validateDesks(content);
   return content;

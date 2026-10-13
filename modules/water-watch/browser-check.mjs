@@ -139,7 +139,9 @@ try {
   await page.locator('a[href="tenders.html"]').first().click();
   assert.equal(page.url(),`${base}tenders.html`);
   const tenders=content.articles.filter(article=>article.category==='tenders');
-  assert.equal(await page.locator('[data-tender]:visible').count(),tenders.filter(a=>a.tender && tenderStatus(a.tender)!=='closed').length);
+  const activeTenderCount=tenders.filter(a=>a.tender && tenderStatus(a.tender)!=='closed').length;
+  await page.waitForFunction(count=>[...document.querySelectorAll('[data-tender]')].filter(card=>!card.hidden).length===count,activeTenderCount);
+  assert.equal(await page.locator('[data-tender]:visible').count(),activeTenderCount);
   await page.locator('#tender-status').selectOption('all');
   assert.equal(await page.locator('[data-tender]:visible').count(),tenders.length);
   await page.locator('#tender-query').fill('FT234');

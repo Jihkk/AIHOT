@@ -1433,6 +1433,14 @@
       "checkedAt": "2026-10-13",
       "evidence": "PETRA 官方声明第 1 页说明副首相兼部长于 12 Oct 2026 主持 JKKAS 第 2 次会议，并列 JAS《2025 河流水质状况报告》的 672/467/172/33 条数据、比例及主要污染参数；第 2 页列 33 条河流一年内 IKA 至少提高 10% 的目标、选定地方政府试点及 KPKT/NAHRIM 技术委员会。声明同时提到浮动太阳能指南已发布，该指南已另有 10 月 2 日记录，本条不重复作为新发布。",
       "dateEvidence": "官方声明抬头及页尾均署 12 October 2026，正文称会议“hari ini”（当天）举行；publishedAt 和 eventDate 均据此填 12 日。统计年度是 2025，不是 2026 实时监测。",
+      "riverQualitySnapshot": {
+        "reportYear": 2025,
+        "riversMonitored": 672,
+        "clean": { "count": 467, "percent": 69 },
+        "moderatelyPolluted": { "count": 172, "percent": 26 },
+        "polluted": { "count": 33, "percent": 5 },
+        "mainPollutant": "氨氮"
+      },
       "states": [
         "national"
       ]

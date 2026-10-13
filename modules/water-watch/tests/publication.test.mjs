@@ -43,6 +43,14 @@ test('publications require exact official-host links, provenance and honest date
   ]) assert.throws(()=>validateContent(edited(edit), now));
 });
 
+test('river quality snapshots reconcile the official annual report totals',()=>{
+  const article=fixture.articles.find(item=>item.riverQualitySnapshot);
+  assert.ok(article);
+  validateContent(fixture,now);
+  const changed=edited(content=>{content.articles.find(item=>item.riverQualitySnapshot).riverQualitySnapshot.polluted.count=32;});
+  assert.throws(()=>validateContent(changed,now),/Invalid river quality snapshot/);
+});
+
 test('a future alert expiry is allowed but the page never presents it as live', () => {
   const content = edited(c=>Object.assign(c.articles[0],{category:'flood-alerts',validUntil:'2026-10-09T18:00:00+08:00'}));
   validateContent(content,now);

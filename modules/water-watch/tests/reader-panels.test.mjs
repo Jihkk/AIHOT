@@ -23,11 +23,17 @@ test('forecast failures show retained-data status; unknown Malay phrases are pre
   assert.match(renderWeather(),/暂时没有可展示/);
 });
 
-test('annual water quality cannot be presented as a composite or current WQI',()=>{
-  const records=['clean','slightly__polluted','polluted'].map((status,i)=>({date:'2024-01-01',measure:'nh3n',status,n_basins:[61,45,38][i],basins_monitored:144}));
-  records.push({date:'2024-01-01',measure:'ss',status:'clean',n_basins:122,basins_monitored:144});
-  const html=renderWaterQuality({datasets:[{id:'water-pollution',status:'ok',records}]});
-  assert.match(html,/氨氮 NH₃-N 单项分类/);
-  assert.match(html,/不代表综合 WQI 或实时水质/);
-  assert.ok(!html.includes('<strong>122</strong>'));
+test('river quality panel shows the latest verified annual report without implying live measurements',()=>{
+  const article={publishedAt:'2026-10-12',url:'https://www.petra.gov.my/uploads/content-downloads/file_20261012162402.pdf',riverQualitySnapshot:{reportYear:2025,riversMonitored:672,clean:{count:467,percent:69},moderatelyPolluted:{count:172,percent:26},polluted:{count:33,percent:5},mainPollutant:'氨氮'}};
+  const html=renderWaterQuality(article);
+  assert.match(html,/最新官方年度报告/);
+  assert.match(html,/2025<span>年/);
+  assert.match(html,/<strong>467<\/strong><span>清洁 · 69%<\/span>/);
+  assert.match(html,/<strong>172<\/strong><span>中度污染 · 26%<\/span>/);
+  assert.match(html,/<strong>33<\/strong><span>污染 · 5%<\/span>/);
+  assert.match(html,/监测 672 条主要河流/);
+  assert.match(html,/不是实时水质/);
+  assert.match(html,/file_20261012162402\.pdf/);
+  assert.ok(!html.includes('2024年'));
+  assert.match(renderWaterQuality(null),/暂缺已核对的最新年度统计/);
 });

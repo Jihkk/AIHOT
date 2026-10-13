@@ -36,16 +36,18 @@ export function renderWarnings(data) {
   return `<section class="warning-panel"><div class="panel-heading"><h2>气象公告</h2><span>采集时记录</span></div><p class="panel-note">当前警情以气象局为准。以下仅列采集记录，可能已更新或失效。</p>${[...groups.values()].sort((a,b)=>b.issued.localeCompare(a.issued)).slice(0,3).map(issue=>`<div class="warning-record"><strong>${escape(warningTitles.get(issue.title_en) ?? issue.title_en ?? issue.title_bm)}</strong><small>${escape(issue.title_en ?? issue.title_bm)} · 原发布时间 ${escape(issue.issued.replace('T',' '))}（马来西亚时间）</small><details><summary>查看原列有效期</summary>${issue.periods.map(([from,to])=>from && to ? `<p class="panel-note">${escape(from.replace('T',' '))} 至 ${escape(to.replace('T',' '))}（马来西亚时间）</p>` : '<p class="panel-note">此条记录未列有效期；No Advisory 标签不代表没有其他预警。</p>').join('')}</details></div>`).join('') || '<p>暂无已读取记录；这不代表没有预警。</p>'}<a class="panel-link" href="https://www.met.gov.my/" target="_blank" rel="noopener noreferrer">查看官方最新预警 ↗</a></section>`;
 }
 
-export function renderWaterQuality(data) {
-  const dataset=data?.datasets.find(d=>d.id==='water-pollution');
-  const latest=[...new Set(dataset?.records.map(row=>row.date) ?? [])].sort().at(-1);
-  const rows=dataset?.records.filter(row=>row.date===latest && row.measure==='nh3n') ?? [];
-  const values=['clean','slightly__polluted','polluted'].map(status=>rows.find(row=>row.status===status));
-  const labels=['清洁','轻度污染','污染'];
-  const complete=values.every(Boolean);
-  return `<section class="quality-panel"><div class="panel-heading"><h2>流域水质</h2><span>年度数据</span></div>${complete ? `<p class="quality-year">${escape(latest.slice(0,4))}<span>年 · 氨氮 NH₃-N 单项分类</span></p><div class="quality-counts">${values.map((row,i)=>`<div><strong>${row.n_basins}</strong><span>${labels[i]}</span></div>`).join('')}</div><p class="panel-note">${values[0].basins_monitored} 个监测流域，按氨氮指标分类，不代表综合 WQI 或实时水质。</p>` : '<p class="panel-note">当前快照未提供完整年度分类。</p>'}${dataset?.status==='error' ? '<p class="data-caution">本次读取失败，保留上次数据。</p>' : ''}<a class="panel-link" href="https://data.gov.my/data-catalogue/water_pollution_basin" target="_blank" rel="noopener noreferrer">查看 DOE 年度统计 ↗</a></section>`;
+export function renderWaterQuality(article) {
+  const snapshot=article?.riverQualitySnapshot;
+  const values=[
+    ['清洁',snapshot?.clean],
+    ['中度污染',snapshot?.moderatelyPolluted],
+    ['污染',snapshot?.polluted],
+  ];
+  const complete=snapshot && values.every(([,value])=>Number.isInteger(value?.count) && Number.isInteger(value?.percent));
+  return `<section class="quality-panel"><div class="panel-heading"><h2>全国河流水质</h2><span>最新官方年度报告</span></div>${complete ? `<p class="quality-year">${snapshot.reportYear}<span>年 · 主要河流</span></p><div class="quality-counts">${values.map(([label,value])=>`<div><strong>${value.count}</strong><span>${label} · ${value.percent}%</span></div>`).join('')}</div><p class="panel-note">监测 ${snapshot.riversMonitored} 条主要河流；主要污染参数为${escape(snapshot.mainPollutant)}。统计年度为 ${snapshot.reportYear}，不是实时水质。</p><p class="panel-note">数据见 PETRA ${escape(article.publishedAt)} 官方声明所引 JAS《${snapshot.reportYear} 河流水质状况报告》。</p>` : '<p class="panel-note">暂缺已核对的最新年度统计，请查看官方来源。</p>'}<a class="panel-link" href="${escape(article?.url ?? 'https://www.petra.gov.my/v2/latest-news')}" target="_blank" rel="noopener noreferrer">查看 PETRA 官方声明 ↗</a></section>`;
 }
 
-export function renderReaderPanels(monitoring) {
-  return `${renderWeather(monitoring?.data)}${renderWarnings(monitoring?.data)}${renderWaterQuality(monitoring?.data)}`;
+export function renderReaderPanels(monitoring, content) {
+  const article=content?.articles.filter(item=>item.riverQualitySnapshot).sort((a,b)=>b.riverQualitySnapshot.reportYear-a.riverQualitySnapshot.reportYear)[0];
+  return `${renderWeather(monitoring?.data)}${renderWarnings(monitoring?.data)}${renderWaterQuality(article)}`;
 }
