@@ -6,7 +6,7 @@
 // A site's responder (modules.ts) filters findings for the owner, preserving repeat and recovery
 // tracking for messages it returns and replacing the default digest policy.
 // Delivery goes through sendAlert (ops chat, internal-chat fallback; off unless FEISHU_INTERNAL_ENABLED).
-import { beijingAt, beijingDate } from "@aihot/contracts/time";
+import { addDays, beijingAt, beijingDate, isValidDate } from "@aihot/contracts/time";
 import { ALERTS, EDITION_TIMES } from "@aihot/site";
 import { sql } from "../db.ts";
 import { beijingDay, beijingStamp, duration, formatAlert, formatRecovery, sendAlert, type Finding, type Level } from "../notify/feishu.ts";
@@ -97,22 +97,7 @@ export async function collectFindings(now = Date.now()): Promise<Finding[]> {
         since: p!.waiting >= 10 && p!.oldest ? p!.oldest : undefined,
       });
     }
-    // The daily report is composed from its edition time, and tried again every half hour until it exists:
-    // two hours later it is overdue.
-    if (now >= beijingAt(beijingDate(now), EDITION_TIMES.daily).getTime() + 2 * 3600_000) {
-      const [r] = await sql`SELECT 1 FROM reports WHERE kind = 'daily' AND key = ${beijingDate(now)}`;
-      if (!r) {
-        out.push({
-          key: "report.daily",
-          level: "now",
-          title: "今天的日报还没生成",
-          impact: "读者看不到今天的日报",
-          heals: "系统每半小时补做一次，到现在还没成功",
-          action: "尽快发起一次维护处理",
-          detail: `reports daily ${beijingDate(now)} 不存在；看 reports.compose 的运行记录`,
-        });
-      }
-    }
+    out.push(...await dailyReportFindings(now));
   }
 
   // Money, and things only the owner can do
@@ -215,10 +200,10 @@ export async function collectFindings(now = Date.now()): Promise<Finding[]> {
   return out;
 }
 
-/** What stops when a model service refuses us: the steps that default to its models, else a pointer to the admin. */
-function modelStops(service: string): string {
-  const steps = stepsOnService(service);
-  return steps.length ? `${steps.join("、")}停了` : "用到这家模型的步骤停了（看后台“模型与评测”），新内容可能进不了精选";
+/** Current routing describes possible impact; recent failed calls do not prove every step has stopped. */
+async function modelStops(service: string): Promise<string> {
+  const steps = await stepsOnService(service);
+  return steps.length ? `${steps.join("、")}可能受影响` : "当前没有处理步骤使用这家模型服务";
 }
 /** `stops` is for the services that are not models; a model service's follows from the steps that use it. */
 const PROVIDERS: Record<string, { name: string; where: string; stops?: string }> = {
@@ -232,7 +217,7 @@ const PROVIDERS: Record<string, { name: string; where: string; stops?: string }>
   dajiala: { name: "极致了（Dajiala）", stops: "公众号新文章收不到", where: "极致了后台" },
 };
 export const providerName = (service: string) => PROVIDERS[service]?.name ?? service;
-export const providerStops = (service: string) => {
+export const providerStops = async (service: string): Promise<string> => {
   const p = PROVIDERS[service];
   return p ? (p.stops ?? modelStops(service)) : "相关功能停了";
 };
@@ -252,7 +237,7 @@ async function providerFindings(): Promise<Finding[]> {
       level: "today",
       owner: true,
       title: `${providerName(p.service)} 拒绝服务，可能欠费或账号失效`,
-      impact: providerStops(p.service),
+      impact: await providerStops(p.service),
       heals: "不会",
       action: `去${providerConsole(p.service)}看余额和账号状态，充值或恢复后系统会自动继续；两样都正常的话，发起一次维护查原因`,
       detail: `最近 1 小时被拒 ${p.n} 次：${p.last}`,
@@ -267,7 +252,7 @@ async function providerFindings(): Promise<Finding[]> {
       key: `budget.day.${c.service}`,
       level: "later",
       title: `${providerName(c.service)} 过去 24 小时的调用额度用完了`,
-      impact: `${providerStops(c.service)}，直到额度随时间腾出来`,
+      impact: `${await providerStops(c.service)}，直到额度随时间腾出来`,
       heals: "会，额度按 24 小时滚动恢复",
       action: "这次不用处理；如果经常出现，再决定要不要调高额度",
       detail: `24 小时内 ${c.used} 次，上限 ${c.per_day}（budgets 表）`,
@@ -280,6 +265,52 @@ interface AlertState {
   [key: string]: { title: string; since: string; sentAt: string };
 }
 
+const DAILY_PREFIX = "report.daily:";
+const dailyDate = (key: string) => key.startsWith(DAILY_PREFIX) && isValidDate(key.slice(DAILY_PREFIX.length))
+  ? key.slice(DAILY_PREFIX.length) : undefined;
+/** Missing dailies are looked for, and announced ones followed, over the last seven Beijing calendar days. */
+const dailyScanFrom = (now: number) => addDays(beijingDate(now), -6);
+
+async function alertState(): Promise<AlertState> {
+  const [row] = await sql<{ value: AlertState }[]>`SELECT value FROM settings WHERE key = 'alerts.state'`;
+  const state = { ...(row?.value ?? {}) };
+  // The old shared key recorded its first alert date in since. Keep its reminder timing on upgrade.
+  const legacy = state["report.daily"];
+  if (legacy && Number.isFinite(Date.parse(legacy.since))) {
+    const date = beijingDate(legacy.since);
+    state[`${DAILY_PREFIX}${date}`] ??= { ...legacy, title: `${date} 的日报还没生成` };
+    delete state["report.daily"];
+  }
+  return state;
+}
+
+async function dailyReportFindings(now: number): Promise<Finding[]> {
+  const today = beijingDate(now);
+  const state = await alertState();
+  const [activity] = await sql<{ first_report: string | null; first_attempt: Date | null }[]>`
+    SELECT (SELECT min(key) FROM reports WHERE kind = 'daily') AS first_report,
+           (SELECT min(started_at) FROM job_runs WHERE job = 'reports.compose') AS first_attempt`;
+  const starts = [activity?.first_report, activity?.first_attempt && beijingDate(activity.first_attempt)]
+    .filter((date): date is string => !!date && isValidDate(date)).sort();
+  const start = starts[0] ?? today;
+  // New gaps and announced editions alike are followed for the scan window; checkAlerts closes older ones.
+  const from = dailyScanFrom(now);
+  const dates = new Set(Object.keys(state).map(dailyDate).filter((date): date is string => !!date && date >= from));
+  for (let date = from; date <= today; date = addDays(date, 1)) {
+    if (date >= start) dates.add(date);
+  }
+  const overdue = [...dates].filter(date => now >= beijingAt(date, EDITION_TIMES.daily).getTime() + 2 * 3600_000).sort();
+  if (!overdue.length) return [];
+  const published = new Set((await sql<{ key: string }[]>`SELECT key FROM reports WHERE kind = 'daily' AND key IN ${sql(overdue)}`).map(r => r.key));
+  return overdue.filter(date => !published.has(date)).map(date => ({
+    key: `${DAILY_PREFIX}${date}`, level: "now",
+    title: `${date} 的日报还没生成`, impact: `读者看不到 ${date} 的日报`,
+    heals: "尚未补齐；需查看运行记录确认是否需要人工补做",
+    action: "尽快发起一次维护处理",
+    detail: `reports daily ${date} 不存在；看 reports.compose 的运行记录`,
+  }));
+}
+
 /**
  * Every 10 minutes: new problems and recoveries of the now/today levels go out; follow-ups wait for 09:00.
  * With a responder, only what it hands back goes out, and what it still holds is not reported as recovered.
@@ -289,8 +320,7 @@ export async function checkAlerts(now = Date.now()) {
   const r = responder();
   const { tell, held } = r ? await r.take(all, now) : { tell: all, held: [] as string[] };
   const found = tell.filter((f) => f.level !== "later");
-  const [row] = await sql<{ value: AlertState }[]>`SELECT value FROM settings WHERE key = 'alerts.state'`;
-  const state: AlertState = { ...(row?.value ?? {}) };
+  const state = await alertState();
   const sent: string[] = [];
   for (const f of found) {
     const open = state[f.key];
@@ -303,6 +333,19 @@ export async function checkAlerts(now = Date.now()) {
   }
   for (const [key, open] of Object.entries(state)) {
     if (found.some((f) => f.key === key) || held.includes(key)) continue;
+    // Suppressed findings (valves, startup grace or responder policy) are not evidence of recovery.
+    const date = dailyDate(key);
+    if (date) {
+      const [report] = await sql`SELECT 1 FROM reports WHERE kind = 'daily' AND key = ${date}`;
+      if (!report && date >= dailyScanFrom(now)) continue;
+      if (!report) {
+        // Past the scan window a missing edition is closed with one message instead of reminded about forever.
+        await sendAlert(`${date} 的日报没能补出，停止提醒`, [`读者看不到 ${date} 的日报；缺期从 ${beijingStamp(new Date(open.since))} 起，已超出七天的检查范围`]);
+        sent.push(`${key}:expired`);
+        delete state[key];
+        continue;
+      }
+    }
     const msg = formatRecovery(open.title, new Date(open.since), now);
     await sendAlert(msg.title, msg.lines);
     sent.push(`${key}:recovered`);

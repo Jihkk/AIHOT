@@ -111,6 +111,15 @@ export const POLICY = {
   xPostIsFullText: true,
 } as const;
 
+/** 导航（电脑侧栏、手机底栏、“我的”页）。 */
+export const NAV = {
+  /**
+   * 不放进导航的引擎入口，目前只支持热点榜（"/hot"）和主题（"/topics"）。页面照样能打开；原来回到它的返回按钮和链接改回精选，
+   * 写 "/hot" 时首页也不放当前热点。
+   */
+  hidden: [] as Array<"/hot" | "/topics">,
+};
+
 /** 条目卡片和详情页上的几处说法和显示。 */
 export const ITEM_COPY = {
   /** 模型写的那句理由叫什么：卡片、详情页、Markdown 导出、给 Agent 的回答和群推送都用它。 */
@@ -212,8 +221,6 @@ export const ALERTS = {
   usualFlow: null as string | null,
   /** worker 停了的告警里，怎么看它的日志。 */
   workerLogs: "看 worker 的日志（docker compose logs worker）",
-  /** 某家模型服务拒绝服务或额度用完时，告警里说哪些步骤停了；没写的服务用通用说法。 */
-  modelStops: {} as Record<string, string>,
 };
 
 /** 后台新建信源时的默认设置。 */
