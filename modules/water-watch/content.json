@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "reviewedAt": "2026-10-16",
+  "reviewedAt": "2026-10-17",
   "sources": [
     {
       "id": "jps",
@@ -1297,8 +1297,8 @@
         "El Niño"
       ],
       "language": "ms",
-      "checkedAt": "2026-10-11",
-      "evidence": "正文首两段说明第二日目标水坝、METMalaysia 分区及避免危急水位的目的；末段列行动安排为 8–10 October。没有发布实测降雨、库容或现时水位，也不推断整个三日行动已经全部完成。",
+      "checkedAt": "2026-10-17",
+      "evidence": "正文首两段说明第二日目标水坝、METMalaysia 分区及避免危急水位的目的；末段列行动安排为 8–10 October。没有发布实测降雨、库容或现时水位，也不推断整个三日行动已经全部完成。 2026-10-17 重读 UKAS 原文：页面日期 9 Oct，行动期 8–10 Oct；第二天重点为 Bakun、Murum、Batang Ai，四个盐水箱各 1,500 L。该报道未公布增雨量或水库水位变化。",
       "dateEvidence": "页面日期 09 Oktober 2026，正文 hari kedua hari ini 对应该日；行动时间范围与本次 11 October 查阅日分别保留。",
       "states": [
         "sarawak"
@@ -1322,8 +1322,8 @@
         "Kampung Pasir"
       ],
       "language": "ms",
-      "checkedAt": "2026-10-16",
-      "evidence": "正文第 3–5 段列应急泵调配、RM4.48 juta、两台 screw pump、98% 进度及待 TNB 接电。原文对调配泵使用 meter padu sesaat、对新泵使用 kaki padu sesaat，口径不同且未说明单台或合计关系，摘要不相加或推算设计排水能力。 2026-10-16 重新打开 JPS Johor 原文，页面仍报告 10 月 7 日项目为 98% 且新泵待 TNB 接电；页面没有后续状态更新，本次仅确认原文内容，不能据此确认目前已接电或已投入运行。",
+      "checkedAt": "2026-10-17",
+      "evidence": "正文第 3–5 段列应急泵调配、RM4.48 juta、两台 screw pump、98% 进度及待 TNB 接电。原文对调配泵使用 meter padu sesaat、对新泵使用 kaki padu sesaat，口径不同且未说明单台或合计关系，摘要不相加或推算设计排水能力。 2026-10-16 重新打开 JPS Johor 原文，页面仍报告 10 月 7 日项目为 98% 且新泵待 TNB 接电；页面没有后续状态更新，本次仅确认原文内容，不能据此确认目前已接电或已投入运行。 2026-10-17 重新打开 JPS Johor 官方原文：确认 7 Oct 现场消息与页面所列 8 Oct 发布日；液压泵从 Sungai Chat 调往 Kampung Pasir 后抽排能力由 40 增至 50 m³/s；RM4.48 million 排水友好项目进度 98%，两台螺旋泵仍待加快接电，未将其描述为已投入运行。",
       "dateEvidence": "页面 October 8, 2026；正文 JOHOR BAHRU, 7 OKTOBER 2026 是现场事件日，两个日期分开。",
       "states": [
         "johor"
@@ -1333,13 +1333,13 @@
       "id": "air-selangor-labohan-dagang-phase-two-rfp-2026",
       "source": "air-selangor",
       "category": "tenders",
-      "title": "Labohan Dagang 二期 200 MLD 水厂 RFP：25 年 BOT，所列注册期已过",
-      "summary": "Air Selangor 公告采用 25 年 BOT 模式开发 Labohan Dagang 二期水厂及配套工程，总能力 200 MLD，分两阶段各 100 MLD。公告所列注册截止为 10 月 9 日 15:00，已经过期；强制说明会为 10 月 14 日 15:00，提交截止为 12 月 15 日 15:00。是否可参加及补遗须核对正式系统，不能只因提交期未到就认定仍可报名。",
-      "url": "https://tender.airselangor.com/announcements/download/3",
+      "title": "Labohan Dagang 二期 200 MLD 水厂 RFP 延期：注册至 10 月 23 日，投标截止 2027 年 2 月 4 日",
+      "summary": "Air Selangor 的 Labohan Dagang 二期水厂 RFP 采用 25 年 Build-Operate-Transfer（BOT）模式，总能力 200 MLD，分两阶段各 100 MLD。官方更正把报名截止从 10 月 9 日延至 10 月 23 日 15:00；合格投标者的说明会／现场访问改至 11 月 3 日（更正文件未列时刻），文件销售期改为 11 月 4–27 日，在线投标截止改为 2027 年 2 月 4 日 15:00。参与资格和补遗应以 Air Selangor 系统为准。",
+      "url": "https://tender.airselangor.com/tender_docs/view/647",
       "publishedAt": "2026-10-05",
       "eventDate": null,
       "region": "Selangor · Kuala Langat · Labohan Dagang",
-      "stage": "RFP · 所列注册期已过 · 提交截止 12 月 15 日",
+      "stage": "RFP 延期 · 报名至 10 月 23 日 15:00 · 强制现场访问 11 月 3 日 · 投标截止 2027 年 2 月 4 日 15:00",
       "tags": [
         "供水",
         "200 MLD",
@@ -1347,19 +1347,19 @@
         "Labohan Dagang"
       ],
       "language": "en",
-      "checkedAt": "2026-10-16",
-      "evidence": "公开招标 PDF 第 1 页列 200 MLD、分两阶段各 100 MLD、25 年 BOT、RM50,000 文件费；右栏列注册截止 9/10/2026 15:00、强制说明会 14/10/2026 15:00、销售期 15/10–5/11 23:00，提交截止 15/12/2026 15:00。Tender No 标 TBA，不能以页脚 KT21/2026 推定项目招标编号。 2026-10-13 重新读取官方 RFP PDF：注册截止仍为 9/10/2026 15:00（已过），强制现场说明会 14/10/2026 15:00，文件销售 15/10–5/11 23:00，提交截止 15/12/2026 15:00。PDF 未说明注册期过后是否仍可参加，故仍提示联系采购方核实资格。 2026-10-14 重新下载并阅读 Air Selangor 官方 RFP PDF（SHA-256 CD6B113F7713AFAA13C23CA26802C3E8C907F403252F75D0F1080AD000CB9E0F）：注册截止 9/10/2026 15:00 已过，文件列 14/10/2026 15:00 强制说明会、15/10–5/11 23:00 文件销售及 15/12/2026 15:00 提交截止。文件未说明注册截止后能否加入，仍须向采购方确认资格。 2026-10-16 重新下载并阅读 Air Selangor 官方两页 RFP PDF：注册截止 9/10/2026 15:00 和强制说明会 14/10/2026 15:00 已过，文件销售期列为 15/10–5/11 23:00，提交截止 15/12/2026 15:00。文件没有说明注册期后能否加入，故不判断仍可报名。",
-      "dateEvidence": "公共公告列表 Created 为 05 Oct 2026；PDF 注册期从 24/9/2026 开始，两者不是同一日期。PDF 元数据标题 Tarikh Iklan : 15/5/2009 与正文不符，不采用该旧模板标题作发布日期。所有未来说明会与截止时刻使用 +08:00，不填入已发生事件日。",
+      "checkedAt": "2026-10-17",
+      "evidence": "Air Selangor 原始招标公告 PDF（https://tender.airselangor.com/tender_docs/view_advertisement_pdf/1635）列二期水厂总能力 200 MLD、两阶段各 100 MLD、25 年 BOT。官方更正 PDF（https://tender.airselangor.com/tender_docs/view_advertisement_pdf/1653）以“ASAL / PINDAAN”对照表将报名截止从 9/10/2026 15:00 延至 23/10/2026 15:00，将合格投标者说明会／现场访问日期从 14/10 改为 3/11，将文件销售期改为 4–27/11，并将投标截止从 15/12/2026 改为 4/2/2027 15:00；其余信息不变。10 月 17 日重读官方 Tender Details 页面，现列的报名、销售及截止日与更正公告一致；仅符合资格的注册供应商可购买文件。更正 PDF 未列新现场访问的具体时刻。",
+      "dateEvidence": "官方更正 PDF 称原招标于 24 September 2026 公告，并在 ASAL / PINDAAN 表内标明新旧时程；原页面 Created 为 5 October 2026。更正 PDF 未显示独立发布日期，故保留原始条目的页面日期，不把复核日期当成更正发布日期。新截止时刻均按马来西亚时间 +08:00 记录。",
       "states": [
         "selangor"
       ],
       "tender": {
         "reference": null,
-        "deadlineDate": "2026-12-15",
-        "deadline": "2026-12-15T15:00:00+08:00",
-        "briefing": "2026-10-14T15:00:00+08:00",
+        "deadlineDate": "2027-02-04",
+        "deadline": "2027-02-04T15:00:00+08:00",
+        "briefing": null,
         "briefingRequirement": "mandatory",
-        "evidence": "公开招标 PDF 第 1 页列 200 MLD、分两阶段各 100 MLD、25 年 BOT、RM50,000 文件费；右栏列注册截止 9/10/2026 15:00、强制说明会 14/10/2026 15:00、销售期 15/10–5/11 23:00，提交截止 15/12/2026 15:00。Tender No 标 TBA，不能以页脚 KT21/2026 推定项目招标编号。 2026-10-13 重新读取官方 RFP PDF：注册截止仍为 9/10/2026 15:00（已过），强制现场说明会 14/10/2026 15:00，文件销售 15/10–5/11 23:00，提交截止 15/12/2026 15:00。PDF 未说明注册期过后是否仍可参加，故仍提示联系采购方核实资格。 2026-10-14 重新下载并阅读 Air Selangor 官方 RFP PDF（SHA-256 CD6B113F7713AFAA13C23CA26802C3E8C907F403252F75D0F1080AD000CB9E0F）：注册截止 9/10/2026 15:00 已过，文件列 14/10/2026 15:00 强制说明会、15/10–5/11 23:00 文件销售及 15/12/2026 15:00 提交截止。文件未说明注册截止后能否加入，仍须向采购方确认资格。 2026-10-16 重新下载并阅读 Air Selangor 官方两页 RFP PDF：注册截止 9/10/2026 15:00 和强制说明会 14/10/2026 15:00 已过，文件销售期列为 15/10–5/11 23:00，提交截止 15/12/2026 15:00。文件没有说明注册期后能否加入，故不判断仍可报名。"
+        "evidence": "Air Selangor 官方更正 PDF 将强制说明会／现场访问改至 3/11/2026（未列时间），将在线投标截止改至 4/2/2027 15:00；10/17 官方 Tender Details 页面确认修订后的注册截止 23/10/2026 15:00、销售期 4–27/11/2026 及投标截止。其余资格要求沿用原公告。"
       }
     },
     {
@@ -1455,15 +1455,24 @@
         "水质指数"
       ],
       "language": "ms",
-      "checkedAt": "2026-10-13",
-      "evidence": "PETRA 官方声明第 1 页说明副首相兼部长于 12 Oct 2026 主持 JKKAS 第 2 次会议，并列 JAS《2025 河流水质状况报告》的 672/467/172/33 条数据、比例及主要污染参数；第 2 页列 33 条河流一年内 IKA 至少提高 10% 的目标、选定地方政府试点及 KPKT/NAHRIM 技术委员会。声明同时提到浮动太阳能指南已发布，该指南已另有 10 月 2 日记录，本条不重复作为新发布。",
+      "checkedAt": "2026-10-17",
+      "evidence": "PETRA 官方声明第 1 页说明副首相兼部长于 12 Oct 2026 主持 JKKAS 第 2 次会议，并列 JAS《2025 河流水质状况报告》的 672/467/172/33 条数据、比例及主要污染参数；第 2 页列 33 条河流一年内 IKA 至少提高 10% 的目标、选定地方政府试点及 KPKT/NAHRIM 技术委员会。声明同时提到浮动太阳能指南已发布，该指南已另有 10 月 2 日记录，本条不重复作为新发布。 2026-10-17 另行复核 PETRA 同日官方网页记录：会议讨论 2025 河流水质状况、州级控污策略、非点源污染源清单覆盖及城乡污水排放标准，并提出采用 NAHRIM NWQMS 实时监测水量与水质；同时发布浮动太阳能指南。网页没有提供新的数值监测结果，因此本条沿用声明 PDF 的 2025 年统计，不作实时水质表述。",
       "dateEvidence": "官方声明抬头及页尾均署 12 October 2026，正文称会议“hari ini”（当天）举行；publishedAt 和 eventDate 均据此填 12 日。统计年度是 2025，不是 2026 实时监测。",
       "riverQualitySnapshot": {
         "reportYear": 2025,
         "riversMonitored": 672,
-        "clean": { "count": 467, "percent": 69 },
-        "moderatelyPolluted": { "count": 172, "percent": 26 },
-        "polluted": { "count": 33, "percent": 5 },
+        "clean": {
+          "count": 467,
+          "percent": 69
+        },
+        "moderatelyPolluted": {
+          "count": 172,
+          "percent": 26
+        },
+        "polluted": {
+          "count": 33,
+          "percent": 5
+        },
         "mainPollutant": "氨氮"
       },
       "states": [
@@ -1657,6 +1666,156 @@
       "dateEvidence": "PDF 首段署名 Putrajaya, 15 Oktober 2026，页脚再次标示 15 Oktober 2026，作为发布日期和移交事件日。Setiu 工程完工日期为 2026-09-01，合同原完工日为 2026-10-21，分别按原文记录。",
       "states": [
         "terengganu"
+      ]
+    },
+    {
+      "id": "nadma-perak-cloud-seeding-october-2026",
+      "source": "nadma",
+      "category": "water-resources",
+      "title": "NADMA 为霹雳 Bukit Merah 与 Temenggor 水坝协调人工增雨",
+      "summary": "NADMA 于 10 月 16 日发布行动记录：10 月 14 日由 Subang 空军基地出动，与 MET Malaysia、CAAM 和 TUDM 协作，携带四个盐水溶液箱，目标为 Bukit Merah 与 Temenggor 水坝，以提高降雨发生的可能性并支持当地水资源和供水保障。原文没有报告实际降雨增量、水库水位变化或供水改善结果。",
+      "url": "https://www.nadma.gov.my/bm/media-2/program-dan-aktiviti/7366-2026-10-16-01-52-53",
+      "publishedAt": "2026-10-16",
+      "eventDate": "2026-10-14",
+      "region": "Perak · Bukit Merah Dam · Temenggor Dam",
+      "stage": "人工增雨行动记录 · 实际降雨与水库成效未公布",
+      "tags": [
+        "人工增雨",
+        "水坝",
+        "供水安全",
+        "霹雳"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-17",
+      "evidence": "NADMA 官方页面正文称行动于 14 Oct 从 Pangkalan Udara Subang 进行，由 NADMA 与 MET Malaysia、CAAM、TUDM 协作；携带四个盐水溶液箱，目标为 Bukit Merah 与 Temenggor 水坝。原文说明目的是提高降雨发生潜力并支持水源及供水保障，没有列实测降雨、库水位或供水成效。",
+      "dateEvidence": "页面列表发布日期为 16 Oktober 2026；标题及正文明确行动日为 14 Oktober 2026，分别记录发布日期与事件日。",
+      "states": [
+        "perak"
+      ]
+    },
+    {
+      "id": "air-selangor-river-monitoring-stations-rms-tender-2026",
+      "source": "air-selangor",
+      "category": "tenders",
+      "title": "Air Selangor 招标河流监测站 RMS A–C 运维服务，注册至 10 月 22 日",
+      "summary": "Air Selangor 分 A、B、C 三包采购河流监测站（RMS）运行与维护服务，编号分别为 PN0000026256、PN0000026367、PN0000026255。三包登记期均至 10 月 22 日 15:00，文件销售期为 11 月 3–9 日，在线投标截止为 12 月 1 日 15:00，每包文件费 RM200。官方页面要求现场访问；合资格供应商会另获通知。参与者须符合 Air Selangor 注册供应商和公司登记要求。公告没有列明监测站数量或覆盖范围。",
+      "url": "https://tender.airselangor.com/tender_docs/tender_list",
+      "publishedAt": null,
+      "eventDate": null,
+      "region": "Selangor",
+      "stage": "开放招标 · 注册至 10 月 22 日 15:00 · 投标截止 12 月 1 日 15:00",
+      "tags": [
+        "河流监测",
+        "运维服务",
+        "水质监测",
+        "招标"
+      ],
+      "language": "en",
+      "checkedAt": "2026-10-17",
+      "evidence": "Air Selangor 官方 Tender List 将 A、B、C 列为三个开放招标，并列出文件编号及统一时程。分别重读详情页：https://tender.airselangor.com/tender_docs/view/658、/659、/660；三页均确认登记至 22/10/2026 15:00、销售 3–9/11/2026、提交截止 1/12/2026 15:00、文件费 RM200，并标示 site visit required。详情页要求先注册为 Air Selangor 供应商，且只允许符合资格者购买文件；资格至少包括 SSM 私人有限公司／公众有限公司登记和提交签署的同意表。原文未给出站点总数、设备清单或现场访问时间。",
+      "dateEvidence": "Tender List 与三个详情页未标示公告发布日期；登记期起始日不是发布日期，故 publishedAt 留空。所有截止时间依官方系统以马来西亚时间 +08:00 记录。",
+      "states": [
+        "selangor"
+      ],
+      "tender": {
+        "reference": "Package A PN0000026256; Package B PN0000026367; Package C PN0000026255",
+        "deadlineDate": "2026-12-01",
+        "deadline": "2026-12-01T15:00:00+08:00",
+        "briefing": null,
+        "briefingRequirement": "mandatory",
+        "evidence": "三份 Air Selangor 官方详情页分别列出 A/B/C 包、相同的登记截止 22/10/2026 15:00、销售期 3–9/11/2026、投标截止 1/12/2026 15:00；页面注明现场访问 required，但未给日期或时间。"
+      }
+    },
+    {
+      "id": "air-selangor-ssp3-rasa-dam-om-tender-2026",
+      "source": "air-selangor",
+      "category": "tenders",
+      "title": "Air Selangor 招标 SSP3、Rasa 水厂与 Sungai Selangor Dam 2028–2048 运维",
+      "summary": "Air Selangor 招标 Sungai Selangor Phase 3 与 Rasa 两座水处理厂，以及 Sungai Selangor Dam 的 2028–2048 综合运营维护服务，编号 PN0000026385，文件费 RM50,000。报名截止为 10 月 18 日 15:00；强制现场访问定于 10 月 20 日，在 SSP3 水厂集合并继续访问 Rasa 水厂和水坝（公告未列时刻）；文件销售至 10 月 23 日，投标截止为 10 月 30 日 15:00。招标要求至少五年水厂运维经验，且只向符合资格的注册供应商出售文件。",
+      "url": "https://tender.airselangor.com/tender_docs/view/661",
+      "publishedAt": null,
+      "eventDate": null,
+      "region": "Selangor · Bestari Jaya · Rasa · Kuala Kubu Bharu",
+      "stage": "开放招标 · 报名至 10 月 18 日 15:00 · 强制现场访问 10 月 20 日 · 投标截止 10 月 30 日 15:00",
+      "tags": [
+        "水处理厂",
+        "水坝运维",
+        "供水",
+        "长期运营合同"
+      ],
+      "language": "en",
+      "checkedAt": "2026-10-17",
+      "evidence": "Air Selangor 详情页 https://tender.airselangor.com/tender_docs/view/661 列编号 PN0000026385、文件费 RM50,000、登记 15–18/10/2026 15:00、文件销售 20–23/10/2026、投标截止 30/10/2026 15:00。官方招标 PDF https://tender.airselangor.com/tender_docs/view_advertisement_pdf/1678 说明范围是 SSP3（Bestari Jaya）与 Rasa 两座水处理厂及 Sungai Selangor Dam 的运营维护，包含人员、原水费、化学品、能源、计划／非计划维护、CAPEX 与符合规定的处理水供应；要求五年以上水厂运维经验。PDF 将现场访问列为强制，日期 20/10/2026，地点 SSP3；合资格供应商须另行通过邮件收到细节。",
+      "dateEvidence": "官方详情页与招标 PDF 未给出公告发布日期，且 PDF 顶部 15/5/2009 为重复模板字段，不能作为发布日期；publishedAt 留空。现场访问日期及投标时刻据 PDF 正文，未列现场访问时刻。",
+      "states": [
+        "selangor"
+      ],
+      "tender": {
+        "reference": "PN0000026385",
+        "deadlineDate": "2026-10-30",
+        "deadline": "2026-10-30T15:00:00+08:00",
+        "briefing": null,
+        "briefingRequirement": "mandatory",
+        "evidence": "详情页与官方 PDF 列报名至 18/10/2026 15:00，强制现场访问日 20/10/2026（未列时刻），销售期至 23/10/2026，投标截止 30/10/2026 15:00。"
+      }
+    },
+    {
+      "id": "air-selangor-water-grid-interconnectivity-package-1-2026",
+      "source": "air-selangor",
+      "category": "tenders",
+      "title": "Air Selangor 招标 Water Grid 互联一期：新建 1,200 mm MSCL 管线",
+      "summary": "Air Selangor 发布 Water Grid Interconnectivity Plan 一期招标（PN0000026152），范围包括供应安装新的 1,200 mm MSCL 联络管及相关工程，具体接驳范围以完整招标文件为准。官方列出的非约束性参考价为 RM9 million，文件费 RM400。报名截止 10 月 23 日 15:00，强制现场访问为 10 月 30 日 10:00；文件销售期 11 月 2–13 日，投标截止 12 月 4 日 15:00。资格要求包括 CIDB 至少 G6／CE20、SPAN IPA C3 供水许可及 Air Selangor 供应商登记。",
+      "url": "https://tender.airselangor.com/tender_docs/view/652",
+      "publishedAt": null,
+      "eventDate": null,
+      "region": "Selangor",
+      "stage": "开放招标 · 注册至 10 月 23 日 15:00 · 强制现场访问 10 月 30 日 10:00 · 投标截止 12 月 4 日 15:00",
+      "tags": [
+        "供水管网",
+        "水网互联",
+        "1200 mm MSCL",
+        "招标"
+      ],
+      "language": "en",
+      "checkedAt": "2026-10-17",
+      "evidence": "Air Selangor 详情页 https://tender.airselangor.com/tender_docs/view/652 列 PN0000026152、注册期至 23/10/2026 15:00、销售期 2–13/11/2026、投标截止 4/12/2026 15:00，且现场访问 required。官方招标 PDF https://tender.airselangor.com/tender_docs/view_advertisement_pdf/1660 列新建 1,200 mm MSCL interconnection pipe，标示 indicative price RM9,000,000 并明确该估算不具约束力；强制现场访问安排在 30/10/2026 10:00。招标最低条件包括 CIDB G6／CE20、SPAN IPA C3 和 Air Selangor 供应商登记。",
+      "dateEvidence": "详情页及招标 PDF 未列公告发布日期，故 publishedAt 留空；登记与投标日期按原文记录，参考价明确为非约束性估算。现场访问及投标时刻按马来西亚时间 +08:00。",
+      "states": [
+        "selangor"
+      ],
+      "tender": {
+        "reference": "PN0000026152",
+        "deadlineDate": "2026-12-04",
+        "deadline": "2026-12-04T15:00:00+08:00",
+        "briefing": "2026-10-30T10:00:00+08:00",
+        "briefingRequirement": "mandatory",
+        "evidence": "官方详情页与招标 PDF 列注册截止 23/10/2026 15:00、强制现场访问 30/10/2026 10:00、在线提交截止 4/12/2026 15:00；文件费 RM400，RM9 million 仅为不具约束力的 indicative price。"
+      }
+    },
+    {
+      "id": "ukas-lubok-nibong-water-treatment-feasibility-proposal-2026",
+      "source": "ukas",
+      "category": "water-resources",
+      "title": "砂拉越议员建议研究 Lubok Nibong 新水厂，旱季原水下降曾影响 Lichok 运作",
+      "summary": "UKAS 报道，Kalaka 州议员在州议会预算辩论中建议 MUT 通过 JBALB 研究以 Sungai Krian 为水源、在 Lubok Nibong 建新水厂；他称 9 月干旱导致原水水位下降，使 Lichok 水厂无法最佳运行，并影响 Kaba、Kali Kaba、Lubok Nibong、Perpat 与 Kampung Paloh 的供水。此为议员提出的可行性研究建议，报道没有显示政府已批准或安排建设。该篇另记录议员要求针对 Saratok 和 Desa Damai 的闪洪问题开展排水技术评估。",
+      "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/50787",
+      "publishedAt": "2026-10-14",
+      "eventDate": null,
+      "region": "Sarawak · Kalaka · Lubok Nibong · Saratok",
+      "stage": "州议员提出的可行性研究与排水评估建议 · 尚非已批准工程",
+      "tags": [
+        "供水安全",
+        "原水",
+        "水厂规划",
+        "闪洪",
+        "排水评估"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-17",
+      "evidence": "UKAS 官方原文 14 Oct 2026 正文称 Kalaka 州议员要求 MUT 通过 JBALB 研究 Lubok Nibong 新水厂，并建议以 Sungai Krian 为水源；其陈述将 9 月干旱、原水水位下降与 Lichok 水厂无法最佳运行、周边供水中断相联系。文章后段记录 Pekan Saratok 与 Desa Damai 9 月 15 日和 27 日的闪洪，并称需技术评估排水系统及考虑升级。均为州议员在预算辩论中提出的建议／陈述，页面没有表明已批准项目、完成技术评估或已实施措施。",
+      "dateEvidence": "页面正文下方标示 14 Oktober 2026，作为发布日期；文中称州议会预算辩论“pada Rabu”但没有单独标示日期，因此 eventDate 留空。",
+      "states": [
+        "sarawak"
       ]
     }
   ],
