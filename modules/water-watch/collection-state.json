@@ -1804,9 +1804,9 @@
     {
       "id": "jps-penang",
       "url": "https://jps.penang.gov.my/index.php/ms/",
-      "checkedAt": "2026-10-17T11:51:10.014Z",
-      "status": "error",
-      "lastSuccessAt": "2026-10-16T00:30:15.975Z",
+      "checkedAt": "2026-10-17T12:08:46.065Z",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-17T12:08:46.065Z",
       "links": [
         {
           "url": "https://jps.penang.gov.my/index.php/ms/artikel-terkini-2/386-taklimat-buku-panduan-pemeriksaan-pelan-kawalan-hakisan-kelodak-escp-dan-kaedah-pemeriksaan-tapak-serta-penyediaan-laporan",
@@ -1841,24 +1841,23 @@
           "title": "Sebut harga / Tender"
         }
       ],
-      "observedCount": null,
-      "fingerprint": "d2dfb464702b5d377cf3efce7124ac21315d6c36538f73fcb6a0f2e6cdd7be38",
-      "changedCount": 0,
-      "error": "Windows HTTPS client 28: curl: (28) Connection timed out after 10002 milliseconds → fetch failed → UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: jps.penang.gov.my:443, timeout: 10000ms); Windows HTTPS client 28: curl: (28) Connection timed out after 10004 milliseconds → fetch failed → UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: jps.penang.gov.my:443, timeout: 10000ms)",
       "pages": [
         {
           "url": "https://jps.penang.gov.my/index.php/ms/",
-          "status": "error",
-          "observedCount": null,
-          "error": "Windows HTTPS client 28: curl: (28) Connection timed out after 10002 milliseconds → fetch failed → UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: jps.penang.gov.my:443, timeout: 10000ms)"
+          "status": "ok",
+          "observedCount": 5
         },
         {
           "url": "https://jps.penang.gov.my/index.php/ms/artikel-terkini-2",
-          "status": "error",
-          "observedCount": null,
-          "error": "Windows HTTPS client 28: curl: (28) Connection timed out after 10004 milliseconds → fetch failed → UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: jps.penang.gov.my:443, timeout: 10000ms)"
+          "status": "ok",
+          "observedCount": 4
         }
-      ]
+      ],
+      "observedCount": 8,
+      "documentCount": 0,
+      "fingerprint": "d2dfb464702b5d377cf3efce7124ac21315d6c36538f73fcb6a0f2e6cdd7be38",
+      "changedCount": 0,
+      "reader": "github-actions"
     },
     {
       "id": "jps-johor",
