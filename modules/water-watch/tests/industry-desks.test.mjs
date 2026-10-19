@@ -30,7 +30,7 @@ test('project timelines preserve original articles, source attribution and disti
 test('procurement rendering marks past mandatory visits and escapes all editorial metadata',()=>{
   const html=renderTenders(content,new Date('2026-10-09T03:30:00Z'));
   assert.match(html,/强制说明会日期已过/);
-  assert.match(html,/2026-10-22 · 具体时刻未确认/);
+  assert.match(html,/2026-10-22 00:00 UTC\+8/);
   assert.equal((html.match(/data-tender /g)||[]).length,content.articles.filter(a=>a.category==='tenders').length);
   const changed=structuredClone(content), article=changed.articles.find(a=>a.tender);
   article.tender.reference='<script>alert(1)</script>';

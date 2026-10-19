@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "reviewedAt": "2026-10-18",
+  "reviewedAt": "2026-10-19",
   "sources": [
     {
       "id": "jps",
@@ -702,31 +702,31 @@
     },
     {
       "language": "ms",
-      "checkedAt": "2026-10-18",
+      "checkedAt": "2026-10-19",
       "id": "planmalaysia-setiu-wetlands-tender-2026",
       "source": "planmalaysia",
       "category": "tenders",
       "title": "PLANMalaysia 列出 Setiu Wetlands 生态网络专项规划研究招标",
-      "summary": "官方 2026 年采购列表将 T-SL2 生态网络专项规划研究列为开放，范围为 HS Hulu Nerus、HS Hulu Setiu 与 Taman Negeri Setiu Wetlands，编号 JPBD(IP)S185/646/1-201。列表起止日期为 10 月 5–22 日；具体截止时刻、资格和文件须到官方核对。此为生态与湿地规划研究，不能当作已批准的防洪工程。",
+      "summary": "官方 2026 年采购列表将 T-SL2 生态网络专项规划研究列为开放，范围为 HS Hulu Nerus、HS Hulu Setiu 与 Taman Negeri Setiu Wetlands，编号 JPBD(IP)S185/646/1-201。当前列表起止时间为 10 月 5 日 00:00 至 10 月 22 日 00:00（马来西亚时间）；列表未提供独立招标文件、预算或资格。此为生态与湿地规划研究，不能当作已批准的防洪工程。",
       "url": "https://www.planmalaysia.gov.my/main/procurement?type=tender&year=2026",
       "publishedAt": null,
       "eventDate": "2026-10-05",
       "region": "Terengganu · Setiu",
-      "stage": "采购列表显示开放 · 截止 10 月 22 日（10 月 13 日复核）",
+      "stage": "采购列表显示开放 · 截止 10 月 22 日 00:00 MYT",
       "tags": [
         "湿地",
         "生态规划",
         "Setiu"
       ],
-      "evidence": "官方采购表第 4 行为 JPBD(IP)S185/646/1-201，标题列出三处范围，Status=Buka，日期列为 05-10-2026 至 22-10-2026。该行未提供独立文件链接、资格或预算，不补造详情。 2026-10-11 重新读取官方正文／列表，所列截止日期、说明会及范围未见变化；网页核查不代表已读取登录系统内所有补遗。 2026-10-13 重新读取 PLANMalaysia 采购列表：第 4 行仍为 T-SL2、状态 Buka，日期 10 月 5–22 日；列表更新时间显示 13/10/2026。没有独立公告文件或截止时刻。 2026-10-14 重新读取 PLANMalaysia 官方采购列表，第 4 行仍列状态 Buka、日期 10 月 5–22 日；列表更新时间仍显示 13/10/2026。该列表未提供时刻、资格或独立招标文件。 2026-10-16 重新读取 PLANMalaysia 官方采购列表：T-SL2 行仍显示 Buka，日期为 10 月 5–22 日；列表更新时间为 10 月 15 日。列表没有列出截止时刻、资格或独立招标文件。 2026-10-18 重新读取 PLANMalaysia 2026 官方采购表：第 4 行 T-SL2、编号 JPBD(IP)S185/646/1-201，状态仍为 Buka，日期 05–22/10/2026；未提供截止时刻、资格、预算或独立招标文件。",
-      "dateEvidence": "列表所列开始日期为 05-10-2026，作为采购开放事件日；未确认独立页面发布日期，publishedAt=null。列表时刻均为 12:00 AM，摘要只报告日期并要求以正式文件核对具体时间。",
+      "evidence": "官方采购表第 4 行为 JPBD(IP)S185/646/1-201，标题列出三处范围，Status=Buka，日期列为 05-10-2026 至 22-10-2026。该行未提供独立文件链接、资格或预算，不补造详情。 2026-10-11 重新读取官方正文／列表，所列截止日期、说明会及范围未见变化；网页核查不代表已读取登录系统内所有补遗。 2026-10-13 重新读取 PLANMalaysia 采购列表：第 4 行仍为 T-SL2、状态 Buka，日期 10 月 5–22 日；列表更新时间显示 13/10/2026。没有独立公告文件或截止时刻。 2026-10-14 重新读取 PLANMalaysia 官方采购列表，第 4 行仍列状态 Buka、日期 10 月 5–22 日；列表更新时间仍显示 13/10/2026。该列表未提供时刻、资格或独立招标文件。 2026-10-16 重新读取 PLANMalaysia 官方采购列表：T-SL2 行仍显示 Buka，日期为 10 月 5–22 日；列表更新时间为 10 月 15 日。列表没有列出截止时刻、资格或独立招标文件。 2026-10-18 重新读取 PLANMalaysia 2026 官方采购表：第 4 行 T-SL2、编号 JPBD(IP)S185/646/1-201，状态仍为 Buka，日期 05–22/10/2026；未提供截止时刻、资格、预算或独立招标文件。 2026-10-19 重新读取 PLANMalaysia 2026 官方采购列表：T-SL2（JPBD(IP)S185/646/1-201）仍显示 Buka，起止栏为 05/10/2026 12:00 AM 至 22/10/2026 12:00 AM；页面更新日期为 19/10/2026。列表未提供独立招标文件、预算或资格。",
+      "dateEvidence": "采购列表列示 05-10-2026 12:00 AM 至 22-10-2026 12:00 AM，分别作为开放开始和截止时间；页面更新日期为 19/10/2026。未确认独立页面发布日期，publishedAt=null。",
       "tender": {
         "reference": "JPBD(IP)S185/646/1-201",
         "deadlineDate": "2026-10-22",
-        "deadline": null,
+        "deadline": "2026-10-22T00:00:00+08:00",
         "briefing": null,
         "briefingRequirement": "unconfirmed",
-        "evidence": "官方采购表第 4 行为 JPBD(IP)S185/646/1-201，标题列出三处范围，Status=Buka，日期列为 05-10-2026 至 22-10-2026。该行未提供独立文件链接、资格或预算，不补造详情。 2026-10-11 重新读取官方正文／列表，所列截止日期、说明会及范围未见变化；网页核查不代表已读取登录系统内所有补遗。 2026-10-13 重新读取 PLANMalaysia 采购列表：第 4 行仍为 T-SL2、状态 Buka，日期 10 月 5–22 日；列表更新时间显示 13/10/2026。没有独立公告文件或截止时刻。 2026-10-14 重新读取 PLANMalaysia 官方采购列表，第 4 行仍列状态 Buka、日期 10 月 5–22 日；列表更新时间仍显示 13/10/2026。该列表未提供时刻、资格或独立招标文件。 2026-10-16 重新读取 PLANMalaysia 官方采购列表：T-SL2 行仍显示 Buka，日期为 10 月 5–22 日；列表更新时间为 10 月 15 日。列表没有列出截止时刻、资格或独立招标文件。 2026-10-18 官方采购表仍列状态 Buka、截止日期 22/10/2026；没有截止时刻或独立招标文件，故不推断资格和其他条件。"
+        "evidence": "官方采购表第 4 行为 JPBD(IP)S185/646/1-201，标题列出三处范围，Status=Buka，日期列为 05-10-2026 至 22-10-2026。该行未提供独立文件链接、资格或预算，不补造详情。 2026-10-11 重新读取官方正文／列表，所列截止日期、说明会及范围未见变化；网页核查不代表已读取登录系统内所有补遗。 2026-10-13 重新读取 PLANMalaysia 采购列表：第 4 行仍为 T-SL2、状态 Buka，日期 10 月 5–22 日；列表更新时间显示 13/10/2026。没有独立公告文件或截止时刻。 2026-10-14 重新读取 PLANMalaysia 官方采购列表，第 4 行仍列状态 Buka、日期 10 月 5–22 日；列表更新时间仍显示 13/10/2026。该列表未提供时刻、资格或独立招标文件。 2026-10-16 重新读取 PLANMalaysia 官方采购列表：T-SL2 行仍显示 Buka，日期为 10 月 5–22 日；列表更新时间为 10 月 15 日。列表没有列出截止时刻、资格或独立招标文件。 2026-10-18 官方采购表仍列状态 Buka、截止日期 22/10/2026；没有截止时刻或独立招标文件，故不推断资格和其他条件。 2026-10-19 页面明确列“Tarikh/Masa Tamat 22-10-2026 12:00 AM”，因此按马来西亚时间午夜记录截止时刻；状态仍为 Buka，未找到资格或预算信息。"
       },
       "states": [
         "terengganu"
@@ -850,8 +850,8 @@
         "Langat 2"
       ],
       "language": "en",
-      "checkedAt": "2026-10-18",
-      "evidence": "采购页 Details 明确 Kerja-Kerja Penggantian Injap Secara Kaedah Tanpa Gangguan Bekalan Air di Kolam Air Bukit Dengkil；随后列 Tender No、Advertisement Date、Closing Date、Status 和 Briefing Date。标题是 Langat 2 总项目名称，摘要按 Details 限定本采购范围。正文详情为马来文、字段为英文。 2026-10-11 重新读取官方正文／列表，所列截止日期、说明会及范围未见变化；网页核查不代表已读取登录系统内所有补遗。 2026-10-13 重新打开 PAAB 官方采购详情：Status 仍为 Open，截止 29/10/2026 12:00 pm，原列说明会为 7/10/2026 10:00 am；公开页未列新的补遗。 2026-10-14 重新打开 PAAB 官方采购详情，状态仍为 Open，截止 29/10/2026 12:00 pm，说明会列为 7/10/2026 10:00 am；公开页未列新补遗。 2026-10-16 重新打开 PAAB 官方采购详情：Status 仍为 Open，截止 29/10/2026 12:00 pm，说明会仍列 7/10/2026 10:00 am；公开页未列新补遗，资格条件仍须查正式招标文件。 2026-10-18 重新读取 PAAB 官方采购详情：状态仍为 Open，截止 29/10/2026 12:00 pm；原列说明会 07/10/2026 10:00 am 已过，公开详情未列补遗。",
+      "checkedAt": "2026-10-19",
+      "evidence": "采购页 Details 明确 Kerja-Kerja Penggantian Injap Secara Kaedah Tanpa Gangguan Bekalan Air di Kolam Air Bukit Dengkil；随后列 Tender No、Advertisement Date、Closing Date、Status 和 Briefing Date。标题是 Langat 2 总项目名称，摘要按 Details 限定本采购范围。正文详情为马来文、字段为英文。 2026-10-11 重新读取官方正文／列表，所列截止日期、说明会及范围未见变化；网页核查不代表已读取登录系统内所有补遗。 2026-10-13 重新打开 PAAB 官方采购详情：Status 仍为 Open，截止 29/10/2026 12:00 pm，原列说明会为 7/10/2026 10:00 am；公开页未列新的补遗。 2026-10-14 重新打开 PAAB 官方采购详情，状态仍为 Open，截止 29/10/2026 12:00 pm，说明会列为 7/10/2026 10:00 am；公开页未列新补遗。 2026-10-16 重新打开 PAAB 官方采购详情：Status 仍为 Open，截止 29/10/2026 12:00 pm，说明会仍列 7/10/2026 10:00 am；公开页未列新补遗，资格条件仍须查正式招标文件。 2026-10-18 重新读取 PAAB 官方采购详情：状态仍为 Open，截止 29/10/2026 12:00 pm；原列说明会 07/10/2026 10:00 am 已过，公开详情未列补遗。 2026-10-19 重新读取 PAAB 官方采购详情：状态仍为 Open，截止 29/10/2026 12:00 pm；页面仍列 07/10/2026 10:00 am 说明会且已过，未显示公开补遗。资格条件仍须以正式招标文件为准。",
       "dateEvidence": "Advertisement Date=01/10/2026 08:30 am；Closing Date=29/10/2026 12:00 pm；Briefing Date=07/10/2026 10:00 am。截止时间按马来西亚官方采购页面报告，资格和会议条件未在网页详情中确认，提示查正式文件。",
       "tender": {
         "reference": "PAAB/B001/PAKEJ 15 (5)/PI/77/26",
@@ -915,7 +915,7 @@
     },
     {
       "language": "ms",
-      "checkedAt": "2026-10-08",
+      "checkedAt": "2026-10-19",
       "eventDate": null,
       "id": "petra-flood-coastal-governance-october-2026",
       "source": "petra",
@@ -932,7 +932,7 @@
         "合同管理",
         "官方声明"
       ],
-      "evidence": "声明第 1–2 页列 987 宗征地、合同金额变化和设计调整；第 3 页列海岸 EIA、补沙、结算及 JPS Surat Pekeliling Bil. 6/2026。归因 PETRA 声明，区别于站内 NADMA 转载审计报道。",
+      "evidence": "声明第 1–2 页列 987 宗征地、合同金额变化和设计调整；第 3 页列海岸 EIA、补沙、结算及 JPS Surat Pekeliling Bil. 6/2026。归因 PETRA 声明，区别于站内 NADMA 转载审计报道。 2026-10-19 重新读取 PETRA 官方声明 PDF（2026-10-06）：征地、合同金额调整、海岸工程 EIA／补沙／结算及管理 SOP 的原文说明与已记录内容一致；仍按部委回应表述，不视作独立审计结论。",
       "dateEvidence": "媒体声明列表和 PDF 署名均为 6 Oktober 2026。SOP 生效日 2026-08-14 是正文中的历史日期。",
       "states": [
         "kedah",
@@ -1222,8 +1222,8 @@
         "Lebir"
       ],
       "language": "ms",
-      "checkedAt": "2026-10-11",
-      "evidence": "官方声明第 1 页 AIR TERJAMIN, RISIKO BANJIR DIKURANGKAN 的第 1、2、5 项分别列已完成 6 项 RTB、在建 82 项、Lebir 潜在供水 337 juta liter sehari，以及 NRW 二期 RM2.5 bilion 和 1,900 km。Golok 此处是 Fasa 2；不与既有一期审计合并。PETRA 总拨款 RM5.33 bilion 同时包括能源与水务，未写成防洪专项预算。",
+      "checkedAt": "2026-10-19",
+      "evidence": "官方声明第 1 页 AIR TERJAMIN, RISIKO BANJIR DIKURANGKAN 的第 1、2、5 项分别列已完成 6 项 RTB、在建 82 项、Lebir 潜在供水 337 juta liter sehari，以及 NRW 二期 RM2.5 bilion 和 1,900 km。Golok 此处是 Fasa 2；不与既有一期审计合并。PETRA 总拨款 RM5.33 bilion 同时包括能源与水务，未写成防洪专项预算。 2026-10-19 重新读取 PETRA 官方预算声明 PDF（2026-10-09）：6 项已完成 RTB、82 项实施中、NRW 二期规模及 Lebir 项目潜在效益仍与原文一致；未将潜在效益或未来预算写成已实现成果。",
       "dateEvidence": "PDF 首段及署名明确 9 Oktober 2026；该日是声明日期，未来 2027 年部署不是已经发生的 eventDate。",
       "states": [
         "national",
@@ -1249,8 +1249,8 @@
         "Miri"
       ],
       "language": "ms",
-      "checkedAt": "2026-10-11",
-      "evidence": "正文首段列地点、RTP 2026、RM100,000 和 95% 进度；第 2 段说明改善排水和降低洪水风险的目标，后文仍要求工程完成。95% 是施工进度，不是风险降低比例。",
+      "checkedAt": "2026-10-19",
+      "evidence": "正文首段列地点、RTP 2026、RM100,000 和 95% 进度；第 2 段说明改善排水和降低洪水风险的目标，后文仍要求工程完成。95% 是施工进度，不是风险降低比例。 2026-10-19 重新打开 UKAS 官方原文（news_view/50446）：仍报告工程进度 95%、RTP 2026 拨款 RM100,000，未列完工日期或量化排水成效；没有把 95% 进度描述为防洪效果。",
       "dateEvidence": "页面标 10 Oktober 2026；现场访问仅称 baru-baru ini，无法确定具体日，eventDate=null。",
       "states": [
         "sarawak"
@@ -1273,8 +1273,8 @@
         "Sebuyau"
       ],
       "language": "ms",
-      "checkedAt": "2026-10-11",
-      "evidence": "正文第 1–3 段列 RM200,000、9 October 完工、JPS Sarawak 执行、原定 1 December，以及 selepas proses pengesahan dan penerimaan rasmi diselesaikan 条件。",
+      "checkedAt": "2026-10-19",
+      "evidence": "正文第 1–3 段列 RM200,000、9 October 完工、JPS Sarawak 执行、原定 1 December，以及 selepas proses pengesahan dan penerimaan rasmi diselesaikan 条件。 2026-10-19 重新打开 UKAS 原文复核：仍称排水沟于 9 Oct 完工，正式核实及接收程序完成后才投入使用；没有把报道的完工状态更新为已正式验收。",
       "dateEvidence": "页面日期 09 Oktober 2026；正文明确完工日 9 Oktober 2026，发布日期与事件日一致。",
       "states": [
         "sarawak"
@@ -1347,8 +1347,8 @@
         "Labohan Dagang"
       ],
       "language": "en",
-      "checkedAt": "2026-10-18",
-      "evidence": "Air Selangor 原始招标公告 PDF（https://tender.airselangor.com/tender_docs/view_advertisement_pdf/1635）列二期水厂总能力 200 MLD、两阶段各 100 MLD、25 年 BOT。官方更正 PDF（https://tender.airselangor.com/tender_docs/view_advertisement_pdf/1653）以“ASAL / PINDAAN”对照表将报名截止从 9/10/2026 15:00 延至 23/10/2026 15:00，将合格投标者说明会／现场访问日期从 14/10 改为 3/11，将文件销售期改为 4–27/11，并将投标截止从 15/12/2026 改为 4/2/2027 15:00；其余信息不变。10 月 17 日重读官方 Tender Details 页面，现列的报名、销售及截止日与更正公告一致；仅符合资格的注册供应商可购买文件。更正 PDF 未列新现场访问的具体时刻。 2026-10-18 重新读取官方 Tender Details 页面：报名截至 23/10/2026 15:00，文件销售 4–27/11/2026，投标截止 04/02/2027 15:00；与已核实更正公告一致，现场访问为 03/11/2026（页面未列时刻）。",
+      "checkedAt": "2026-10-19",
+      "evidence": "Air Selangor 原始招标公告 PDF（https://tender.airselangor.com/tender_docs/view_advertisement_pdf/1635）列二期水厂总能力 200 MLD、两阶段各 100 MLD、25 年 BOT。官方更正 PDF（https://tender.airselangor.com/tender_docs/view_advertisement_pdf/1653）以“ASAL / PINDAAN”对照表将报名截止从 9/10/2026 15:00 延至 23/10/2026 15:00，将合格投标者说明会／现场访问日期从 14/10 改为 3/11，将文件销售期改为 4–27/11，并将投标截止从 15/12/2026 改为 4/2/2027 15:00；其余信息不变。10 月 17 日重读官方 Tender Details 页面，现列的报名、销售及截止日与更正公告一致；仅符合资格的注册供应商可购买文件。更正 PDF 未列新现场访问的具体时刻。 2026-10-18 重新读取官方 Tender Details 页面：报名截至 23/10/2026 15:00，文件销售 4–27/11/2026，投标截止 04/02/2027 15:00；与已核实更正公告一致，现场访问为 03/11/2026（页面未列时刻）。 2026-10-19 重读 Air Selangor 官方 Tender Details 页面（/view/647）：注册仍至 23/10/2026 15:00，销售期 04–27/11，投标截止 04/02/2027 15:00；与已核对的更正公告一致。",
       "dateEvidence": "官方更正 PDF 称原招标于 24 September 2026 公告，并在 ASAL / PINDAAN 表内标明新旧时程；原页面 Created 为 5 October 2026。更正 PDF 未显示独立发布日期，故保留原始条目的页面日期，不把复核日期当成更正发布日期。新截止时刻均按马来西亚时间 +08:00 记录。",
       "states": [
         "selangor"
@@ -1359,7 +1359,7 @@
         "deadline": "2027-02-04T15:00:00+08:00",
         "briefing": null,
         "briefingRequirement": "mandatory",
-        "evidence": "Air Selangor 官方更正 PDF 将强制说明会／现场访问改至 3/11/2026（未列时间），将在线投标截止改至 4/2/2027 15:00；10/17 官方 Tender Details 页面确认修订后的注册截止 23/10/2026 15:00、销售期 4–27/11/2026 及投标截止。其余资格要求沿用原公告。 2026-10-18 官方详情页所列修订时程与更正公告一致：报名至 23/10/2026 15:00，销售 4–27/11/2026，投标截止 04/02/2027 15:00；现场访问 03/11，未列时刻。"
+        "evidence": "Air Selangor 官方更正 PDF 将强制说明会／现场访问改至 3/11/2026（未列时间），将在线投标截止改至 4/2/2027 15:00；10/17 官方 Tender Details 页面确认修订后的注册截止 23/10/2026 15:00、销售期 4–27/11/2026 及投标截止。其余资格要求沿用原公告。 2026-10-18 官方详情页所列修订时程与更正公告一致：报名至 23/10/2026 15:00，销售 4–27/11/2026，投标截止 04/02/2027 15:00；现场访问 03/11，未列时刻。 2026-10-19 官方详情页再次确认修订后的报名、文件销售及投标截止日期，未见公开页面新增时程变更。"
       }
     },
     {
@@ -1430,8 +1430,8 @@
         "设计调整"
       ],
       "language": "ms",
-      "checkedAt": "2026-10-16",
-      "evidence": "PETRA 官方声明第 1 页列发布地及 2026-10-11 日期；“KEMAJUAN FIZIKAL DAN JANGKAAN SIAP PROJEK”段列三期进度、预计完工月及范围；后文“PENYESUAIAN SKOP DAN PERUBAHAN REKA BENTUK”说明土地征收、路线与排水容量调整影响时间和成本。声明开头另称 9 Oct 2026 Budget 2027 列出一个拟于 2027 实施的 PLSB Sungai Golok Phase 2，未交代其与文中在建三期的对应关系。 2026-10-16 重新读取 PETRA 原始声明 PDF：三期进度仍对应截至 2026-09-30 的数据，声明未改变已记录的完工预测、范围调整影响及另一项“2027 年实施”的项目关系说明；未把预测写成已完成。",
+      "checkedAt": "2026-10-19",
+      "evidence": "PETRA 官方声明第 1 页列发布地及 2026-10-11 日期；“KEMAJUAN FIZIKAL DAN JANGKAAN SIAP PROJEK”段列三期进度、预计完工月及范围；后文“PENYESUAIAN SKOP DAN PERUBAHAN REKA BENTUK”说明土地征收、路线与排水容量调整影响时间和成本。声明开头另称 9 Oct 2026 Budget 2027 列出一个拟于 2027 实施的 PLSB Sungai Golok Phase 2，未交代其与文中在建三期的对应关系。 2026-10-16 重新读取 PETRA 原始声明 PDF：三期进度仍对应截至 2026-09-30 的数据，声明未改变已记录的完工预测、范围调整影响及另一项“2027 年实施”的项目关系说明；未把预测写成已完成。 2026-10-19 重新读取 PETRA 官方声明 PDF（2026-10-11）：三期进度仍为截至 2026-09-30 的 73.01%、3.16% 和 24.18%，完工预测及范围调整说明未变；未将预测写成已完成，也未推断 2027 年预算项目与三期在建项目的对应关系。",
       "dateEvidence": "PDF 抬头署名 11 October 2026；工程进度数据明确截至 30 September 2026。两日期分别保留；未把查阅日或预计完工日写为事件日。",
       "states": [
         "kelantan"
@@ -1442,7 +1442,7 @@
       "source": "petra",
       "category": "water-resources",
       "title": "JKKAS 定下改善目标：一年内推动 33 条污染河流的水质指数至少提升 10%",
-      "summary": "PETRA 10 月 12 日发布的 JKKAS 声明援引 JAS《2025 河流水质状况报告》：672 条受监测河流中，467 条（69%）清洁、172 条（26%）中度污染、33 条（5%）污染，主要污染参数为氨氮。委员会提出在一年内，令这 33 条污染河流的水质指数较 2025 年至少改善 10%；同时决定在选定地方政府辖区试行非点源污染综合管理，并成立协调城乡排放标准的技术委员会。这些是目标和安排，不是已实现的改善。",
+      "summary": "PETRA 10 月 12 日发布的 JKKAS 声明援引 JAS《2025 河流水质状况报告》：672 条受监测河流中，467 条（69%）清洁、172 条（26%）中度污染、33 条（5%）污染，主要污染参数为氨氮。委员会提出在一年内，令这 33 条污染河流的水质指数较 2025 年至少改善 10%；同时决定在选定地方政府辖区试行非点源污染综合管理，并成立协调城乡排放标准的技术委员会。这些是目标和安排，不是已实现的改善。 同一声明还提议由 NAHRIM 推动国家水质监测系统（NWQMS），用于实时监测水质与水量；这仍是提案，没有说已获批或上线。",
       "url": "https://www.petra.gov.my/uploads/content-downloads/file_20261012162402.pdf",
       "publishedAt": "2026-10-12",
       "eventDate": "2026-10-12",
@@ -1455,8 +1455,8 @@
         "水质指数"
       ],
       "language": "ms",
-      "checkedAt": "2026-10-17",
-      "evidence": "PETRA 官方声明第 1 页说明副首相兼部长于 12 Oct 2026 主持 JKKAS 第 2 次会议，并列 JAS《2025 河流水质状况报告》的 672/467/172/33 条数据、比例及主要污染参数；第 2 页列 33 条河流一年内 IKA 至少提高 10% 的目标、选定地方政府试点及 KPKT/NAHRIM 技术委员会。声明同时提到浮动太阳能指南已发布，该指南已另有 10 月 2 日记录，本条不重复作为新发布。 2026-10-17 另行复核 PETRA 同日官方网页记录：会议讨论 2025 河流水质状况、州级控污策略、非点源污染源清单覆盖及城乡污水排放标准，并提出采用 NAHRIM NWQMS 实时监测水量与水质；同时发布浮动太阳能指南。网页没有提供新的数值监测结果，因此本条沿用声明 PDF 的 2025 年统计，不作实时水质表述。",
+      "checkedAt": "2026-10-19",
+      "evidence": "PETRA 官方声明第 1 页说明副首相兼部长于 12 Oct 2026 主持 JKKAS 第 2 次会议，并列 JAS《2025 河流水质状况报告》的 672/467/172/33 条数据、比例及主要污染参数；第 2 页列 33 条河流一年内 IKA 至少提高 10% 的目标、选定地方政府试点及 KPKT/NAHRIM 技术委员会。声明同时提到浮动太阳能指南已发布，该指南已另有 10 月 2 日记录，本条不重复作为新发布。 2026-10-17 另行复核 PETRA 同日官方网页记录：会议讨论 2025 河流水质状况、州级控污策略、非点源污染源清单覆盖及城乡污水排放标准，并提出采用 NAHRIM NWQMS 实时监测水量与水质；同时发布浮动太阳能指南。网页没有提供新的数值监测结果，因此本条沿用声明 PDF 的 2025 年统计，不作实时水质表述。 2026-10-19 重新读取 PETRA 官方 JKKAS 声明 PDF：复核 2025 年水质统计、33 条污染河流一年改善目标、地方政府试点及技术委员会安排；声明另称 NAHRIM 提议推动 NWQMS 实时监测水质与水量，但没有说提案获批或系统上线。",
       "dateEvidence": "官方声明抬头及页尾均署 12 October 2026，正文称会议“hari ini”（当天）举行；publishedAt 和 eventDate 均据此填 12 日。统计年度是 2025，不是 2026 实时监测。",
       "riverQualitySnapshot": {
         "reportYear": 2025,
@@ -1547,8 +1547,8 @@
         "Sungai Serting"
       ],
       "language": "ms",
-      "checkedAt": "2026-10-14",
-      "evidence": "JPS Negeri Sembilan 官方招标页内嵌的报价邀请 PDF 第 1 页列通知编号 JPSNS/SH/N-P54/BPME/07/2026、Sungai Serting 河流保育项目相关照明系统及电气基础设施工作、RM50 文件费和资格条件；第 2 页列强制工作说明会 12/10/2026 10:00 及文件领取时段 12/10/2026 09:00–12:00；第 3 页列截止日 19/10/2026、中午 12:00。该包为机电／照明相关工作，不能描述成河道主体工程。说明会及公告所列文件领取时段在本次复核时已过，不据此断言仍可新报名，需向 JPSNS 确认投标资格。 2026-10-14 重新下载官方公告附件；其 SHA-256 与 10 月 13 日已阅读版本相同（5F762019381A3255DD3C92D0CB4A0E77411D5375876BCE76EB23FB928DA355C7），未见文件变化。截止仍为 19/10/2026 12:00；10 月 12 日强制说明会及文件领取时段已过，是否仍可投标需向 JPSNS 确认。",
+      "checkedAt": "2026-10-19",
+      "evidence": "JPS Negeri Sembilan 官方招标页内嵌的报价邀请 PDF 第 1 页列通知编号 JPSNS/SH/N-P54/BPME/07/2026、Sungai Serting 河流保育项目相关照明系统及电气基础设施工作、RM50 文件费和资格条件；第 2 页列强制工作说明会 12/10/2026 10:00 及文件领取时段 12/10/2026 09:00–12:00；第 3 页列截止日 19/10/2026、中午 12:00。该包为机电／照明相关工作，不能描述成河道主体工程。说明会及公告所列文件领取时段在本次复核时已过，不据此断言仍可新报名，需向 JPSNS 确认投标资格。 2026-10-14 重新下载官方公告附件；其 SHA-256 与 10 月 13 日已阅读版本相同（5F762019381A3255DD3C92D0CB4A0E77411D5375876BCE76EB23FB928DA355C7），未见文件变化。截止仍为 19/10/2026 12:00；10 月 12 日强制说明会及文件领取时段已过，是否仍可投标需向 JPSNS 确认。 2026-10-19 10:36 MYT 重新打开 JPSNS 官方招标页并下载当前嵌入的公告 PDF（4 页，SHA-256 5F762019381A3259DD3C92D0CB4A0E77411D5375876BCE76EB23FB928DA355C7），OCR 复核原文：截止仍为 19/10/2026 中午 12:00，强制说明会仍为 12/10/2026 10:00，文件领取仅列 12/10 上午。当前 PDF 文件校验值与此前记录不同，但公告关键日期和招标范围在当前页 1–3 未变；本次检查时间早于所列截止时间，未查询供应商账户内信息。",
       "dateEvidence": "内嵌报价邀请 PDF 首页标示 TARIKH: 5 OKTOBER 2026，作为官方招标通知日；招标截止日及中午时刻依据同一 PDF 第 3 页，不把未来截止写成 eventDate。",
       "tender": {
         "reference": "JPSNS/SH/N-P54/BPME/07/2026",
@@ -1556,7 +1556,7 @@
         "deadline": "2026-10-19T12:00:00+08:00",
         "briefing": "2026-10-12T10:00:00+08:00",
         "briefingRequirement": "mandatory",
-        "evidence": "JPS Negeri Sembilan 官方招标页内嵌的报价邀请 PDF 第 1 页列通知编号 JPSNS/SH/N-P54/BPME/07/2026、Sungai Serting 河流保育项目相关照明系统及电气基础设施工作、RM50 文件费和资格条件；第 2 页列强制工作说明会 12/10/2026 10:00 及文件领取时段 12/10/2026 09:00–12:00；第 3 页列截止日 19/10/2026、中午 12:00。该包为机电／照明相关工作，不能描述成河道主体工程。说明会及公告所列文件领取时段在本次复核时已过，不据此断言仍可新报名，需向 JPSNS 确认投标资格。 2026-10-14 重新下载官方公告附件；其 SHA-256 与 10 月 13 日已阅读版本相同（5F762019381A3255DD3C92D0CB4A0E77411D5375876BCE76EB23FB928DA355C7），未见文件变化。截止仍为 19/10/2026 12:00；10 月 12 日强制说明会及文件领取时段已过，是否仍可投标需向 JPSNS 确认。"
+        "evidence": "JPS Negeri Sembilan 官方招标页内嵌的报价邀请 PDF 第 1 页列通知编号 JPSNS/SH/N-P54/BPME/07/2026、Sungai Serting 河流保育项目相关照明系统及电气基础设施工作、RM50 文件费和资格条件；第 2 页列强制工作说明会 12/10/2026 10:00 及文件领取时段 12/10/2026 09:00–12:00；第 3 页列截止日 19/10/2026、中午 12:00。该包为机电／照明相关工作，不能描述成河道主体工程。说明会及公告所列文件领取时段在本次复核时已过，不据此断言仍可新报名，需向 JPSNS 确认投标资格。 2026-10-14 重新下载官方公告附件；其 SHA-256 与 10 月 13 日已阅读版本相同（5F762019381A3255DD3C92D0CB4A0E77411D5375876BCE76EB23FB928DA355C7），未见文件变化。截止仍为 19/10/2026 12:00；10 月 12 日强制说明会及文件领取时段已过，是否仍可投标需向 JPSNS 确认。 2026-10-19 当前官方附件 SHA-256 为 5F762019381A3259DD3C92D0CB4A0E77411D5375876BCE76EB23FB928DA355C7；重新 OCR 后确认所列 19/10/2026 中午 12:00 截止及 12/10 强制说明会日期仍在。"
       },
       "states": [
         "negeri-sembilan"
@@ -1633,8 +1633,8 @@
         "NAHRIM"
       ],
       "language": "ms",
-      "checkedAt": "2026-10-16",
-      "evidence": "官方 PDF（190 页）执行摘要第 13–16 页概述报告范围：Selangor、Kuala Lumpur、Johor 的陆地与沿海洪水风险、东北季风降雨推算和医院案例；目录列出沿海洪水 2030／2050／2100 情景及降雨推算期。PDF 第 2 页免责声明说明采用 AR5 投影数据，分析属初步结果，数据与分析有效性限于报告发布后两年且最终决策前须进一步分析。",
+      "checkedAt": "2026-10-19",
+      "evidence": "官方 PDF（190 页）执行摘要第 13–16 页概述报告范围：Selangor、Kuala Lumpur、Johor 的陆地与沿海洪水风险、东北季风降雨推算和医院案例；目录列出沿海洪水 2030／2050／2100 情景及降雨推算期。PDF 第 2 页免责声明说明采用 AR5 投影数据，分析属初步结果，数据与分析有效性限于报告发布后两年且最终决策前须进一步分析。 2026-10-19 重新读取 NAHRIM 报告页及官方 PDF 前言：报告使用可取得的气候投影资料，分析属初步结果，有效性受新资料、方法及模型影响；最终规划或设计决定前仍需进一步分析。",
       "dateEvidence": "NAHRIM WordPress REST 官方元数据的 date 为 2026-10-14 17:30:52（马来西亚时间），date_gmt 为 09:30:52Z；据此记录网站发布日期。PDF 封面没有明确发布日期，文件属性创建时间为 2026-09-04，不将文件创建日误作网站发布日期。",
       "states": [
         "selangor",
@@ -1661,8 +1661,8 @@
         "Terengganu"
       ],
       "language": "ms",
-      "checkedAt": "2026-10-16",
-      "evidence": "PETRA 官方两页媒体声明第 1 页列 Kuala Terengganu Utara（UMT）及周边防洪项目 RM7.93 million；第 2 页称该项目改善现有排水能力，风险区面积由约 700 降至 500 公顷并涉及约 3,000 名 Gong Badak 居民。第 2 页另列 Setiu 河口保育项目 RM137.53 million，完成日 2026-09-01，较合同原完工日 2026-10-21 提前 50 天。声明总额 RM145.46 million；风险区和保护人口为声明陈述，未作独立成效核验。",
+      "checkedAt": "2026-10-19",
+      "evidence": "PETRA 官方两页媒体声明第 1 页列 Kuala Terengganu Utara（UMT）及周边防洪项目 RM7.93 million；第 2 页称该项目改善现有排水能力，风险区面积由约 700 降至 500 公顷并涉及约 3,000 名 Gong Badak 居民。第 2 页另列 Setiu 河口保育项目 RM137.53 million，完成日 2026-09-01，较合同原完工日 2026-10-21 提前 50 天。声明总额 RM145.46 million；风险区和保护人口为声明陈述，未作独立成效核验。 2026-10-19 重新读取 PETRA 官方移交声明 PDF（2026-10-15）：UMT 项目所列风险区和居民数、Setiu 项目完工日及总额与原文一致；将其保留为 PETRA 声明中的项目成果，不作独立成效验证。",
       "dateEvidence": "PDF 首段署名 Putrajaya, 15 Oktober 2026，页脚再次标示 15 Oktober 2026，作为发布日期和移交事件日。Setiu 工程完工日期为 2026-09-01，合同原完工日为 2026-10-21，分别按原文记录。",
       "states": [
         "terengganu"
@@ -1711,8 +1711,8 @@
         "招标"
       ],
       "language": "en",
-      "checkedAt": "2026-10-18",
-      "evidence": "Air Selangor 官方 Tender List 将 A、B、C 列为三个开放招标，并列出文件编号及统一时程。分别重读详情页：https://tender.airselangor.com/tender_docs/view/658、/659、/660；三页均确认登记至 22/10/2026 15:00、销售 3–9/11/2026、提交截止 1/12/2026 15:00、文件费 RM200，并标示 site visit required。详情页要求先注册为 Air Selangor 供应商，且只允许符合资格者购买文件；资格至少包括 SSM 私人有限公司／公众有限公司登记和提交签署的同意表。原文未给出站点总数、设备清单或现场访问时间。 2026-10-18 再次读取 A/B/C 三个官方详情页（/view/658、/659、/660）：注册均截至 22/10/2026 15:00，销售 03–09/11，提交截止 01/12/2026 15:00；仍要求现场访问，但页面未列日期或时刻。",
+      "checkedAt": "2026-10-19",
+      "evidence": "Air Selangor 官方 Tender List 将 A、B、C 列为三个开放招标，并列出文件编号及统一时程。分别重读详情页：https://tender.airselangor.com/tender_docs/view/658、/659、/660；三页均确认登记至 22/10/2026 15:00、销售 3–9/11/2026、提交截止 1/12/2026 15:00、文件费 RM200，并标示 site visit required。详情页要求先注册为 Air Selangor 供应商，且只允许符合资格者购买文件；资格至少包括 SSM 私人有限公司／公众有限公司登记和提交签署的同意表。原文未给出站点总数、设备清单或现场访问时间。 2026-10-18 再次读取 A/B/C 三个官方详情页（/view/658、/659、/660）：注册均截至 22/10/2026 15:00，销售 03–09/11，提交截止 01/12/2026 15:00；仍要求现场访问，但页面未列日期或时刻。 2026-10-19 重读 Air Selangor 官方 A、B、C 包详情页（/view/658、/659、/660）：注册至 22/10/2026 15:00，销售期 03–09/11，投标截止 01/12/2026 15:00；现场访问仍为必要条件，页面未列日期或时刻。",
       "dateEvidence": "Tender List 与三个详情页未标示公告发布日期；登记期起始日不是发布日期，故 publishedAt 留空。所有截止时间依官方系统以马来西亚时间 +08:00 记录。",
       "states": [
         "selangor"
@@ -1723,20 +1723,20 @@
         "deadline": "2026-12-01T15:00:00+08:00",
         "briefing": null,
         "briefingRequirement": "mandatory",
-        "evidence": "三份 Air Selangor 官方详情页分别列出 A/B/C 包、相同的登记截止 22/10/2026 15:00、销售期 3–9/11/2026、投标截止 1/12/2026 15:00；页面注明现场访问 required，但未给日期或时间。 2026-10-18 三份官方详情页再次确认 A/B/C 包的注册截止均为 22/10/2026 15:00、销售期 03–09/11、投标截止 01/12/2026 15:00；均标示现场访问 required，未列日期或时刻。"
+        "evidence": "三份 Air Selangor 官方详情页分别列出 A/B/C 包、相同的登记截止 22/10/2026 15:00、销售期 3–9/11/2026、投标截止 1/12/2026 15:00；页面注明现场访问 required，但未给日期或时间。 2026-10-18 三份官方详情页再次确认 A/B/C 包的注册截止均为 22/10/2026 15:00、销售期 03–09/11、投标截止 01/12/2026 15:00；均标示现场访问 required，未列日期或时刻。 2026-10-19 三个官方详情页重核上述共同截止日及现场访问要求；公开页面未列现场访问日期或时刻。"
       }
     },
     {
       "id": "air-selangor-ssp3-rasa-dam-om-tender-2026",
       "source": "air-selangor",
       "category": "tenders",
-      "title": "Air Selangor 招标 SSP3、Rasa 水厂与 Sungai Selangor Dam 2028–2048 运维",
-      "summary": "Air Selangor 招标 Sungai Selangor Phase 3 与 Rasa 两座水处理厂，以及 Sungai Selangor Dam 的 2028–2048 综合运营维护服务，编号 PN0000026385，文件费 RM50,000。报名截止为 10 月 18 日 15:00；强制现场访问定于 10 月 20 日，在 SSP3 水厂集合并继续访问 Rasa 水厂和水坝（公告未列时刻）；文件销售至 10 月 23 日，投标截止为 10 月 30 日 15:00。招标要求至少五年水厂运维经验，且只向符合资格的注册供应商出售文件。",
+      "title": "Air Selangor 招标 SSP3、Rasa 水厂与 Sungai Selangor Dam 2028–2048 运维，报名已截止",
+      "summary": "Air Selangor 招标 Sungai Selangor Phase 3 与 Rasa 两座水处理厂，以及 Sungai Selangor Dam 的 2028–2048 综合运营维护服务，编号 PN0000026385，文件费 RM50,000。报名已于 10 月 18 日 15:00 截止；文件销售期为 10 月 20–23 日，投标截止 10 月 30 日 15:00。官方 PDF 将 10 月 20 日列为强制现场访问日期，详情页仍标示必须现场访问但未列日期。是否仍可参与须向 Air Selangor 核实。",
       "url": "https://tender.airselangor.com/tender_docs/view/661",
       "publishedAt": null,
       "eventDate": null,
       "region": "Selangor · Bestari Jaya · Rasa · Kuala Kubu Bharu",
-      "stage": "开放招标 · 报名至 10 月 18 日 15:00 · 强制现场访问 10 月 20 日 · 投标截止 10 月 30 日 15:00",
+      "stage": "报名已截止 · 文件销售 10 月 20–23 日 · 投标截止 10 月 30 日 15:00",
       "tags": [
         "水处理厂",
         "水坝运维",
@@ -1744,8 +1744,8 @@
         "长期运营合同"
       ],
       "language": "en",
-      "checkedAt": "2026-10-18",
-      "evidence": "Air Selangor 详情页 https://tender.airselangor.com/tender_docs/view/661 列编号 PN0000026385、文件费 RM50,000、登记 15–18/10/2026 15:00、文件销售 20–23/10/2026、投标截止 30/10/2026 15:00。官方招标 PDF https://tender.airselangor.com/tender_docs/view_advertisement_pdf/1678 说明范围是 SSP3（Bestari Jaya）与 Rasa 两座水处理厂及 Sungai Selangor Dam 的运营维护，包含人员、原水费、化学品、能源、计划／非计划维护、CAPEX 与符合规定的处理水供应；要求五年以上水厂运维经验。PDF 将现场访问列为强制，日期 20/10/2026，地点 SSP3；合资格供应商须另行通过邮件收到细节。 2026-10-18 再次读取官方详情页：注册期截至今日 15:00，文件销售 20–23/10，投标截止 30/10/2026 15:00；强制现场访问列为 20/10，在 SSP3 集合，公告未给时刻。",
+      "checkedAt": "2026-10-19",
+      "evidence": "Air Selangor 详情页 https://tender.airselangor.com/tender_docs/view/661 列编号 PN0000026385、文件费 RM50,000、登记 15–18/10/2026 15:00、文件销售 20–23/10/2026、投标截止 30/10/2026 15:00。官方招标 PDF https://tender.airselangor.com/tender_docs/view_advertisement_pdf/1678 说明范围是 SSP3（Bestari Jaya）与 Rasa 两座水处理厂及 Sungai Selangor Dam 的运营维护，包含人员、原水费、化学品、能源、计划／非计划维护、CAPEX 与符合规定的处理水供应；要求五年以上水厂运维经验。PDF 将现场访问列为强制，日期 20/10/2026，地点 SSP3；合资格供应商须另行通过邮件收到细节。 2026-10-18 再次读取官方详情页：注册期截至今日 15:00，文件销售 20–23/10，投标截止 30/10/2026 15:00；强制现场访问列为 20/10，在 SSP3 集合，公告未给时刻。 2026-10-19 重读 Air Selangor 官方详情页（/view/661）：报名已于 18/10/2026 15:00 截止；文件销售期仍列 20–23/10，投标截止 30/10/2026 15:00。页面仍要求现场访问但未列日期，10/20 日期仅见于已核对的官方招标 PDF；公开页未显示修订。",
       "dateEvidence": "官方详情页与招标 PDF 未给出公告发布日期，且 PDF 顶部 15/5/2009 为重复模板字段，不能作为发布日期；publishedAt 留空。现场访问日期及投标时刻据 PDF 正文，未列现场访问时刻。",
       "states": [
         "selangor"
@@ -1756,7 +1756,7 @@
         "deadline": "2026-10-30T15:00:00+08:00",
         "briefing": null,
         "briefingRequirement": "mandatory",
-        "evidence": "详情页与官方 PDF 列报名至 18/10/2026 15:00，强制现场访问日 20/10/2026（未列时刻），销售期至 23/10/2026，投标截止 30/10/2026 15:00。 2026-10-18 官方页面再次确认报名截至 18/10/2026 15:00、现场访问 20/10（未列时刻）、文件销售 20–23/10、投标截止 30/10/2026 15:00。"
+        "evidence": "详情页与官方 PDF 列报名至 18/10/2026 15:00，强制现场访问日 20/10/2026（未列时刻），销售期至 23/10/2026，投标截止 30/10/2026 15:00。 2026-10-18 官方页面再次确认报名截至 18/10/2026 15:00、现场访问 20/10（未列时刻）、文件销售 20–23/10、投标截止 30/10/2026 15:00。 2026-10-19 官方详情页确认注册窗口已结束，文件销售及最终截止日期保持原列时程；页面仍要求现场访问，未提供日期，10/20 日期仅依据先前核读的官方 PDF。"
       }
     },
     {
@@ -1777,8 +1777,8 @@
         "招标"
       ],
       "language": "en",
-      "checkedAt": "2026-10-18",
-      "evidence": "Air Selangor 详情页 https://tender.airselangor.com/tender_docs/view/652 列 PN0000026152、注册期至 23/10/2026 15:00、销售期 2–13/11/2026、投标截止 4/12/2026 15:00，且现场访问 required。官方招标 PDF https://tender.airselangor.com/tender_docs/view_advertisement_pdf/1660 列新建 1,200 mm MSCL interconnection pipe，标示 indicative price RM9,000,000 并明确该估算不具约束力；强制现场访问安排在 30/10/2026 10:00。招标最低条件包括 CIDB G6／CE20、SPAN IPA C3 和 Air Selangor 供应商登记。 2026-10-18 再次读取官方详情页及招标文件：注册截至 23/10/2026 15:00，强制现场访问 30/10 10:00，销售期 02–13/11，投标截止 04/12/2026 15:00；RM9 million 仍明确为非约束性参考估价。",
+      "checkedAt": "2026-10-19",
+      "evidence": "Air Selangor 详情页 https://tender.airselangor.com/tender_docs/view/652 列 PN0000026152、注册期至 23/10/2026 15:00、销售期 2–13/11/2026、投标截止 4/12/2026 15:00，且现场访问 required。官方招标 PDF https://tender.airselangor.com/tender_docs/view_advertisement_pdf/1660 列新建 1,200 mm MSCL interconnection pipe，标示 indicative price RM9,000,000 并明确该估算不具约束力；强制现场访问安排在 30/10/2026 10:00。招标最低条件包括 CIDB G6／CE20、SPAN IPA C3 和 Air Selangor 供应商登记。 2026-10-18 再次读取官方详情页及招标文件：注册截至 23/10/2026 15:00，强制现场访问 30/10 10:00，销售期 02–13/11，投标截止 04/12/2026 15:00；RM9 million 仍明确为非约束性参考估价。 2026-10-19 重读 Air Selangor 官方详情页（/view/652）：报名至 23/10/2026 15:00，文件销售期 02–13/11，投标截止 04/12/2026 15:00；页面继续要求现场访问。强制访问日期及 10:00 时刻来自已核读的官方招标 PDF。",
       "dateEvidence": "详情页及招标 PDF 未列公告发布日期，故 publishedAt 留空；登记与投标日期按原文记录，参考价明确为非约束性估算。现场访问及投标时刻按马来西亚时间 +08:00。",
       "states": [
         "selangor"
@@ -1789,7 +1789,7 @@
         "deadline": "2026-12-04T15:00:00+08:00",
         "briefing": "2026-10-30T10:00:00+08:00",
         "briefingRequirement": "mandatory",
-        "evidence": "官方详情页与招标 PDF 列注册截止 23/10/2026 15:00、强制现场访问 30/10/2026 10:00、在线提交截止 4/12/2026 15:00；文件费 RM400，RM9 million 仅为不具约束力的 indicative price。 2026-10-18 官方详情页与招标文件复核上述注册、现场访问及截止日期，未发现所列时程变更；参考价仍为 indicative、non-binding。"
+        "evidence": "官方详情页与招标 PDF 列注册截止 23/10/2026 15:00、强制现场访问 30/10/2026 10:00、在线提交截止 4/12/2026 15:00；文件费 RM400，RM9 million 仅为不具约束力的 indicative price。 2026-10-18 官方详情页与招标文件复核上述注册、现场访问及截止日期，未发现所列时程变更；参考价仍为 indicative、non-binding。 2026-10-19 官方 Tender Details 页面再次确认报名、销售及投标截止日；现场访问仍为必须，详细安排依据官方招标 PDF。"
       }
     },
     {
@@ -1817,6 +1817,223 @@
       "states": [
         "sarawak"
       ]
+    },
+    {
+      "id": "jps-johor-pontian-coastal-bund-project-visit-2026",
+      "source": "jps-johor",
+      "category": "projects",
+      "title": "JPS Johor 检查 Pontian 海岸堤防建设与修复项目，进度未公布",
+      "summary": "JPS Johor 于 10 月 19 日发布消息，称州主任在 10 月 10 日前往 Pontian 的 Tanjung Bin–Tampok 海岸堤防建设与修复项目，查看施工进度、技术事项和现场挑战。原文称工程旨在加强海岸防护、减轻侵蚀及海水淹没风险，但未披露进度百分比、预算或完工日期。",
+      "url": "https://jps.johor.gov.my/%f0%9d%90%8b%f0%9d%90%80%f0%9d%90%96%f0%9d%90%80%f0%9d%90%93%f0%9d%90%80%f0%9d%90%8d-%f0%9d%90%8a%f0%9d%90%84%f0%9d%90%91%f0%9d%90%89%f0%9d%90%80-%f0%9d%90%8f%f0%9d%90%84%f0%9d%90%8d%f0%9d%90%86-3/",
+      "publishedAt": "2026-10-19",
+      "eventDate": "2026-10-10",
+      "region": "Johor · Pontian · Tanjung Bin–Tampok",
+      "stage": "施工及修复中 · 10 月 10 日现场检查 · 进度未披露",
+      "tags": [
+        "海岸防护",
+        "海岸侵蚀",
+        "海水淹没",
+        "工程进度"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-19",
+      "evidence": "JPS Johor 原文标题对应海岸堤防建设与修复项目；正文记载 Pontian、10 October 2026 现场检查，检查进度、技术问题及现场挑战，并称项目旨在加强沿海保护、降低侵蚀和海水淹没影响。未披露进度、金额或预计完工日期。",
+      "dateEvidence": "页面发布日期为 19 October 2026；正文标示现场活动发生于 10 October 2026，分别记录发布日期和事件日。",
+      "states": [
+        "johor"
+      ]
+    },
+    {
+      "id": "air-selangor-sluice-butterfly-air-valves-2027-2029-tender",
+      "source": "air-selangor",
+      "category": "tenders",
+      "title": "Air Selangor 招标：2027–2029 年闸阀、蝶阀及空气阀供应",
+      "summary": "Air Selangor 招标 2027–2029 年闸阀、蝶阀和空气阀供应，文件编号 PN0000026083，文件费 RM300。供应商须在 10 月 22 日 15:00 前登记，文件销售期为 10 月 29 日至 11 月 4 日，投标截止 11 月 18 日 15:00。页面要求现场访问，符合资格的供应商将另获通知；详细供货规格以招标文件为准。",
+      "url": "https://tender.airselangor.com/tender_docs/view/649",
+      "publishedAt": null,
+      "eventDate": null,
+      "region": "Selangor",
+      "stage": "登记至 10 月 22 日 15:00 · 投标截止 11月18 日 15:00",
+      "tags": [
+        "供水基础设施",
+        "招标采购",
+        "PN0000026083"
+      ],
+      "language": "en",
+      "checkedAt": "2026-10-19",
+      "evidence": "Air Selangor 官方 Tender Details 页面原文标题：“SUPPLY AND DELIVERY OF SLUICE, BUTTERFLY AND AIR VALVES (2027-2029)”；Document No PN0000026083；文件费 RM300。页面列登记期 15-Oct-2026 07:00 至 22-Oct-2026 15:00、销售期 29/10–04/11/2026、投标截止 18-Nov-2026 15:00，并标示 Site Visit: Required，合资格供应商会另获现场访问通知。详情页未公布现场访问日期、设备／工程量完整范围或独立发布日期。",
+      "dateEvidence": "官方详情页给出登记、文件销售和投标截止时间，但未显示公告发布日期；不以登记期开始日代替发布日期，publishedAt=null。时间按马来西亚时间 +08:00 记录。",
+      "states": [
+        "selangor"
+      ],
+      "tender": {
+        "reference": "PN0000026083",
+        "deadlineDate": "2026-11-18",
+        "deadline": "2026-11-18T15:00:00+08:00",
+        "briefing": null,
+        "briefingRequirement": "mandatory",
+        "evidence": "Air Selangor 官方详情页列 Document Registration Period 截止 22/10/2026 15:00、Document Sales Period 29/10–04/11/2026、Tender TAMS Closing Date 18/11/2026 15:00；Site Visit 标注 Required，页面称合资格供应商将另获通知，未列具体日期或时刻。文件费 RM300。"
+      }
+    },
+    {
+      "id": "air-selangor-sungai-semenyih-tank-cleaning-tender-2026",
+      "source": "air-selangor",
+      "category": "tenders",
+      "title": "Air Selangor 招标 Sungai Semenyih 与 Semenyih 2 水厂清洗工程",
+      "summary": "Air Selangor 招标 Sungai Semenyih 水处理厂及 Semenyih 2 水处理厂的水箱清洗和相关清洗工程，编号 PN0000026211，文件费 RM200。登记截至 10 月 22 日 15:00，文件销售期 10 月 28 日至 11 月 6 日，投标截止 11 月 17 日 15:00。页面要求现场访问，合资格供应商会另获通知；公告未公开清洗清单和技术范围。",
+      "url": "https://tender.airselangor.com/tender_docs/view/650",
+      "publishedAt": null,
+      "eventDate": null,
+      "region": "Selangor",
+      "stage": "登记至 10 月 22 日 15:00 · 投标截止 11月17 日 15:00",
+      "tags": [
+        "供水基础设施",
+        "招标采购",
+        "PN0000026211"
+      ],
+      "language": "en",
+      "checkedAt": "2026-10-19",
+      "evidence": "Air Selangor 官方 Tender Details 页面原文标题：“TANK CLEANING WORK AND OTHER ASSOCIATED CLEANING WORKS AT SUNGAI SEMENYIH WTP & SEMENYIH 2 WTP”；Document No PN0000026211；文件费 RM200。页面列登记期 15-Oct-2026 07:00 至 22-Oct-2026 15:00、销售期 28/10–06/11/2026、投标截止 17-Nov-2026 15:00，并标示 Site Visit: Required，合资格供应商会另获现场访问通知。详情页未公布现场访问日期、设备／工程量完整范围或独立发布日期。",
+      "dateEvidence": "官方详情页给出登记、文件销售和投标截止时间，但未显示公告发布日期；不以登记期开始日代替发布日期，publishedAt=null。时间按马来西亚时间 +08:00 记录。",
+      "states": [
+        "selangor"
+      ],
+      "tender": {
+        "reference": "PN0000026211",
+        "deadlineDate": "2026-11-17",
+        "deadline": "2026-11-17T15:00:00+08:00",
+        "briefing": null,
+        "briefingRequirement": "mandatory",
+        "evidence": "Air Selangor 官方详情页列 Document Registration Period 截止 22/10/2026 15:00、Document Sales Period 28/10–06/11/2026、Tender TAMS Closing Date 17/11/2026 15:00；Site Visit 标注 Required，页面称合资格供应商将另获通知，未列具体日期或时刻。文件费 RM200。"
+      }
+    },
+    {
+      "id": "air-selangor-reservoir-leak-frp-roof-package-2c-tender-2026",
+      "source": "air-selangor",
+      "category": "tenders",
+      "title": "Air Selangor 招标水池渗漏修复及 FRP 水箱顶更换（2C 包）",
+      "summary": "Air Selangor 招标以层压法修复水池渗漏，并更换玻璃纤维增强塑料（FRP）水箱顶，2C 包，编号 PN0000026048，文件费 RM200。登记截至 10 月 22 日 15:00，文件销售期 10 月 28 日至 11 月 6 日，投标截止 11 月 12 日 15:00。页面要求现场访问，合资格供应商会另获通知；具体水池和工程量以招标文件为准。",
+      "url": "https://tender.airselangor.com/tender_docs/view/651",
+      "publishedAt": null,
+      "eventDate": null,
+      "region": "Selangor",
+      "stage": "登记至 10 月 22 日 15:00 · 投标截止 11月12 日 15:00",
+      "tags": [
+        "供水基础设施",
+        "招标采购",
+        "PN0000026048"
+      ],
+      "language": "en",
+      "checkedAt": "2026-10-19",
+      "evidence": "Air Selangor 官方 Tender Details 页面原文标题：“RECTIFICATION WORKS OF LEAKAGE RESERVOIRS USING LAMINATION METHOD AND REPLACEMENT OF ROOF FOR FIBREGLASS REINFORCED PLASTICS (FRP) WATER TANKS (PACKAGE 2C)”；Document No PN0000026048；文件费 RM200。页面列登记期 15-Oct-2026 07:00 至 22-Oct-2026 15:00、销售期 28/10–06/11/2026、投标截止 12-Nov-2026 15:00，并标示 Site Visit: Required，合资格供应商会另获现场访问通知。详情页未公布现场访问日期、设备／工程量完整范围或独立发布日期。",
+      "dateEvidence": "官方详情页给出登记、文件销售和投标截止时间，但未显示公告发布日期；不以登记期开始日代替发布日期，publishedAt=null。时间按马来西亚时间 +08:00 记录。",
+      "states": [
+        "selangor"
+      ],
+      "tender": {
+        "reference": "PN0000026048",
+        "deadlineDate": "2026-11-12",
+        "deadline": "2026-11-12T15:00:00+08:00",
+        "briefing": null,
+        "briefingRequirement": "mandatory",
+        "evidence": "Air Selangor 官方详情页列 Document Registration Period 截止 22/10/2026 15:00、Document Sales Period 28/10–06/11/2026、Tender TAMS Closing Date 12/11/2026 15:00；Site Visit 标注 Required，页面称合资格供应商将另获通知，未列具体日期或时刻。文件费 RM200。"
+      }
+    },
+    {
+      "id": "air-selangor-oacis-ph-chlorine-sensors-tender-2026",
+      "source": "air-selangor",
+      "category": "tenders",
+      "title": "Air Selangor 招标 40 处二次加氯系统 pH 探头及氯传感器服务",
+      "summary": "Air Selangor 招标采购 pH 探头和氯传感器，并为 40 处二次加氯系统（OACIS）提供维护、校准与性能测试服务，编号 PN0000026346，文件费 RM200。登记截至 10 月 22 日 15:00，文件销售期 10 月 30 日至 11 月 5 日，投标截止 11 月 18 日 15:00。页面要求现场访问，合资格供应商将另获通知；不从标题推定系统处理能力或具体站点。",
+      "url": "https://tender.airselangor.com/tender_docs/view/655",
+      "publishedAt": null,
+      "eventDate": null,
+      "region": "Selangor",
+      "stage": "登记至 10 月 22 日 15:00 · 投标截止 11月18 日 15:00",
+      "tags": [
+        "供水基础设施",
+        "招标采购",
+        "PN0000026346"
+      ],
+      "language": "en",
+      "checkedAt": "2026-10-19",
+      "evidence": "Air Selangor 官方 Tender Details 页面原文标题：“SUPPLY AND DELIVERY OF PH PROBES AND CHLORINE SENSORS; AND PROVISION OF SERVICING, CALIBRATION AND PERFORMANCE TESTING SERVICES FOR SECONDARY CHLORINATION SYSTEM (OACIS) AT 40 SITES.”；Document No PN0000026346；文件费 RM200。页面列登记期 15-Oct-2026 07:00 至 22-Oct-2026 15:00、销售期 30/10–05/11/2026、投标截止 18-Nov-2026 15:00，并标示 Site Visit: Required，合资格供应商会另获现场访问通知。详情页未公布现场访问日期、设备／工程量完整范围或独立发布日期。",
+      "dateEvidence": "官方详情页给出登记、文件销售和投标截止时间，但未显示公告发布日期；不以登记期开始日代替发布日期，publishedAt=null。时间按马来西亚时间 +08:00 记录。",
+      "states": [
+        "selangor"
+      ],
+      "tender": {
+        "reference": "PN0000026346",
+        "deadlineDate": "2026-11-18",
+        "deadline": "2026-11-18T15:00:00+08:00",
+        "briefing": null,
+        "briefingRequirement": "mandatory",
+        "evidence": "Air Selangor 官方详情页列 Document Registration Period 截止 22/10/2026 15:00、Document Sales Period 30/10–05/11/2026、Tender TAMS Closing Date 18/11/2026 15:00；Site Visit 标注 Required，页面称合资格供应商将另获通知，未列具体日期或时刻。文件费 RM200。"
+      }
+    },
+    {
+      "id": "air-selangor-bukit-jelutong-jelutong-pump-house-11kv-tender-2026",
+      "source": "air-selangor",
+      "category": "tenders",
+      "title": "Air Selangor 招标 Bukit Jelutong 与 Jelutong 泵房新建 11 kV 供电系统",
+      "summary": "Air Selangor 招标为 Bukit Jelutong U8 HT 泵房和 Jelutong VSD 泵房新建 11 kV 供电系统，以改善电价类别，编号 PN0000026356，文件费 RM200。登记截至 10 月 22 日 15:00，文件销售期 10 月 28 日至 11 月 3 日，投标截止 11 月 17 日 15:00。页面要求现场访问，合资格供应商将另获通知；供电及泵房工程细节以招标文件为准。",
+      "url": "https://tender.airselangor.com/tender_docs/view/656",
+      "publishedAt": null,
+      "eventDate": null,
+      "region": "Selangor",
+      "stage": "登记至 10 月 22 日 15:00 · 投标截止 11月17 日 15:00",
+      "tags": [
+        "供水基础设施",
+        "招标采购",
+        "PN0000026356"
+      ],
+      "language": "en",
+      "checkedAt": "2026-10-19",
+      "evidence": "Air Selangor 官方 Tender Details 页面原文标题：“CONSTRUCTION OF A NEW 11KV ELECTRICAL SUPPLY SYSTEM FOR BUKIT JELUTONG U8 HT PUMP HOUSE AND JELUTONG VSD PUMP HOUSE FOR TARIFF IMPROVEMENT”；Document No PN0000026356；文件费 RM200。页面列登记期 15-Oct-2026 07:00 至 22-Oct-2026 15:00、销售期 28/10–03/11/2026、投标截止 17-Nov-2026 15:00，并标示 Site Visit: Required，合资格供应商会另获现场访问通知。详情页未公布现场访问日期、设备／工程量完整范围或独立发布日期。",
+      "dateEvidence": "官方详情页给出登记、文件销售和投标截止时间，但未显示公告发布日期；不以登记期开始日代替发布日期，publishedAt=null。时间按马来西亚时间 +08:00 记录。",
+      "states": [
+        "selangor"
+      ],
+      "tender": {
+        "reference": "PN0000026356",
+        "deadlineDate": "2026-11-17",
+        "deadline": "2026-11-17T15:00:00+08:00",
+        "briefing": null,
+        "briefingRequirement": "mandatory",
+        "evidence": "Air Selangor 官方详情页列 Document Registration Period 截止 22/10/2026 15:00、Document Sales Period 28/10–03/11/2026、Tender TAMS Closing Date 17/11/2026 15:00；Site Visit 标注 Required，页面称合资格供应商将另获通知，未列具体日期或时刻。文件费 RM200。"
+      }
+    },
+    {
+      "id": "air-selangor-scada-icc-m2m-communication-tender-2026",
+      "source": "air-selangor",
+      "category": "tenders",
+      "title": "Air Selangor 招标 SCADA 与 ICC 改善及 M2M 通信现代化",
+      "summary": "Air Selangor 招标 SCADA 与 ICC 系统改善及 M2M 通信现代化，编号 PN0000026351，文件费 RM200。登记截至 10 月 22 日 15:00，文件销售期 11 月 2–9 日，投标截止 11 月 18 日 15:00。页面要求现场访问，合资格供应商将另获通知；公告没有披露设备清单、站点范围或控制系统改造内容。",
+      "url": "https://tender.airselangor.com/tender_docs/view/657",
+      "publishedAt": null,
+      "eventDate": null,
+      "region": "Selangor",
+      "stage": "登记至 10 月 22 日 15:00 · 投标截止 11月18 日 15:00",
+      "tags": [
+        "供水基础设施",
+        "招标采购",
+        "PN0000026351"
+      ],
+      "language": "en",
+      "checkedAt": "2026-10-19",
+      "evidence": "Air Selangor 官方 Tender Details 页面原文标题：“SCADA AND ICC IMPROVEMENT: MODERNIZATION OF M2M COMMUNICATION”；Document No PN0000026351；文件费 RM200。页面列登记期 15-Oct-2026 07:00 至 22-Oct-2026 15:00、销售期 02/11–09/11/2026、投标截止 18-Nov-2026 15:00，并标示 Site Visit: Required，合资格供应商会另获现场访问通知。详情页未公布现场访问日期、设备／工程量完整范围或独立发布日期。",
+      "dateEvidence": "官方详情页给出登记、文件销售和投标截止时间，但未显示公告发布日期；不以登记期开始日代替发布日期，publishedAt=null。时间按马来西亚时间 +08:00 记录。",
+      "states": [
+        "selangor"
+      ],
+      "tender": {
+        "reference": "PN0000026351",
+        "deadlineDate": "2026-11-18",
+        "deadline": "2026-11-18T15:00:00+08:00",
+        "briefing": null,
+        "briefingRequirement": "mandatory",
+        "evidence": "Air Selangor 官方详情页列 Document Registration Period 截止 22/10/2026 15:00、Document Sales Period 02/11–09/11/2026、Tender TAMS Closing Date 18/11/2026 15:00；Site Visit 标注 Required，页面称合资格供应商将另获通知，未列具体日期或时刻。文件费 RM200。"
+      }
     }
   ],
   "projects": [
