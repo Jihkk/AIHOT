@@ -18,7 +18,7 @@ test('deadline comparisons use the actual Malaysia instant and never invent a ti
 test('project timelines preserve original articles, source attribution and distinct amount scopes',()=>{
   validateDesks(content);
   const stampin=content.projects.find(project=>project.id==='stampin-flood-mitigation');
-  assert.deepEqual(projectArticles(stampin,content).map(a=>a.publishedAt),['2026-09-03','2026-10-06']);
+  assert.deepEqual(projectArticles(stampin,content).map(a=>a.publishedAt),['2026-09-03','2026-10-06','2026-10-22']);
   const html=renderProjects(content);
   assert.match(html,/RM87,956,231.16/);
   assert.match(html,/报道发布日期/);

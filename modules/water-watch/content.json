@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "reviewedAt": "2026-10-22",
+  "reviewedAt": "2026-10-23",
   "sources": [
     {
       "id": "jps",
@@ -295,6 +295,82 @@
     }
   ],
   "articles": [
+    {
+      "id": "did-sarawak-kelantan-dam-study-water-resources-2026",
+      "source": "did-sarawak",
+      "category": "water-resources",
+      "title": "DID 表示 2027 年已拨款研究吉兰丹增建水坝，尚未公布拟建位置",
+      "summary": "Sarawak DID 转载报道引述国家水资源与水文管理总监称，政府已拨出下一年度经费，研究在吉兰丹增建水坝的可行安排。报道没有提供研究金额、拟建地点、范围或决策时程；这属于研究经费，不是水坝建设获批。报道另提到 Melaka Krubong 与 Selangor Rasau 的多用途蓄水池项目正在实施，但没有披露进度数据。",
+      "url": "https://did.sarawak.gov.my/web/subpage/news_view/951",
+      "publishedAt": "2026-10-22",
+      "eventDate": null,
+      "region": "National · Kelantan",
+      "stage": "2027 年安排研究经费 · 未公布拟建地点、范围或水坝建设批准",
+      "tags": [
+        "水资源规划",
+        "水坝研究",
+        "吉兰丹",
+        "研究经费"
+      ],
+      "language": "en",
+      "checkedAt": "2026-10-23",
+      "evidence": "Sarawak DID 官方新闻页于 2026-10-22 发布，页面注明来源为 The Borneo Post Online。报道引述国家水资源与水文管理总监称，已为下一年度拨款研究在 Kelantan 增建水坝；原文未列金额、候选地点、研究范围或后续决策时程，因此仅记录为研究安排，不视为水坝工程批准。报道同时称 Krubong（Melaka）及 Rasau（Selangor）的多用途蓄水池项目正在实施，未给具体进度或成效。",
+      "dateEvidence": "官方 DID 页面标示发布日期 22 October 2026。",
+      "states": [
+        "kelantan"
+      ]
+    },
+    {
+      "id": "did-sarawak-flood-project-funding-2026",
+      "source": "did-sarawak",
+      "category": "projects",
+      "title": "Sarawak 2026 首轮计划获批最高 RM28 亿防洪资金，古晋二期计划 2027 年开工",
+      "summary": "Sarawak DID 转载报道引述州议会答复：2026 年首轮计划获批最高 RM28 亿用于 Sarawak 防洪项目。古晋防洪项目二期列 RM24.8 亿，VA/VE 工作拟于 11 月初开展，实体施工计划在 2027–2033 年进行；三个 PLSB 配套合计 RM1.91 亿，报道时处于实体施工阶段，目标于 2027 年第二至第三季度完成。Miri/Limbang 防洪项目目标完工时间为 2028 年第一季度。报道列出的均为计划、拨款或目标时程，不代表工程已完成。",
+      "url": "https://did.sarawak.gov.my/web/subpage/news_view/952",
+      "publishedAt": "2026-10-21",
+      "eventDate": null,
+      "region": "Sarawak · Kuching · Miri · Limbang",
+      "stage": "多个防洪项目在不同阶段；古晋二期实体工程计划期为 2027–2033 年，其他目标日期按报道记录",
+      "tags": [
+        "防洪工程",
+        "Sarawak",
+        "滚动计划",
+        "PLSB",
+        "工程进度"
+      ],
+      "language": "en",
+      "checkedAt": "2026-10-23",
+      "evidence": "Sarawak DID 官方新闻页于 2026-10-21 发布，页面注明来源为 The Borneo Post Online。报道列 2026 首轮计划最高 RM2.8 billion、Kuching FMP Phase 2 RM2.48 billion、VA/VE 预计 11 月初开展及实体工程计划期 2027–2033；另列 3 个 PLSB 配套合计 RM191 million、报道时处于实体施工并以 2027 年第二至第三季度为目标，以及 Miri/Limbang FMP 目标于 2028 年第一季度完成。金额、状态及日期均按报道原文记录，未表述为已完成结果。",
+      "dateEvidence": "官方 DID 页面列出的发布日期为 21 October 2026；正文把所引州议会说明称为前一日，未另设推定的 eventDate。",
+      "states": [
+        "sarawak"
+      ]
+    },
+    {
+      "id": "ukas-stampin-phase-one-flood-mitigation-2026",
+      "source": "ukas",
+      "category": "projects",
+      "title": "Stampin 防洪排水一期预计惠及逾 9,000 人，工期约 30 个月",
+      "summary": "UKAS 报道，Stampin 重置区防洪排水一期举行发布仪式，第一期拨款约 RM8,700 万，预计惠及约 1,000 户、逾 9,000 人。工程计划先完成主排水沟，再接入住宅区小型排水设施；因现有住宅密集且需处理水管和其他公用设施，报道预计工期约 30 个月。原文未给实际开工日期或已实现的减灾效果。",
+      "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/51503",
+      "publishedAt": "2026-10-22",
+      "eventDate": null,
+      "region": "Sarawak · Kuching · Stampin",
+      "stage": "一期发布仪式已举行 · 报道预计工期约 30 个月；未列实际开工日",
+      "tags": [
+        "防洪排水",
+        "城市排水",
+        "Stampin",
+        "Sarawak"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-10-23",
+      "evidence": "UKAS 官方报道于 2026-10-22 发布，列一期拨款约 RM87 million、预计受益超过 9,000 人及约 1,000 户，并说明先建主排水沟、再连接住宅区小型排水系统；报道将约 30 个月归因于现有住宅、供水管线及其他公用设施造成的施工协调需求。页面记录的是发布仪式与计划工期，没有列出实际开工日期、合同完工日期或量化防洪成效。",
+      "dateEvidence": "UKAS 原文页面标示 22 October 2026；发布仪式日期据报道正文。",
+      "states": [
+        "sarawak"
+      ]
+    },
     {
       "id": "nahrim-pitas-smk-water-supply-assessment-2026",
       "source": "nahrim",
@@ -2388,7 +2464,8 @@
       "scope": "一期授标与启动协调。不同报道的金额口径分别保留，不把总体金额与施工合同金额合并。",
       "articleIds": [
         "did-sarawak-stampin-award-september-2026",
-        "did-sarawak-stampin-kickoff-2026"
+        "did-sarawak-stampin-kickoff-2026",
+        "ukas-stampin-phase-one-flood-mitigation-2026"
       ]
     },
     {
@@ -2400,6 +2477,15 @@
         "nadma-sungai-golok-delay-october-2026",
         "petra-flood-coastal-governance-october-2026",
         "petra-sungai-golok-progress-october-2026"
+      ]
+    },
+    {
+      "id": "sarawak-flood-mitigation-programme",
+      "name": "Sarawak 防洪项目与滚动计划",
+      "region": "Sarawak",
+      "scope": "并列记录不同地点、项目和阶段的资金及目标日期，不将计划资金表述为已完成工程。",
+      "articleIds": [
+        "did-sarawak-flood-project-funding-2026"
       ]
     }
   ]
