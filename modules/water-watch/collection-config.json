@@ -12,7 +12,17 @@
     {
       "id": "metmalaysia",
       "url": "https://www.met.gov.my/",
-      "kind": "html"
+      "kind": "html",
+      "jsonListings": [
+        {
+          "url": "https://www.met.gov.my/json/siaran_media/default.json",
+          "kind": "met-media"
+        },
+        {
+          "url": "https://www.met.gov.my/json/berita/default.json",
+          "kind": "met-news"
+        }
+      ]
     },
     {
       "id": "nadma",

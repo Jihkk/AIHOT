@@ -6,7 +6,7 @@ import {publicFetch,errorDetail} from './public-fetch.mjs';
 const digest = value => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 // Official headlines sometimes use mathematical bold Unicode instead of ordinary letters.
 const normalize = value => value.normalize('NFKC').replace(/\s+/g, ' ').trim();
-const topic = /\b(?:water|flood|banjir|hujan|empangan|sungai|river|drainage|saliran|perparitan|pengairan|irrigation|coastal|pantai|hakisan|pembetungan|sewerage|takungan|kemarau|drought|climate|iklim|tender|quotation|hydrolog\w*|monsoon|monsun|iwrm|irbm|rtb|eia|pollut\w*|air|myibf|sdcc|wetlands?|tadahan|lembangan)\b|sebut harga|garis panduan|pencemaran|bekalan|pembenihan awan|sponge city/i;
+const topic = /\b(?:water|flood|banjir|hujan|empangan|sungai|river|drainage|saliran|perparitan|pengairan|irrigation|coastal|pantai|hakisan|pembetungan|sewerage|takungan|kemarau|drought|climate|iklim|weather|cuaca|tender|quotation|hydrolog\w*|monsoon|monsun|iwrm|irbm|rtb|eia|pollut\w*|air|myibf|sdcc|wetlands?|tadahan|lembangan)\b|sebut harga|garis panduan|pencemaran|bekalan|pembenihan awan|sponge city/i;
 const navigation = /^(?:home|utama|read (?:all|more)|view (?:all|more)|download|muat turun|tender|news|berita|kenyataan media|press release|contact us|about us|public infobanjir|privacy policy|water resources|tender notices)$/i;
 
 export function extractCandidates(html, pageUrl, hosts) {
@@ -88,6 +88,22 @@ export function extractFeed(xml, pageUrl, hosts) {
   return [...found.values()].slice(0,100);
 }
 
+export function extractMetListing(json, kind, pageUrl, hosts) {
+  const value=JSON.parse(json), rows=kind==='met-media'?value.media:value.news;
+  if(!Array.isArray(rows) || rows.length>100)throw new Error('Invalid METMalaysia listing');
+  const found=new Map();
+  for(const row of rows) {
+    const href=kind==='met-media'?row.path:row.routes;
+    const date=kind==='met-media'?row.date:row.news_date;
+    if(typeof row.title!=='string' || typeof href!=='string' || typeof date!=='string')throw new Error('Invalid METMalaysia listing row');
+    const title=normalize(row.title);
+    if(title.length<18 || title.length>400 || !topic.test(title))continue;
+    const url=officialUrl(new URL(href,pageUrl).href,hosts);
+    found.set(url,{url,title,listingText:normalize(date)});
+  }
+  return [...found.values()];
+}
+
 export function buildIntake(content, result) {
   const published=new Set((content.articles ?? []).map(article=>article.url));
   const changed=new Set(result.changed.map(item=>`${item.source}::${item.key ?? item.url}`));
@@ -153,6 +169,11 @@ export async function collect(content, config, previous = {}, {fetchFn=publicFet
     officialUrl(entry.url,source.hosts);
     if(entry.additionalUrls !== undefined && (!Array.isArray(entry.additionalUrls) || entry.additionalUrls.length>9)) throw new Error('Invalid additional listings');
     for(const url of entry.additionalUrls ?? []) officialUrl(url,source.hosts);
+    if(entry.jsonListings!==undefined && (!Array.isArray(entry.jsonListings) || entry.jsonListings.length>2))throw new Error('Invalid JSON listings');
+    for(const listing of entry.jsonListings ?? []) {
+      if(entry.id!=='metmalaysia' || !['met-media','met-news'].includes(listing.kind))throw new Error('Invalid METMalaysia listing kind');
+      officialUrl(listing.url,source.hosts);
+    }
     if(entry.discovery!==undefined && (!Number.isInteger(entry.discovery.maxPages) || entry.discovery.maxPages<1 || entry.discovery.maxPages>3))throw new Error('Invalid discovery page limit');
     if(entry.documents !== undefined && (!Array.isArray(entry.documents) || entry.documents.length>9)) throw new Error('Invalid reference documents');
     for(const document of entry.documents ?? []) {
@@ -171,13 +192,16 @@ export async function collect(content, config, previous = {}, {fetchFn=publicFet
     try {
       const found=new Map();
       const queue=[...new Set([pageUrl,...entry.additionalUrls ?? []])].map(url=>({url,kind:'html'}));
+      // METMalaysia publishes these same lists through Alpine fetches, without HTML links.
+      queue.push(...entry.jsonListings ?? []);
       const visited=new Set(queue.map(page=>page.url));let discovered=0;
       for(const request of queue) {
         const {url,kind}=request;
         try {
           const response=await readPublic(url,source.hosts,fetchFn);
-          if(kind==='feed' ? !/(?:xml|rss|atom)/i.test(response.type) : !/text\/html/i.test(response.type)) throw new Error(`Expected ${kind==='feed'?'an XML feed':'an HTML listing'}`);
-          const links=kind==='feed'?extractFeed(response.text,response.url,source.hosts):extractCandidates(response.text,response.url,source.hosts);
+          const json=kind==='met-media' || kind==='met-news';
+          if(json ? !/application\/json/i.test(response.type) : kind==='feed' ? !/(?:xml|rss|atom)/i.test(response.type) : !/text\/html/i.test(response.type)) throw new Error(`Expected ${json?'a JSON listing':kind==='feed'?'an XML feed':'an HTML listing'}`);
+          const links=json?extractMetListing(response.text,kind,response.url,source.hosts):kind==='feed'?extractFeed(response.text,response.url,source.hosts):extractCandidates(response.text,response.url,source.hosts);
           for(const item of links) found.set(item.key ?? item.url,item);
           pages.push({url,status:links.length ? 'ok' : 'limited',observedCount:links.length});
           if(kind==='html' && entry.discovery)for(const next of discoverListings(response.text,response.url,source.hosts)) {

@@ -10,6 +10,24 @@ const config={version:1,sources:[{id:'jps',url:page,kind:'html'}],datasets:[]};
 const at=new Date('2026-10-08T03:30:00Z');
 const html='<article><header><a href="/news/flood">Flood mitigation works announced in Pahang</a></header></article>';
 
+test('METMalaysia client-rendered media and news lists expose original links and retain a failed-list baseline',async()=>{
+  const home='https://www.met.gov.my/', media=home+'json/siaran_media/default.json', news=home+'json/berita/default.json';
+  const met={sources:[{id:'metmalaysia',name:'METMalaysia',url:home,hosts:['met.gov.my'],description:'Official weather source'}]};
+  const cfg={version:1,sources:[{id:'metmalaysia',url:home,kind:'html',jsonListings:[{url:media,kind:'met-media'},{url:news,kind:'met-news'}]}],datasets:[]};
+  const rows={media:[{path:'/assets/content/siaran_media/default/23 Oktober 2026 - Monsun Timur Laut.pdf',title:'Kenyataan Media Permulaan Fasa Monsun Timur Laut 2026_2027',date:'23 Oktober 2026'},{path:'/earthquake.pdf',title:'Gempa bumi di luar Malaysia',date:'22 Oktober 2026'}]};
+  const articles={news:[{routes:'/berita/papar/laporan-tinjauan-cuaca-terkini',title:'Laporan Tinjauan Cuaca Oktober 2026 - Mac 2027',news_date:'01 Okt 2026'}]};
+  const fetchFn=async url=>new Response(url===home?html:JSON.stringify(url===media?rows:articles),{headers:{'content-type':url===home?'text/html':'application/json'}});
+  const good=await collect(met,cfg,{}, {now:at,fetchFn});
+  assert.ok(good.sources[0].links.some(link=>decodeURI(link.url).includes('23 Oktober 2026 - Monsun Timur Laut.pdf')));
+  assert.ok(good.sources[0].links.some(link=>link.url.endsWith('/berita/papar/laporan-tinjauan-cuaca-terkini')));
+  assert.ok(!good.sources[0].links.some(link=>link.url.includes('earthquake')));
+  const partial=await collect(met,cfg,good,{now:new Date(+at+60000),fetchFn:async url=>url===media?new Response('{}',{headers:{'content-type':'application/json'}}):fetchFn(url)});
+  assert.equal(partial.sources[0].status,'limited');
+  assert.equal(partial.sources[0].lastSuccessAt,good.checkedAt);
+  assert.deepEqual(partial.sources[0].links,good.sources[0].links);
+  await assert.rejects(collect(met,{...cfg,sources:[{...cfg.sources[0],jsonListings:[{url:'https://evil.test/media.json',kind:'met-media'}]}]}, {},{now:at,fetchFn}),/HTTPS link/);
+});
+
 test('discovery follows published next/feed links inside official hosts with a source-wide bound',async()=>{
   const listing=html+'<a rel="next" href="?page=2">Next</a><link rel="alternate" type="application/rss+xml" href="/feed"><link rel="alternate" type="application/atom+xml" href="/atom"><link rel="alternate" type="application/rss+xml" href="/comments/feed"><a rel="next" href="https://evil.test/next">Next</a>';
   assert.equal(discoverListings(listing,page,['water.gov.my']).length,2);
