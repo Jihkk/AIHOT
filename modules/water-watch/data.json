@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-30T00:31:15.068Z",
+  "checkedAt": "2026-10-31T00:34:29.059Z",
   "attribution": "Government of Malaysia / METMalaysia / Department of Environment, data.gov.my — CC BY 4.0",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "datasets": [
@@ -10,15 +10,29 @@
       "url": "https://api.data.gov.my/weather/forecast?contains=Kuala%20Lumpur@location__location_name&limit=14",
       "page": "https://developer.data.gov.my/realtime-api/weather",
       "scope": "仅吉隆坡，最多 14 条返回记录；不是全国预报",
-      "checkedAt": "2026-10-30T00:31:15.068Z",
+      "checkedAt": "2026-10-31T00:34:29.059Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-30T00:31:15.068Z",
+      "dataFetchedAt": "2026-10-31T00:34:29.059Z",
       "records": [
         {
           "location": {
             "location_id": "Ds058",
             "location_name": "Kuala Lumpur"
           },
+          "date": "2026-11-06",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Hujan di beberapa tempat",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang dan Malam",
+          "min_temp": 23,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+          },
           "date": "2026-11-05",
           "morning_forecast": "Tiada Hujan",
           "afternoon_forecast": "Ribut petir di beberapa tempat",
@@ -36,9 +50,9 @@
           "date": "2026-11-04",
           "morning_forecast": "Tiada Hujan",
           "afternoon_forecast": "Ribut petir di beberapa tempat",
-          "night_forecast": "Hujan di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
           "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Petang dan Malam",
+          "summary_when": "Petang",
           "min_temp": 23,
           "max_temp": 33
         },
@@ -78,9 +92,9 @@
           "date": "2026-11-01",
           "morning_forecast": "Tiada Hujan",
           "afternoon_forecast": "Ribut petir di beberapa tempat",
-          "night_forecast": "Tiada Hujan",
+          "night_forecast": "Hujan di beberapa tempat",
           "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Petang",
+          "summary_when": "Petang dan Malam",
           "min_temp": 23,
           "max_temp": 34
         },
@@ -96,20 +110,20 @@
           "summary_forecast": "Ribut petir di beberapa tempat",
           "summary_when": "Petang",
           "min_temp": 23,
-          "max_temp": 34
+          "max_temp": 33
         },
         {
           "location": {
-            "location_id": "Ds058",
-            "location_name": "Kuala Lumpur"
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
           },
-          "date": "2026-10-30",
-          "morning_forecast": "Hujan di beberapa tempat",
-          "afternoon_forecast": "Tiada Hujan",
-          "night_forecast": "Tiada Hujan",
-          "summary_forecast": "Hujan di beberapa tempat",
-          "summary_when": "Pagi",
-          "min_temp": 23,
+          "date": "2026-11-06",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Hujan di beberapa tempat",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang dan Malam",
+          "min_temp": 24,
           "max_temp": 33
         },
         {
@@ -134,9 +148,9 @@
           "date": "2026-11-04",
           "morning_forecast": "Tiada Hujan",
           "afternoon_forecast": "Ribut petir di beberapa tempat",
-          "night_forecast": "Hujan di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
           "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Petang dan Malam",
+          "summary_when": "Petang",
           "min_temp": 24,
           "max_temp": 33
         },
@@ -176,9 +190,9 @@
           "date": "2026-11-01",
           "morning_forecast": "Tiada Hujan",
           "afternoon_forecast": "Ribut petir di beberapa tempat",
-          "night_forecast": "Tiada Hujan",
+          "night_forecast": "Hujan di beberapa tempat",
           "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Petang",
+          "summary_when": "Petang dan Malam",
           "min_temp": 24,
           "max_temp": 33
         },
@@ -193,20 +207,6 @@
           "night_forecast": "Tiada Hujan",
           "summary_forecast": "Ribut petir di beberapa tempat",
           "summary_when": "Petang",
-          "min_temp": 24,
-          "max_temp": 33
-        },
-        {
-          "location": {
-            "location_id": "St009",
-            "location_name": "WP Kuala Lumpur"
-          },
-          "date": "2026-10-30",
-          "morning_forecast": "Hujan di beberapa tempat",
-          "afternoon_forecast": "Tiada Hujan",
-          "night_forecast": "Tiada Hujan",
-          "summary_forecast": "Hujan di beberapa tempat",
-          "summary_when": "Pagi",
           "min_temp": 24,
           "max_temp": 33
         }
@@ -218,28 +218,43 @@
       "url": "https://api.data.gov.my/weather/warning?limit=20",
       "page": "https://developer.data.gov.my/realtime-api/weather",
       "scope": "接口最多 20 条返回记录，可能含历史或已过期预警；不能代表完整现行警情",
-      "checkedAt": "2026-10-30T00:31:15.068Z",
+      "checkedAt": "2026-10-31T00:34:29.059Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-30T00:31:15.068Z",
+      "dataFetchedAt": "2026-10-31T00:34:29.059Z",
       "records": [
         {
           "warning_issue": {
-            "issued": "2026-10-30T05:45:00",
+            "issued": "2026-10-31T03:15:00",
             "title_bm": "Amaran Angin Kencang dan Laut Bergelora",
             "title_en": "Strong Winds and Rough Seas Warning"
           },
-          "valid_from": "2026-10-30T05:00:00",
-          "valid_to": "2026-10-30T10:00:00",
+          "valid_from": "2026-10-31T03:00:00",
+          "valid_to": "2026-10-31T09:00:00",
           "heading_en": "Warning on Strong Wind and Rough Seas",
-          "text_en": "SECTION A: FOR MALAYSIAN WATERS [WITHIN 24 NAUTICAL MILES] 1) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Pahang • Terengganu • Kelantan • Sarawak • Western Sabah until 10:00 AM; Friday, 30 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats. SECTION B: FOR SHIPPING 1) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Northern Straits Of Melaka • Phuket • Samui • Tioman • Northern part of Condore • Reef South • Reef North • Labuan • Sulu • Layang-Layang • Western part of Bunguran until 10:00 AM; Friday, 30 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats.",
+          "text_en": "SECTION A: FOR MALAYSIAN WATERS [WITHIN 24 NAUTICAL MILES] 1) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Perlis & Kedah • Penang • Perak • Selangor • Pahang • Terengganu • Kelantan • Sarawak • Sabah until 9:00 AM; Saturday, 31 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats. SECTION B: FOR SHIPPING 1) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Reef South • Labuan • Eastern part of Bunguran • Phuket • Straits Of Melaka • Samui • Reef North • Sulu • Tioman • Northern part of Condore • Palawan • Layang-Layang • Sulawesi until 9:00 AM; Saturday, 31 October 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats.",
           "instruction_en": "This condition of strong winds and rough seas is dangerous.",
           "heading_bm": "Amaran Angin kencang dan laut bergelora",
-          "text_bm": "SEKSYEN A: UNTUK PERAIRAN MALAYSIA [DALAM LINGKUNGAN 24 BATU NAUTIKA] 1) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Pahang • Terengganu • Kelantan • Sarawak • Sabah Barat dan Labuan sehingga 10:00 Pagi; Jumaat, 30 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil. SEKSYEN B: UNTUK PERKAPALAN 1) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Selat Melaka Utara • Phuket • Samui • Tioman • Utara Condore • Reef South • Reef North • Labuan • Sulu • Layang-Layang • Barat Bunguran sehingga 10:00 Pagi; Jumaat, 30 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil.",
+          "text_bm": "SEKSYEN A: UNTUK PERAIRAN MALAYSIA [DALAM LINGKUNGAN 24 BATU NAUTIKA] 1) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Perlis & Kedah • Pulau Pinang • Perak • Selangor • Pahang • Terengganu • Kelantan • Sarawak • Sabah sehingga 9:00 Pagi; Sabtu, 31 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil. SEKSYEN B: UNTUK PERKAPALAN 1) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Reef South • Labuan • Timur Bunguran • Phuket • Selat Melaka • Samui • Reef North • Sulu • Tioman • Utara Condore • Palawan • Layang-Layang • Sulawesi sehingga 9:00 Pagi; Sabtu, 31 Oktober 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil.",
           "instruction_bm": "Keadaan angin kencang dan laut bergelora ini adalah berbahaya."
         },
         {
           "warning_issue": {
-            "issued": "2026-10-30T05:30:00",
+            "issued": "2026-10-31T05:00:00",
+            "title_bm": "Amaran Ribut Petir",
+            "title_en": "Thunderstorms Warning"
+          },
+          "valid_from": "2026-10-31T05:00:00",
+          "valid_to": "2026-10-31T09:00:00",
+          "heading_en": "THUNDERSTORMS WARNING",
+          "text_en": "Thunderstorms, heavy rain and strong winds are expected over the states of Sarawak: Mukah (Daro, Matu and Dalat), Sibu (Sibu and Kanowit), Sarikei (Maradong and Julau), Kapit (Song), Sri Aman, Samarahan (Sebuyau), Betong (Betong), Miri (Subis) • Sabah: Kudat (Kudat and Pitas), Sandakan (Paitan, Labuk & Sugut and Sandakan) until 9:00 AM; Saturday, 31 October 2026.",
+          "instruction_en": null,
+          "heading_bm": "AMARAN RIBUT PETIR",
+          "text_bm": "Ribut petir, hujan lebat dan angin kencang dijangka di negeri Sarawak: Mukah (Daro, Matu dan Dalat), Sibu (Sibu dan Kanowit), Sarikei (Maradong dan Julau), Kapit (Song), Sri Aman, Samarahan (Sebuyau), Betong (Betong), Miri (Subis) • Sabah: Kudat (Kudat dan Pitas), Sandakan (Paitan, Labuk & Sugut dan Sandakan) sehingga 9:00 Pagi; Sabtu, 31 Oktober 2026.",
+          "instruction_bm": null
+        },
+        {
+          "warning_issue": {
+            "issued": "2026-10-31T05:30:00",
             "title_bm": "Tiada Nasihat",
             "title_en": "No Advisory"
           },
@@ -260,9 +275,9 @@
       "url": "https://api.data.gov.my/data-catalogue?id=water_pollution_basin&limit=100&sort=-date",
       "page": "https://data.gov.my/data-catalogue/water_pollution_basin",
       "scope": "按年份降序请求最多 100 条年度统计记录；数据年份不等于采集日期",
-      "checkedAt": "2026-10-30T00:31:15.068Z",
+      "checkedAt": "2026-10-31T00:34:29.059Z",
       "status": "ok",
-      "dataFetchedAt": "2026-10-30T00:31:15.068Z",
+      "dataFetchedAt": "2026-10-31T00:34:29.059Z",
       "records": [
         {
           "date": "2024-01-01",
