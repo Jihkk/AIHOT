@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "reviewedAt": "2026-11-09",
+  "reviewedAt": "2026-11-10",
   "sources": [
     {
       "id": "jps",
@@ -627,7 +627,7 @@
         "FT234"
       ],
       "language": "ms",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "evidence": "公告 MAKLUMAT PROJEK 列道路抬高与三条河流桥梁；MAKLUMAT KONTRAKTOR 列 Bumiputera、T1、G7 和 CE01/CE02；MAKLUMAT DOKUMEN 列 RM1500，TARIKH TENDER DITUTUP 为 12/11/2026、12:00 PM。没有据项目名推断设计 ARI 或防洪成效。 2026-10-09 复核原网页，现场时间及 11 月 12 日 12:00 截止未变，文件销售日期为 10 月 15–21 日。 2026-10-11 重新读取官方正文／列表，所列截止日期、说明会及范围未见变化；网页核查不代表已读取登录系统内所有补遗。 2026-10-13 重新打开 JKR E-Tender 官方详情：页面仍列 10 月 8 日强制现场说明会、文件销售期 10 月 15–21 日及 11 月 12 日 12:00 截止。下载文件需登录，未据公开页声称已核实账户内补遗。 2026-10-14 重新打开 JKR E-Tender 官方详情，页面仍列 10 月 8 日强制现场说明会、文件销售期 10 月 15–21 日及 11 月 12 日 12:00 截止。公开页未显示新增补遗；投标文件需登录下载，本轮未核查受限附件。 2026-10-16 重新打开 JKR E-Tender 官方详情：公开页面仍列 10 月 8 日强制现场说明会、文件销售期 10 月 15–21 日及 11 月 12 日 12:00 截止，未见公开补遗。下载文件需登录，本次未核查受限文件或账户内补遗。 2026-10-18 重新读取 JKR E-Tender 公开详情页：范围仍为 FT234 道路抬高及三座河桥升级，所列强制现场说明会 08/10/2026 11:00 已过，文件销售期为 15–21/10/2026，投标截止 12/11/2026 12:00；公开页未显示新补遗，需登录的投标附件未核查。 2026-10-20 重新读取 JKR E-Tender 官方详情页：强制现场参观／说明会为 08/10/2026 11:00（已过），文件销售期为 15–21/10/2026、截止售卖时刻 17:00，投标截止为 12/11/2026 12:00；工程范围、资格及 RM1,500 文件费如前。页面提示后续须登录 JET 下载投标文件，账户内补遗未核查。 2026-10-21 重新读取 JKR E-Tender 详情与文件查看页：公开详情仍列 08/10/2026 11:00 强制现场会、文件销售 15–21/10/2026（21 日 17:00 截止）及投标截止 12/11/2026 12:00。公开列表标注 [ADENDUM]，并显示 19/10/2026 更新行动为 MAKLUMAT PROJEK；文件查看页显示 Adendum 栏目，但具体补遗文件未在无需登录的公开页面展示，账户内文件未核查。 2026-10-21 复核招标元数据：公开详情列文件费 RM1,500、资格 Bumiputera/T1、CIDB G7 CE01/CE02；不据项目名称推断设计洪水标准。 2026-10-22 重新打开 JKR E-Tender 详情：范围仍为 FT234 道路抬高及 Sungai Sepial、Sungai Kerak、Sungai Teh 三座桥升级；文件销售已于 21/10/2026 17:00 结束，投标截止仍为 12/11/2026 12:00。公开详情未展示 19/10 项目资料更新的具体内容；需登录的投标文件及账户内补遗未核查。 2026-10-24 重新读取 JKR E-Tender 官方详情：范围仍为 FT234 道路抬高及三座河桥升级，文件销售期 15–21/10/2026 已结束，公开页仍列投标截止 12/11/2026 12:00；登录投标文件及账户内补遗未核查。 2026-10-25 重新读取 JKR E-Tender 官方详情：文件销售期 15–21/10/2026 已结束，公开页仍列投标截止 12/11/2026 12:00。投标文件及账户内补遗需登录，本次未核查。 2026-10-26 重新读取 JKR E-Tender 公开详情：工程范围、已结束的文件销售期 15–21/10/2026，以及 12/11/2026 12:00 截标信息仍与前次读取一致；详情页未显示新的日期变更。投标文件及账户内补遗仍需登录查看。 2026-10-28 重新阅读公开详情及文件查看页，说明会、销售及截止日期与原记录一致；账户内投标文件和具体补遗未作核查，不据公开分类名称推断没有补遗。 2026-10-29 重新阅读官方公开详情，说明会、销售期和截标日期未变；登录账户内的投标文件及补遗仍未核查。 2026-11-06 实际 GET 读取官方公开详情，仍列原强制现场会 08/10/2026 11:00、已结束的销售期 15–21/10/2026 17:00，以及投标截止 12/11/2026 12:00；未见公开日期变更，登录账户内文件及补遗未核查。",
       "dateEvidence": "TARIKH IKLAN 明示 01/10/2026。现场参观／说明会为 08/10/2026 11:00 AM，截止为 12/11/2026 12:00 PM；未来截止不填成已经发生的 eventDate。时间按马来西亚当地公告理解，后续补遗以原站为准。",
       "tender": {
@@ -803,7 +803,7 @@
     },
     {
       "language": "ms",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "id": "planmalaysia-setiu-wetlands-tender-2026",
       "source": "planmalaysia",
       "category": "tenders",
@@ -951,7 +951,7 @@
         "Langat 2"
       ],
       "language": "en",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "evidence": "2026-10-29 重新阅读 PAAB 采购详情及一页正式扫描广告 https://www.paab.my/wp-content/uploads/2026/09/Iklan-01.10.2026.pdf 。详情仍列 Open、29/10/2026 12:00 截止及 07/10 10:00 说明会。广告第 2 点明确说明会和现场访问均为强制，文件购买期 08–19/10、RM500；资格列 T1、100% 本地公司、SPKK、CIDB G3/G4/G5/G6/G7、CE20 和 CE21，截止 29/10/2026 12:00，纸本投入 PAAB Menara FELDA 指定投标箱。原下载 href 缺前导斜线，按实际给出的官网根路径读取成功；未把链接错误或网页 Open 解释为延期。 2026-11-06 实际 GET 读取 PAAB 旧独立详情，页面仍标 Open、原截止 29/10/2026 12:00、原说明会 07/10/2026 10:00；该项目不在当前招标列表。原列截止已过，旧页面 Open 不代表重开或已获延期。",
       "dateEvidence": "采购详情 Advertisement Date 为 01/10/2026；正式广告确认 29/10/2026（星期四）12:00 截止、07/10/2026 10:00 强制说明会，文件购买 08–19/10/2026。过去参与条件均保留；本次补足正式广告证据，不是新延期。",
       "tender": {
@@ -2415,7 +2415,7 @@
         "监狱设施"
       ],
       "language": "ms",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "evidence": "JKR E-Tender 公告详情“MAKLUMAT PROJEK”列出 Kluang 监狱现有处理水供水系统升级、污水系统及相关工程，并标明本次为处理水系统重新招标；详情列 05/11/2026 11:00 强制说明会、12:30 现场踏勘，文件费 RM500，文件销售 12–19/11/2026，截标 10/12/2026 12:00，CIDB G7/CE20/CE21 条件。没有工程预算或工期，未作推断。 2026-10-24 重新读取 JKR E-Tender 官方详情：强制说明会和现场踏勘仍列于 05/11/2026 11:00、12:30；文件销售 12–19/11/2026，投标截止 10/12/2026 12:00。 2026-10-25 重新读取 JKR E-Tender 官方详情：强制说明会及踏勘仍列于 05/11/2026 11:00、12:30，文件销售 12–19/11/2026，投标截止 10/12/2026 12:00；未见公开日期变更。 2026-10-26 重新读取 JKR E-Tender 公开详情：仍列 05/11/2026 11:00 强制说明会、12:30 现场踏勘、文件销售 12–19/11/2026 和 10/12/2026 12:00 截标；公开详情未显示日期变更，受限投标文件需登录查看。 2026-10-28 重新阅读公开详情及文件查看页，说明会、销售及截止日期与原记录一致；账户内投标文件和具体补遗未作核查，不据公开分类名称推断没有补遗。 2026-10-29 重新阅读官方公开详情，说明会、销售期和截标日期未变；登录账户内的投标文件及补遗仍未核查。 2026-11-06 实际 GET 读取官方公开详情，原列 05/11/2026 11:00 强制说明会、12:30 踏勘日期已过，地点文字现为 Bilik Anggerik, Bangunan Pentadbiran, Penjara Kluang；此前 11 月 3 日读取为 Dewan Sri Siantan。当前公开列表记录 03/11/2026 更新 MAKLUMAT PROJEK，但不能据此认定具体地点修改时刻或实际会期已举行。销售 12–19/11/2026、截标 10/12/2026 12:00 未变，受限投标文件及账户内补遗未核查。",
       "dateEvidence": "官方详情“Tarikh Iklan”为 22/10/2026，故 publishedAt 填 2026-10-22。列表更新记录显示规格文件于 21/10/2026 更新；正文为本轮直接读取版本。",
       "tender": {
@@ -2536,7 +2536,7 @@
       "source": "jkr",
       "category": "tenders",
       "title": "JKR 招标 Sungai Inki 桥替换与拓宽工程，原 11 月 2 日强制会期已过",
-      "summary": "JKR 于 10 月 26 日公告替换并拓宽 Hulu Selangor 的 Sungai Inki 桥（FT001/464/00）。公开页原列强制现场踏勘／说明会为 11 月 2 日 10:00，日期已过；文件线上销售期仍为 11 月 10–17 日（17 日 17:00 停售），投标截止 12 月 3 日 12:00，文件费 RM500。条件包括 Bumiputera、CIDB G7 CE01／CE02；具体参与资格须结合原强制会期核对，后续文件需登录 JET。公开列表列 11 月 2 日更新规格文件，并于 11 月 7 日更新合同要求文件；具体附件修改内容未核实；不据工程名称推断防洪效益。",
+      "summary": "JKR 于 10 月 26 日公告替换并拓宽 Hulu Selangor 的 Sungai Inki 桥（FT001/464/00）。公开页原列强制现场踏勘／说明会为 11 月 2 日 10:00，日期已过；文件线上销售期仍为 11 月 10–17 日（17 日 17:00 停售），投标截止 12 月 3 日 12:00，文件费 RM500。条件包括 Bumiputera、CIDB G7 CE01／CE02；具体参与资格须结合原强制会期核对，后续文件需登录 JET。公开列表先后列 11 月 2 日更新规格文件、11 月 7 日更新合同要求文件、11 月 9 日更新工程量文件；具体附件修改内容未核实；不据工程名称推断防洪效益。",
       "url": "https://tender.jkr.gov.my/kenyataan/tender/view?id=2454&ids=JKR%2FCKUB%2F25114%2F2026&ids2=1&ids3=1",
       "publishedAt": "2026-10-26",
       "eventDate": null,
@@ -2550,8 +2550,8 @@
         "FT001"
       ],
       "language": "ms",
-      "checkedAt": "2026-11-09",
-      "evidence": "JKR E-Tender 公开详情的 MAKLUMAT PROJEK 列出 “MENGGANTIKAN DAN MELEBARKAN JAMBATAN SUNGAI INKI (FT001/464/00), HULU SELANGOR, SELANGOR”，并将现场踏勘／说明会标为 wajib；详情列 02/11/2026 10:00、TARIKH IKLAN 26/10/2026、文件销售 10–17/11/2026（17:00 截止）、截标 03/12/2026 12:00。MAKLUMAT KONTRAKTOR 列 Bumiputera、CIDB G7 CE01/CE02；文件价格 RM500。系统说明投标文件需在完成强制现场会及付款后登录下载。公开页面未列预算或工期，不推断桥梁的防洪作用。 2026-10-28 重新阅读公开详情及文件查看页，说明会、销售及截止日期与原记录一致；账户内投标文件和具体补遗未作核查，不据公开分类名称推断没有补遗。 2026-10-29 重新阅读官方公开详情，说明会、销售期和截标日期未变；登录账户内的投标文件及补遗仍未核查。 2026-11-06 实际 GET 读取官方公开详情，原列 02/11/2026 10:00 强制说明会／踏勘日期已过；销售仍为 10–17/11/2026（17 日 17:00 停售）、截标仍为 03/12/2026 12:00。公开列表记录 02/11/2026 更新 DOKUMEN SPESIFIKASI；本轮未读取受限规格附件，不据更新日期推断工程范围改变。 2026-11-08 实际 GET 阅读 JKR 公开详情及当前列表：截标仍为 03/12/2026 12:00，销售仍为 10–17/11/2026（17 日 17:00 停售），原列 02/11/2026 10:00 强制会期已过。列表新增列明 07-11-2026 更新 DOKUMEN KEHENDAK KONTRAK；公开文件目录列 Kehendak-Kehendak Kontrak、Kuantiti PDF、Spesifikasi、Awam。合同要求链接跳转至网页文档查看器，本轮未读得实际附件正文；不声称具体合同要求或补遗没有变化。",
+      "checkedAt": "2026-11-10",
+      "evidence": "JKR E-Tender 公开详情的 MAKLUMAT PROJEK 列出 “MENGGANTIKAN DAN MELEBARKAN JAMBATAN SUNGAI INKI (FT001/464/00), HULU SELANGOR, SELANGOR”，并将现场踏勘／说明会标为 wajib；详情列 02/11/2026 10:00、TARIKH IKLAN 26/10/2026、文件销售 10–17/11/2026（17:00 截止）、截标 03/12/2026 12:00。MAKLUMAT KONTRAKTOR 列 Bumiputera、CIDB G7 CE01/CE02；文件价格 RM500。系统说明投标文件需在完成强制现场会及付款后登录下载。公开页面未列预算或工期，不推断桥梁的防洪作用。 2026-10-28 重新阅读公开详情及文件查看页，说明会、销售及截止日期与原记录一致；账户内投标文件和具体补遗未作核查，不据公开分类名称推断没有补遗。 2026-10-29 重新阅读官方公开详情，说明会、销售期和截标日期未变；登录账户内的投标文件及补遗仍未核查。 2026-11-06 实际 GET 读取官方公开详情，原列 02/11/2026 10:00 强制说明会／踏勘日期已过；销售仍为 10–17/11/2026（17 日 17:00 停售）、截标仍为 03/12/2026 12:00。公开列表记录 02/11/2026 更新 DOKUMEN SPESIFIKASI；本轮未读取受限规格附件，不据更新日期推断工程范围改变。 2026-11-08 实际 GET 阅读 JKR 公开详情及当前列表：截标仍为 03/12/2026 12:00，销售仍为 10–17/11/2026（17 日 17:00 停售），原列 02/11/2026 10:00 强制会期已过。列表新增列明 07-11-2026 更新 DOKUMEN KEHENDAK KONTRAK；公开文件目录列 Kehendak-Kehendak Kontrak、Kuantiti PDF、Spesifikasi、Awam。合同要求链接跳转至网页文档查看器，本轮未读得实际附件正文；不声称具体合同要求或补遗没有变化。 2026-11-10 实际 GET 重读公开详情、当前列表及文件目录：列表最新记录 09-11-2026 更新 DOKUMEN KUANTITI；强制会期仍为已过的 02/11/2026 10:00，销售仍 10–17/11/2026（17 日 17:00 停售），截标仍 03/12/2026 12:00。目录 Kuantiti PDF 链接跳转网页文档查看器，未读得实际工程量附件正文，不能据更新类别推断数量、范围或造价变化。",
       "dateEvidence": "官方详情 TARIKH IKLAN 明示 26/10/2026；强制现场踏勘／说明会为 02/11/2026 10:00 AM，销售期 10–17/11/2026，17/11 05:00 PM 截止，TARIKH TENDER DITUTUP 为 03/12/2026 12:00 PM。时间按马来西亚当地系统时间记录；未来事项不填作已发生的 eventDate。",
       "tender": {
         "reference": "JKR/CKUB/25114/2026",
@@ -2559,7 +2559,7 @@
         "deadline": "2026-12-03T12:00:00+08:00",
         "briefing": "2026-11-02T10:00:00+08:00",
         "briefingRequirement": "mandatory",
-        "evidence": "JKR E-Tender 公开详情列明项目范围为替换并拓宽 Hulu Selangor 的 Sungai Inki Bridge (FT001/464/00)；强制现场踏勘／说明会 02/11/2026 10:00；文件销售 10–17/11/2026、17/11 17:00 截止；投标截止 03/12/2026 12:00。投标条件列 Bumiputera、CIDB SPKK/PPK G7 CE01/CE02；文件价格 RM500。系统说明符合条件的投标方完成强制现场会及付款后须登录 JET 下载文件。公开页未提供项目预算或工期。 2026-11-06 实际 GET 读取官方公开详情，原列 02/11/2026 10:00 强制说明会／踏勘日期已过；销售仍为 10–17/11/2026（17 日 17:00 停售）、截标仍为 03/12/2026 12:00。公开列表记录 02/11/2026 更新 DOKUMEN SPESIFIKASI；本轮未读取受限规格附件，不据更新日期推断工程范围改变。 2026-11-08 实际 GET 阅读 JKR 公开详情及当前列表：截标仍为 03/12/2026 12:00，销售仍为 10–17/11/2026（17 日 17:00 停售），原列 02/11/2026 10:00 强制会期已过。列表新增列明 07-11-2026 更新 DOKUMEN KEHENDAK KONTRAK；公开文件目录列 Kehendak-Kehendak Kontrak、Kuantiti PDF、Spesifikasi、Awam。合同要求链接跳转至网页文档查看器，本轮未读得实际附件正文；不声称具体合同要求或补遗没有变化。"
+        "evidence": "JKR E-Tender 公开详情列明项目范围为替换并拓宽 Hulu Selangor 的 Sungai Inki Bridge (FT001/464/00)；强制现场踏勘／说明会 02/11/2026 10:00；文件销售 10–17/11/2026、17/11 17:00 截止；投标截止 03/12/2026 12:00。投标条件列 Bumiputera、CIDB SPKK/PPK G7 CE01/CE02；文件价格 RM500。系统说明符合条件的投标方完成强制现场会及付款后须登录 JET 下载文件。公开页未提供项目预算或工期。 2026-11-06 实际 GET 读取官方公开详情，原列 02/11/2026 10:00 强制说明会／踏勘日期已过；销售仍为 10–17/11/2026（17 日 17:00 停售）、截标仍为 03/12/2026 12:00。公开列表记录 02/11/2026 更新 DOKUMEN SPESIFIKASI；本轮未读取受限规格附件，不据更新日期推断工程范围改变。 2026-11-08 实际 GET 阅读 JKR 公开详情及当前列表：截标仍为 03/12/2026 12:00，销售仍为 10–17/11/2026（17 日 17:00 停售），原列 02/11/2026 10:00 强制会期已过。列表新增列明 07-11-2026 更新 DOKUMEN KEHENDAK KONTRAK；公开文件目录列 Kehendak-Kehendak Kontrak、Kuantiti PDF、Spesifikasi、Awam。合同要求链接跳转至网页文档查看器，本轮未读得实际附件正文；不声称具体合同要求或补遗没有变化。 2026-11-10 实际 GET 重读公开详情、当前列表及文件目录：列表最新记录 09-11-2026 更新 DOKUMEN KUANTITI；强制会期仍为已过的 02/11/2026 10:00，销售仍 10–17/11/2026（17 日 17:00 停售），截标仍 03/12/2026 12:00。目录 Kuantiti PDF 链接跳转网页文档查看器，未读得实际工程量附件正文，不能据更新类别推断数量、范围或造价变化。"
       },
       "states": [
         "selangor"
@@ -2608,7 +2608,7 @@
         "Seberang Perai"
       ],
       "language": "ms",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "evidence": "官方两页扫描 PDF 已逐页渲染核对。第 1 页列 Seberang Perai 已整合污水处理厂结构拆除范围、槟城注册、CIDB G4 B26 及 CE21、PPK/SPKK/TCC 要求。第 2 页列 02/11/2026 11:00 的强制说明会／踏勘、Taman Jelita (SPI190)、参加后通过 i-Payment 购买 RM50 文件，以及 17/11/2026 12:00 前纸本提交至 JPP Putrajaya Peti Sebut Harga 4。附件编号为 PETRA/JPP/MEROBOH/SCC/2026-Q15，https://www.petra.gov.my/v2/tender 表格却列 PETRA/JPP/MEROBOH/SCC/2026-015，保留差异，不静默修正。 2026-10-29 重新获取原两页 PDF，SHA-256 与前次相同；原列 11 月 2 日 11:00 强制现场会及 11 月 17 日 12:00 截止未变，官网表格与附件编号差异仍在。 2026-11-06 GET 原扫描 PDF 200 并重新渲染、逐页视觉核对两页，SHA-256 616910c67557bdd1553e80e8aa11e4c767d9e38ddb40e13b485a1baa41139e51，与此前原件一致；采购列表仍列此项，网页 2026-015 / PDF 2026-Q15 差异保留。未见本轮入口内有延期或补遗，不能声称现场会已经举行或未参会者仍可参与。",
       "dateEvidence": "附件把 27/10/2026 标为 Tarikh Mula Tawaran，没有独立标明发布日期，故 publishedAt 与 eventDate 均为空。原列说明会及截止时间按马来西亚 UTC+8 记录，文件名中的日期不作为发布依据。 截至实际重读日 2026-11-06，原定强制现场会时段已过；未读取到证明实际举行或补充安排的独立公告。原列 2026-11-17 12:00 截止未变。",
       "states": [
@@ -2819,7 +2819,7 @@
         "Port Dickson"
       ],
       "language": "ms",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "evidence": "2026-10-29 实际 GET 读取 PAAB 官方独立详情，Details 列 Pakej 1：850 mm MSCL 处理水管由 Loji Rawatan Air Sawah Raja 至 Tangki Imbangan Bukit Kunyit，1,000 mm MSCL 配水管由该水池至 Simpang Tiga Jalan Masuk；Tender No 为 PAAB/N057/PAKEJ 1/02/26。正式公告 https://www.paab.my/wp-content/uploads/2026/10/Iklan-29.10.26.pdf 实际下载 HTTP 200，为 1 页扫描文件，已视觉核对第 1 行及共同条款：强制说明会 02/11/2026 10:00，地点为 Sawah Raja 水厂会议室，Kampung Limau Kambing, 71150 Kota, Negeri Sembilan；现场踏勘为同日，未列独立时刻。文件销售 03–13/11/2026，工作日 08:30–12:00 及 14:00–17:00，文件价 RM2,000；截止 24/11/2026 12:00，提交至 PAAB Menara FELDA 指定投标箱。资格列 Bumiputera/T1、SPKK、CIDB G7 CE20 & CE21、STB；共同条款第 2 点明确说明会及现场踏勘均强制。没有披露管线长度、工程预算或施工工期，不作推断。 2026-11-06 实际 GET 读取 PAAB 列表及独立详情，原列 02/11/2026 10:00 强制说明会及同日踏勘日期已过，销售 03–13/11/2026、截标 24/11/2026 12:00 未变。正式公告 Iklan-29.10.26.pdf 重新下载 HTTP 200，SHA-256 D59629D70826D2C432CC21B42ED67A9ECD9C68242A26DE5D6EDD7FC2AD438C4D 与此前已视觉核查文件相同；没有核实活动实际举行，销售期不取消原强制参加条件。",
       "dateEvidence": "PAAB 官方独立详情 Advertisement Date 明示 29/10/2026 08:30 am，故 publishedAt 为 2026-10-29；Briefing Date 为 02/11/2026 10:00 am，Closing Date 为 24/11/2026 12:00 pm，与正式公告第 1 行一致。未来说明会和截止不记作已发生 eventDate；时间按马来西亚 UTC+8。",
       "states": [
@@ -2853,7 +2853,7 @@
         "OP5-23"
       ],
       "language": "ms",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "evidence": "2026-10-29 沿 PAAB 官方 Tender Opportunities 页真实锚链接打开并实际 GET 读取独立详情，HTTP 200。Details 原文为 Pakej 4 : Cadangan Memasang Paip 200mm, 150mm Diameter Keluli Lembut Di Taman Muzaffar Shah, Ayer Keroh Serta Lain-Lain Kerja Yang Berkaitan Di Daerah Melaka Tengah, Melaka；Tender No 为 PAAB/M047/PAKEJ 4/04/26。独立详情链接同一正式公告 https://www.paab.my/wp-content/uploads/2026/10/Iklan-29.10.26.pdf，已实际下载并视觉核对第 2 行和共同条款：说明会 03/11/2026 10:30，地点 Bilik Mesyuarat Ibnu Batuta, Tingkat 8, Lot 897, Wisma Air, Jalan Hang Tuah, 75300 Melaka；现场踏勘同日，未列独立时刻。文件销售 04–16/11/2026，工作日 08:30–12:00 及 14:00–17:00，RM650；截止 25/11/2026 12:00，提交至 PAAB Menara FELDA 指定投标箱。资格为 Bumiputera/T1、SPKK、CIDB G6 CE20 & CE21、STB；共同条款第 2 点明确说明会及现场踏勘强制。独立详情与 PDF 一致，管径为 200 mm 及 150 mm、材质为 Keluli Lembut（mild steel）。总计划题名包含 Jasin，不据此扩大本包的具体施工范围；未披露长度、预算或工期。 2026-11-06 实际 GET 读取 PAAB 列表及独立详情，原列 03/11/2026 10:30 强制说明会及同日踏勘日期已过，销售 04–16/11/2026、截标 25/11/2026 12:00 未变。正式公告 Iklan-29.10.26.pdf 重新下载 HTTP 200，SHA-256 D59629D70826D2C432CC21B42ED67A9ECD9C68242A26DE5D6EDD7FC2AD438C4D 与此前已视觉核查文件相同；管径仍为 200 mm、150 mm mild-steel，不推断实际会期完成或当前新参与资格。",
       "dateEvidence": "PAAB 官方独立详情 Advertisement Date 为 29/10/2026 08:30 am；Briefing Date 为 03/11/2026 10:30 am；Closing Date 为 25/11/2026 12:00 pm。正式公告第 2 行给出相同说明会和截止时间，并列文件销售 04–16/11/2026；未来日期不填作已发生 eventDate，时间按马来西亚 UTC+8。",
       "states": [
@@ -2887,7 +2887,7 @@
         "OP3-17"
       ],
       "language": "ms",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "evidence": "2026-10-29 沿 PAAB 官方 Tender Opportunities 页真实锚链接打开并实际 GET 读取独立详情，HTTP 200。Details 明列 Kerja Penggantian Paip Lama Bagi Daerah Kluang, Kota Tinggi dan Mersing；Tender No 为 PAAB/J068/ KLG, KT & MRG/11/26。独立详情链接正式公告 https://www.paab.my/wp-content/uploads/2026/10/Iklan-29.10.26.pdf，已实际下载并视觉核对第 3 行和共同条款：说明会 04/11/2026 10:00，地点 Bilik Mesyuarat, Ranhill SAJ Kota Tinggi, Jalan Tun Sri Lanang, Taman Mawai Jaya, 81900 Kota Tinggi, Johor；现场踏勘为 04–05/11/2026，未列分日地点或具体时刻。文件销售 06–17/11/2026，工作日 08:30–12:00 及 14:00–17:00，RM650；截止 01/12/2026 12:00，提交至 PAAB Menara FELDA 指定投标箱。资格为 Bumiputera/T1、SPKK、CIDB G6 CE20 & CE21、STB；共同条款第 2 点明确说明会及现场踏勘强制。计划名称为 Tempoh Operasi Ketiga: OP3-17。未披露管线长度、管径、材质、预算或施工工期。 2026-11-06 实际 GET 读取 PAAB 列表及独立详情，原列 04/11/2026 10:00 强制说明会和 04–05/11/2026 踏勘日期已过，销售 06–17/11/2026、截标 01/12/2026 12:00 未变。正式公告 Iklan-29.10.26.pdf 重新下载 HTTP 200，SHA-256 D59629D70826D2C432CC21B42ED67A9ECD9C68242A26DE5D6EDD7FC2AD438C4D 与此前已视觉核查文件相同；未核实活动实际举行，不据文件销售开始推断无需满足原强制参加条件。",
       "dateEvidence": "PAAB 官方独立详情 Advertisement Date 为 29/10/2026 08:30 am；Briefing Date 为 04/11/2026 10:00 am；Closing Date 为 01/12/2026 12:00 pm。正式公告第 3 行给出相同说明会和截止时间，另列现场踏勘 04–05/11/2026、销售 06–17/11/2026。未来日期不填作已发生 eventDate，时间按马来西亚 UTC+8。",
       "states": [
@@ -3024,7 +3024,7 @@
         "Seremban"
       ],
       "language": "ms",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "evidence": "2026-10-31 实际 GET 读取 JKR E-Tender 官方详情，HTTP 200。MAKLUMAT PROJEK 原文为 PEMBINAAN TANGKI AIR BAHARU DI HOSPITAL TUANKU JA'AFAR, SEREMBAN, NEGERI SEMBILAN (REKA DAN BINA)；TARIKH IKLAN 为 30/10/2026。SYARAT KEHADIRAN KE LAWATAN TAPAK/TAKLIMAT TENDER 列 TIDAK BERKENAAN，现场及说明会日期、时刻为空。MAKLUMAT DOKUMEN 列 RM50、销售 09–13/11/2026，最后销售时刻 17:00，线上截止 03/12/2026 12:00。资格列 Bumiputera/T1、G7 CE20 & CE21；备注详列有效 PPK 与 SPKK 或规定的 PUKONSA 组合、STB、至少三星 CIDB SCORE、合规 TCC，以及受益所有人和反人口贩运／强迫劳动声明等预资格要求。备注第 5 点称后续 pra-bida 设计须由独立非内部的合资格顾问编制；不据此声称已进入设计或施工。公开 DOKUMEN MEJA TENDER 分类页可读，但具体文件下载出现重定向，本轮未登录或读取受限附件。公开详情没有披露水箱容量、供水压力、项目预算或施工工期，未据财务门槛反推预算。 2026-11-06 实际 GET 读取官方公开详情，项目仍为 Hospital Tuanku Ja'afar 新水箱设计与建造；说明会／踏勘标 TIDAK BERKENAAN 且日期为空，销售仍为 09–13/11/2026、13 日 17:00 停售，截标仍为 03/12/2026 12:00。公开列表记录 02/11/2026 更新 MAKLUMAT PROJEK，本次未核实受限文件具体变化，不推断容量、压力、工程预算或工期。",
       "dateEvidence": "官方详情 TARIKH IKLAN 明示 30/10/2026；文件销售期为 09/11/2026 至 13/11/2026、13 日 05:00 PM 截止；TARIKH TENDER DITUTUP 为 03/12/2026、12:00 PM。说明会／踏勘标为不适用且无具体日期，不补造会期。未来截止不填作已发生 eventDate；时间按马来西亚 UTC+8。",
       "states": [
@@ -3183,7 +3183,7 @@
         "FT003"
       ],
       "language": "ms",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "evidence": "2026-11-03 沿 JKR E-Tender 官方当前招标列表实际锚链接读取独立详情，HTTP 200。MAKLUMAT PROJEK 列 MENGGANTIKAN JAMBATAN SG. IKAN (FT003/566/10), JALAN KUALA TERENGGANU-KOTA BHARU, KUALA NERUS, TERENGGANU；现场踏勘及说明会条件均为 WAJIB，原列日期 21/10/2026 14:00，地点 Bilik Serindit, Tingkat 1, Dewan Jubli Perak, Kompleks Pentadbiran, Bandar Al-Wathiqu Billah, Kuala Nerus。MAKLUMAT KONTRAKTOR 列 Bumiputera/T1、CIDB PPK G7 CE01 & CE02、SPKK G7 CE，以及有效 STB、最低三星 CIDB SCORE、TCC 等条件。MAKLUMAT DOKUMEN 列 RM500、销售 29/10–05/11/2026，05/11 17:00 停售，投标截止 26/11/2026 12:00。公开列表显示规格文件于 02/11/2026 更新；本次已重读详情，未核实具体规格附件的变更内容。公开 DOKUMEN MEJA TENDER 分类页实际 GET 200，但没有据此声称已读登录账户内投标文件或全部补遗。公告未提供桥长、过水能力、设计洪水标准、预算或施工工期，不从桥梁替换名称推断防洪收益。 2026-11-06 实际 GET 重新读取 JKR 官方独立详情，范围及资格条件如前，销售截止仍为 05/11/2026 17:00（已过），投标截止仍为 26/11/2026 12:00；原强制会期 21/10/2026 14:00 已过。未据日期已过声称现场活动实际举行，也未读取受限投标文件或登录账户内补遗。",
       "dateEvidence": "官方详情 TARIKH IKLAN 明示 15/10/2026，因此保留历史发布日期，不使用本次查阅日或 02/11/2026 规格文件更新日代替。原列强制说明会／现场踏勘为 21/10/2026 02:00 PM，日期已过，但本次未核实活动实际举行。文件销售 29/10–05/11/2026，05/11 05:00 PM 停售；截止为 26/11/2026 12:00 PM。所有时刻按马来西亚 UTC+8；eventDate 留空。",
       "states": [
@@ -3689,8 +3689,8 @@
       "id": "met-continuous-rain-alert-expanded-east-coast-nov08-2026",
       "source": "metmalaysia",
       "category": "flood-alerts",
-      "title": "持续降雨 WASPADA 扩大：新增彭亨三县、吉兰丹 Kuala Krai 与 Jeli，覆盖登嘉楼全州",
-      "summary": "METMalaysia 11 月 8 日 16:30 更新持续降雨 WASPADA，半岛范围扩大至吉兰丹 Tanah Merah、Pasir Mas、Tumpat、Kota Bharu、Machang、Bachok、Pasir Puteh、Kuala Krai、Jeli，登嘉楼全州，以及彭亨 Kuantan、Pekan、Rompin，原列有效至 11 月 11 日。沙巴 Kudat 及 Sandakan 分区的 Paitan、Telupid、Labuk & Sugut、Sandakan、Kinabatangan，预期影响期仍为 9–11 日。相比 11 月 6 日版本，新增彭亨三县、吉兰丹两县，并由登嘉楼部分县扩大至全州。以上为该次官方预测，未报告实际雨量、河流水位或淹水深度；最新修订及撤销须查气象局。",
+      "title": "旧版（已由 11 月 9 日更新）：持续降雨 WASPADA 扩大：新增彭亨三县、吉兰丹 Kuala Krai 与 Jeli，覆盖登嘉楼全州",
+      "summary": "此为 11 月 8 日旧版记录；11 月 9 日 08:30 官方已将部分地区升级至 BURUK，并另增 Jerantut，请参阅本站 11 月 9 日更新。METMalaysia 11 月 8 日 16:30 更新持续降雨 WASPADA，半岛范围扩大至吉兰丹 Tanah Merah、Pasir Mas、Tumpat、Kota Bharu、Machang、Bachok、Pasir Puteh、Kuala Krai、Jeli，登嘉楼全州，以及彭亨 Kuantan、Pekan、Rompin，原列有效至 11 月 11 日。沙巴 Kudat 及 Sandakan 分区的 Paitan、Telupid、Labuk & Sugut、Sandakan、Kinabatangan，预期影响期仍为 9–11 日。相比 11 月 6 日版本，新增彭亨三县、吉兰丹两县，并由登嘉楼部分县扩大至全州。以上为该次官方预测，未报告实际雨量、河流水位或淹水深度；最新修订及撤销须查气象局。",
       "url": "https://www.met.gov.my/assets/content/siaran_media/default/8%20November%202026%20-%20Kemas%20Kini%20Amaran%20Hujan%20Berterusan%20(Waspada)%204.30pm.pdf",
       "publishedAt": "2026-11-08",
       "eventDate": null,
@@ -3702,7 +3702,7 @@
         "pahang",
         "sabah"
       ],
-      "stage": "11 月 8 日扩大范围的预警更新记录 · 非实时警情",
+      "stage": "11 月 8 日旧版 · 11 月 9 日部分地区已升级 BURUK · 请参阅新版",
       "tags": [
         "持续降雨",
         "WASPADA",
@@ -3739,6 +3739,163 @@
       "checkedAt": "2026-11-09",
       "evidence": "2026-11-09 直接GET UKAS官方原文HTTP200并阅读全文。正文第1段明确取水区域mendapan pasir影响Lawas供水，安装浮泵是短期措施；第2段将水厂处理能力提升及新取水系统列为长期准备。正文未给浮泵数量/流量、工程费用、开工竣工日、原水站名或已恢复供水的测量记录，因此不推断设施已全部完成或成效已证实。其余正文为道路、机场、农业与节庆内容，未纳入摘要。",
       "dateEvidence": "文末08 November2026为发布日期；正文称PestaLawas启幕仪式发言发生于星期六，对应2026-11-07。具体浮泵安装日期和长期设施完成日期未明，eventDate仅对应此次公开发言。"
+    },
+    {
+      "id": "met-continuous-heavy-rain-buruk-east-coast-nov09-2026",
+      "source": "metmalaysia",
+      "category": "flood-alerts",
+      "title": "持续强降雨升至 BURUK：吉兰丹五县、登嘉楼七县，原列至 11 月 11 日",
+      "summary": "METMalaysia 11 月 9 日 08:30 将部分东海岸地区持续强降雨预警升至 BURUK（严重）：吉兰丹 Bachok、Kota Bharu、Tumpat、Pasir Mas、Pasir Puteh，以及登嘉楼 Besut、Setiu、Dungun、Kemaman、Marang、Kuala Terengganu、Kuala Nerus。WASPADA 范围为吉兰丹 Tanah Merah、Machang、Kuala Krai、Jeli，登嘉楼 Hulu Terengganu，彭亨 Kuantan、Pekan、Rompin、Jerantut，以及沙巴 Kudat 和 Sandakan 指定县区。两级原列均至 11 月 11 日；相比 8 日版本，部分地区升级，彭亨另增 Jerantut。这是该次官方预测，不能作为实际雨量、河流水位或淹水范围；最新修订请查气象局。",
+      "url": "https://www.met.gov.my/assets/content/siaran_media/default/9%20November%202026%20-%20Kemas%20Kini%20Amaran%20Hujan%20Berterusan%20(Buruk)%208.30am.pdf",
+      "publishedAt": "2026-11-09",
+      "eventDate": null,
+      "validUntil": "2026-11-11T23:59:59+08:00",
+      "region": "Kelantan · Terengganu · Pahang · Sabah（分级及指定县区）",
+      "states": [
+        "kelantan",
+        "terengganu",
+        "pahang",
+        "sabah"
+      ],
+      "stage": "11 月 9 日 BURUK／WASPADA 分级更新记录 · 非实时警情",
+      "tags": [
+        "持续强降雨",
+        "BURUK",
+        "WASPADA",
+        "东北季风",
+        "预警升级"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-11-10",
+      "evidence": "11月10日直接GET官方两页PDF200，全文读取并逐页视觉核查；第1页地图/表及正文列BURUK吉兰丹5县、登嘉楼7县，WASPADA为其余列明县区，两级均至11Nov，第2页署名9Nov08:30。PDF正文写Kota Bhari，但其图内清单、直接读取官方IWR30007双语原文及api.data.gov.my/weather/warning接口均为Kota Bharu，因此采用交叉核实的地名并保留此原文拼写差异记录。政府接口issued=2026-11-09T08:30:00、valid_to=2026-11-11T23:59:59；相较8日公告确认升级及Jerantut扩展，不把BURUK误解为已测到洪水。",
+      "dateEvidence": "mediaJSON及PDF署名9November2026 8.30pagi与接口issued一致，发布日期保持11/9，不用11/10查阅日。validUntil据接口含时刻的valid_to并注明马来西亚UTC+8，预报不记eventDate。"
+    },
+    {
+      "id": "met-kelantan-coastal-sea-level-rise-warning-nov10-2026",
+      "source": "data-gov",
+      "category": "flood-alerts",
+      "title": "气象预警记录：吉兰丹近岸海水上涨风险，原列至 11 月 10 日",
+      "summary": "政府气象预警接口保存 METMalaysia 11 月 10 日 04:00 的海象公告：吉兰丹海域预期海水上涨，沿岸有海水淹入风险，原列至 11 月 10 日；同区近岸另列一级强风及风浪预警，东风 40–50 km/h、浪高最高 3.5 m。3.5 m 是预测浪高，不能当作海平面上涨量或陆地积水深度。该份综合公告的三级风浪范围在 Condore 东北及 Reef North 西北外海，并非把吉兰丹近岸列为三级。本条为接口采集时的公告记录，最新有效范围须核对气象局。",
+      "url": "https://api.data.gov.my/weather/warning?limit=20",
+      "publishedAt": "2026-11-10",
+      "eventDate": null,
+      "validUntil": "2026-11-10T23:59:59+08:00",
+      "region": "Kelantan · 近岸海域（公告 Malaysian waters 24 海里内部分）",
+      "states": [
+        "kelantan"
+      ],
+      "stage": "11 月 10 日海水上涨与近岸一级风浪预警记录 · 非实时潮位观测",
+      "tags": [
+        "海水上涨",
+        "沿岸淹水风险",
+        "风浪",
+        "Kelantan"
+      ],
+      "language": "en",
+      "checkedAt": "2026-11-10",
+      "evidence": "直接GET政府weather/warning接口200，读取issued=2026-11-10T04:00:00综合海象原始记录：SECTION A Malaysian waters within24nauticalmiles第1项是Kelantan一级40–50km/h/浪高最高3.5m，第2项WARNING ON SEA LEVEL RISE明确Kelantan至Tuesday10Nov，at risk of inundation of seawater over the coast。该记录valid_to=2026-11-10T23:59:59。heading总标题为THIRD CATEGORY但SECTION B外海才列三级，未把总heading套用于Kelantan。未给海水上涨数值、站号、基准面或潮位测量；数据是预报。链接内容会更新，已保存本轮data.json原始快照。",
+      "dateEvidence": "接口warning_issue.issued为2026-11-10T04:00:00，valid_from为11/9、Kelantan近岸和海水上涨段文字至11/10，选取对应valid_to=11/10T23:59:59加+08:00；没有采用其他外海分区至11/12的期限。预报不填eventDate。"
+    },
+    {
+      "id": "ukas-trusan-raw-water-pumps-full-operation-nov2026",
+      "source": "ukas",
+      "category": "water-resources",
+      "title": "Trusan 水厂两台原水泵恢复同时运行，配水管网仍在冲洗稳定",
+      "summary": "UKAS 11 月 9 日引述 JBALB 声明称，Lawas 的 Trusan 水厂取水口完成淤泥清挖与清理后，两台原水泵恢复同时运行，水厂恢复满负荷。此前只有一台泵运行。管线冲洗仍在进行，距厂较远及高地用户的压力和供水仍需时间恢复；水厂满负荷不能等同所有用户已恢复正常供水。原文未列本次实际产水量或压力记录。",
+      "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/52811",
+      "publishedAt": "2026-11-09",
+      "eventDate": "2026-11-09",
+      "region": "Sarawak · Lawas · Trusan",
+      "stage": "取水泵及水厂生产恢复 · 配水系统仍在冲洗稳定",
+      "tags": [
+        "原水泵",
+        "取水口清淤",
+        "供水恢复",
+        "Trusan"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-11-10",
+      "evidence": "2026-11-10 GET官方原文HTTP200阅读全文。正文第1–3段为JBALB星期一声明：取水口清挖淤泥后，两台原水泵同时运行，过去仅一台，水厂恢复满负荷。第4–5段明确冲洗仍在进行、远端及高地用户完全恢复需时间。恢复情况为JBALB陈述，未提供产水/管压监测序列。未把新建工程的90MLD取水能力用于现有水厂满负荷。",
+      "dateEvidence": "文末09November2026；正文声明于星期一，与11/9对应。eventDate为公开恢复声明日，不推断清挖的准确完成时刻。",
+      "states": [
+        "sarawak"
+      ]
+    },
+    {
+      "id": "ukas-trusan-intake-mitigation-and-new-intake-90mld-2026",
+      "source": "ukas",
+      "category": "projects",
+      "title": "JBALB 公布 Trusan 分期供水措施，长期新取水站能力 90 MLD",
+      "summary": "UKAS 11 月 9 日报道，JBALB 将 Lawas 供水中断与河岸破坏后流路改变、取水点沙土淤积及低水位进水不足相联系。短期安排包括浮筒泵、水车及集中取水中心；中期拟修复取水设施和结构后方边坡。长期 Trusan 新水厂项目正在实施，包含厂能提升及新址 90 MLD 原水取水站。90 MLD 是新取水站口径；原文未列新厂处理总能力、预算或竣工日期。",
+      "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/52803",
+      "publishedAt": "2026-11-09",
+      "eventDate": "2026-11-08",
+      "region": "Sarawak · Lawas · Trusan",
+      "stage": "短期供水支援及清挖 · 边坡修复拟实施 · 新水厂及取水站项目实施中",
+      "tags": [
+        "原水取水",
+        "河岸稳定",
+        "浮筒泵",
+        "CWCC",
+        "Trusan"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-11-10",
+      "evidence": "2026-11-10 GET官方原文HTTP200阅读全文。第2–4段引JBALB星期日声明解释河岸破坏/流向改变、淤积及低水位进水不足；属于主管单位陈述。第6–8段列清挖检查、将安装pontoon泵、水车/CWCC及增加车数；第9段未来中期取水设施和后方边坡修复；第10–11段长期新Trusan厂正在实施，新取水站90juta liter sehari为取水站能力。与11/8浮泵泛述相比，本篇新增地点、机制、分期边坡及90MLD取水范围。另52774政治视察稿称处理能力增加50MLD，口径不同，未与90MLD相加或视为现有生产量。",
+      "dateEvidence": "页面09November2026发布；JBALB声明与现场检查明确星期日，对应11/8。新取水站没有确切开工/完成日。其后52811于11/9报道现厂泵恢复，不将本篇较早中断状态当当前全区断水。",
+      "states": [
+        "sarawak"
+      ]
+    },
+    {
+      "id": "jps-melaka-seri-mendapat-mobile-pump-130ls-2026",
+      "source": "jps-melaka",
+      "category": "projects",
+      "title": "Jasin 的 Kampung Seri Mendapat 装妥一台 130 L/s 移动泵",
+      "summary": "JPS Melaka 11 月 10 日发布报告称，11 月 9 日下午 4:30，Jasin 的 Kampung Seri Mendapat 已安装一台州属 End Suction Pump，标示能力为 130 L/s，旨在减少当地住宅及周边洪水风险。原文没有给出实际抽排记录、水位下降量或泵站系统校核结果。",
+      "url": "https://jps.melaka.gov.my/2026/11/10/laporan-pemasangan-pam-bergerak-jps-melaka-2/",
+      "publishedAt": "2026-11-10",
+      "eventDate": "2026-11-09",
+      "region": "Melaka · Jasin · Kampung Seri Mendapat",
+      "stage": "一台州属移动泵安装完成",
+      "tags": [
+        "移动泵",
+        "End Suction Pump",
+        "抽排",
+        "Jasin"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-11-10",
+      "evidence": "2026-11-10 GET官方原文HTTP200阅读全文。报告栏列DaerahJasin、KgSeriMendapat、9/11/2026、4.30petang、MilikanNegeri；正文明确一台EndSuctionPump130L/S已装妥。130L/s是公布的设备能力，无实测运行量。与此前Merlimau5cusec约140L/s为不同地点设备，不重复或合并为同泵。",
+      "dateEvidence": "页面ByAdmin10/11/2026为发布日期；报告事件9/11/2026下午4:30（马来西亚当地时间）。",
+      "states": [
+        "melaka"
+      ]
+    },
+    {
+      "id": "jps-melaka-tanjung-keling-november-tide-reference-2026",
+      "source": "jps-melaka",
+      "category": "hydrology",
+      "title": "Melaka 发布 Tanjung Keling 11 月大潮参考表，最高列值 2.5 米",
+      "summary": "JPS Melaka 11 月 10 日发布 Tanjung Keling 站 2026 年 11 月大潮预测参考表，来源为国家海道测量中心（Pusat Hidrografi Nasional）。海报列出 11 月 7–12 日及 22–28 日若干高潮时刻，列示潮高为 2.2–2.5 米，其中 11 月 25 日上午 7:53 为 2.5 米。部分日期早于发布日；这些是预测参考，并非站点实时观测，海报未注明高程基准面。公众应结合降雨、风浪及官方后续通知判断沿海风险。",
+      "url": "https://jps.melaka.gov.my/2026/11/10/fenomena-air-pasang-besar-november-2026/",
+      "publishedAt": "2026-11-10",
+      "eventDate": null,
+      "region": "Melaka · Tanjung Keling",
+      "stage": "2026 年 11 月潮汐预测参考 · 非实时观测或当前洪灾确认",
+      "tags": [
+        "潮汐",
+        "大潮",
+        "沿海风险",
+        "Tanjung Keling"
+      ],
+      "language": "ms",
+      "checkedAt": "2026-11-10",
+      "evidence": "2026-11-10 GET官方正文HTTP200，并下载原始mtl.jpg（509px）目视核对表格。站名STESENTANJUNGKELING，来源PUSATHIDROGRAFINASIONAL。左表11/7–12及11/22潮高2.2–2.3m；右表11/23、24为2.4m，11/25为2.5m/7.53pagi，11/26、27为2.4m，11/28为2.3m/10.12pagi。海报以大浪/强风条件说明低洼海岸风险，没有注明潮高基准，不能改写为某统一高程以上的实时水位，也不把预测高潮自动当淹水。只摘要事实，不发布原图。",
+      "dateEvidence": "页面10/11/2026发布，海报标题NOV2026；7–9日早于发布时点。全部表格是预测日期，eventDate留空。末列11/28上午10:12是表中最后预测时刻，不伪作官方预警失效时间。",
+      "states": [
+        "melaka"
+      ]
     }
   ],
   "projects": [
