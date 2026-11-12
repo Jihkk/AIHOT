@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-10T00:30:22.470Z",
+  "checkedAt": "2026-11-12T00:31:37.600Z",
   "attribution": "Government of Malaysia / METMalaysia / Department of Environment, data.gov.my — CC BY 4.0",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "datasets": [
@@ -10,21 +10,49 @@
       "url": "https://api.data.gov.my/weather/forecast?contains=Kuala%20Lumpur@location__location_name&limit=14",
       "page": "https://developer.data.gov.my/realtime-api/weather",
       "scope": "仅吉隆坡，最多 14 条返回记录；不是全国预报",
-      "checkedAt": "2026-11-10T00:30:22.470Z",
+      "checkedAt": "2026-11-12T00:31:37.600Z",
       "status": "ok",
-      "dataFetchedAt": "2026-11-10T00:30:22.470Z",
+      "dataFetchedAt": "2026-11-12T00:31:37.600Z",
       "records": [
         {
           "location": {
             "location_id": "Ds058",
             "location_name": "Kuala Lumpur"
           },
-          "date": "2026-11-16",
+          "date": "2026-11-18",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang",
+          "min_temp": 23,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+          },
+          "date": "2026-11-17",
           "morning_forecast": "Tiada Hujan",
           "afternoon_forecast": "Ribut petir di beberapa tempat",
           "night_forecast": "Hujan di beberapa tempat",
           "summary_forecast": "Ribut petir di beberapa tempat",
           "summary_when": "Petang dan Malam",
+          "min_temp": 23,
+          "max_temp": 33
+        },
+        {
+          "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+          },
+          "date": "2026-11-16",
+          "morning_forecast": "Tiada Hujan",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang",
           "min_temp": 23,
           "max_temp": 33
         },
@@ -62,11 +90,11 @@
             "location_name": "Kuala Lumpur"
           },
           "date": "2026-11-13",
-          "morning_forecast": "Hujan di beberapa tempat",
-          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "morning_forecast": "Ribut petir di beberapa tempat",
+          "afternoon_forecast": "Tiada Hujan",
           "night_forecast": "Tiada Hujan",
           "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Pagi dan Petang",
+          "summary_when": "Pagi",
           "min_temp": 23,
           "max_temp": 32
         },
@@ -76,41 +104,41 @@
             "location_name": "Kuala Lumpur"
           },
           "date": "2026-11-12",
-          "morning_forecast": "Hujan di beberapa tempat",
+          "morning_forecast": "Tiada Hujan",
           "afternoon_forecast": "Ribut petir di beberapa tempat",
           "night_forecast": "Tiada Hujan",
           "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Pagi dan Petang",
+          "summary_when": "Petang",
           "min_temp": 23,
           "max_temp": 32
         },
         {
           "location": {
-            "location_id": "Ds058",
-            "location_name": "Kuala Lumpur"
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
           },
-          "date": "2026-11-11",
+          "date": "2026-11-18",
           "morning_forecast": "Tiada Hujan",
-          "afternoon_forecast": "Ribut petir di kebanyakan tempat",
-          "night_forecast": "Hujan di beberapa tempat",
-          "summary_forecast": "Ribut petir di kebanyakan tempat",
-          "summary_when": "Petang dan Malam",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
+          "summary_forecast": "Ribut petir di beberapa tempat",
+          "summary_when": "Petang",
           "min_temp": 23,
-          "max_temp": 32
+          "max_temp": 33
         },
         {
           "location": {
-            "location_id": "Ds058",
-            "location_name": "Kuala Lumpur"
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
           },
-          "date": "2026-11-10",
+          "date": "2026-11-17",
           "morning_forecast": "Tiada Hujan",
-          "afternoon_forecast": "Ribut petir di kebanyakan tempat",
+          "afternoon_forecast": "Ribut petir di beberapa tempat",
           "night_forecast": "Hujan di beberapa tempat",
-          "summary_forecast": "Ribut petir di kebanyakan tempat",
+          "summary_forecast": "Ribut petir di beberapa tempat",
           "summary_when": "Petang dan Malam",
           "min_temp": 23,
-          "max_temp": 31
+          "max_temp": 33
         },
         {
           "location": {
@@ -120,9 +148,9 @@
           "date": "2026-11-16",
           "morning_forecast": "Tiada Hujan",
           "afternoon_forecast": "Ribut petir di beberapa tempat",
-          "night_forecast": "Hujan di beberapa tempat",
+          "night_forecast": "Tiada Hujan",
           "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Petang dan Malam",
+          "summary_when": "Petang",
           "min_temp": 23,
           "max_temp": 33
         },
@@ -160,11 +188,11 @@
             "location_name": "WP Kuala Lumpur"
           },
           "date": "2026-11-13",
-          "morning_forecast": "Hujan di beberapa tempat",
-          "afternoon_forecast": "Ribut petir di beberapa tempat",
+          "morning_forecast": "Ribut petir di beberapa tempat",
+          "afternoon_forecast": "Tiada Hujan",
           "night_forecast": "Tiada Hujan",
           "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Pagi dan Petang",
+          "summary_when": "Pagi",
           "min_temp": 23,
           "max_temp": 32
         },
@@ -174,39 +202,11 @@
             "location_name": "WP Kuala Lumpur"
           },
           "date": "2026-11-12",
-          "morning_forecast": "Hujan di beberapa tempat",
+          "morning_forecast": "Tiada Hujan",
           "afternoon_forecast": "Ribut petir di beberapa tempat",
           "night_forecast": "Tiada Hujan",
           "summary_forecast": "Ribut petir di beberapa tempat",
-          "summary_when": "Pagi dan Petang",
-          "min_temp": 23,
-          "max_temp": 32
-        },
-        {
-          "location": {
-            "location_id": "St009",
-            "location_name": "WP Kuala Lumpur"
-          },
-          "date": "2026-11-11",
-          "morning_forecast": "Tiada Hujan",
-          "afternoon_forecast": "Ribut petir di kebanyakan tempat",
-          "night_forecast": "Hujan di beberapa tempat",
-          "summary_forecast": "Ribut petir di kebanyakan tempat",
-          "summary_when": "Petang dan Malam",
-          "min_temp": 23,
-          "max_temp": 32
-        },
-        {
-          "location": {
-            "location_id": "St009",
-            "location_name": "WP Kuala Lumpur"
-          },
-          "date": "2026-11-10",
-          "morning_forecast": "Tiada Hujan",
-          "afternoon_forecast": "Ribut petir di kebanyakan tempat",
-          "night_forecast": "Hujan di beberapa tempat",
-          "summary_forecast": "Ribut petir di kebanyakan tempat",
-          "summary_when": "Petang dan Malam",
+          "summary_when": "Petang",
           "min_temp": 23,
           "max_temp": 32
         }
@@ -218,73 +218,58 @@
       "url": "https://api.data.gov.my/weather/warning?limit=20",
       "page": "https://developer.data.gov.my/realtime-api/weather",
       "scope": "接口最多 20 条返回记录，可能含历史或已过期预警；不能代表完整现行警情",
-      "checkedAt": "2026-11-10T00:30:22.470Z",
+      "checkedAt": "2026-11-12T00:31:37.600Z",
       "status": "ok",
-      "dataFetchedAt": "2026-11-10T00:30:22.470Z",
+      "dataFetchedAt": "2026-11-12T00:31:37.600Z",
       "records": [
         {
           "warning_issue": {
-            "issued": "2026-11-10T04:00:00",
-            "title_bm": "Amaran Angin Kencang dan Laut Bergelora",
-            "title_en": "Strong Winds and Rough Seas Warning"
-          },
-          "valid_from": "2026-11-09T00:00:00",
-          "valid_to": "2026-11-10T23:59:59",
-          "heading_en": "THIRD CATEGORY WARNING ON STRONG WINDS AND ROUGH SEAS",
-          "text_en": "SECTION A: FOR MALAYSIAN WATERS [WITHIN 24 NAUTICAL MILES] 1) WARNING ON STRONG WINDS AND ROUGH SEAS (FIRST CATEGORY) Strong easterly winds of 40 - 50 kmph with wave height up to 3.5 metres are expected over the waters of Kelantan until Tuesday, 10 November 2026. This condition of strong winds and rough seas is dangerous to small crafts, recreational sea activities and water sports. 2) WARNING ON SEA LEVEL RISE Sea level rise is expected over the waters of Kelantan until Tuesday, 10 November 2026. At risk of inundation of seawater over the coast. 3) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of East Johor • Pahang • Terengganu • Kelantan • Sarawak • Western Sabah • Eastern Sabah until 9:00 AM; Tuesday, 10 November 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats. SECTION B: FOR SHIPPING 1) WARNING ON STRONG WINDS AND ROUGH SEAS (THIRD CATEGORY) Strong northeasterly winds over 60 kmph with waves exceeding 4.5 metres are expected over the water of Northeastern Condore • Northwestern Reef North until Thursday, 12 November 2026. This condition of strong winds and rough seas is dangerous to all coastal and shipping activities including workers on oil platforms. 2) WARNING ON STRONG WINDS AND ROUGH SEAS (SECOND CATEGORY) Strong northeasterly winds of 50 - 60 kmph with wave height up to 4.5 metres are expected over the waters of Condore • Northeastern and Southwestern parts of Reef North until Thursday, 12 November 2026. This condition of strong winds and rough seas is dangerous to all shipping and coastal activities including fishing and ferry services. 3) WARNING ON STRONG WINDS AND ROUGH SEAS (FIRST CATEGORY) Strong northeasterly winds of 40 - 50 kmph with wave height up to 3.5 metres are expected over the waters of Palawan • Southeastern Reef North • Labuan • Layang-Layang • Samui • Northern Tioman until Thursday, 12 November 2026. This condition of strong winds and rough seas is dangerous to small crafts, recreational sea activities and water sports. 4) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Straits Of Melaka • Phuket • Samui • Tioman • Reef South • Reef North • Labuan • Layang-Layang • Condore • Bunguran • Palawan • Sulu until 9:00 AM; Tuesday, 10 November 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats.",
-          "instruction_en": "This condition of strong winds and rough seas is dangerous.",
-          "heading_bm": "AMARAN ANGIN KENCANG DAN LAUT BERGELORA KATEGORI KETIGA",
-          "text_bm": "SEKSYEN A: UNTUK PERAIRAN MALAYSIA [DALAM LINGKUNGAN 24 BATU NAUTIKA] 1) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI PERTAMA) Angin kencang timur berkelajuan 40 - 50 kmsj dengan ombak mencapai ketinggian sehingga 3.5 meter dijangka di kawasan perairan Kelantan sehingga Selasa, 10 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada bot-bot kecil, rekreasi laut dan sukan laut. 2) AMARAN KENAIKAN PARAS LAUT Kenaikan paras air laut dijangka di kawasan perairan Kelantan sehingga Selasa, 10 November 2026. Berisiko kepada limpahan air laut di pesisir pantai. 3) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Johor Timur • Pahang • Terengganu • Kelantan • Sarawak • Sabah Barat dan Labuan • Sabah Timur sehingga 9:00 Pagi; Selasa, 10 November 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil. SEKSYEN B: UNTUK PERKAPALAN 1) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI KETIGA) Angin kencang timur laut melebihi 60 kmsj dengan ombak setinggi melebihi 4.5 meter dijangka di kawasan perairan Timur Laut Condore • Barat Laut Reef North sehingga Khamis, 12 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada semua aktiviti pantai dan perkapalan termasuk pekerja di pelantar minyak. 2) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI KEDUA) Angin kencang timur laut berkelajuan 50 - 60 kmsj dengan ombak mencapai ketinggian sehingga 4.5 meter dijangka di kawasan perairan Condore • Timur Laut dan Barat Daya Reef North sehingga Khamis, 12 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada semua aktiviti perkapalan dan pantai termasuk menangkap ikan dan perkhidmatan feri. 3) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI PERTAMA) Angin kencang timur laut berkelajuan 40 - 50 kmsj dengan ombak mencapai ketinggian sehingga 3.5 meter dijangka di kawasan perairan Palawan • Tenggara Reef North • Labuan • Layang-Layang • Samui • Utara Tioman sehingga Khamis, 12 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada bot-bot kecil, rekreasi laut dan sukan laut. 4) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Selat Melaka • Phuket • Samui • Tioman • Reef South • Reef North • Labuan • Layang-Layang • Condore • Bunguran • Palawan • Sulu sehingga 9:00 Pagi; Selasa, 10 November 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil.",
-          "instruction_bm": "Keadaan angin kencang dan laut bergelora ini adalah berbahaya."
-        },
-        {
-          "warning_issue": {
-            "issued": "2026-11-10T04:00:00",
+            "issued": "2026-11-12T05:55:00",
             "title_bm": "Amaran Angin Kencang dan Laut Bergelora",
             "title_en": "Strong Winds and Rough Seas Warning"
           },
           "valid_from": "2026-11-09T00:00:00",
           "valid_to": "2026-11-12T23:59:59",
           "heading_en": "THIRD CATEGORY WARNING ON STRONG WINDS AND ROUGH SEAS",
-          "text_en": "SECTION A: FOR MALAYSIAN WATERS [WITHIN 24 NAUTICAL MILES] 1) WARNING ON STRONG WINDS AND ROUGH SEAS (FIRST CATEGORY) Strong easterly winds of 40 - 50 kmph with wave height up to 3.5 metres are expected over the waters of Kelantan until Tuesday, 10 November 2026. This condition of strong winds and rough seas is dangerous to small crafts, recreational sea activities and water sports. 2) WARNING ON SEA LEVEL RISE Sea level rise is expected over the waters of Kelantan until Tuesday, 10 November 2026. At risk of inundation of seawater over the coast. 3) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of East Johor • Pahang • Terengganu • Kelantan • Sarawak • Western Sabah • Eastern Sabah until 9:00 AM; Tuesday, 10 November 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats. SECTION B: FOR SHIPPING 1) WARNING ON STRONG WINDS AND ROUGH SEAS (THIRD CATEGORY) Strong northeasterly winds over 60 kmph with waves exceeding 4.5 metres are expected over the water of Northeastern Condore • Northwestern Reef North until Thursday, 12 November 2026. This condition of strong winds and rough seas is dangerous to all coastal and shipping activities including workers on oil platforms. 2) WARNING ON STRONG WINDS AND ROUGH SEAS (SECOND CATEGORY) Strong northeasterly winds of 50 - 60 kmph with wave height up to 4.5 metres are expected over the waters of Condore • Northeastern and Southwestern parts of Reef North until Thursday, 12 November 2026. This condition of strong winds and rough seas is dangerous to all shipping and coastal activities including fishing and ferry services. 3) WARNING ON STRONG WINDS AND ROUGH SEAS (FIRST CATEGORY) Strong northeasterly winds of 40 - 50 kmph with wave height up to 3.5 metres are expected over the waters of Palawan • Southeastern Reef North • Labuan • Layang-Layang • Samui • Northern Tioman until Thursday, 12 November 2026. This condition of strong winds and rough seas is dangerous to small crafts, recreational sea activities and water sports. 4) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Straits Of Melaka • Phuket • Samui • Tioman • Reef South • Reef North • Labuan • Layang-Layang • Condore • Bunguran • Palawan • Sulu until 9:00 AM; Tuesday, 10 November 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats.",
+          "text_en": "SECTION A: FOR MALAYSIAN WATERS [WITHIN 24 NAUTICAL MILES] 1) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Penang • Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang • Terengganu • Kelantan • Western Sabah • Eastern Sabah until 9:00 AM; Thursday, 12 November 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats. SECTION B: FOR SHIPPING 1) WARNING ON STRONG WINDS AND ROUGH SEAS (THIRD CATEGORY) Strong northeasterly winds over 60 kmph with waves exceeding 4.5 metres are expected over the water of Northeastern Condore • Northwestern Reef North until Thursday, 12 November 2026. This condition of strong winds and rough seas is dangerous to all coastal and shipping activities including workers on oil platforms. 2) WARNING ON STRONG WINDS AND ROUGH SEAS (SECOND CATEGORY) Strong northeasterly winds of 50 - 60 kmph with wave height up to 4.5 metres are expected over the waters of Condore • Northeastern and Southwestern parts of Reef North until Thursday, 12 November 2026. This condition of strong winds and rough seas is dangerous to all shipping and coastal activities including fishing and ferry services. 3) WARNING ON STRONG WINDS AND ROUGH SEAS (FIRST CATEGORY) Strong northeasterly winds of 40 - 50 kmph with wave height up to 3.5 metres are expected over the waters of Palawan • Southeastern Reef North • Labuan • Layang-Layang • Samui • Northern Tioman until Thursday, 12 November 2026. This condition of strong winds and rough seas is dangerous to small crafts, recreational sea activities and water sports. 4) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Phuket • Samui • Tioman • Sulu • Reef North • Palawan • Northeastern and Southwestern parts of Condore • Sulawesi • Layang-Layang • Labuan • Straits Of Melaka • Northwestern Bunguran until 9:00 AM; Thursday, 12 November 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats.",
           "instruction_en": "This condition of strong winds and rough seas is dangerous.",
           "heading_bm": "AMARAN ANGIN KENCANG DAN LAUT BERGELORA KATEGORI KETIGA",
-          "text_bm": "SEKSYEN A: UNTUK PERAIRAN MALAYSIA [DALAM LINGKUNGAN 24 BATU NAUTIKA] 1) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI PERTAMA) Angin kencang timur berkelajuan 40 - 50 kmsj dengan ombak mencapai ketinggian sehingga 3.5 meter dijangka di kawasan perairan Kelantan sehingga Selasa, 10 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada bot-bot kecil, rekreasi laut dan sukan laut. 2) AMARAN KENAIKAN PARAS LAUT Kenaikan paras air laut dijangka di kawasan perairan Kelantan sehingga Selasa, 10 November 2026. Berisiko kepada limpahan air laut di pesisir pantai. 3) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Johor Timur • Pahang • Terengganu • Kelantan • Sarawak • Sabah Barat dan Labuan • Sabah Timur sehingga 9:00 Pagi; Selasa, 10 November 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil. SEKSYEN B: UNTUK PERKAPALAN 1) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI KETIGA) Angin kencang timur laut melebihi 60 kmsj dengan ombak setinggi melebihi 4.5 meter dijangka di kawasan perairan Timur Laut Condore • Barat Laut Reef North sehingga Khamis, 12 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada semua aktiviti pantai dan perkapalan termasuk pekerja di pelantar minyak. 2) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI KEDUA) Angin kencang timur laut berkelajuan 50 - 60 kmsj dengan ombak mencapai ketinggian sehingga 4.5 meter dijangka di kawasan perairan Condore • Timur Laut dan Barat Daya Reef North sehingga Khamis, 12 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada semua aktiviti perkapalan dan pantai termasuk menangkap ikan dan perkhidmatan feri. 3) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI PERTAMA) Angin kencang timur laut berkelajuan 40 - 50 kmsj dengan ombak mencapai ketinggian sehingga 3.5 meter dijangka di kawasan perairan Palawan • Tenggara Reef North • Labuan • Layang-Layang • Samui • Utara Tioman sehingga Khamis, 12 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada bot-bot kecil, rekreasi laut dan sukan laut. 4) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Selat Melaka • Phuket • Samui • Tioman • Reef South • Reef North • Labuan • Layang-Layang • Condore • Bunguran • Palawan • Sulu sehingga 9:00 Pagi; Selasa, 10 November 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil.",
+          "text_bm": "SEKSYEN A: UNTUK PERAIRAN MALAYSIA [DALAM LINGKUNGAN 24 BATU NAUTIKA] 1) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Pulau Pinang • Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang • Terengganu • Kelantan • Sabah Barat dan Labuan • Sabah Timur sehingga 9:00 Pagi; Khamis, 12 November 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil. SEKSYEN B: UNTUK PERKAPALAN 1) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI KETIGA) Angin kencang timur laut melebihi 60 kmsj dengan ombak setinggi melebihi 4.5 meter dijangka di kawasan perairan Timur Laut Condore • Barat Laut Reef North sehingga Khamis, 12 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada semua aktiviti pantai dan perkapalan termasuk pekerja di pelantar minyak. 2) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI KEDUA) Angin kencang timur laut berkelajuan 50 - 60 kmsj dengan ombak mencapai ketinggian sehingga 4.5 meter dijangka di kawasan perairan Condore • Timur Laut dan Barat Daya Reef North sehingga Khamis, 12 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada semua aktiviti perkapalan dan pantai termasuk menangkap ikan dan perkhidmatan feri. 3) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI PERTAMA) Angin kencang timur laut berkelajuan 40 - 50 kmsj dengan ombak mencapai ketinggian sehingga 3.5 meter dijangka di kawasan perairan Palawan • Tenggara Reef North • Labuan • Layang-Layang • Samui • Utara Tioman sehingga Khamis, 12 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada bot-bot kecil, rekreasi laut dan sukan laut. 4) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Phuket • Samui • Tioman • Sulu • Reef North • Palawan • Timur Laut dan Barat Daya Condore • Sulawesi • Layang-Layang • Labuan • Selat Melaka • Barat Laut Bunguran sehingga 9:00 Pagi; Khamis, 12 November 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil.",
           "instruction_bm": "Keadaan angin kencang dan laut bergelora ini adalah berbahaya."
         },
         {
           "warning_issue": {
-            "issued": "2026-11-10T04:00:00",
+            "issued": "2026-11-12T05:55:00",
             "title_bm": "Amaran Angin Kencang dan Laut Bergelora",
             "title_en": "Strong Winds and Rough Seas Warning"
           },
-          "valid_from": "2026-11-10T04:00:00",
-          "valid_to": "2026-11-10T09:00:00",
+          "valid_from": "2026-11-12T05:00:00",
+          "valid_to": "2026-11-12T09:00:00",
           "heading_en": "THIRD CATEGORY WARNING ON STRONG WINDS AND ROUGH SEAS",
-          "text_en": "SECTION A: FOR MALAYSIAN WATERS [WITHIN 24 NAUTICAL MILES] 1) WARNING ON STRONG WINDS AND ROUGH SEAS (FIRST CATEGORY) Strong easterly winds of 40 - 50 kmph with wave height up to 3.5 metres are expected over the waters of Kelantan until Tuesday, 10 November 2026. This condition of strong winds and rough seas is dangerous to small crafts, recreational sea activities and water sports. 2) WARNING ON SEA LEVEL RISE Sea level rise is expected over the waters of Kelantan until Tuesday, 10 November 2026. At risk of inundation of seawater over the coast. 3) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of East Johor • Pahang • Terengganu • Kelantan • Sarawak • Western Sabah • Eastern Sabah until 9:00 AM; Tuesday, 10 November 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats. SECTION B: FOR SHIPPING 1) WARNING ON STRONG WINDS AND ROUGH SEAS (THIRD CATEGORY) Strong northeasterly winds over 60 kmph with waves exceeding 4.5 metres are expected over the water of Northeastern Condore • Northwestern Reef North until Thursday, 12 November 2026. This condition of strong winds and rough seas is dangerous to all coastal and shipping activities including workers on oil platforms. 2) WARNING ON STRONG WINDS AND ROUGH SEAS (SECOND CATEGORY) Strong northeasterly winds of 50 - 60 kmph with wave height up to 4.5 metres are expected over the waters of Condore • Northeastern and Southwestern parts of Reef North until Thursday, 12 November 2026. This condition of strong winds and rough seas is dangerous to all shipping and coastal activities including fishing and ferry services. 3) WARNING ON STRONG WINDS AND ROUGH SEAS (FIRST CATEGORY) Strong northeasterly winds of 40 - 50 kmph with wave height up to 3.5 metres are expected over the waters of Palawan • Southeastern Reef North • Labuan • Layang-Layang • Samui • Northern Tioman until Thursday, 12 November 2026. This condition of strong winds and rough seas is dangerous to small crafts, recreational sea activities and water sports. 4) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Straits Of Melaka • Phuket • Samui • Tioman • Reef South • Reef North • Labuan • Layang-Layang • Condore • Bunguran • Palawan • Sulu until 9:00 AM; Tuesday, 10 November 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats.",
+          "text_en": "SECTION A: FOR MALAYSIAN WATERS [WITHIN 24 NAUTICAL MILES] 1) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Penang • Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang • Terengganu • Kelantan • Western Sabah • Eastern Sabah until 9:00 AM; Thursday, 12 November 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats. SECTION B: FOR SHIPPING 1) WARNING ON STRONG WINDS AND ROUGH SEAS (THIRD CATEGORY) Strong northeasterly winds over 60 kmph with waves exceeding 4.5 metres are expected over the water of Northeastern Condore • Northwestern Reef North until Thursday, 12 November 2026. This condition of strong winds and rough seas is dangerous to all coastal and shipping activities including workers on oil platforms. 2) WARNING ON STRONG WINDS AND ROUGH SEAS (SECOND CATEGORY) Strong northeasterly winds of 50 - 60 kmph with wave height up to 4.5 metres are expected over the waters of Condore • Northeastern and Southwestern parts of Reef North until Thursday, 12 November 2026. This condition of strong winds and rough seas is dangerous to all shipping and coastal activities including fishing and ferry services. 3) WARNING ON STRONG WINDS AND ROUGH SEAS (FIRST CATEGORY) Strong northeasterly winds of 40 - 50 kmph with wave height up to 3.5 metres are expected over the waters of Palawan • Southeastern Reef North • Labuan • Layang-Layang • Samui • Northern Tioman until Thursday, 12 November 2026. This condition of strong winds and rough seas is dangerous to small crafts, recreational sea activities and water sports. 4) THUNDERSTORMS WARNING Thunderstorms, heavy rain and strong winds are expected over the waters of Phuket • Samui • Tioman • Sulu • Reef North • Palawan • Northeastern and Southwestern parts of Condore • Sulawesi • Layang-Layang • Labuan • Straits Of Melaka • Northwestern Bunguran until 9:00 AM; Thursday, 12 November 2026. This condition may cause strong winds up to 50 kmph and rough seas with wave height up to 3.5 metres and is dangerous to small boats.",
           "instruction_en": "This condition of strong winds and rough seas is dangerous.",
           "heading_bm": "AMARAN ANGIN KENCANG DAN LAUT BERGELORA KATEGORI KETIGA",
-          "text_bm": "SEKSYEN A: UNTUK PERAIRAN MALAYSIA [DALAM LINGKUNGAN 24 BATU NAUTIKA] 1) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI PERTAMA) Angin kencang timur berkelajuan 40 - 50 kmsj dengan ombak mencapai ketinggian sehingga 3.5 meter dijangka di kawasan perairan Kelantan sehingga Selasa, 10 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada bot-bot kecil, rekreasi laut dan sukan laut. 2) AMARAN KENAIKAN PARAS LAUT Kenaikan paras air laut dijangka di kawasan perairan Kelantan sehingga Selasa, 10 November 2026. Berisiko kepada limpahan air laut di pesisir pantai. 3) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Johor Timur • Pahang • Terengganu • Kelantan • Sarawak • Sabah Barat dan Labuan • Sabah Timur sehingga 9:00 Pagi; Selasa, 10 November 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil. SEKSYEN B: UNTUK PERKAPALAN 1) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI KETIGA) Angin kencang timur laut melebihi 60 kmsj dengan ombak setinggi melebihi 4.5 meter dijangka di kawasan perairan Timur Laut Condore • Barat Laut Reef North sehingga Khamis, 12 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada semua aktiviti pantai dan perkapalan termasuk pekerja di pelantar minyak. 2) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI KEDUA) Angin kencang timur laut berkelajuan 50 - 60 kmsj dengan ombak mencapai ketinggian sehingga 4.5 meter dijangka di kawasan perairan Condore • Timur Laut dan Barat Daya Reef North sehingga Khamis, 12 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada semua aktiviti perkapalan dan pantai termasuk menangkap ikan dan perkhidmatan feri. 3) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI PERTAMA) Angin kencang timur laut berkelajuan 40 - 50 kmsj dengan ombak mencapai ketinggian sehingga 3.5 meter dijangka di kawasan perairan Palawan • Tenggara Reef North • Labuan • Layang-Layang • Samui • Utara Tioman sehingga Khamis, 12 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada bot-bot kecil, rekreasi laut dan sukan laut. 4) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Selat Melaka • Phuket • Samui • Tioman • Reef South • Reef North • Labuan • Layang-Layang • Condore • Bunguran • Palawan • Sulu sehingga 9:00 Pagi; Selasa, 10 November 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil.",
+          "text_bm": "SEKSYEN A: UNTUK PERAIRAN MALAYSIA [DALAM LINGKUNGAN 24 BATU NAUTIKA] 1) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Pulau Pinang • Perak • Selangor • N. Sembilan • Melaka • Johor • Pahang • Terengganu • Kelantan • Sabah Barat dan Labuan • Sabah Timur sehingga 9:00 Pagi; Khamis, 12 November 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil. SEKSYEN B: UNTUK PERKAPALAN 1) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI KETIGA) Angin kencang timur laut melebihi 60 kmsj dengan ombak setinggi melebihi 4.5 meter dijangka di kawasan perairan Timur Laut Condore • Barat Laut Reef North sehingga Khamis, 12 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada semua aktiviti pantai dan perkapalan termasuk pekerja di pelantar minyak. 2) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI KEDUA) Angin kencang timur laut berkelajuan 50 - 60 kmsj dengan ombak mencapai ketinggian sehingga 4.5 meter dijangka di kawasan perairan Condore • Timur Laut dan Barat Daya Reef North sehingga Khamis, 12 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada semua aktiviti perkapalan dan pantai termasuk menangkap ikan dan perkhidmatan feri. 3) AMARAN ANGIN KENCANG DAN LAUT BERGELORA (KATEGORI PERTAMA) Angin kencang timur laut berkelajuan 40 - 50 kmsj dengan ombak mencapai ketinggian sehingga 3.5 meter dijangka di kawasan perairan Palawan • Tenggara Reef North • Labuan • Layang-Layang • Samui • Utara Tioman sehingga Khamis, 12 November 2026. Keadaan angin kencang dan laut bergelora ini adalah berbahaya kepada bot-bot kecil, rekreasi laut dan sukan laut. 4) AMARAN RIBUT PETIR Ribut petir, hujan lebat dan angin kencang dijangka di kawasan perairan Phuket • Samui • Tioman • Sulu • Reef North • Palawan • Timur Laut dan Barat Daya Condore • Sulawesi • Layang-Layang • Labuan • Selat Melaka • Barat Laut Bunguran sehingga 9:00 Pagi; Khamis, 12 November 2026. Keadaan ini boleh menyebabkan angin kencang sehingga 50 kmsj dan laut bergelora dengan ombak mencapai ketinggian 3.5 meter dan berbahaya kepada bot-bot kecil.",
           "instruction_bm": "Keadaan angin kencang dan laut bergelora ini adalah berbahaya."
         },
         {
           "warning_issue": {
-            "issued": "2026-10-03T06:50:00",
+            "issued": "2026-11-12T05:30:00",
             "title_bm": "Amaran Ribut Petir",
             "title_en": "Thunderstorms Warning"
           },
-          "valid_from": "2026-10-03T06:00:00",
-          "valid_to": "2026-10-03T09:00:00",
+          "valid_from": "2026-11-12T05:00:00",
+          "valid_to": "2026-11-12T09:00:00",
           "heading_en": "THUNDERSTORMS WARNING",
-          "text_en": "Thunderstorms, heavy rain and strong winds are expected over the states of Sarawak: Sarikei (Sarikei), Mukah (Tanjung Manis), Limbang, Betong (Kabong, Pusa and Saratok), Bintulu (Bintulu), Kapit (Kapit, Bukit Mabong and Belaga), Sri Aman (Sri Aman and Lubok Antu) • Sabah: Interior (Beaufort, Kuala Penyu and Sipitang) • W.P. Labuan until 9:00 AM; Saturday, 3 October 2026.",
+          "text_en": "Thunderstorms, heavy rain and strong winds are expected over the states of Selangor (Klang, Kuala Langat and Sepang) • W.P. Putrajaya • Negeri Sembilan (Port Dickson) until 9:00 AM; Thursday, 12 November 2026.",
           "instruction_en": null,
           "heading_bm": "AMARAN RIBUT PETIR",
-          "text_bm": "Ribut petir, hujan lebat dan angin kencang dijangka di negeri Sarawak: Sarikei (Sarikei), Mukah (Tanjung Manis), Limbang, Betong (Kabong, Pusa dan Saratok), Bintulu (Bintulu), Kapit (Kapit, Bukit Mabong dan Belaga), Sri Aman (Sri Aman dan Lubok Antu) • Sabah: Pedalaman (Beaufort, Kuala Penyu dan Sipitang) • W.P. Labuan sehingga 9:00 Pagi; Sabtu, 3 Oktober 2026.",
+          "text_bm": "Ribut petir, hujan lebat dan angin kencang dijangka di negeri Selangor (Klang, Kuala Langat dan Sepang) • W.P. Putrajaya • Negeri Sembilan (Port Dickson) sehingga 9:00 Pagi; Khamis, 12 November 2026.",
           "instruction_bm": null
         },
         {
           "warning_issue": {
-            "issued": "2026-11-10T05:30:00",
+            "issued": "2026-11-12T05:30:00",
             "title_bm": "Tiada Nasihat",
             "title_en": "No Advisory"
           },
@@ -299,17 +284,17 @@
         },
         {
           "warning_issue": {
-            "issued": "2026-11-09T08:30:00",
+            "issued": "2026-11-11T14:00:00",
             "title_bm": "Amaran Hujan Berterusan",
             "title_en": "Continuous Rain Warning"
           },
-          "valid_from": "2026-11-09T00:00:00",
-          "valid_to": "2026-11-11T23:59:59",
-          "heading_en": "CONTINUOUS RAIN WARNING (SEVERE)",
-          "text_en": "SECTION A: CONTINUOUS RAIN WARNING (SEVERE) Continuous heavy rain is expected to occur over the states of Kelantan (Bachok, Kota Bharu, Tumpat, Pasir Mas and Pasir Puteh) • Terengganu (Besut, Setiu, Dungun, Kemaman, Marang, Kuala Terengganu and Kuala Nerus) until Wednesday, 11 November 2026. SECTION B: CONTINUOUS RAIN WARNING (ALERT) Continuous rain is expected to occur over the states of Kelantan (Tanah Merah, Machang, Kuala Krai and Jeli) • Terengganu (Hulu Terengganu) • Pahang (Kuantan, Pekan, Rompin and Jerantut) • Sabah: Kudat, Sandakan (Paitan, Telupid, Labuk & Sugut, Sandakan and Kinabatangan) until Wednesday, 11 November 2026.",
+          "valid_from": "2026-11-11T00:00:00",
+          "valid_to": "2026-11-12T23:59:59",
+          "heading_en": "CONTINUOUS RAIN WARNING (ALERT)",
+          "text_en": "Continuous rain is expected to occur over the states of Kelantan (Bachok, Kota Bharu, Tumpat, Pasir Mas, Pasir Puteh, Machang and Tanah Merah) • Terengganu (Besut, Setiu, Kuala Terengganu and Kuala Nerus) • Sabah: Kudat (Kudat and Pitas), Sandakan (Paitan) until Thursday, 12 November 2026.",
           "instruction_en": null,
-          "heading_bm": "AMARAN HUJAN BERTERUSAN (BURUK)",
-          "text_bm": "SEKSYEN A: AMARAN HUJAN BERTERUSAN (BURUK) Hujan lebat berterusan dijangka berlaku di negeri Kelantan (Bachok, Kota Bharu, Tumpat, Pasir Mas dan Pasir Puteh) • Terengganu (Besut, Setiu, Dungun, Kemaman, Marang, Kuala Terengganu dan Kuala Nerus) sehingga Rabu, 11 November 2026. SEKSYEN B: AMARAN HUJAN BERTERUSAN (WASPADA) Hujan berterusan dijangka berlaku di negeri Kelantan (Tanah Merah, Machang, Kuala Krai dan Jeli) • Terengganu (Hulu Terengganu) • Pahang (Kuantan, Pekan, Rompin dan Jerantut) • Sabah: Kudat, Sandakan (Paitan, Telupid, Labuk & Sugut, Sandakan dan Kinabatangan) sehingga Rabu, 11 November 2026.",
+          "heading_bm": "AMARAN HUJAN BERTERUSAN (WASPADA)",
+          "text_bm": "Hujan berterusan dijangka berlaku di negeri Kelantan (Bachok, Kota Bharu, Tumpat, Pasir Mas, Pasir Puteh, Machang dan Tanah Merah) • Terengganu (Besut, Setiu, Kuala Terengganu dan Kuala Nerus) • Sabah: Kudat (Kudat dan Pitas), Sandakan (Paitan) sehingga Khamis, 12 November 2026.",
           "instruction_bm": null
         }
       ]
@@ -320,9 +305,9 @@
       "url": "https://api.data.gov.my/data-catalogue?id=water_pollution_basin&limit=100&sort=-date",
       "page": "https://data.gov.my/data-catalogue/water_pollution_basin",
       "scope": "按年份降序请求最多 100 条年度统计记录；数据年份不等于采集日期",
-      "checkedAt": "2026-11-10T00:30:22.470Z",
+      "checkedAt": "2026-11-12T00:31:37.600Z",
       "status": "ok",
-      "dataFetchedAt": "2026-11-10T00:30:22.470Z",
+      "dataFetchedAt": "2026-11-12T00:31:37.600Z",
       "records": [
         {
           "date": "2024-01-01",
